@@ -1,0 +1,35 @@
+.font-color {
+  color: var(--color-neutral-0);
+}
+
+.bg-gradient-color {
+  background: var(--gradient-color);
+}
+
+.bg-gradient-gray {
+  background: var(--gradient-gray);
+}
+
+.bg-color-neutral-100 {
+  background-color: var(--color-neutral-100);
+}
+
+.bg-color-neutral-90 {
+  background-color: var(--color-neutral-90);
+}
+
+.bg-color-neutral-80 {
+  background-color: var(--color-neutral-80);
+}
+
+.bg-color-neutral-20 {
+  background-color: var(--color-neutral-20);
+}
+
+.bg-color-neutral-10 {
+  background-color: var(--color-neutral-10);
+}
+
+.bg-color-neutral-0 {
+  background-color: var(--color-neutral-0);
+}

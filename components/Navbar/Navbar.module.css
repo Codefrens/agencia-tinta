@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.links ul {
+  display: flex;
+  gap: 60px;
+  & li a {
+    font-size: pxToRem(14);
+    font-family: var(--font-medium);
+  }
+}
+
+.links {
+  display: none;
+}
+.burger-menu {
+  display: flex;
+}
+
+@mixin mediaMin768 {
+  .links {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+}

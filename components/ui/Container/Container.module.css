@@ -1,0 +1,20 @@
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+@mixin mediaMin768 {
+  .container {
+    max-width: 1200px;
+    padding: 0 40px;
+  }
+}
+
+@mixin mediaMin1440 {
+  .container {
+    max-width: 1600px;
+    padding: 0 40px;
+  }
+}

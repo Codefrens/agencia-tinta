@@ -1,0 +1,7 @@
+@define-mixin hover {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @mixin-content;
+    }
+  }
+}

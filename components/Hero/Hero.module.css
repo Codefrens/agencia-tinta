@@ -1,0 +1,39 @@
+.hero {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.video video {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+  max-width: 768px;
+}
+
+.title {
+  font-size: pxToRem(60);
+  font-weight: var(--font-extra-bold);
+  line-height: 1.1;
+  text-wrap: balance;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: pxToRem(18);
+  font-weight: var(--font-extra-bold);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

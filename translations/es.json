@@ -1,0 +1,17 @@
+{
+  "common": {
+    "navigationLinks": {
+      "agency": "Agencia",
+      "porfolio": "Portfolio",
+      "foodar": "FoodAr",
+      "contact": "Contacto"
+    }
+  },
+  "homePage": {
+    "hero": {
+      "subtitle": "AGENCIA DE MEDIOS DIGITALES",
+      "title": "Fluimos con creatividad e innovación para transformar marcas.",
+      "reelLabel": "Ver reel"
+    }
+  }
+}

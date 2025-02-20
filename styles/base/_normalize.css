@@ -1,0 +1,114 @@
+
+  /*
+  // Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+  // The "symbol *" part is to solve Firefox SVG sprite bug
+  */
+  *:where(:not(iframe, canvas, img, svg, video, ul, ol):not(svg *, symbol *)) {
+    all: unset;
+    display: revert;
+  }
+
+  /* // Hide element with hidden attribute */
+  :where([hidden]) {
+    display: none;
+  }
+
+  /* // reset default text opacity of input placeholder */
+  ::placeholder {
+    all: unset;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* // Add scroll-behavior: smooth only when the user navigate with focus */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  a,
+  button,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    cursor: pointer;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    &[aria-disabled="true"],
+    &[disabled] {
+      cursor: no-drop;
+    }
+  }
+
+  textarea {
+    white-space: revert;
+  }
+
+  /* // removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+
+  /* // https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html
+  // https://gerardkcohen.me/writing/2017/voiceover-list-style-type.html
+  // Remove bullets from ul and ol without affect the accessibility */
+  ul,
+  ol {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+      &::before {
+        content: "\200B";
+        position: absolute;
+      }
+    }
+  }
+
+  iframe {
+    max-width: 100%;
+    border: none;
+  }
+
+  img,
+  picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  b,
+  strong {
+    font-weight: bolder;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    /* // Remove scroll-behavior smooth on reduced motion */
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+  }
+
+  a,
+  button,
+  input,
+  textarea{
+    &:focus-visible {
+      outline: 2px dashed var(--color-neutral-0);
+      outline-offset: 2px;
+    }
+  }

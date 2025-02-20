@@ -1,0 +1,8 @@
+:root {
+  --header-height: 75px;
+  --header-offset-top: 20px;
+
+  @mixin mediaMin1024 {
+    --header-height: 90px;
+  }
+}

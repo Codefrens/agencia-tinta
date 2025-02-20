@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--color-neutral-0);
+  padding: 6px 32px 6px 4px;
+  font-size: pxToRem(16);
+  font-weight: var(--font-extra-bold);
+  text-transform: uppercase;
+  border-radius: 100px;
+  backdrop-filter: blur(5px);
+}

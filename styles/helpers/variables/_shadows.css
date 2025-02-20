@@ -1,0 +1,5 @@
+:root{
+  --shadow-medium: 0 3px 2px 0 rgba(0, 0, 0, 0.15);
+  --shadow-hard: 0 3px 2px 0 rgba(0, 0, 0, 0.15);
+  --shadow-button: var(--shadow-medium), inset 0 0 0 2px var(--color-neutral-100);
+}

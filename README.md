@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Contentful CMS
+
+Contenful is the CMS used in this course. Create a free Contentful account and add environment variables to your project:
+
+Create a Contentful account
+Create a new "Space" in Contentful for the project
+Add these environment variables to a .env file in the root of your project. The values can be found in Contentful under Settings > API keys:
+
+```bash
+CONTENTFUL_SPACE_ID=""
+CONTENTFUL_ACCESS_TOKEN=""
+CONTENTFUL_PREVIEW_ACCESS_TOKEN=""
+CONTENTFUL_PREVIEW_SECRET=""
+```
