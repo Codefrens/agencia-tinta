@@ -1,13 +1,16 @@
 .font-color {
   color: var(--color-neutral-0);
 }
+.font-color-gray {
+  color: var(--color-neutral-10);
+}
 
 .bg-gradient-color {
   background: var(--gradient-color);
 }
 
 .bg-gradient-gray {
-  background: var(--gradient-gray);
+  background-color: var(--gradient-gray);
 }
 
 .bg-color-neutral-100 {

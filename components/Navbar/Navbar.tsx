@@ -4,6 +4,7 @@ import Image from "next/image";
 import { getTranslations } from "@/app/[lang]/translations";
 import Container from "../ui/Container";
 import BurgerMenu from "../ui/BurgerMenu";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 const Navbar = async ({ lang }: { lang: "es" | "en" }) => {
   const { common } = await getTranslations(lang);
@@ -35,6 +36,11 @@ const Navbar = async ({ lang }: { lang: "es" | "en" }) => {
               </li>
               <li>
                 <a href="#">{common.navigationLinks.contact}</a>
+              </li>
+              <li>
+                <a href="#">
+                  <WhatsappLogo size={32} weight="light" />
+                </a>
               </li>
             </ul>
           </div>

@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@mixin mediaMin768 {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    margin: 128px 0;
+  }
+}
+
+.content {
+  max-width: 600px;
+}
+
+.title {
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  font-size: pxToRem(24);
+}
+
+.content p {
+  font-size: pxToRem(26);
+  line-height: 1.6;
+  margin-bottom: pxToRem(36);
+}
+
+.button {
+  margin-top: pxToRem(60);
+}

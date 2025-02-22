@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--color-green);
+  padding: 12px 32px;
+  font-size: pxToRem(14);
+  font-weight: var(--font-medium);
+  text-transform: uppercase;
+  border-radius: 100px;
+  backdrop-filter: blur(5px);
+  color: var(--color-green);
+}
+
+.fill {
+  background-color: var(--color-green);
+  color: var(--color-neutral-100);
+}

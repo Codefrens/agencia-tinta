@@ -1,0 +1,18 @@
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: pxToRem(24);
+}
+
+@mixin mediaMin768 {
+  .portfolioGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(48);
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: pxToRem(70);
+}

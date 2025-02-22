@@ -16,6 +16,10 @@
 .links ul {
   display: flex;
   gap: 60px;
+  & li {
+    display: flex;
+    align-items: center;
+  }
   & li a {
     font-size: pxToRem(14);
     font-family: var(--font-medium);
@@ -32,6 +36,7 @@
 @mixin mediaMin768 {
   .links {
     display: flex;
+    align-items: center;
   }
   .burger-menu {
     display: none;

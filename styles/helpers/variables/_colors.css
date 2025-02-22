@@ -23,8 +23,8 @@
   );
 
   --gradient-gray: linear-gradient(
-    0deg,
-    var(--color-neutral-80) 0%,
+    -45deg,
+    var(--color-neutral-90) 0%,
     var(--color-neutral-100) 100%
   );
 }

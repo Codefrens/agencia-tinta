@@ -33,7 +33,7 @@
 
 .subtitle {
   font-size: pxToRem(18);
-  font-weight: var(--font-extra-bold);
+  font-weight: var(--font-bold);
   text-transform: uppercase;
   margin-bottom: 20px;
 }

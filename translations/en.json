@@ -1,9 +1,23 @@
 {
+  "common": {
+    "navigationLinks": {
+      "agency": "Agencia",
+      "porfolio": "Portfolio",
+      "foodar": "FoodAr",
+      "contact": "Contacto"
+    }
+  },
   "homePage": {
     "hero": {
       "subtitle": "AGENCIA DE MEDIOS DIGITALES",
       "title": "Fluimos con creatividad e innovación para transformar marcas.",
       "reelLabel": "Ver reel"
+    },
+    "about": {
+      "title": "somos/",
+      "paragraph1": "Un equipo de profesionales en video, fotografía y diseño gráfico, comprometidos con crear contenido que potencia marcas y genera impacto.",
+      "paragraph2": "Exploramos constantemente nuevas formas de comunicar, adaptándonos a un mundo digital en evolución.",
+      "buttonLabel": "Conocenos"
     }
   }
 }

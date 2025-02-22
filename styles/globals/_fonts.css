@@ -1,14 +1,7 @@
-.font-m-plus-regular{
-  font-family: var(--font-m-plus);
-  font-weight: 400;
+.font-bold {
+  font-weight: var(--font-bold);
 }
 
-.font-m-plus-medium{
-  font-family: var(--font-m-plus);
-  font-weight: 500;
-}
-
-.font-m-plus-extra-bold{
-  font-family: var(--font-m-plus);
-  font-weight: 800;
+.font-extra-bold {
+  font-weight: var(--font-extra-bold);
 }
