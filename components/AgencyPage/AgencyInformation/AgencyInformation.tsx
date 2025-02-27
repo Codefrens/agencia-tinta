@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "@/components/ui/Container";
 import styles from "./AgencyInformation.module.css";
+import { Translations } from "@/translations/types";
 
 const AgencyInformation = ({
   translations,
@@ -14,6 +15,7 @@ const AgencyInformation = ({
         <div className={styles.content}>
           <p className="font-color font-medium">{translations.paragraph1}</p>
           <p className="font-color-gray">{translations.paragraph2}</p>
+          <p className={styles.quote}>{translations.quote}</p>
         </div>
       </section>
       <section className={styles.wrapper}>

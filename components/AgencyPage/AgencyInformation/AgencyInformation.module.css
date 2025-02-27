@@ -66,3 +66,23 @@
   padding: pxToRem(4) pxToRem(12);
   border-radius: pxToRem(24);
 }
+
+.quote {
+  font-size: pxToRem(24);
+  font-weight: var(--font-extra-bold);
+  background-color: var(--color-neutral-90);
+  padding: pxToRem(24) pxToRem(36);
+  position: relative;
+  display: inline-block;
+  &::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 100%;
+    background: var(--gradient-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+  }
+}

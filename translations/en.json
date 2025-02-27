@@ -14,62 +14,72 @@
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": "Cantina Canalla"
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "Cantina Canalla",
+        "slug": "cantina-canalla"
       },
       {
         "title": "Black Label",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "black-label"
       },
       {
         "title": "Remax Coast",
         "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "remax-coast"
       },
       {
         "title": "Malavida",
         "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "malavida"
       },
       {
         "title": "Bacardi",
         "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": "Malavida"
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "Malavida",
+        "slug": "bacardi"
       },
       {
         "title": "Barbería M",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "barberia-m"
       },
       {
         "title": "Agape",
         "categories": ["Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "agape"
       },
       {
         "title": "Smash",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "smash"
       },
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
-        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageAlt": ""
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageAlt": "",
+        "slug": "grupo-amigos"
       }
     ],
     "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],
-    "whatsappMessage": "Hola!",
+    "whatsappMessage": "Hola! Quiero hacer una consulta.",
     "notFoundTitle": "404",
-    "notFoundSubtitle": "La página que buscas no existe"
+    "notFoundSubtitle": "La página que buscas no existe",
+    "notFoundButtonLabel": "Volver a la página principal"
   },
   "homePage": {
     "hero": {

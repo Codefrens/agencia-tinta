@@ -76,7 +76,7 @@
       }
     ],
     "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],
-    "whatsappMessage": "Hola!",
+    "whatsappMessage": "Hola! Quiero hacer una consulta.",
     "notFoundTitle": "404",
     "notFoundSubtitle": "La página que buscas no existe",
     "notFoundButtonLabel": "Volver a la página principal"
