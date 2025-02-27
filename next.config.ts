@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["images.unsplash.com", "res.cloudinary.com"],
+    remotePatterns: [
+      { hostname: "images.unsplash.com" },
+      { hostname: "res.cloudinary.com" },
+    ],
   },
   webpack: (config) => {
     config.module.rules

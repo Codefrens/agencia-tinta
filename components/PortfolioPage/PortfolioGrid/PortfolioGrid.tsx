@@ -38,6 +38,7 @@ const PortfolioGrid = ({
       <div className={styles.portfolioGrid}>
         {filteredProjects.map((port) => (
           <Card
+            link={`/portfolio/${port.slug}`}
             key={port.title}
             imgAlt={port.ImageAlt}
             imgSrc={port.ImageUrl}
