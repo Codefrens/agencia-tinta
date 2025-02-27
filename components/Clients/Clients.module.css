@@ -1,0 +1,44 @@
+.clients {
+  margin: 120px 0;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-neutral-0) 20% 80%,
+    transparent
+  );
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sliderTrack {
+  display: flex;
+  gap: 24px;
+  animation: scroll 40s linear infinite;
+  width: calc(230px * 12 + 24px * 12); /* Se ajusta al número de logos */
+}
+
+.clientCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  border: 2px solid var(--color-neutral-80);
+  background-color: var(--color-neutral-90);
+  min-width: 230px;
+  height: 220px;
+}
+
+/* Animación del carrusel */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-230px * 6 - 24px * 6)); /* Desplaza la mitad */
+  }
+}

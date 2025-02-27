@@ -1,7 +1,11 @@
-import AboutHome from "@/components/AboutHome";
+import AboutHome from "@/components/HomePage/AboutHome";
 import { getTranslations } from "./translations";
-import Hero from "@/components/Hero";
+import Hero from "@/components/HomePage/Hero";
 import PortfolioGrid from "@/components/PortfolioGrid";
+import Clients from "@/components/Clients";
+import AiSection from "@/components/HomePage/AiSection";
+import RealitySection from "@/components/HomePage/RealitySection";
+import Cta from "@/components/Cta";
 
 export default async function HomePage({
   params,
@@ -9,16 +13,20 @@ export default async function HomePage({
   params: Promise<{ lang: "es" | "en" }>;
 }) {
   const lang = (await params).lang;
-  const { homePage } = await getTranslations(lang);
-  const { hero, about, portfolio } = homePage;
-
-  console.log(portfolio);
-
+  const { homePage, common } = await getTranslations(lang);
+  const { hero, about, portfolio, aiSection, realitySection } = homePage;
+  const { cta } = common;
   return (
     <main>
       <Hero translations={hero} />
       <AboutHome translations={about} />
-      <PortfolioGrid translations={portfolio} />
+      <PortfolioGrid
+        translations={{ portfolioGrid: common.portfolioGrid, portfolio }}
+      />
+      <Clients />
+      <AiSection translations={aiSection} />
+      <RealitySection translations={realitySection} />
+      <Cta translations={cta} />
     </main>
   );
 }

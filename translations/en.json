@@ -2,22 +2,182 @@
   "common": {
     "navigationLinks": {
       "agency": "Agencia",
-      "porfolio": "Portfolio",
+      "portfolio": "Portfolio",
       "foodar": "FoodAr",
       "contact": "Contacto"
-    }
+    },
+    "cta": {
+      "title": "¿Tienes un <span class='font-extra-bold'>proyecto</span> en mente?",
+      "buttonLabel": "¿Hablamos?"
+    },
+    "portfolioGrid": [
+      {
+        "title": "Cantina Canalla",
+        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": "Cantina Canalla"
+      },
+      {
+        "title": "Black Label",
+        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      },
+      {
+        "title": "Remax Coast",
+        "categories": ["Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      },
+      {
+        "title": "Malavida",
+        "categories": ["Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      },
+      {
+        "title": "Bacardi",
+        "categories": ["Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": "Malavida"
+      },
+      {
+        "title": "Barbería M",
+        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      },
+      {
+        "title": "Agape",
+        "categories": ["Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      },
+      {
+        "title": "Smash",
+        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      },
+      {
+        "title": "Grupo Amigos",
+        "categories": ["Video"],
+        "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageAlt": ""
+      }
+    ],
+    "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],
+    "whatsappMessage": "Hola!",
+    "notFoundTitle": "404",
+    "notFoundSubtitle": "La página que buscas no existe"
   },
   "homePage": {
     "hero": {
       "subtitle": "AGENCIA DE MEDIOS DIGITALES",
-      "title": "Fluimos con creatividad e innovación para transformar marcas.",
+      "title": "Transformamos marcas con innovacion y creatividad.",
       "reelLabel": "Ver reel"
     },
     "about": {
       "title": "somos/",
-      "paragraph1": "Un equipo de profesionales en video, fotografía y diseño gráfico, comprometidos con crear contenido que potencia marcas y genera impacto.",
-      "paragraph2": "Exploramos constantemente nuevas formas de comunicar, adaptándonos a un mundo digital en evolución.",
+      "paragraph1": "Narradores de conceptos en la era digital.",
+      "paragraph2": "Exploramos nuevas tendencias para crear contenido que combina estética, estrategia y tecnología, convertimos ideas en historias que conectan y dejan huella.",
       "buttonLabel": "Conocenos"
+    },
+    "portfolio": {
+      "morePortfolio": "Ver más proyectos"
+    },
+    "aiSection": {
+      "title": "Inteligencia Artificial",
+      "paragraph": "Lo imposible ya se puede crear. Fusionamos tecnología y creatividad humana para dar vida a ideas que antes solo eran un sueño.",
+      "buttonLabel": "Ver Video"
+    },
+    "realitySection": {
+      "title": "Realidad Aumentada",
+      "paragraph": "Menús 3D para restaurantes: impacta con visualización realista, interacción y una experiencia única.",
+      "buttonLabel": "Conoce Foodar",
+      "imgSrc": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Realidad aumentada"
+    }
+  },
+  "portfolioPage": {
+    "hero": {
+      "title": "Explora nuestros trabajos"
+    }
+  },
+  "agencyPage": {
+    "title": "Nuestra agencia /",
+    "paragraph1": "En un mundo saturado de información, la diferenciación es clave. Una marca no solo se construye con palabras, sino con imágenes que transmiten emociones y videos que cuentan historias. En Agencia Tinta, combinamos creatividad y datos para diseñar producciones que no solo captan la atención, sino que generan impacto y convierten mensajes en experiencias visuales memorables.",
+    "paragraph2": "Creamos contenido dinámico que fortalece la presencia digital, genera comunidad y convierte audiencias en embajadores de marca. Desde la planificación estratégica hasta la producción audiovisual y fotográfica, potenciamos cada historia con innovación y precisión.",
+    "quote": "Aquí te presentamos de qué manera lo hacemos.",
+    "serviceTitle": "Servicios",
+    "services": [
+      {
+        "title": "Análisis y estrategia",
+        "description": "Definir una estrategia de contenido sólida es clave para construir una marca con identidad, relevancia y conexión genuina con su audiencia, asegurando un impacto duradero en el tiempo.",
+        "tags": [
+          "Análisis de mercado y competencia",
+          "Estudios de audiencia y tendencias",
+          "Estrategia de marca y comunicación",
+          "Desarrollo de contenido y planificación digital"
+        ]
+      },
+      {
+        "title": "Redes Sociales",
+        "description": "Creamos comunidades digitales que conectan. Gestionamos tu presencia online con estrategias innovadoras.",
+        "tags": [
+          "Gestión de redes sociales",
+          "Community Management",
+          "Estrategias de reputación digital",
+          "Colaboraciones con influencers",
+          "Creación de contenido de alto valor"
+        ]
+      },
+      {
+        "title": "Identidad visual y diseño",
+        "description": "Convertimos ideas en contenido visual que impacta, combinando diseño, creatividad y narrativa para crear piezas que conectan con las audiencias en cualquier formato, ya sea en entornos digitales o físicos.",
+        "tags": [
+          "Branding & Naming",
+          "Diseño de identidad visual y verbal",
+          "Manifiestos y storytelling de marca",
+          "Diseño de experiencias digitales y físicas",
+          "Creación de materiales gráficos y multimedia"
+        ]
+      },
+      {
+        "title": "Web y performance marketing",
+        "description": "Optimizamos tu presencia digital para generar impacto y conversiones. Desde el diseño web hasta campañas de alto rendimiento.",
+        "tags": [
+          "Diseño y desarrollo web, microsites y landing pages",
+          "User Experience (UX) y optimización de interfaces",
+          "SEO & Posicionamiento en buscadores",
+          "Publicidad online y campañas SEM",
+          "Optimización de rendimiento digital"
+        ]
+      },
+      {
+        "title": "Producción audiovisual",
+        "description": "Damos forma a tu marca a través de contenido visual que cautiva y conecta. Nos encargamos de la dirección creativa, producción y edición para crear piezas audiovisuales que dejan huella.",
+        "tags": [
+          "Producción audiovisual & Fotografía",
+          "Brand Films y campañas creativas",
+          "Fotografía publicitaria y de producto",
+          "Packaging & Editorial",
+          "IA aplicada a producción de video y contenido digital"
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contacta con nosotros",
+    "subtitle": "Estamos para escucharte y acompañarte con las ideas que tengas para tu marca, tu negocio o para contribuir a transformar el mundo.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "buttonLabel": "Enviar",
+      "successMessage": "Gracias por tu mensaje. Te responderemos lo antes posible.",
+      "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
+      "requiredError": "Este campo es obligatorio"
     }
   }
 }

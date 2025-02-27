@@ -1,7 +1,7 @@
 import { Translations } from "@/translations/types";
 import styles from "./Hero.module.css";
-import Container from "../ui/Container";
-import VideoButton from "../ui/VideoButton";
+import Container from "@/components/ui/Container";
+import VideoButton from "@/components/ui/VideoButton";
 
 const Hero = ({
   translations,

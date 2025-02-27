@@ -1,0 +1,19 @@
+.filters {
+  display: inline-flex;
+  gap: pxToRem(16);
+  border: 2px solid var(--color-neutral-80);
+  padding: 6px;
+  border-radius: pxToRem(24);
+  margin: 40px 0 16px;
+}
+.category {
+  font-size: pxToRem(14);
+  text-transform: uppercase;
+  font-weight: var(--font-bold);
+  padding: pxToRem(3) pxToRem(15);
+}
+
+.active {
+  background: var(--color-red);
+  border-radius: 24px;
+}

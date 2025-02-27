@@ -1,0 +1,22 @@
+.imageCarrousel {
+  margin: 120px 0;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 24px;
+  height: 400px;
+}
+
+.imageCard {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  position: relative;
+}

@@ -1,6 +1,6 @@
 :root {
   --color-red: #ec3449;
-  --color-orange: #f3704e;
+  --color-orange: #f38d4e;
   --color-green: #51ecae;
 
   /* Backgrounds */
@@ -16,15 +16,15 @@
   --color-warning: #f3dc8d;
 
   --gradient-color: linear-gradient(
-    45deg,
+    135deg,
     var(--color-green) 0%,
     var(--color-orange) 50%,
-    var(--color-red) 100%
+    var(--color-red) 150%
   );
 
   --gradient-gray: linear-gradient(
     -45deg,
-    var(--color-neutral-90) 0%,
+    var(--color-neutral-80) 0%,
     var(--color-neutral-100) 100%
   );
 }

@@ -1,0 +1,38 @@
+.reality-section {
+  margin: pxToRem(180) auto;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: pxToRem(24);
+  margin: pxToRem(60) auto;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 400px;
+}
+
+.image {
+  grid-column: span 2;
+  position: relative;
+  aspect-ratio: 4/2;
+  border-radius: pxToRem(24);
+  overflow: hidden;
+}
+
+.title {
+  font-size: pxToRem(32);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: pxToRem(18);
+  color: var(--color-neutral-10);
+  margin-top: 12px;
+  margin-bottom: 24px;
+}

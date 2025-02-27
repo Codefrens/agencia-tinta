@@ -1,0 +1,31 @@
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: pxToRem(24);
+  margin-bottom: 120px;
+}
+
+@mixin mediaMin768 {
+  .portfolioGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(40);
+  }
+}
+
+@mixin mediaMin1024 {
+  .portfolioGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: pxToRem(40);
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: pxToRem(70);
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-end;
+}

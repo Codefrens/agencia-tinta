@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "@/styles/index.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -24,9 +25,10 @@ export default async function RootLayout({
   const lang = (await params).lang;
   return (
     <html lang={lang}>
-      <body className={`${dmSans.variable} antialiased`}>
+      <body className={`${dmSans.variable}`}>
         <Navbar lang={lang} />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -8,15 +8,22 @@ type CardProps = {
   imgAlt: string;
   title: string;
   categories: string[];
+  link: string;
 };
 
-const Card = ({ imgSrc, imgAlt, title, categories }: CardProps) => {
+const Card = ({ imgSrc, imgAlt, title, categories, link }: CardProps) => {
   return (
-    <article>
-      <div className={styles.image}>
-        <Image src={imgSrc} alt={imgAlt} objectFit="cover" fill />
+    <a href={link} className={styles.card}>
+      <div className={styles.imageWrapper}>
+        <Image
+          src={imgSrc}
+          alt={imgAlt}
+          className={styles.image}
+          width={600}
+          height={600}
+        />
       </div>
-      <div className={styles.content}>
+      <article className={styles.content}>
         <span>
           <h2 className={styles.title}>{title}</h2>
           <div className={styles.categories}>
@@ -30,8 +37,8 @@ const Card = ({ imgSrc, imgAlt, title, categories }: CardProps) => {
         <span>
           <ArrowRight size={32} />
         </span>
-      </div>
-    </article>
+      </article>
+    </a>
   );
 };
 

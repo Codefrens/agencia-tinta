@@ -1,8 +1,10 @@
 import React from "react";
-import Container from "../ui/Container";
 import { Translations } from "@/translations/types";
 import styles from "./AboutHome.module.css";
-import Button from "../ui/Button";
+
+import Link from "next/link";
+import Container from "@/components/ui/Container";
+import Button from "@/components/ui/Button";
 
 const AboutHome = ({
   translations,
@@ -16,7 +18,11 @@ const AboutHome = ({
         <div className={styles.content}>
           <p className="font-color font-bold">{translations.paragraph1}</p>
           <p className="font-color-gray">{translations.paragraph2}</p>
-          <Button className={styles.button}>{translations.buttonLabel}</Button>
+          <Link href="/agency">
+            <Button className={styles.button}>
+              {translations.buttonLabel}
+            </Button>
+          </Link>
         </div>
       </section>
     </Container>

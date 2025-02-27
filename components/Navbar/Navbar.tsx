@@ -1,46 +1,51 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import Image from "next/image";
 import { getTranslations } from "@/app/[lang]/translations";
 import Container from "../ui/Container";
 import BurgerMenu from "../ui/BurgerMenu";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = async ({ lang }: { lang: "es" | "en" }) => {
   const { common } = await getTranslations(lang);
 
   return (
-    <div className={styles.navbar}>
+    <header className={styles.navbar}>
       <Container>
         <div className={styles.container}>
-          <div className={styles.logo}>
+          <Link href="/" aria-label="go to home page" className={styles.logo}>
             <Image
-              className="dark:invert"
-              src="next.svg"
+              src="https://res.cloudinary.com/nicojoystin/image/upload/v1740221032/agencia-tinta/logo-tinta_utcrxj.svg"
               alt="Tinta logo"
-              width={180}
+              width={120}
               height={38}
               priority
             />
-          </div>
+          </Link>
           <div className={styles.links}>
             <ul>
               <li>
-                <a href="#">{common.navigationLinks.agency}</a>
+                <Link href="/agency">{common.navigationLinks.agency}</Link>
               </li>
               <li>
-                <a href="#">{common.navigationLinks.porfolio}</a>
+                <Link href="/portfolio">
+                  {common.navigationLinks.portfolio}
+                </Link>
               </li>
               <li>
-                <a href="#">{common.navigationLinks.foodar}</a>
+                <Link href="foodar">{common.navigationLinks.foodar}</Link>
               </li>
               <li>
-                <a href="#">{common.navigationLinks.contact}</a>
+                <Link href="/contact">{common.navigationLinks.contact}</Link>
               </li>
               <li>
-                <a href="#">
+                <Link
+                  href={`https://wa.me/+34611149862?text=${common.whatsappMessage}`}
+                  target="_blank"
+                >
                   <WhatsappLogo size={32} weight="light" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -49,7 +54,7 @@ const Navbar = async ({ lang }: { lang: "es" | "en" }) => {
           </div>
         </div>
       </Container>
-    </div>
+    </header>
   );
 };
 
