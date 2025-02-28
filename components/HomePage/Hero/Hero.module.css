@@ -3,7 +3,7 @@
   position: relative;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .video video {
@@ -19,12 +19,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-bottom: 10%;
   max-width: 768px;
 }
 
 .title {
-  font-size: pxToRem(60);
+  font-size: pxToRem(30);
   font-weight: var(--font-extra-bold);
   line-height: 1.1;
   text-wrap: balance;
@@ -32,8 +31,31 @@
 }
 
 .subtitle {
-  font-size: pxToRem(18);
+  font-size: pxToRem(14);
   font-weight: var(--font-bold);
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+@mixin mediaMin768 {
+  .title {
+    font-size: pxToRem(48);
+  }
+  .subtitle {
+    font-size: pxToRem(18);
+    margin-bottom: 20px;
+  }
+
+  .hero {
+    align-items: flex-end;
+  }
+  .content {
+    padding-bottom: 10%;
+  }
+}
+
+@mixin mediaMin1024 {
+  .title {
+    font-size: pxToRem(60);
+  }
 }

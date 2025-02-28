@@ -1,18 +1,24 @@
 .footer {
   background: var(--gradient-gray);
-  padding-top: pxToRem(60);
-  padding-bottom: pxToRem(60);
+  padding-top: pxToRem(30);
+  padding-bottom: pxToRem(30);
 }
 
 .up-footer {
-  margin-bottom: pxToRem(120);
+  margin-bottom: pxToRem(60);
 }
 
 .up-footer,
 .down-footer {
   display: flex;
   justify-content: space-between;
-  gap: pxToRem(24);
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: pxToRem(44);
+}
+
+.down-footer {
+  align-items: center;
 }
 
 .locations {
@@ -26,7 +32,7 @@
 
 .country {
   text-transform: uppercase;
-  font-size: pxToRem(24);
+  font-size: pxToRem(20);
   font-weight: var(--font-bold);
   line-height: 1;
 }
@@ -43,20 +49,64 @@
 
 .socialLinks,
 .info {
-  display: flex;
-  gap: pxToRem(60);
+  display: inline-flex;
+  flex-direction: column;
+  gap: pxToRem(24);
+}
+
+.info {
+  flex-direction: row;
 }
 
 .socialLink {
   text-transform: uppercase;
-  font-size: pxToRem(20);
+  font-size: pxToRem(16);
   font-weight: var(--font-bold);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: pxToRem(6);
 }
 
 .info a {
-  font-size: pxToRem(18);
+  display: inline;
+  font-size: pxToRem(14);
   font-weight: var(--font-extra-bold);
+}
+
+/* TABLET */
+@mixin mediaMin768 {
+  .footer {
+    padding-top: pxToRem(60);
+    padding-bottom: pxToRem(60);
+  }
+
+  .up-footer {
+    margin-bottom: pxToRem(120);
+  }
+
+  .up-footer,
+  .down-footer {
+    flex-direction: row;
+    gap: pxToRem(24);
+    align-items: flex-start;
+  }
+
+  .info a {
+    font-size: pxToRem(18);
+  }
+  .socialLink {
+    font-size: pxToRem(20);
+    gap: pxToRem(6);
+  }
+
+  .country {
+    font-size: pxToRem(24);
+  }
+
+  .socialLinks,
+  .info {
+    display: flex;
+    flex-direction: row;
+    gap: pxToRem(60);
+  }
 }

@@ -4,7 +4,7 @@
   align-items: center;
   gap: 10px;
   border: 2px solid var(--color-green);
-  padding: 12px 32px;
+  padding: 10px 28px;
   font-size: pxToRem(14);
   font-weight: var(--font-medium);
   text-transform: uppercase;
@@ -16,4 +16,11 @@
 .fill {
   background-color: var(--color-green);
   color: var(--color-neutral-100);
+}
+
+@mixin mediaMin768 {
+  .button {
+    padding: pxToRem(16) pxToRem(32);
+    font-size: pxToRem(14);
+  }
 }

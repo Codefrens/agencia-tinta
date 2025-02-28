@@ -44,9 +44,9 @@ const Footer = () => {
               address="Calle de la Palma, 1, 28010 Madrid"
             />
             <Location
-              country="España"
-              city="Barcelona"
-              address="Carrer de la Mare, 1, 08010 Barcelona"
+              country="Argentina"
+              city="Buenos Aires"
+              address="Falta direccion"
             />
           </div>
           <div className={styles.socialLinks}>

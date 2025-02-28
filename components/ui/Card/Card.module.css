@@ -1,7 +1,7 @@
 .image-wrapper {
   position: relative;
   aspect-ratio: 4/3;
-  border-radius: pxToRem(24);
+  border-radius: pxToRem(16);
   overflow: hidden;
   margin-bottom: pxToRem(18);
 }
@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: pxToRem(22);
+  font-size: pxToRem(16);
   font-weight: var(--font-bold);
   text-transform: uppercase;
   margin-bottom: pxToRem(6);
@@ -38,4 +38,20 @@
   border-radius: pxToRem(24);
   background: var(--gradient-gray);
   border: 1px solid var(--color-neutral-80);
+}
+
+@mixin mediaMin768 {
+  .image-wrapper {
+    border-radius: pxToRem(24);
+  }
+
+  .title {
+    font-size: pxToRem(18);
+  }
+}
+
+@mixin mediaMin1024 {
+  .title {
+    font-size: pxToRem(22);
+  }
 }
