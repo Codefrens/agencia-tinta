@@ -2,14 +2,13 @@ import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 
-export default function PortfolioDetailPage({
+export default async function PortfolioDetailPage({
   params,
 }: {
-  params: { lang: string; slug: string };
+  params: Promise<{ lang: string; slug: string }>;
 }) {
-  const { lang, slug } = params;
+  const { lang, slug } = await params;
 
-  // Construimos la ruta del archivo JSON basado en el idioma y el slug
   const filePath = path.join(
     process.cwd(),
     "translations",
@@ -21,11 +20,7 @@ export default function PortfolioDetailPage({
   if (!fs.existsSync(filePath)) {
     notFound();
   }
-
-  // Leemos el JSON del trabajo
   const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-
-  console.log(content);
 
   return (
     <div className="container mx-auto p-8">
