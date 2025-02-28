@@ -1,8 +1,10 @@
 .portfolioGrid {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   gap: pxToRem(24);
   margin-bottom: 120px;
+  z-index: 1;
 }
 
 @mixin mediaMin768 {

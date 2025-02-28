@@ -24,8 +24,6 @@ const PortfolioGrid = ({
           project.categories.includes(activeCategory)
         );
 
-  console.log(filteredProjects);
-
   return (
     <Container>
       <div className={styles.filters}>
