@@ -24,19 +24,17 @@ const ImageCarrousel = () => {
   return (
     <section className={styles.imageCarrousel}>
       <div className={styles.slider}>
-        <div className={styles.sliderTrack}>
-          {[...images].map((image, index) => (
-            <div className={styles.imageCard} key={index}>
-              <Image
-                src={image.imageUrl}
-                alt={image.imageAlt}
-                width={500}
-                height={500}
-                priority
-              />
-            </div>
-          ))}
-        </div>
+        {images.map((image, index) => (
+          <div className={styles.imageCard} key={index}>
+            <Image
+              src={image.imageUrl}
+              alt={image.imageAlt}
+              width={500}
+              height={500}
+              className={styles.image}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
