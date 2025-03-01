@@ -7,20 +7,6 @@
   z-index: 1;
 }
 
-@mixin mediaMin768 {
-  .portfolioGrid {
-    grid-template-columns: 1fr 1fr;
-    gap: pxToRem(40);
-  }
-}
-
-@mixin mediaMin1024 {
-  .portfolioGrid {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: pxToRem(40);
-  }
-}
-
 .buttonWrapper {
   display: flex;
   justify-content: center;
@@ -29,5 +15,23 @@
 
 .filters {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+}
+
+@mixin mediaMin768 {
+  .portfolioGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(40);
+  }
+
+  .filters {
+    justify-content: flex-end;
+  }
+}
+
+@mixin mediaMin1024 {
+  .portfolioGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: pxToRem(40);
+  }
 }

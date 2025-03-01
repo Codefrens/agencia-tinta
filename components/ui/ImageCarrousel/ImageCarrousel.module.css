@@ -6,11 +6,10 @@
 
 .slider {
   display: flex;
-  width: 120vw;
+  width: 220vw;
   overflow: hidden;
-  display: flex;
-  gap: 24px;
-  height: 450px;
+  gap: 20px;
+  height: 350px;
 }
 
 .imageCard {
@@ -27,4 +26,14 @@
   width: 100%;
   inset: 0px;
   object-fit: cover;
+}
+
+@mixin mediaMin768 {
+  .slider {
+    display: flex;
+    width: 120vw;
+    overflow: hidden;
+    gap: 24px;
+    height: 450px;
+  }
 }

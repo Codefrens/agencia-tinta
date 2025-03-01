@@ -4,12 +4,12 @@
 
 .input {
   width: 100%;
-  padding: 24px 32px;
+  padding: 16px 24px;
   border: 1px solid var(--color-neutral-80);
-  border-radius: 24px;
-  margin-bottom: 16px;
+  border-radius: 20px;
+  margin-bottom: 12px;
   background-color: var(--color-neutral-90);
-  font-size: pxToRem(18);
+  font-size: pxToRem(16);
   &::placeholder {
     color: var(--color-neutral-20);
   }
@@ -18,12 +18,36 @@
 .button {
   background-color: var(--color-green);
   width: 100%;
-  padding: 24px;
+  padding: 20px;
   border: none;
-  border-radius: 24px;
+  border-radius: 20px;
   font-size: pxToRem(18);
   font-weight: var(--font-bold);
   text-align: center;
   color: var(--color-neutral-100);
   text-transform: uppercase;
+}
+
+.success-message {
+  font-size: pxToRem(16);
+  color: var(--color-success);
+}
+
+.error-message {
+  font-size: pxToRem(16);
+  color: var(--color-error);
+}
+
+@mixin mediaMin768 {
+  .input {
+    padding: 24px 32px;
+    border-radius: 24px;
+    margin-bottom: 16px;
+    font-size: pxToRem(18);
+  }
+
+  .button {
+    padding: 24px;
+    border-radius: 24px;
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Smash Burger",
+    "subtitle": "La esencia de la smash burger: rápida, intensa y sin rodeos. Fast food premium con ingredientes de primera, pensado para quienes buscan sabor sin esperar.",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Cantina Canalla",
+    "sector": "Gastronomía",
+    "categories": ["Identidad Visual", "Fotografía", "Video"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Estrategia",
+      "description": "Smash combina la calidad premium de la carne con una experiencia ágil y accesible. Su esencia es directa y sin rodeos: hamburguesas smash auténticas, ingredientes de primera y rapidez sin perder el estilo artesanal. Fusiona la esencia del fast food con el estándar gourmet, convirtiéndose en una opción ideal para quienes buscan velocidad sin sacrificar calidad. Antes de nuestra intervención, SMASH necesitaba definir una identidad propia dentro del universo Black Label y posicionarse estratégicamente en redes para atraer tanto a clientes locales como turistas. Para ello, desarrollamos una identidad visual moderna y una estrategia digital enfocada en contenido dinámico, campañas de take away y delivery, y una comunicación directa y visualmente impactante."
+    },
+    {
+      "type": "paragraph",
+      "title": "Diseño",
+      "description": "Creamos la identidad de Smash inspirandonos en la estética moderna, urbana y visualmente llamativa. Se apostó por colores vibrantes y contrastes intensos que transmiten energía y frescura, combinados con una estética minimalista con toques grunge. La referencia creativa proviene del street food neoyorquino y la nueva generación de fast food, equilibrando un diseño limpio con referencias de cultura pop. Para conectar con su público joven, se incorporaron stickers, ilustraciones dinámicas y elementos gráficos disruptivos que aportan una identidad visual única. Su imagen comunica dinamismo y autenticidad, con una paleta en negro y rojo intenso, tipografías bold y texturas desgastadas. La dirección de arte enfatiza la velocidad del servicio y la explosión de sabor con fotografía de close-ups humeantes, encuadres rápidos y animaciones en redes, mientras que la cartelería y el packaging refuerzan su mensaje de comida rápida con esencia premium."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "SMASH se ha consolidado como la referencia en smash burgers premium en Málaga, logrando una identidad clara y diferenciada en el mercado. La marca ha ganado notoriedad en poco tiempo, atrayendo a un público fiel que valora la combinación de sabor, rapidez y experiencia visualmente atractiva. Su posicionamiento en el centro de Málaga lo convierte en un destino ideal para turistas y locales, consolidando su reputación dentro del universo Black Label."
+    }
+  ],
+  "related": [
+    {
+      "title": "Cantina Canalla",
+      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ImageAlt": "Cantina Canalla"
+    },
+    {
+      "title": "Black Label",
+      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ImageAlt": "Black Label"
+    }
+  ]
+}

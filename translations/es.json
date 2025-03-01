@@ -65,7 +65,7 @@
         "categories": ["Identidad Visual", "Fotografía", "Video"],
         "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
         "ImageAlt": "",
-        "slug": "smash"
+        "slug": "smash-burger"
       },
       {
         "title": "Grupo Amigos",
@@ -79,7 +79,10 @@
     "whatsappMessage": "Hola! Quiero hacer una consulta.",
     "notFoundTitle": "404",
     "notFoundSubtitle": "La página que buscas no existe",
-    "notFoundButtonLabel": "Volver a la página principal"
+    "notFoundButtonLabel": "Volver a la página principal",
+    "client": "Cliente",
+    "year": "Año",
+    "sector": "Sector"
   },
   "homePage": {
     "hero": {
@@ -119,7 +122,7 @@
     "paragraph1": "En un mundo saturado de información, la diferenciación es clave. Una marca no solo se construye con palabras, sino con imágenes que transmiten emociones y videos que cuentan historias. En Agencia Tinta, combinamos creatividad y datos para diseñar producciones que no solo captan la atención, sino que generan impacto y convierten mensajes en experiencias visuales memorables.",
     "paragraph2": "Creamos contenido dinámico que fortalece la presencia digital, genera comunidad y convierte audiencias en embajadores de marca. Desde la planificación estratégica hasta la producción audiovisual y fotográfica, potenciamos cada historia con innovación y precisión.",
     "quote": "Aquí te presentamos de qué manera lo hacemos.",
-    "serviceTitle": "Servicios",
+    "serviceTitle": "Servicios /",
     "services": [
       {
         "title": "Análisis y estrategia",
@@ -181,10 +184,11 @@
     "title": "Contacta con nosotros",
     "subtitle": "Estamos para escucharte y acompañarte con las ideas que tengas para tu marca, tu negocio o para contribuir a transformar el mundo.",
     "form": {
-      "name": "Nombre",
-      "email": "Email",
-      "message": "Mensaje",
+      "name": "Nombre Completo*",
+      "email": "Email*",
+      "message": "Mensaje*",
       "buttonLabel": "Enviar",
+      "buttonLabelSending": "Enviando...",
       "successMessage": "Gracias por tu mensaje. Te responderemos lo antes posible.",
       "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
       "requiredError": "Este campo es obligatorio"

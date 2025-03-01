@@ -1,47 +1,35 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-}
-
-@mixin mediaMin768 {
-  .wrapper {
-    grid-template-columns: 300px 1fr;
-    margin: 128px 0;
-  }
-}
-
-@mixin mediaMin1024 {
-  .wrapper {
-    grid-template-columns: 500px 1fr;
-    margin: 128px 0;
-  }
+  gap: pxToRem(32);
+  margin: 60px 0;
 }
 
 .title {
   font-weight: var(--font-bold);
   text-transform: uppercase;
-  font-size: pxToRem(24);
+  font-size: pxToRem(18);
 }
 
 .content p {
-  font-size: pxToRem(20);
+  font-size: pxToRem(16);
   line-height: 1.6;
   margin-bottom: pxToRem(36);
-  text-wrap: balance;
 }
 
 .button {
   margin-top: pxToRem(60);
 }
 
+/* SERVICES */
 .service-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: pxToRem(60);
 }
 
 .service-content h3 {
-  font-size: pxToRem(22);
+  font-size: pxToRem(16);
   margin-bottom: pxToRem(18);
   text-transform: uppercase;
 }
@@ -50,11 +38,10 @@
   font-size: pxToRem(16);
   font-weight: var(--font-regular);
   margin-bottom: 18px;
-  text-wrap: balance;
 }
 
 .service-content ul {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: pxToRem(8);
 }
@@ -71,9 +58,9 @@
   font-size: pxToRem(24);
   font-weight: var(--font-extra-bold);
   background-color: var(--color-neutral-90);
-  padding: pxToRem(24) pxToRem(36);
+  padding: pxToRem(16) pxToRem(24);
   position: relative;
-  display: inline-block;
+  display: block;
   &::before {
     content: "";
     display: block;
@@ -84,5 +71,50 @@
     top: 0;
     left: 0;
     transform: rotate(180deg);
+  }
+}
+
+@mixin mediaMin768 {
+  .wrapper {
+    grid-template-columns: 300px 1fr;
+    margin: 128px 0;
+  }
+  .title {
+    font-size: pxToRem(22);
+  }
+  .content p {
+    font-size: pxToRem(18);
+  }
+
+  .quote {
+    padding: pxToRem(24) pxToRem(36);
+    display: inline-block;
+  }
+
+  .service-content h3 {
+    font-size: pxToRem(22);
+  }
+
+  .service-content ul {
+    display: inline-flex;
+  }
+}
+
+@mixin mediaMin1024 {
+  .wrapper {
+    grid-template-columns: 500px 1fr;
+    margin: 128px 0;
+  }
+  .title {
+    font-size: pxToRem(24);
+  }
+  .content p {
+    font-size: pxToRem(20);
+  }
+
+  .service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(60);
   }
 }

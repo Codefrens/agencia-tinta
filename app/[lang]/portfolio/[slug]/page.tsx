@@ -1,13 +1,16 @@
 import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
+import Hero from "@/components/PortfolioDetailPage/Hero";
+import { getTranslations } from "../../translations";
 
 export default async function PortfolioDetailPage({
   params,
 }: {
-  params: Promise<{ lang: string; slug: string }>;
+  params: Promise<{ lang: "es" | "en"; slug: string }>;
 }) {
   const { lang, slug } = await params;
+  const { common } = await getTranslations(lang);
 
   const filePath = path.join(
     process.cwd(),
@@ -22,10 +25,16 @@ export default async function PortfolioDetailPage({
   }
   const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
+  const heroContent = {
+    ...content.hero,
+    clientLabel: common.client,
+    yearLabel: common.year,
+    sectorLabel: common.sector,
+  };
+
   return (
-    <div className="container mx-auto p-8">
-      <h1 className="text-3xl font-bold">{content.title}</h1>
-      <p className="text-gray-600">{content.subtitle}</p>
-    </div>
+    <main>
+      <Hero {...heroContent} />
+    </main>
   );
 }

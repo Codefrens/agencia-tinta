@@ -29,6 +29,9 @@ export type Translations = {
     portfolioGrid: Porfolio[];
     filters: Categories;
     whatsappMessage: string;
+    client: string;
+    year: string;
+    sector: string;
   };
   homePage: {
     hero: {
@@ -79,6 +82,7 @@ export type Translations = {
       email: string;
       message: string;
       buttonLabel: string;
+      buttonLabelSending: string;
       successMessage: string;
       errorMessage: string;
       requiredError: string;

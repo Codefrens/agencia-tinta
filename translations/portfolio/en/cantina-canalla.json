@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Cantina Canalla",
+    "subtitle": "Autenticidad mexicana con un giro sofisticado. Alta cocina, arte urbano y un ambiente vibrante que transforman cada comida en una experiencia sensorial única.",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Cantina Canalla",
+    "sector": "Gastronomía",
+    "categories": ["Identidad Visual", "Fotografía", "Video"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Estrategia",
+      "description": "Cantina Canalla es la fusión entre la tradición mexicana y un espíritu sofisticado e irreverente. Su propuesta gastronómica premium necesitaba una identidad visual y digital que reflejara su esencia vibrante, audaz y exclusiva. El desafío fue consolidar su posicionamiento como un referente de la alta cocina mexicana en España, creando una estrategia de branding y contenido que comunicara su carácter transgresor. Nuestra solución: elevar su imagen con un concepto visual poderoso y una narrativa digital aspiracional que conectara con su audiencia ideal."
+    },
+    {
+      "type": "paragraph",
+      "title": "Diseño",
+      "description": "Transformamos su identidad en una experiencia visual impactante. Inspirados en la riqueza cultural de México y el arte urbano, desarrollamos una estética que combina neón, lucha libre, Frida Kahlo y el Día de Muertos con una paleta intensa de rosa, negro, dorado y blanco. La dirección de arte apostó por composiciones audaces, fotografía de alta gama y texturas que reflejan su exclusividad. La coherencia se extendió a redes, menús, packaging y señalética, asegurando una experiencia visual potente y memorable."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "La nueva identidad de Cantina Canalla consolidó su posicionamiento como un restaurante de gastronomía mexicana de lujo. Su imagen evolucionó hacia una propuesta aspiracional que resuena con un público sofisticado. La marca experimentó un crecimiento del +120% en engagement, un +80% en seguidores en tres meses y un aumento significativo en reservas y fidelización de clientes high-ticket."
+    }
+  ],
+  "related": [
+    {
+      "title": "Cantina Canalla",
+      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ImageAlt": "Cantina Canalla"
+    },
+    {
+      "title": "Black Label",
+      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ImageAlt": "Black Label"
+    }
+  ]
+}

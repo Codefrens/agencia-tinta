@@ -1,6 +1,6 @@
 .reality-section {
   position: relative;
-  margin: pxToRem(180) auto;
+  margin: pxToRem(90) auto pxToRem(160);
   width: 100%;
 }
 
@@ -42,6 +42,10 @@
 }
 
 @mixin mediaMin768 {
+  .reality-section {
+    margin: pxToRem(180) auto;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -56,6 +60,10 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+  }
+
+  .title {
+    font-size: pxToRem(22);
   }
 }
 
@@ -83,6 +91,7 @@
 
   .title {
     font-size: pxToRem(32);
+    line-height: 1.1;
   }
 
   .paragraph {

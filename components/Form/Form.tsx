@@ -1,8 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./Form.module.css";
+import { Translations } from "@/translations/types";
 
-const Form = () => {
+const Form = ({
+  translations,
+}: {
+  translations: Translations["contactPage"]["form"];
+}) => {
+  console.log(translations);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -23,7 +29,7 @@ const Form = () => {
     e.preventDefault();
     setStatus("loading");
 
-    const res = await fetch("api/contact", {
+    const res = await fetch("api/contact2", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
@@ -43,7 +49,7 @@ const Form = () => {
         <input
           type="text"
           name="name"
-          placeholder="Nombre Completo*"
+          placeholder={translations.name}
           value={formData.name}
           onChange={handleChange}
           required
@@ -52,7 +58,7 @@ const Form = () => {
         <input
           type="email"
           name="email"
-          placeholder="Email*"
+          placeholder={translations.email}
           value={formData.email}
           onChange={handleChange}
           required
@@ -61,7 +67,7 @@ const Form = () => {
         <textarea
           rows={4}
           name="message"
-          placeholder="Mensaje*"
+          placeholder={translations.message}
           value={formData.message}
           onChange={handleChange}
           required
@@ -72,11 +78,19 @@ const Form = () => {
           type="submit"
           disabled={status === "loading"}
         >
-          {status === "loading" ? "Enviando..." : "Enviar"}
+          {status === "loading"
+            ? translations.buttonLabelSending
+            : translations.buttonLabel}
         </button>
       </form>
-      {status === "success" && <p>¡Mensaje enviado!</p>}
-      {status === "error" && <p>Hubo un error. Inténtalo de nuevo.</p>}
+      {status === "success" && (
+        <span className={styles.successMessage}>
+          {translations.successMessage}
+        </span>
+      )}
+      {status === "error" && (
+        <span className={styles.errorMessage}>{translations.errorMessage}</span>
+      )}
     </>
   );
 };
