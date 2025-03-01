@@ -38,3 +38,21 @@ export default async function PortfolioDetailPage({
     </main>
   );
 }
+
+export async function generateStaticParams() {
+  const langs = ["es", "en"];
+  const portfolioDir = path.join(process.cwd(), "translations", "portfolio");
+
+  let paths: { lang: string; slug: string }[] = [];
+
+  for (const lang of langs) {
+    const langDir = path.join(portfolioDir, lang);
+    if (fs.existsSync(langDir)) {
+      const files = fs.readdirSync(langDir);
+      const slugs = files.map((file) => file.replace(".json", ""));
+      paths = [...paths, ...slugs.map((slug) => ({ lang, slug }))];
+    }
+  }
+
+  return paths;
+}

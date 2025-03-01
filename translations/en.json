@@ -65,7 +65,7 @@
         "categories": ["Identidad Visual", "Fotografía", "Video"],
         "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
         "ImageAlt": "",
-        "slug": "smash"
+        "slug": "smash-burger"
       },
       {
         "title": "Grupo Amigos",
@@ -79,7 +79,10 @@
     "whatsappMessage": "Hola! Quiero hacer una consulta.",
     "notFoundTitle": "404",
     "notFoundSubtitle": "La página que buscas no existe",
-    "notFoundButtonLabel": "Volver a la página principal"
+    "notFoundButtonLabel": "Volver a la página principal",
+    "client": "Cliente",
+    "year": "Año",
+    "sector": "Sector"
   },
   "homePage": {
     "hero": {
