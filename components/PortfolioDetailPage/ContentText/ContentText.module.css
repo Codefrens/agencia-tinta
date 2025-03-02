@@ -1,0 +1,50 @@
+.wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: pxToRem(24);
+  margin: pxToRem(60) 0;
+}
+
+.content {
+  max-width: 1000px;
+}
+
+.title {
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  font-size: pxToRem(18);
+}
+
+.paragraph {
+  font-size: pxToRem(16);
+  line-height: 1.6;
+  margin-bottom: pxToRem(18);
+}
+
+@mixin mediaMin768 {
+  .wrapper {
+    grid-template-columns: 200px 1fr;
+    margin-bottom: pxToRem(80);
+  }
+
+  .title {
+    font-size: pxToRem(22);
+  }
+}
+
+@mixin mediaMin1024 {
+  .wrapper {
+    grid-template-columns: 500px 1fr;
+    margin-bottom: pxToRem(80);
+  }
+
+  .title {
+    font-size: pxToRem(24);
+  }
+  .paragraph {
+    font-size: pxToRem(18);
+    line-height: 1.8;
+    margin-bottom: pxToRem(36);
+  }
+}

@@ -31,6 +31,12 @@
   padding-bottom: 30px;
 }
 
+.logo {
+  position: relative;
+  width: 120px;
+  height: 38px;
+}
+
 .links ul {
   display: flex;
   gap: 60px;

@@ -44,31 +44,30 @@ const Hero = ({
           />
         </div>
       </div>
-      <Container>
-        <div className={styles.info}>
-          <div className={styles.infoItems}>
-            <div>
-              <p className={styles.label}>{yearLabel}</p>
-              <p className={styles.value}>{year}</p>
-            </div>
-            <div>
-              <p className={styles.label}>{clientLabel}</p>
-              <p className={styles.value}>{title}</p>
-            </div>
-            <div>
-              <p className={styles.label}>{sectorLabel}</p>
-              <p className={styles.value}>{sector}</p>
-            </div>
+
+      <div className={styles.info}>
+        <div className={styles.infoItems}>
+          <div>
+            <p className={styles.label}>{yearLabel}</p>
+            <p className={styles.value}>{year}</p>
           </div>
-          <div className={styles.categories}>
-            {categories.map((cat, index) => (
-              <p key={index} className={styles.pill}>
-                {cat}
-              </p>
-            ))}
+          <div>
+            <p className={styles.label}>{clientLabel}</p>
+            <p className={styles.value}>{title}</p>
+          </div>
+          <div>
+            <p className={styles.label}>{sectorLabel}</p>
+            <p className={styles.value}>{sector}</p>
           </div>
         </div>
-      </Container>
+        <div className={styles.categories}>
+          {categories.map((cat, index) => (
+            <p key={index} className={styles.pill}>
+              {cat}
+            </p>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

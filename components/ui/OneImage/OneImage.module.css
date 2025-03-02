@@ -1,0 +1,35 @@
+.image-wrapper {
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16 / 12;
+}
+
+.image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  object-fit: cover;
+}
+
+@mixin mediaMin768 {
+  .image-wrapper {
+    padding: 0 30px;
+  }
+
+  .image-container {
+    border-radius: 20px;
+    aspect-ratio: 16 / 8;
+  }
+
+  .centered {
+    max-width: 1200px;
+    padding: 100px;
+    margin: 0 auto;
+  }
+}

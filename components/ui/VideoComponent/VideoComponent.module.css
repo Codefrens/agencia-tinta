@@ -5,6 +5,7 @@
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 24px;
+  margin: 24px 0;
 }
 
 .playButton {

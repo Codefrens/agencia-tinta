@@ -1,0 +1,13 @@
+.related {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: pxToRem(24);
+  margin: 24px 0;
+}
+
+@mixin mediaMin768 {
+  .related {
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(48);
+  }
+}

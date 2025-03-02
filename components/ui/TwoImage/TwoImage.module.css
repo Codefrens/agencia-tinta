@@ -1,0 +1,35 @@
+.image-wrapper {
+  margin: 24px 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: pxToRem(24);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16 / 12;
+}
+
+.image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  object-fit: cover;
+}
+
+@mixin mediaMin768 {
+  .image-wrapper {
+    padding: 0 30px;
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(24);
+  }
+
+  .image-container {
+    border-radius: 20px;
+    aspect-ratio: 4 / 3;
+  }
+}

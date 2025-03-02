@@ -3,6 +3,12 @@ import path from "path";
 import { notFound } from "next/navigation";
 import Hero from "@/components/PortfolioDetailPage/Hero";
 import { getTranslations } from "../../translations";
+import ContentText from "@/components/PortfolioDetailPage/ContentText";
+import OneImage from "@/components/ui/OneImage";
+import TwoImage from "@/components/ui/TwoImage";
+import VideoComponent from "@/components/ui/VideoComponent/VideoComponent";
+import Related from "@/components/PortfolioDetailPage/Related";
+import Cta from "@/components/Cta";
 
 export default async function PortfolioDetailPage({
   params,
@@ -35,6 +41,43 @@ export default async function PortfolioDetailPage({
   return (
     <main>
       <Hero {...heroContent} />
+      {content.sections.map((section, index) => {
+        switch (section.type) {
+          case "paragraph":
+            return (
+              <ContentText
+                key={section.title}
+                title={section.title}
+                paragraph={section.description}
+              />
+            );
+          case "oneImage":
+            return (
+              <OneImage
+                key={section.imageAlt}
+                imageUrl={section.imageUrl}
+                imageAlt={section.imageAlt}
+                centered={section.centered}
+                aspectRatio={section.aspectRatio}
+              />
+            );
+          case "twoImages":
+            return <TwoImage key={index} images={section.images} />;
+          case "video":
+            return (
+              <VideoComponent
+                key={index}
+                posterSrc={section.posterSrc}
+                videoSrc={section.videoSrc}
+                videoAlt={section.videoAlt}
+              />
+            );
+          default:
+            return null;
+        }
+      })}
+      <Cta translations={common.cta} />
+      <Related related={content.related} />
     </main>
   );
 }
