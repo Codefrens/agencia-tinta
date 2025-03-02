@@ -82,7 +82,7 @@ const NavbarClient = ({
             </ul>
           </div>
           <div className={styles.burgerMenu}>
-            <BurgerMenu />
+            <BurgerMenu translations={translations.navigationLinks} />
           </div>
         </div>
       </Container>

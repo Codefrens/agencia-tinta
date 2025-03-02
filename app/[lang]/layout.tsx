@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "@/styles/index.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import LenisProvider from "@/utils/LenisProvider/LenisProvider";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -26,9 +27,11 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <body className={`${dmSans.variable}`}>
-        <Navbar lang={lang} />
-        {children}
-        <Footer />
+        <LenisProvider>
+          <Navbar lang={lang} />
+          {children}
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   );

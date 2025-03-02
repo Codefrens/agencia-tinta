@@ -13,6 +13,20 @@
   color: var(--color-green);
 }
 
+.text-container {
+  position: relative;
+  overflow: hidden;
+  & > span {
+    display: inline-block;
+  }
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .fill {
   background-color: var(--color-green);
   color: var(--color-neutral-100);
