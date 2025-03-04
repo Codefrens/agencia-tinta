@@ -87,7 +87,8 @@
   "homePage": {
     "hero": {
       "subtitle": "AGENCIA DE MEDIOS DIGITALES",
-      "title": "Transformamos marcas con innovacion y creatividad.",
+      "highlightWords": ["innovación", "creatividad"],
+      "title": "Transformamos marcas con innovación y creatividad.",
       "reelLabel": "Ver reel"
     },
     "about": {

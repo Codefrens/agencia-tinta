@@ -33,7 +33,7 @@
 
 .logo {
   position: relative;
-  width: 120px;
+  width: 100px;
   height: 38px;
 }
 
@@ -58,6 +58,12 @@
 }
 
 @mixin mediaMin768 {
+  .logo {
+    position: relative;
+    width: 120px;
+    height: 38px;
+  }
+
   .links {
     display: flex;
     align-items: center;

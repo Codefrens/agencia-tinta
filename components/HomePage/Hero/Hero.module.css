@@ -37,6 +37,35 @@
   margin-bottom: 16px;
 }
 
+.wordWrapper {
+  display: inline-block;
+  position: relative;
+  margin-right: 12px;
+  overflow: hidden;
+  line-height: 0.8;
+}
+
+.highlightedWord {
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.underline {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: var(--gradient-color);
+  z-index: 1;
+  transform-origin: left;
+}
+
+.char {
+  display: inline-block;
+}
+
 @mixin mediaMin768 {
   .title {
     font-size: pxToRem(48);
@@ -51,6 +80,10 @@
   }
   .content {
     padding-bottom: 10%;
+  }
+
+  .underline {
+    height: 10px;
   }
 }
 

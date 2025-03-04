@@ -36,6 +36,7 @@ export type Translations = {
   homePage: {
     hero: {
       title: string;
+      highlightWords: string[];
       subtitle: string;
       reelLabel: string;
     };

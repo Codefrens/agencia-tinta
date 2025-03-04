@@ -31,7 +31,7 @@ const BurgerMenu = ({
       x: 0,
       y: 0,
       opacity: 1,
-      transition: { duration: 0.2, ease: "easeInOut" },
+      transition: { duration: 0.4, ease: "easeInOut" },
     },
     closed: {
       y: 0,
@@ -45,14 +45,14 @@ const BurgerMenu = ({
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.1, delay: 0.4 },
+      transition: { staggerChildren: 0.1, delay: 0.5 },
     },
     exit: { opacity: 0 },
   };
 
   const itemVariants = {
     hidden: { opacity: 0, x: 20 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.3 } },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.2 } },
     exit: { opacity: 0, x: -20, transition: { duration: 0.3 } },
   };
 
@@ -81,6 +81,7 @@ const BurgerMenu = ({
                   key={href}
                   variants={itemVariants}
                   className={styles.link}
+                  onClick={() => setOpen(false)}
                 >
                   <Link href={href} target={external ? "_blank" : "_self"}>
                     {label}

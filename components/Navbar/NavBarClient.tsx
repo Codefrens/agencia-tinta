@@ -7,6 +7,7 @@ import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 import Image from "next/image";
 import { Translations } from "@/translations/types";
+import { cubicBezier, motion } from "motion/react";
 
 const NavbarClient = ({
   translations,
@@ -41,7 +42,16 @@ const NavbarClient = ({
       }
     >
       <Container>
-        <div className={styles.container}>
+        <motion.div
+          className={styles.container}
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 1.5,
+            ease: cubicBezier(0.6, 0.01, 0.3, 1),
+            delay: 0.4,
+          }}
+        >
           <Link href="/" aria-label="go to home page" className={styles.logo}>
             <Image
               src="https://res.cloudinary.com/nicojoystin/image/upload/v1740221032/agencia-tinta/logo-tinta_utcrxj.svg"
@@ -84,7 +94,7 @@ const NavbarClient = ({
           <div className={styles.burgerMenu}>
             <BurgerMenu translations={translations.navigationLinks} />
           </div>
-        </div>
+        </motion.div>
       </Container>
     </header>
   );
