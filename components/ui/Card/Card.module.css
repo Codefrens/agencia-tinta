@@ -1,9 +1,20 @@
+.card:hover {
+  cursor: none;
+}
 .image-wrapper {
+  background-color: var(--color-neutral-100);
   position: relative;
   aspect-ratio: 4/3;
   border-radius: pxToRem(16);
   overflow: hidden;
   margin-bottom: pxToRem(18);
+}
+
+.image-motion {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 .image {
@@ -38,6 +49,35 @@
   border-radius: pxToRem(24);
   background: var(--gradient-gray);
   border: 1px solid var(--color-neutral-80);
+}
+
+.float-button {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--color-neutral-0);
+  text-transform: uppercase;
+  color: var(--color-neutral-100);
+  font-weight: var(--font-extra-bold);
+  letter-spacing: -0.02em;
+  font-size: pxToRem(24);
+  border-radius: pxToRem(50);
+  padding: pxToRem(8) pxToRem(26);
+}
+
+.arrow-wrapper {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  width: 32px;
+}
+.arrow {
+  display: inline-block;
+}
+
+.arrow-icon {
+  width: 32px;
+  height: 32px;
 }
 
 @mixin mediaMin768 {
