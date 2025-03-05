@@ -24,9 +24,9 @@ const VideoComponent = ({
       <Container>
         <div className={styles.videoPreview} onClick={() => setIsOpen(true)}>
           <Image src={posterSrc} alt={videoAlt} objectFit="cover" fill />
-          <VideoButton className={styles.playButton}>
-            {videoLabelButton}
-          </VideoButton>
+          <div className={styles.playButton}>
+            <VideoButton>{videoLabelButton}</VideoButton>
+          </div>
         </div>
       </Container>
 

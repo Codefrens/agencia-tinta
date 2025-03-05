@@ -13,7 +13,12 @@ const Hero = ({
 }) => {
   return (
     <section className={styles.hero}>
-      <div className={styles.video}>
+      <motion.div
+        className={styles.video}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 6, ease: [0.26, 0.01, 0.06, 0.94] }}
+      >
         <video
           autoPlay
           loop
@@ -22,11 +27,11 @@ const Hero = ({
           style={{ transform: "scale(1)" }}
         >
           <source
-            src="https://download-video-ak.vimeocdn.com/v3-1/playback/8467f025-b155-4f1c-b11c-752f61e0d4b8/b289c6f0-264a6685?__token__=st=1740069275~exp=1740083675~acl=%2Fv3-1%2Fplayback%2F8467f025-b155-4f1c-b11c-752f61e0d4b8%2Fb289c6f0-264a6685%2A~hmac=15f4f536c941e3bd580182132ae96b5f853e7e21e490f9205cc375ef1d3b6e18&r=dXMtY2VudHJhbDE%3D"
+            src="https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4"
             type="video/mp4"
           />
         </video>
-      </div>
+      </motion.div>
       <Container>
         <div className={styles.content}>
           <motion.p
@@ -40,7 +45,7 @@ const Hero = ({
           >
             {translations.subtitle}
           </motion.p>
-          <h1 className={styles.title}>
+          <h1 className={styles.title} aria-label={translations.title}>
             <AnimatedTitle
               title={translations.title}
               highlightedWords={translations.highlightWords}
@@ -66,7 +71,7 @@ const AnimatedTitle = ({
   highlightedWords,
 }: {
   title: string;
-  highlightedWords: string[];
+  highlightedWords?: string[];
 }) => {
   const DURATION = 0.6;
   const DELAY = 0.055;

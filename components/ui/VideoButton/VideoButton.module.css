@@ -12,6 +12,25 @@
   backdrop-filter: blur(5px);
 }
 
+.text-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  & > span {
+    display: inline-block;
+  }
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon {
+  display: inline-flex;
+}
+
 @mixin mediaMin768 {
   .button {
     padding: 6px 32px 6px 4px;

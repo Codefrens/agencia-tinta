@@ -8,7 +8,6 @@ const Form = ({
 }: {
   translations: Translations["contactPage"]["form"];
 }) => {
-  console.log(translations);
   const [formData, setFormData] = useState({
     name: "",
     email: "",

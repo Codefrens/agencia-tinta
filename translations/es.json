@@ -14,15 +14,15 @@
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "Cantina Canalla",
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/2_vlzois.jpg",
+        "ImageAlt": "Imagen de comida de Cantina Canalla",
         "slug": "cantina-canalla"
       },
       {
         "title": "Black Label",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "",
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
+        "ImageAlt": "Black Label",
         "slug": "black-label"
       },
       {
@@ -63,7 +63,7 @@
       {
         "title": "Smash",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
         "ImageAlt": "",
         "slug": "smash-burger"
       },
