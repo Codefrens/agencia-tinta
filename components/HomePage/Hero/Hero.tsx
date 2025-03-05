@@ -103,8 +103,8 @@ const AnimatedTitle = ({
             animate={{ scaleX: 1 }}
             transition={{
               duration: 0.8,
-              delay: 0.2 * index,
-              ease: "easeInOut",
+              delay: 2.2 / index,
+              ease: cubicBezier(0.6, 0.01, 0.3, 1),
             }}
           />
         )}

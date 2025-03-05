@@ -3,7 +3,7 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import React, { useRef, useState } from "react";
 import styles from "./Card.module.css";
-import { motion, useMotionValue, useSpring } from "framer-motion";
+import { motion, useMotionValue } from "framer-motion";
 
 type CardProps = {
   imgSrc: string;
@@ -18,9 +18,6 @@ const Card = ({ imgSrc, imgAlt, title, categories, link }: CardProps) => {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
-  const smoothOptions = { stiffness: 300, damping: 20, mass: 0.5 };
-  const smoothMouseX = useSpring(mouseX, smoothOptions);
-  const smoothMouseY = useSpring(mouseY, smoothOptions);
   const [isHover, setIsHover] = useState(false);
 
   const mouseMove = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -45,22 +42,21 @@ const Card = ({ imgSrc, imgAlt, title, categories, link }: CardProps) => {
         setIsHover(false);
       }}
     >
+      <motion.div
+        className={styles.floatButton}
+        style={{ x: mouseX, y: mouseY }}
+        animate={isHover ? "enter" : "exit"}
+        initial="initial"
+        transition={{ duration: 0.1, ease: "easeInOut" }}
+        variants={{
+          initial: { scale: 0 },
+          enter: { scale: 1, transition: { duration: 0.3 } },
+          exit: { scale: 0, transition: { duration: 0.1 } },
+        }}
+      >
+        Ver
+      </motion.div>
       <div className={styles.imageWrapper}>
-        <motion.div
-          className={styles.floatButton}
-          style={{ x: smoothMouseX, y: smoothMouseY }}
-          animate={isHover ? "enter" : "exit"}
-          initial="initial"
-          transition={{ duration: 0.1, ease: "easeInOut" }}
-          variants={{
-            initial: { scale: 0 },
-            enter: { scale: 1, transition: { duration: 0.3 } },
-            exit: { scale: 0, transition: { duration: 0.1 } },
-          }}
-        >
-          Ver
-        </motion.div>
-
         <motion.div
           animate={isHover ? "enter" : "exit"}
           initial="initial"

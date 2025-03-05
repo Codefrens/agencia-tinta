@@ -12,7 +12,6 @@
 
 .image-motion {
   position: relative;
-  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -53,6 +52,7 @@
 
 .float-button {
   position: absolute;
+  pointer-events: none;
   z-index: 1;
   background-color: var(--color-neutral-0);
   text-transform: uppercase;
