@@ -19,7 +19,7 @@ const TwoImage = ({
             alt={image.imageAlt}
             className={styles.image}
             width={900}
-            height={500}
+            height={900}
           />
         </div>
       ))}

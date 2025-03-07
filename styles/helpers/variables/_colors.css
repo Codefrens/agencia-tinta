@@ -7,6 +7,7 @@
   --color-neutral-0: #f5f5f5;
   --color-neutral-10: #d3d3d3;
   --color-neutral-20: #acacac;
+  --color-neutral-70: #414141;
   --color-neutral-80: #353535;
   --color-neutral-90: #1a1c1c;
   --color-neutral-100: #0f1214;
@@ -31,6 +32,6 @@
   --gradient-navbar: linear-gradient(
     0deg,
     transparent 0%,
-    var(--color-neutral-100) 65%
+    var(--color-neutral-100) 80%
   );
 }

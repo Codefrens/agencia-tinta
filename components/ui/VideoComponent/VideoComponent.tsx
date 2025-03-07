@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./VideoComponent.module.css";
 import Image from "next/image";
 import Container from "../Container";
@@ -17,6 +17,15 @@ const VideoComponent = ({
   videoLabelButton?: string;
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  useEffect(() => {
+    if (isOpen && videoRef.current) {
+      videoRef.current.play().catch((error) => {
+        console.error("Error al reproducir el video:", error);
+      });
+    }
+  }, [isOpen]);
 
   return (
     <>
@@ -37,13 +46,9 @@ const VideoComponent = ({
             className={styles.modalContent}
             onClick={(e) => e.stopPropagation()}
           >
-            <iframe
-              src={videoSrc} // URL del embed
-              width="800"
-              height="450"
-              allow="autoplay; fullscreen"
-              allowFullScreen
-            ></iframe>
+            <video ref={videoRef} controls className={styles.video}>
+              <source src={videoSrc} type="video/mp4" />
+            </video>
             <button
               className={styles.closeButton}
               onClick={() => setIsOpen(false)}

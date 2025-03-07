@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import styles from "./NavbarClient.module.css";
 import Container from "../ui/Container";
 import BurgerMenu from "../ui/BurgerMenu";
@@ -7,40 +7,23 @@ import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 import Image from "next/image";
 import { Translations } from "@/translations/types";
-import { cubicBezier, motion } from "motion/react";
+import { cubicBezier, motion, useScroll, useTransform } from "motion/react";
 
 const NavbarClient = ({
   translations,
 }: {
   translations: Translations["common"];
 }) => {
-  const navbar = useRef(null);
-  const [scrolled, setScrolled] = React.useState(false);
+  const { scrollY } = useScroll();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrolled = window.scrollY;
-      if (scrolled > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const opacityNavbar = useTransform(scrollY, [0, 50], [0, 1]);
 
   return (
-    <header
-      ref={navbar}
-      className={
-        scrolled ? `${styles.navbar} ${styles.scrolled}` : styles.navbar
-      }
-    >
+    <header className={styles.navbar}>
+      <motion.div
+        className={styles.navbarBackground}
+        style={{ opacity: opacityNavbar }}
+      ></motion.div>
       <Container>
         <motion.div
           className={styles.container}

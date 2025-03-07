@@ -1,6 +1,7 @@
-.card:hover {
+.card:hover > a {
   cursor: none;
 }
+
 .image-wrapper {
   background-color: var(--color-neutral-100);
   position: relative;
@@ -59,9 +60,9 @@
   color: var(--color-neutral-100);
   font-weight: var(--font-extra-bold);
   letter-spacing: -0.02em;
-  font-size: pxToRem(24);
+  font-size: pxToRem(20);
   border-radius: pxToRem(50);
-  padding: pxToRem(8) pxToRem(26);
+  padding: pxToRem(6) pxToRem(16);
 }
 
 .arrow-wrapper {

@@ -26,10 +26,12 @@
     padding: 0 30px;
     grid-template-columns: 1fr 1fr;
     gap: pxToRem(24);
+    max-width: 1600px;
+    margin: 0 auto;
   }
 
   .image-container {
     border-radius: 20px;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 10 / 13;
   }
 }

@@ -23,6 +23,110 @@
       "type": "paragraph",
       "title": "Resultado",
       "description": "La nueva identidad de Cantina Canalla consolidó su posicionamiento como un restaurante de gastronomía mexicana de lujo. Su imagen evolucionó hacia una propuesta aspiracional que resuena con un público sofisticado. La marca experimentó un crecimiento del +120% en engagement, un +80% en seguidores en tres meses y un aumento significativo en reservas y fidelización de clientes high-ticket."
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/2_vlzois.jpg",
+          "imageAlt": "Cantina Canalla"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/15_fuw3zx.jpg",
+          "imageAlt": "Black Label"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/11_ks2yjh.jpg",
+      "imageAlt": "Plato de tacos",
+      "centered": true,
+      "aspectRatio": "12/8"
+    },
+    {
+      "type": "uniqueReel",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201313/agencia-tinta/portfolio/cantina-canalla/videos/Reel_3_-_Ron_Ilustrador_dflfxs.mp4",
+      "backText": "Cantina Canalla",
+      "videoAlt": "Reel Cantina Canalla",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201141/agencia-tinta/portfolio/cantina-canalla/fotos/8_p8g7t1.jpg",
+          "imageAlt": "Plato de tacos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/3_p0yv8r.jpg",
+          "imageAlt": "Dos platos de tacos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/6_boefel.jpg",
+          "imageAlt": "Taco abierto sobre la mesa"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
+      "videoAlt": "Video de ejemplo",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/15_fuw3zx.jpg",
+          "imageAlt": "Postre"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/7_nhgmpi.jpg",
+          "imageAlt": "Mujer joven tomando margarita"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
+          "imageAlt": "Sirviendo margaritas"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201141/agencia-tinta/portfolio/cantina-canalla/fotos/1_eyhe8s.jpg",
+          "imageAlt": "Margarita"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/4_to9nxc.jpg",
+      "imageAlt": "Mesa servida con varios tacos y una margarita",
+      "centered": true,
+      "aspectRatio": "12/8"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201139/agencia-tinta/portfolio/cantina-canalla/fotos/12_wtbjcs.jpg",
+          "imageAlt": "Plato de tacos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201139/agencia-tinta/portfolio/cantina-canalla/fotos/9_bjixij.jpg",
+          "imageAlt": "Margarita"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201139/agencia-tinta/portfolio/cantina-canalla/fotos/5_urxlqo.jpg",
+          "imageAlt": "Costilla de carne"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201138/agencia-tinta/portfolio/cantina-canalla/fotos/13_ifnvt6.jpg",
+          "imageAlt": "Costilla de carne"
+        }
+      ]
     }
   ],
   "related": [

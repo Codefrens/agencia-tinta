@@ -9,6 +9,8 @@ import TwoImage from "@/components/ui/TwoImage";
 import VideoComponent from "@/components/ui/VideoComponent/VideoComponent";
 import Related from "@/components/PortfolioDetailPage/Related";
 import Cta from "@/components/Cta";
+import ImagesInRow from "@/components/ui/ImagesInRow";
+import UniqueReel from "@/components/ui/UniqueReel";
 
 export default async function PortfolioDetailPage({
   params,
@@ -63,12 +65,24 @@ export default async function PortfolioDetailPage({
             );
           case "twoImages":
             return <TwoImage key={index} images={section.images} />;
+          case "imagesInRow":
+            return <ImagesInRow key={index} images={section.images} />;
+          case "uniqueReel":
+            return (
+              <UniqueReel
+                key={index}
+                videoSrc={section.videoUrl}
+                backText={section.backText}
+                posterSrc={section.posterSrc}
+                videoAlt={section.videoAlt}
+              />
+            );
           case "video":
             return (
               <VideoComponent
                 key={index}
                 posterSrc={section.posterSrc}
-                videoSrc={section.videoSrc}
+                videoSrc={section.videoUrl}
                 videoAlt={section.videoAlt}
               />
             );
@@ -76,7 +90,9 @@ export default async function PortfolioDetailPage({
             return null;
         }
       })}
-      <Cta translations={common.cta} />
+      <div style={{ marginTop: "100px" }}>
+        <Cta translations={common.cta} />
+      </div>
       <Related related={content.related} />
     </main>
   );
