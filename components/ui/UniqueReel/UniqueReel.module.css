@@ -1,8 +1,10 @@
 .unique-reel {
   display: flex;
   justify-content: center;
+  gap: pxToRem(16);
   position: relative;
   margin: 30px auto;
+  padding: 0 16px;
 }
 
 .video-container {
@@ -41,6 +43,7 @@
 @mixin mediaMin768 {
   .unique-reel {
     margin: 100px auto;
+    gap: pxToRem(60);
   }
   .back-text {
     font-size: pxToRem(200);

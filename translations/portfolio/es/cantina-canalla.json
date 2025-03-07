@@ -38,6 +38,12 @@
       ]
     },
     {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
+      "videoAlt": "Video de ejemplo",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
+    },
+    {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/11_ks2yjh.jpg",
       "imageAlt": "Plato de tacos",
@@ -50,6 +56,26 @@
       "backText": "Cantina Canalla",
       "videoAlt": "Reel Cantina Canalla",
       "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/15_fuw3zx.jpg",
+          "imageAlt": "Postre"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/7_nhgmpi.jpg",
+          "imageAlt": "Mujer joven tomando margarita"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/4_to9nxc.jpg",
+      "imageAlt": "Mesa servida con varios tacos y una margarita",
+      "centered": true,
+      "aspectRatio": "12/8"
     },
     {
       "type": "imagesInRow",
@@ -69,25 +95,6 @@
       ]
     },
     {
-      "type": "video",
-      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
-      "videoAlt": "Video de ejemplo",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
-    },
-    {
-      "type": "twoImages",
-      "images": [
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/15_fuw3zx.jpg",
-          "imageAlt": "Postre"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/7_nhgmpi.jpg",
-          "imageAlt": "Mujer joven tomando margarita"
-        }
-      ]
-    },
-    {
       "type": "twoImages",
       "images": [
         {
@@ -100,13 +107,7 @@
         }
       ]
     },
-    {
-      "type": "oneImage",
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/4_to9nxc.jpg",
-      "imageAlt": "Mesa servida con varios tacos y una margarita",
-      "centered": true,
-      "aspectRatio": "12/8"
-    },
+
     {
       "type": "imagesInRow",
       "images": [

@@ -41,12 +41,12 @@ const Footer = () => {
             <Location
               country="España"
               city="Madrid"
-              address="Calle de la Palma, 1, 28010 Madrid"
+              address="Plaza de la Merced 16, P1 Izquierda 29012, Málaga"
             />
             <Location
               country="Argentina"
               city="Buenos Aires"
-              address="Falta direccion"
+              address="Santos Dumont 2719 1426, CABA"
             />
           </div>
           <div className={styles.socialLinks}>

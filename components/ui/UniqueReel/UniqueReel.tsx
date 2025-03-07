@@ -50,6 +50,13 @@ const UniqueReel = ({
           videoAlt={videoAlt}
         />
       </div>
+      <div className={styles.videoContainer}>
+        <ReelVideo
+          videoSrc={videoSrc}
+          posterSrc={posterSrc}
+          videoAlt={videoAlt}
+        />
+      </div>
     </div>
   );
 };
