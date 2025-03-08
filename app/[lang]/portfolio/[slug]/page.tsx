@@ -71,10 +71,8 @@ export default async function PortfolioDetailPage({
             return (
               <UniqueReel
                 key={index}
-                videoSrc={section.videoUrl}
                 backText={section.backText}
-                posterSrc={section.posterSrc}
-                videoAlt={section.videoAlt}
+                videos={section.videos}
               />
             );
           case "video":

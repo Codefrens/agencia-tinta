@@ -27,7 +27,7 @@
     grid-template-columns: 1fr 1fr;
     gap: pxToRem(24);
     max-width: 1600px;
-    margin: 24px auto;
+    margin: 48px auto;
   }
 
   .image-container {

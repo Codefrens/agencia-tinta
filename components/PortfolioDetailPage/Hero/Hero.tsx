@@ -1,7 +1,10 @@
+"use client";
 import Container from "@/components/ui/Container";
 import React from "react";
 import styles from "./Hero.module.css";
 import Image from "next/image";
+import AnimatedTitle from "@/components/ui/AnimatedTitle";
+import { motion } from "motion/react";
 
 const Hero = ({
   title,
@@ -30,10 +33,24 @@ const Hero = ({
     <section className={styles.hero}>
       <Container className={styles.content}>
         <span className={styles.year}>{year}</span>
-        <h1 className={styles.title}>{title}</h1>
-        <p className={styles.subtitle}>{subtitle}</p>
+        <h1 className={styles.title}>
+          <AnimatedTitle title={title} />
+        </h1>
+        <motion.p
+          initial={{ y: 40, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: [0.26, 0.01, 0.06, 0.94] }}
+          className={styles.subtitle}
+        >
+          {subtitle}
+        </motion.p>
       </Container>
-      <div className={styles.imageWrapper}>
+      <motion.div
+        className={styles.imageWrapper}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2, ease: [0.26, 0.01, 0.06, 0.94] }}
+      >
         <div className={styles.imageContainer}>
           <Image
             src={imageUrl}
@@ -43,7 +60,7 @@ const Hero = ({
             height={500}
           />
         </div>
-      </div>
+      </motion.div>
 
       <div className={styles.info}>
         <div className={styles.infoItems}>

@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Remax Coast",
+    "subtitle": "Falta Descripcion",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465695/agencia-tinta/portfolio/remax/fotos/2_pnq2n6.jpg",
+    "imageAlt": "Remax Coast",
+    "sector": "Inmobiliario",
+    "categories": ["Fotografía", "Video"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Dirección de arte",
+      "description": "Falta descripcion"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465704/agencia-tinta/portfolio/remax/fotos/4_phdwbt.jpg",
+          "imageAlt": "Foto del local"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465706/agencia-tinta/portfolio/remax/fotos/7_vd1jtc.jpg",
+          "imageAlt": "Mujer empleada de Remax"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465706/agencia-tinta/portfolio/remax/fotos/9_lspjat.jpg",
+          "imageAlt": "Mujer empleada de Remax"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Remax Coast",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
+          "videoAlt": "Reel Remax Coast",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741465998/agencia-tinta/portfolio/remax/videos/03_Reel_Remax_mariav1_wemebm.mp4",
+          "videoAlt": "Reel Remax Coast",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1741465998/agencia-tinta/portfolio/remax/videos/03_Reel_Remax_mariav1_wemebm.jpg"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465703/agencia-tinta/portfolio/remax/fotos/5_rzuybt.jpg",
+          "imageAlt": "Mujer escribiendo en un escritorio"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
+          "imageAlt": "Cartel de Remax Coast"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465700/agencia-tinta/portfolio/remax/fotos/11_hy7ege.jpg",
+          "imageAlt": "Mujer joven empleada de Remax"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465694/agencia-tinta/portfolio/remax/fotos/1_ql4l3e.jpg",
+          "imageAlt": "Equipo de Remax Coast"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465699/agencia-tinta/portfolio/remax/fotos/10_pcc93j.jpg",
+          "imageAlt": "Plato de tacos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465698/agencia-tinta/portfolio/remax/fotos/3_w5puxv.jpg",
+          "imageAlt": "Mujer joven sonriendo en oficina de Remax Coast"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465696/agencia-tinta/portfolio/remax/fotos/8_oqmkwu.jpg",
+          "imageAlt": "Oficina de Remax Coast"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Remax Coast",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741465996/agencia-tinta/portfolio/remax/videos/Reel_4_-_Silvia_am1got.mp4",
+          "videoAlt": "Reel Remax Coast",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_3/v1741465996/agencia-tinta/portfolio/remax/videos/Reel_4_-_Silvia_am1got.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741465993/agencia-tinta/portfolio/remax/videos/Reel_2_-_red_flags_Capi_gqaorf.mp4",
+          "videoAlt": "Reel Remax Coast",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_3/v1741465993/agencia-tinta/portfolio/remax/videos/Reel_2_-_red_flags_Capi_gqaorf.jpg"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465695/agencia-tinta/portfolio/remax/fotos/2_pnq2n6.jpg",
+          "imageAlt": "Oficina de Remax Coast"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465695/agencia-tinta/portfolio/remax/fotos/6_folgdo.jpg",
+          "imageAlt": "Dos mujeres empleadas de Remax"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Malavida",
+      "categories": ["Fotografia", "Video"],
+      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageAlt": "Malavida",
+      "slug": "malavida"
+    },
+    {
+      "title": "Black Label",
+      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageAlt": "Black Label",
+      "slug": "black-label"
+    }
+  ]
+}

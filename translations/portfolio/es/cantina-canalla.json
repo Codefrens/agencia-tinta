@@ -52,10 +52,24 @@
     },
     {
       "type": "uniqueReel",
-      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201313/agencia-tinta/portfolio/cantina-canalla/videos/Reel_3_-_Ron_Ilustrador_dflfxs.mp4",
       "backText": "Cantina Canalla",
-      "videoAlt": "Reel Cantina Canalla",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201301/agencia-tinta/portfolio/cantina-canalla/videos/Reel_1_-_ASMR_pwpmrj.mp4",
+          "videoAlt": "Reel Cantina Canalla",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1741201301/agencia-tinta/portfolio/cantina-canalla/videos/Reel_1_-_ASMR_pwpmrj.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201315/agencia-tinta/portfolio/cantina-canalla/videos/Reel_2_-_Canalla_resumen2023_jyoxlo.mp4",
+          "videoAlt": "Reel Cantina Canalla",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_25/v1741201315/agencia-tinta/portfolio/cantina-canalla/videos/Reel_2_-_Canalla_resumen2023_jyoxlo.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201313/agencia-tinta/portfolio/cantina-canalla/videos/Reel_3_-_Ron_Ilustrador_dflfxs.mp4",
+          "videoAlt": "Reel Cantina Canalla",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1741201313/agencia-tinta/portfolio/cantina-canalla/videos/Reel_3_-_Ron_Ilustrador_dflfxs.jpg"
+        }
+      ]
     },
     {
       "type": "twoImages",

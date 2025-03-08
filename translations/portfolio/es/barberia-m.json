@@ -23,20 +23,43 @@
       "type": "paragraph",
       "title": "Resultado",
       "description": "La nueva identidad visual y estrategia de comunicación consolidaron a Barbería M como un referente en el cuidado masculino premium. A diferencia de la mayoría de las barberías en Málaga, que han dejado de lado las técnicas y valores de la estética clásica, Barbería M mantiene vivo este legado, posicionándose sin competencia real a su altura. Su ubicación en La Malagueta, un barrio exclusivo y emblemático de la ciudad, refuerza su identidad: una reinvención de lo tradicional para convertirse en un nuevo clásico. Se logró una coherencia total en redes, materiales gráficos y experiencia en el local, fortaleciendo el posicionamiento de la marca. El impacto se tradujo en un aumento en la interacción digital, mayor captación y fidelización y una mejora en la percepción de marca."
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Barbería M",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741467317/agencia-tinta/portfolio/barberia-m/videos/Reel_3_-_Welcome_to_Barberi%CC%81a_M_odufjv.mp4",
+          "videoAlt": "Reel Barbería M",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_3/v1741467317/agencia-tinta/portfolio/barberia-m/videos/Reel_3_-_Welcome_to_Barberi%CC%81a_M_odufjv.webp"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741467316/agencia-tinta/portfolio/barberia-m/videos/Reel_2_-_El_corte_Navaja_ocehqj.mp4",
+          "videoAlt": "Reel Barbería M",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_3/v1741467316/agencia-tinta/portfolio/barberia-m/videos/Reel_2_-_El_corte_Navaja_ocehqj.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741467313/agencia-tinta/portfolio/barberia-m/videos/Reel_1_-_Presentacio%CC%81n_de_local_y_barberos_bp4lui.mp4",
+          "videoAlt": "Reel Barbería M",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_3/v1741467313/agencia-tinta/portfolio/barberia-m/videos/Reel_1_-_Presentacio%CC%81n_de_local_y_barberos_bp4lui.jpg"
+        }
+      ]
     }
   ],
   "related": [
     {
       "title": "Cantina Canalla",
       "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "ImageAlt": "Cantina Canalla"
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/2_vlzois.jpg",
+      "imageAlt": "Cantina Canalla",
+      "slug": "cantina-canalla"
     },
     {
-      "title": "Black Label",
+      "title": "Smash",
       "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "ImageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "ImageAlt": "Black Label"
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
+      "imageAlt": "Smash",
+      "slug": "smash-burger"
     }
   ]
 }

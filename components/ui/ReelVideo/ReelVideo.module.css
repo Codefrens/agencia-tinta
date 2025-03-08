@@ -2,6 +2,8 @@
   position: relative;
   width: 100%;
   aspect-ratio: 9/16;
+  z-index: 0;
+  cursor: none;
 }
 
 .poster {
@@ -14,10 +16,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  cursor: none;
   z-index: 1;
 }
 
 .hide-poster {
   display: none;
+}
+
+.play-button-mobile {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.play-button {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
 }

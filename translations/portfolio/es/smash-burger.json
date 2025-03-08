@@ -23,6 +23,95 @@
       "type": "paragraph",
       "title": "Resultado",
       "description": "SMASH se ha consolidado como la referencia en smash burgers premium en Málaga, logrando una identidad clara y diferenciada en el mercado. La marca ha ganado notoriedad en poco tiempo, atrayendo a un público fiel que valora la combinación de sabor, rapidez y experiencia visualmente atractiva. Su posicionamiento en el centro de Málaga lo convierte en un destino ideal para turistas y locales, consolidando su reputación dentro del universo Black Label."
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201641/agencia-tinta/portfolio/smash/fotos/10_zvcs5p.jpg",
+          "imageAlt": "Hamburguesa con bacon y pull pork"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201643/agencia-tinta/portfolio/smash/fotos/8_blqqqj.jpg",
+          "imageAlt": "Cartel Smash Burger"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Smash Burger",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201730/agencia-tinta/portfolio/smash/videos/Reel_4_vwztky.mp4",
+          "videoAlt": "Reel Smash Burger",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_5/v1741201730/agencia-tinta/portfolio/smash/videos/Reel_4_vwztky.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201732/agencia-tinta/portfolio/smash/videos/Reel_1_tcy9ch.mp4",
+          "videoAlt": "Reel Smash Burger",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_5/v1741201732/agencia-tinta/portfolio/smash/videos/Reel_1_tcy9ch.jpg"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
+      "imageAlt": "Smash burger clasica",
+      "centered": true,
+      "aspectRatio": "12/8"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201644/agencia-tinta/portfolio/smash/fotos/1_hdikda.jpg",
+          "imageAlt": "Chicken fingers"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201644/agencia-tinta/portfolio/smash/fotos/3_fytdo9.jpg",
+          "imageAlt": "Cajas de smash burger"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/5_go0bpm.jpg",
+          "imageAlt": "Hamburgesas cocinandose con queso de cabra"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201640/agencia-tinta/portfolio/smash/fotos/6_dfcbgc.jpg",
+      "imageAlt": "Doble cheeseburger",
+      "centered": true,
+      "aspectRatio": "12/8"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201639/agencia-tinta/portfolio/smash/fotos/7_rirxfu.jpg",
+          "imageAlt": "Alitas de pollo"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201640/agencia-tinta/portfolio/smash/fotos/9_jkvrnw.jpg",
+          "imageAlt": "Cerveza La Victoria"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Smash Burger",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201733/agencia-tinta/portfolio/smash/videos/Reel_2_zpbnjq.mp4",
+          "videoAlt": "Reel Smash Burger",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1741201733/agencia-tinta/portfolio/smash/videos/Reel_2_zpbnjq.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201730/agencia-tinta/portfolio/smash/videos/Reel_3_v2nkb1.mp4",
+          "videoAlt": "Reel Smash Burger",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1741201730/agencia-tinta/portfolio/smash/videos/Reel_3_v2nkb1.jpg"
+        }
+      ]
     }
   ],
   "related": [

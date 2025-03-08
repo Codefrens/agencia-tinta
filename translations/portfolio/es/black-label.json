@@ -3,7 +3,7 @@
     "year": "2024",
     "title": "Black Label",
     "subtitle": "El street food americano elevado al máximo nivel. Hamburguesas y carnes al carbón, ingredientes premium y una atmósfera rebelde que redefine la experiencia gastronómica.",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464942/agencia-tinta/portfolio/black-label/fotos/5_c2rgtb.jpg",
     "imageAlt": "Black Label",
     "sector": "Gastronomía",
     "categories": ["Identidad Visual", "Fotografía", "Video"]
@@ -25,50 +25,100 @@
       "description": "La marca evolucionó hacia una identidad más premium y diferenciada, consolidándose como un referente en hamburguesas gourmet con un carácter auténtico y evocador. Se logró una coherencia visual total en redes, packaging, interiorismo y experiencia de cliente, fortaleciendo su posicionamiento. El engagement en Instagram creció significativamente, se incrementaron las reservas y Black Label se consolidó como un destino gastronómico de referencia, transportando a sus clientes a la esencia más icónica del street food neoyorquino-texano."
     },
     {
-      "type": "oneImage",
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageAlt": "Cantina Canalla"
-    },
-    {
       "type": "twoImages",
       "images": [
         {
-          "imageUrl": "https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "imageAlt": "Cantina Canalla"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464948/agencia-tinta/portfolio/black-label/fotos/10_tdlgz7.jpg",
+          "imageAlt": "Hamburguesa deliciosa"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "imageAlt": "Black Label"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464946/agencia-tinta/portfolio/black-label/fotos/9_ojezxy.jpg",
+          "imageAlt": "Patatas con bacon y queso"
         }
       ]
     },
     {
       "type": "oneImage",
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageAlt": "Cantina Canalla asdasd",
-      "centered": true
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464944/agencia-tinta/portfolio/black-label/fotos/2_v11hfk.jpg",
+      "imageAlt": "Patatas con salsa",
+      "centered": true,
+      "aspectRatio": "11/8"
     },
     {
-      "type": "video",
-      "videoUrl": "https://player.vimeo.com/video/882997319",
-      "videoAlt": "Video de ejemplo",
-      "posterSrc": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "type": "uniqueReel",
+      "backText": "Cantina Canalla",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201301/agencia-tinta/portfolio/cantina-canalla/videos/Reel_1_-_ASMR_pwpmrj.mp4",
+          "videoAlt": "Reel Cantina Canalla",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1741201301/agencia-tinta/portfolio/cantina-canalla/videos/Reel_1_-_ASMR_pwpmrj.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201315/agencia-tinta/portfolio/cantina-canalla/videos/Reel_2_-_Canalla_resumen2023_jyoxlo.mp4",
+          "videoAlt": "Reel Cantina Canalla",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_25/v1741201315/agencia-tinta/portfolio/cantina-canalla/videos/Reel_2_-_Canalla_resumen2023_jyoxlo.jpg"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464945/agencia-tinta/portfolio/black-label/fotos/6_c8tydw.jpg",
+          "imageAlt": "Hamburgesa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464945/agencia-tinta/portfolio/black-label/fotos/3_tkjnki.jpg",
+          "imageAlt": "Ribs de cerdo a la barbacoa"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464941/agencia-tinta/portfolio/black-label/fotos/8_r3gmcv.jpg",
+      "imageAlt": "Mesa con comida",
+      "centered": true,
+      "aspectRatio": "11/8"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464940/agencia-tinta/portfolio/black-label/fotos/11_lzkjye.jpg",
+          "imageAlt": "Imagen del local"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464939/agencia-tinta/portfolio/black-label/fotos/7_w6jwji.jpg",
+          "imageAlt": "Deliciosa hamburguesa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464938/agencia-tinta/portfolio/black-label/fotos/1_p9dapl.jpg",
+          "imageAlt": "Hamburguesa doble clasica"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464938/agencia-tinta/portfolio/black-label/fotos/4_k7bs92.jpg",
+      "imageAlt": "Aros de Cebolla",
+      "centered": true,
+      "aspectRatio": "11/8"
     }
   ],
   "related": [
     {
       "title": "Cantina Canalla",
       "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/2_vlzois.jpg",
       "imageAlt": "Cantina Canalla",
       "slug": "cantina-canalla"
     },
     {
-      "title": "Black Label",
+      "title": "Smash",
       "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageAlt": "Black Label",
-      "slug": "Black Label"
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
+      "imageAlt": "Smash",
+      "slug": "smash-burger"
     }
   ]
 }

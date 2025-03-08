@@ -5,15 +5,15 @@ import styles from "./UniqueReel.module.css";
 import { motion, useScroll, useTransform } from "motion/react";
 
 const UniqueReel = ({
-  videoSrc,
   backText,
-  posterSrc,
-  videoAlt,
+  videos,
 }: {
-  videoSrc: string;
+  videos: {
+    videoUrl: string;
+    videoAlt: string;
+    posterSrc: string;
+  }[];
   backText?: string;
-  videoAlt: string;
-  posterSrc: string;
 }) => {
   const text = backText
     ? [backText.split(" ").join(" "), backText.split(" ").join(" ")]
@@ -43,20 +43,15 @@ const UniqueReel = ({
           ))}
         </div>
       )}
-      <div className={styles.videoContainer}>
-        <ReelVideo
-          videoSrc={videoSrc}
-          posterSrc={posterSrc}
-          videoAlt={videoAlt}
-        />
-      </div>
-      <div className={styles.videoContainer}>
-        <ReelVideo
-          videoSrc={videoSrc}
-          posterSrc={posterSrc}
-          videoAlt={videoAlt}
-        />
-      </div>
+      {videos.map((video, index) => (
+        <div className={styles.videoContainer} key={index}>
+          <ReelVideo
+            videoUrl={video.videoUrl}
+            posterSrc={video.posterSrc}
+            videoAlt={video.videoAlt}
+          />
+        </div>
+      ))}
     </div>
   );
 };

@@ -1,7 +1,9 @@
 .unique-reel {
   display: flex;
   justify-content: center;
-  gap: pxToRem(16);
+  align-items: center;
+  flex-direction: column;
+  gap: pxToRem(24);
   position: relative;
   margin: 30px auto;
   padding: 0 16px;
@@ -37,14 +39,13 @@
   line-height: 0.9;
 }
 
-.text {
-}
-
 @mixin mediaMin768 {
   .unique-reel {
     margin: 100px auto;
     gap: pxToRem(60);
+    flex-direction: row;
   }
+
   .back-text {
     font-size: pxToRem(200);
   }

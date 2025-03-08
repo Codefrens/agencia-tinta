@@ -12,7 +12,7 @@
   align-items: center;
   text-align: center;
   gap: pxToRem(12);
-  margin: 30px auto 60px;
+  margin: 30px auto 0px;
 }
 
 .year {
