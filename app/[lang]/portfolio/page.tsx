@@ -3,6 +3,17 @@ import { getTranslations } from "../translations";
 import Hero from "@/components/PortfolioPage/Hero";
 import PortfolioGrid from "@/components/PortfolioPage/PortfolioGrid";
 import Blob from "@/components/ui/Blob";
+import { Metadata } from "next";
+import { SEO_METADATA } from "@/utils/SEOmetadata";
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: { lang: "en" | "es" };
+}): Promise<Metadata> => {
+  const lang = (await params).lang;
+  return SEO_METADATA["portfolioPage"][lang];
+};
 
 const PortfolioPage = async ({
   params,
