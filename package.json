@@ -11,6 +11,9 @@
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.6.0",
     "@phosphor-icons/react": "^2.1.7",
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.1.0",
+    "@types/three": "^0.174.0",
     "classnames": "^2.5.1",
     "hamburger-react": "^2.5.2",
     "lenis": "^1.1.22",
@@ -24,7 +27,8 @@
     "postcss-nested": "^7.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "resend": "^4.1.2"
+    "resend": "^4.1.2",
+    "three": "^0.174.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

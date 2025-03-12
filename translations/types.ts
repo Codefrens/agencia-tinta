@@ -89,4 +89,12 @@ export type Translations = {
       requiredError: string;
     };
   };
+  foodarPage: {
+    hero: {
+      name: string;
+      title: string;
+      subtitle: string;
+      buttonLabel: string;
+    };
+  };
 };

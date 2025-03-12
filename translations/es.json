@@ -14,7 +14,7 @@
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/2_vlzois.jpg",
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
         "ImageAlt": "Imagen de comida de Cantina Canalla",
         "slug": "cantina-canalla"
       },
@@ -28,7 +28,7 @@
       {
         "title": "Remax Coast",
         "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465698/agencia-tinta/portfolio/remax/fotos/3_w5puxv.jpg",
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
         "ImageAlt": "",
         "slug": "remax-coast"
       },
@@ -63,7 +63,7 @@
       {
         "title": "Smash",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
         "ImageAlt": "",
         "slug": "smash-burger"
       },
@@ -193,6 +193,14 @@
       "successMessage": "Gracias por tu mensaje. Te responderemos lo antes posible.",
       "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
       "requiredError": "Este campo es obligatorio"
+    }
+  },
+  "foodarPage": {
+    "hero": {
+      "name": "Foodar",
+      "title": "Transforma tu carta con realidad aumentada",
+      "subtitle": "El futuro de los menús ya está aquí. Muestra tus platos como nunca antes",
+      "buttonLabel": "Agenda una demo"
     }
   }
 }

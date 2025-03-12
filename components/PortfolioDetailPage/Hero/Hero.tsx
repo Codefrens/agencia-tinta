@@ -56,7 +56,7 @@ const Hero = ({
             src={imageUrl}
             alt={imageAlt}
             className={styles.image}
-            width={900}
+            width={1440}
             height={500}
           />
         </div>
