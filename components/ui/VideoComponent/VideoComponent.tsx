@@ -4,6 +4,7 @@ import styles from "./VideoComponent.module.css";
 import Image from "next/image";
 import Container from "../Container";
 import VideoButton from "../VideoButton";
+import { X } from "@phosphor-icons/react";
 
 const VideoComponent = ({
   videoSrc,
@@ -53,7 +54,7 @@ const VideoComponent = ({
               className={styles.closeButton}
               onClick={() => setIsOpen(false)}
             >
-              ✖
+              <X size={32} />
             </button>
           </div>
         </div>

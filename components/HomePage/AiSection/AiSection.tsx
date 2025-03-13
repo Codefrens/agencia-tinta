@@ -37,8 +37,8 @@ const AiSection = ({
       </Container>
       <motion.div style={{ scale }}>
         <VideoComponent
-          videoSrc="https://player.vimeo.com/video/882997319"
-          posterSrc="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          videoSrc="https://res.cloudinary.com/nicojoystin/video/upload/v1741895409/agencia-tinta/home/Video_IA_v1_itz1na.mp4"
+          posterSrc="https://res.cloudinary.com/nicojoystin/image/upload/v1741895408/agencia-tinta/home/portada_hjv16q.png"
           videoLabelButton={translations.buttonLabel}
         />
       </motion.div>

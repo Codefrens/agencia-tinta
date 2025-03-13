@@ -19,7 +19,7 @@
   display: flex;
   gap: 14px;
   animation: scroll 40s linear infinite;
-  width: calc(130px * 6 + 14px * 6); /* Se ajusta al número de logos */
+  width: calc(130px * 8 + 14px * 8); /* Se ajusta al número de logos */
 }
 
 .clientCard {
@@ -40,7 +40,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-130px * 6 - 14px * 6)); /* Desplaza la mitad */
+    transform: translateX(calc(-130px * 8 - 14px * 8)); /* Desplaza la mitad */
   }
 }
 
@@ -51,7 +51,7 @@
 
   .sliderTrack {
     gap: 24px;
-    width: calc(230px * 12 + 24px * 12); /* Se ajusta al número de logos */
+    width: calc(230px * 8 + 24px * 8); /* Se ajusta al número de logos */
   }
 
   .clientCard {
@@ -65,7 +65,7 @@
     }
     to {
       transform: translateX(
-        calc(-230px * 6 - 24px * 6)
+        calc(-230px * 8 - 24px * 8)
       ); /* Desplaza la mitad */
     }
   }
