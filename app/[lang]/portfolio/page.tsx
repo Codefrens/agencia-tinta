@@ -9,7 +9,7 @@ import { SEO_METADATA } from "@/utils/SEOmetadata";
 export const generateMetadata = async ({
   params,
 }: {
-  params: { lang: "en" | "es" };
+  params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
   return SEO_METADATA["portfolioPage"][lang];
