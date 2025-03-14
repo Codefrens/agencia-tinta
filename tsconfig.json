@@ -12,6 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "jsxImportSource": "react",
     "incremental": true,
     "noImplicitAny": false,
     "plugins": [
@@ -29,7 +30,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "global.d.ts"
+    "globals.d.ts"
   ],
   "exclude": ["node_modules"]
 }
