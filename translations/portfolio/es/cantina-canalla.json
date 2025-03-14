@@ -72,6 +72,13 @@
       ]
     },
     {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741970715/agencia-tinta/portfolio/cantina-canalla/fotos/Banner_1_yybzyd.jpg",
+      "imageAlt": "Identidad grafica Cantina Canalla",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
+    {
       "type": "twoImages",
       "images": [
         {
@@ -121,7 +128,13 @@
         }
       ]
     },
-
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741970716/agencia-tinta/portfolio/cantina-canalla/fotos/Banner_2_eloo4o.jpg",
+      "imageAlt": "Identidad grafica Cantina Canalla 2",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
     {
       "type": "imagesInRow",
       "images": [

@@ -8,10 +8,13 @@ const ModelViewer = (props: {
   src: string;
   alt?: string;
   ar?: boolean;
+  arModes?: string;
   poster?: string;
   shadowIntensity?: string | number;
   cameraControls?: boolean;
+  toneMapping?: string;
   touchAction?: string;
+  autoRotate?: boolean;
   style?: React.CSSProperties;
 }) => {
   // Solo renderizar en el cliente para evitar errores de hidratación
@@ -30,10 +33,13 @@ const ModelViewer = (props: {
     src: props.src,
     alt: props.alt || "",
     ar: props.ar ? "" : undefined,
+    "ar-modes": props.arModes || "",
     poster: props.poster || "",
     "shadow-intensity": props.shadowIntensity?.toString() || "1",
     "camera-controls": props.cameraControls ? "" : undefined,
+    "tone-mapping": props.toneMapping || "",
     "touch-action": props.touchAction || "pan-y",
+    "auto-rotate": props.autoRotate ? "" : undefined,
     style: props.style || {
       width: "100%",
       height: "100vh",
@@ -66,6 +72,7 @@ const ModeloPage = () => {
         shadowIntensity={1}
         cameraControls
         touchAction="pan-y"
+        autoRotate
       />
     </div>
   );

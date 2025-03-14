@@ -96,5 +96,18 @@ export type Translations = {
       subtitle: string;
       buttonLabel: string;
     };
+    howItWorks: {
+      title: string;
+      cards: {
+        id: string;
+        title: string;
+        imageUrl: string;
+        imageAlt: string;
+      }[];
+    };
+    benefits: {
+      title: string;
+      description: string;
+    }[];
   };
 };

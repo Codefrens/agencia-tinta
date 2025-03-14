@@ -1,12 +1,9 @@
-.wrapper {
-  padding-top: 130px;
-}
-
 .contact {
   display: grid;
   grid-template-columns: 1fr;
   gap: 72px;
   margin: 70px 0;
+  padding-top: 130px;
 }
 
 .content {

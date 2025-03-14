@@ -1,5 +1,4 @@
 import Container from "@/components/ui/Container";
-import React from "react";
 import { getTranslations } from "../translations";
 import styles from "./contactPage.module.css";
 import Form from "@/components/Form";
@@ -14,7 +13,7 @@ const ContactPage = async ({
   const { contactPage } = await getTranslations(lang);
   return (
     <main>
-      <Container className={styles.wrapper}>
+      <Container>
         <section className={styles.contact}>
           <div className={styles.content}>
             <h1>{contactPage.title}</h1>
@@ -24,7 +23,7 @@ const ContactPage = async ({
           <div className={styles.imageContainer}>
             <Image
               src={
-                "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif"
+                "https://res.cloudinary.com/nicojoystin/image/upload/v1741971288/agencia-tinta/Contacto_k6i95w.png"
               }
               alt={""}
               className={styles.image}

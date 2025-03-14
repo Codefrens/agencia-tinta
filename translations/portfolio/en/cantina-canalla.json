@@ -3,7 +3,7 @@
     "year": "2024",
     "title": "Cantina Canalla",
     "subtitle": "Autenticidad mexicana con un giro sofisticado. Alta cocina, arte urbano y un ambiente vibrante que transforman cada comida en una experiencia sensorial única.",
-    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/10_ttrmdc.jpg",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741709460/agencia-tinta/portfolio/cantina-canalla/fotos/cantina-banner_kmj7zg.jpg",
     "imageAlt": "Cantina Canalla",
     "sector": "Gastronomía",
     "categories": ["Identidad Visual", "Fotografía", "Video"]
@@ -72,6 +72,13 @@
       ]
     },
     {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741970715/agencia-tinta/portfolio/cantina-canalla/fotos/Banner_1_yybzyd.jpg",
+      "imageAlt": "Identidad grafica Cantina Canalla",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
+    {
       "type": "twoImages",
       "images": [
         {
@@ -121,7 +128,13 @@
         }
       ]
     },
-
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741970716/agencia-tinta/portfolio/cantina-canalla/fotos/Banner_2_eloo4o.jpg",
+      "imageAlt": "Identidad grafica Cantina Canalla 2",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
     {
       "type": "imagesInRow",
       "images": [

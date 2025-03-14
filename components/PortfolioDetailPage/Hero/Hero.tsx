@@ -32,7 +32,14 @@ const Hero = ({
   return (
     <section className={styles.hero}>
       <Container className={styles.content}>
-        <span className={styles.year}>{year}</span>
+        <motion.span
+          initial={{ y: 40, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: [0.26, 0.01, 0.06, 0.94] }}
+          className={styles.year}
+        >
+          {year}
+        </motion.span>
         <h1 className={styles.title}>
           <AnimatedTitle title={title} />
         </h1>

@@ -3,7 +3,7 @@
     "year": "2024",
     "title": "Smash Burger",
     "subtitle": "La esencia de la smash burger: rápida, intensa y sin rodeos. Fast food premium con ingredientes de primera, pensado para quienes buscan sabor sin esperar.",
-    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201640/agencia-tinta/portfolio/smash/fotos/11_h8x7fm.jpg",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710135/agencia-tinta/portfolio/smash/fotos/banner_erwcue.jpg",
     "imageAlt": "Imagen de local de Smash Burger",
     "sector": "Gastronomía",
     "categories": ["Identidad Visual", "Fotografía", "Video"]
@@ -98,6 +98,13 @@
       ]
     },
     {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710027/agencia-tinta/portfolio/smash/fotos/feed_final_1_lyxx64.png",
+      "imageAlt": "Identidad grafica Smash Burger",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
+    {
       "type": "uniqueReel",
       "backText": "Smash Burger",
       "videos": [
@@ -112,6 +119,13 @@
           "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1741201730/agencia-tinta/portfolio/smash/videos/Reel_3_v2nkb1.jpg"
         }
       ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710027/agencia-tinta/portfolio/smash/fotos/feed_final_2_sojeng.png",
+      "imageAlt": "Identidad grafica Smash Burger 2",
+      "centered": true,
+      "aspectRatio": "16/9"
     }
   ],
   "related": [

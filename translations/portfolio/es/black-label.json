@@ -61,6 +61,13 @@
       ]
     },
     {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741971008/agencia-tinta/portfolio/black-label/fotos/Banner_1_ajv05z.jpg",
+      "imageAlt": "Identidad grafica Black Label",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
+    {
       "type": "twoImages",
       "images": [
         {
@@ -72,6 +79,13 @@
           "imageAlt": "Ribs de cerdo a la barbacoa"
         }
       ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741971007/agencia-tinta/portfolio/black-label/fotos/Banner_2_jbxwwa.jpg",
+      "imageAlt": "Identidad grafica Black Label 2",
+      "aspectRatio": "16/9",
+      "centered": true
     },
     {
       "type": "oneImage",

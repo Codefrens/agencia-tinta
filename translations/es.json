@@ -33,6 +33,13 @@
         "slug": "remax-coast"
       },
       {
+        "title": "Smash",
+        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
+        "ImageAlt": "",
+        "slug": "smash-burger"
+      },
+      {
         "title": "Malavida",
         "categories": ["Fotografía", "Video"],
         "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
@@ -59,13 +66,6 @@
         "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
         "ImageAlt": "",
         "slug": "agape"
-      },
-      {
-        "title": "Smash",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
-        "ImageAlt": "",
-        "slug": "smash-burger"
       },
       {
         "title": "Grupo Amigos",
@@ -201,6 +201,56 @@
       "title": "Transforma tu carta con realidad aumentada",
       "subtitle": "El futuro de los menús ya está aquí. Muestra tus platos como nunca antes",
       "buttonLabel": "Agenda una demo"
+    },
+    "howItWorks": {
+      "title": "Como funciona",
+      "cards": [
+        {
+          "id": "1",
+          "title": "Escanea un código QR en la mesa",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
+          "imageAlt": "Realidad aumentada"
+        },
+        {
+          "id": "2",
+          "title": "Explora los platos en 3D desde cualquier ángulo",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
+          "imageAlt": "Realidad aumentada"
+        },
+        {
+          "id": "3",
+          "title": "Elige tu plato con una experiencia más realista",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
+          "imageAlt": "Realidad aumentada"
+        },
+        {
+          "id": "4",
+          "title": "Pide con confianza y disfruta",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
+          "imageAlt": "Realidad aumentada"
+        }
+      ]
+    },
+    "benefits": [
+      {
+        "title": "Experiencias unicas",
+        "description": "Atrae más clientes con una experiencia única"
+      },
+      {
+        "title": "Optimiza tus pedidos",
+        "description": "Reduce la indecisión y acelera pedidos"
+      },
+      {
+        "title": "Un menú cool",
+        "description": "Mejora la presentación y percepción del menú"
+      },
+      {
+        "title": "Para todos",
+        "description": "Compatible con cualquier dispositivo móvil"
+      }
+    ],
+    "contactForm": {
+      "title": "¿Quieres una demo?"
     }
   }
 }
