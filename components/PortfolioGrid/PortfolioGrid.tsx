@@ -35,8 +35,8 @@ const PortfolioGrid = ({
         {translations.portfolioGrid.slice(0, 4).map((port) => (
           <motion.div key={port.title}>
             <Card
-              imgAlt={port.ImageAlt}
-              imgSrc={port.ImageUrl}
+              imgAlt={port.imageAlt}
+              imgSrc={port.imageUrl}
               title={port.title}
               categories={port.categories}
               link={`/portfolio/${port.slug}`}

@@ -1,7 +1,7 @@
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: pxToRem(4);
+  gap: pxToRem(6);
   border: 1px solid var(--color-neutral-80);
   padding: 6px;
   border-radius: pxToRem(24);
@@ -12,7 +12,7 @@
   font-size: pxToRem(10);
   text-transform: uppercase;
   font-weight: var(--font-bold);
-  padding: pxToRem(3) pxToRem(15);
+  padding: pxToRem(3) pxToRem(8);
   white-space: nowrap;
 }
 

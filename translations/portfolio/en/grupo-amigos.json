@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Grupo Amigos",
+    "subtitle": "Autenticidad mexicana con un giro sofisticado. Alta cocina, arte urbano y un ambiente vibrante que transforman cada comida en una experiencia sensorial única.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036450/agencia-tinta/portfolio/grupo-amigos/banner_qe0yqu.jpg",
+    "imageAlt": "Cartel de grupo amigos",
+    "sector": "Gastronomía",
+    "categories": ["Video"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "Para el Grupo Amigos, desarrollamos un spot publicitario que resalta una propuesta gastronómica única: en la terraza Plaza Mayor, puedes disfrutar de la cocina italiana, india y mexicana en un mismo sitio. El video fue proyectado en las salas del cine y combinó una estética con planos atractivos de los platos, los espacios y la experiencia de los comensales. La estrategia visual reforzó la identidad de ambos restaurantes, aumentando su visibilidad y atrayendo a un público diverso que busca variedad sin moverse de lugar."
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
+      "videoAlt": "Video de ejemplo",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg"
+    }
+  ],
+  "related": [
+    {
+      "title": "Cantina Canalla",
+      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
+      "imageAlt": "Cantina Canalla",
+      "slug": "cantina-canalla"
+    },
+    {
+      "title": "Agape",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+      "imageAlt": "Agape",
+      "slug": "agape"
+    }
+  ]
+}

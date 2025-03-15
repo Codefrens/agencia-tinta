@@ -3,8 +3,8 @@ export type Categories = string[];
 type Porfolio = {
   title: string;
   categories: Categories;
-  ImageUrl: string;
-  ImageAlt: string;
+  imageUrl: string;
+  imageAlt: string;
   slug: string;
 };
 

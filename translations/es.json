@@ -14,64 +14,50 @@
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
-        "ImageAlt": "Imagen de comida de Cantina Canalla",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
+        "imageAlt": "Imagen de comida de Cantina Canalla",
         "slug": "cantina-canalla"
       },
       {
         "title": "Black Label",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464948/agencia-tinta/portfolio/black-label/fotos/10_tdlgz7.jpg",
-        "ImageAlt": "Black Label",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464948/agencia-tinta/portfolio/black-label/fotos/10_tdlgz7.jpg",
+        "imageAlt": "Black Label",
         "slug": "black-label"
       },
       {
         "title": "Remax Coast",
         "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
-        "ImageAlt": "",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
+        "imageAlt": "",
         "slug": "remax-coast"
       },
       {
         "title": "Smash",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
-        "ImageAlt": "",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
+        "imageAlt": "",
         "slug": "smash-burger"
       },
       {
         "title": "Malavida",
         "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+        "imageAlt": "",
         "slug": "malavida"
-      },
-      {
-        "title": "Bacardi",
-        "categories": ["Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "Malavida",
-        "slug": "bacardi"
-      },
-      {
-        "title": "Barbería M",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "",
-        "slug": "barberia-m"
       },
       {
         "title": "Agape",
         "categories": ["Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+        "imageAlt": "Agape",
         "slug": "agape"
       },
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
-        "ImageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/f_auto,q_auto/v1740596157/foodie_xv09ya.avif",
-        "ImageAlt": "",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
+        "imageAlt": "Grupo amigos",
         "slug": "grupo-amigos"
       }
     ],

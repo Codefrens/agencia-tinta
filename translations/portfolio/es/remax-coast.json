@@ -2,7 +2,7 @@
   "hero": {
     "year": "2024",
     "title": "Remax Coast",
-    "subtitle": "Falta Descripcion",
+    "subtitle": "Transforma la compra y venta de propiedades en una experiencia visualmente impactante. Fotografía, reels y contenido estratégico para atraer y conectar.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741712475/agencia-tinta/portfolio/remax/fotos/Banner_ja8hma.jpg",
     "imageAlt": "Remax Coast",
     "sector": "Inmobiliario",
@@ -11,8 +11,8 @@
   "sections": [
     {
       "type": "paragraph",
-      "title": "Dirección de arte",
-      "description": "Falta descripcion"
+      "title": "Resultado",
+      "description": "A través de fotografía profesional y contenido estratégico en redes, potenciamos su presencia digital, destacando la esencia de cada espacio y consolidando su posicionamiento en el sector. Nuestro enfoque ha aumentado la interacción, mejorado la percepción de marca y ampliado su alcance."
     },
     {
       "type": "imagesInRow",
@@ -118,22 +118,38 @@
           "imageAlt": "Dos mujeres empleadas de Remax"
         }
       ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Remax Coast",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032575/agencia-tinta/portfolio/remax/videos/Reel_5_-_Maria_Jose_z40x2t.mp4",
+          "videoAlt": "Reel Remax Coast",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1742032575/agencia-tinta/portfolio/remax/videos/Reel_5_-_Maria_Jose_z40x2t.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
+          "videoAlt": "Reel Remax Coast",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg"
+        }
+      ]
     }
   ],
   "related": [
     {
       "title": "Malavida",
-      "categories": ["Fotografia", "Video"],
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageAlt": "Malavida",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+      "imageAlt": "",
       "slug": "malavida"
     },
     {
-      "title": "Black Label",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageAlt": "Black Label",
-      "slug": "black-label"
+      "title": "Agape",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+      "imageAlt": "Agape",
+      "slug": "agape"
     }
   ]
 }

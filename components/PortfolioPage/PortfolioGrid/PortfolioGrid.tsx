@@ -38,8 +38,8 @@ const PortfolioGrid = ({
           <Card
             link={`/portfolio/${port.slug}`}
             key={port.title}
-            imgAlt={port.ImageAlt}
-            imgSrc={port.ImageUrl}
+            imgAlt={port.imageAlt}
+            imgSrc={port.imageUrl}
             title={port.title}
             categories={port.categories}
           />

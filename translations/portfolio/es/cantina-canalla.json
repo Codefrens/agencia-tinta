@@ -28,12 +28,12 @@
       "type": "twoImages",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201144/agencia-tinta/portfolio/cantina-canalla/fotos/2_vlzois.jpg",
-          "imageAlt": "Cantina Canalla"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034998/agencia-tinta/portfolio/cantina-canalla/fotos/1_bpcblm.jpg",
+          "imageAlt": "Copa de margarita"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/15_fuw3zx.jpg",
-          "imageAlt": "Black Label"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034995/agencia-tinta/portfolio/cantina-canalla/fotos/2_f9wf9a.png",
+          "imageAlt": "Rolls de pollo"
         }
       ]
     },
@@ -45,8 +45,8 @@
     },
     {
       "type": "oneImage",
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/11_ks2yjh.jpg",
-      "imageAlt": "Plato de tacos",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035019/agencia-tinta/portfolio/cantina-canalla/fotos/3_daowbq.jpg",
+      "imageAlt": "Dos platos de tacos",
       "centered": true,
       "aspectRatio": "12/8"
     },
@@ -82,19 +82,19 @@
       "type": "twoImages",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/15_fuw3zx.jpg",
-          "imageAlt": "Postre"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035029/agencia-tinta/portfolio/cantina-canalla/fotos/4_gzopuz.jpg",
+          "imageAlt": "Joven con cuadro de Frida Kalho"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201143/agencia-tinta/portfolio/cantina-canalla/fotos/7_nhgmpi.jpg",
-          "imageAlt": "Mujer joven tomando margarita"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035014/agencia-tinta/portfolio/cantina-canalla/fotos/5_lpvhsm.jpg",
+          "imageAlt": "Costilla de carne"
         }
       ]
     },
     {
       "type": "oneImage",
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/4_to9nxc.jpg",
-      "imageAlt": "Mesa servida con varios tacos y una margarita",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035016/agencia-tinta/portfolio/cantina-canalla/fotos/6_xaahkn.jpg",
+      "imageAlt": "Taco abierto sobre la mesa",
       "centered": true,
       "aspectRatio": "12/8"
     },
@@ -102,16 +102,16 @@
       "type": "imagesInRow",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201141/agencia-tinta/portfolio/cantina-canalla/fotos/8_p8g7t1.jpg",
-          "imageAlt": "Plato de tacos"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034989/agencia-tinta/portfolio/cantina-canalla/fotos/7_rw5asf.jpg",
+          "imageAlt": "Joven tomando una copa de margarita"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/3_p0yv8r.jpg",
-          "imageAlt": "Dos platos de tacos"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035023/agencia-tinta/portfolio/cantina-canalla/fotos/8_q0qje3.jpg",
+          "imageAlt": "Plato con tacos"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201140/agencia-tinta/portfolio/cantina-canalla/fotos/6_boefel.jpg",
-          "imageAlt": "Taco abierto sobre la mesa"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035004/agencia-tinta/portfolio/cantina-canalla/fotos/9_miz4co.jpg",
+          "imageAlt": "Copa de margarita"
         }
       ]
     },
@@ -119,12 +119,12 @@
       "type": "twoImages",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
-          "imageAlt": "Sirviendo margaritas"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035008/agencia-tinta/portfolio/cantina-canalla/fotos/10_y60qai.jpg",
+          "imageAlt": "Taco sobre la mesa"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201141/agencia-tinta/portfolio/cantina-canalla/fotos/1_eyhe8s.jpg",
-          "imageAlt": "Margarita"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035001/agencia-tinta/portfolio/cantina-canalla/fotos/11_lal1sg.jpg",
+          "imageAlt": "Bandeja con dos tacos"
         }
       ]
     },
@@ -139,36 +139,36 @@
       "type": "imagesInRow",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201139/agencia-tinta/portfolio/cantina-canalla/fotos/12_wtbjcs.jpg",
-          "imageAlt": "Plato de tacos"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035010/agencia-tinta/portfolio/cantina-canalla/fotos/12_nxjttu.jpg",
+          "imageAlt": "Taco de pollo rebozado"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201139/agencia-tinta/portfolio/cantina-canalla/fotos/9_bjixij.jpg",
-          "imageAlt": "Margarita"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201139/agencia-tinta/portfolio/cantina-canalla/fotos/5_urxlqo.jpg",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035026/agencia-tinta/portfolio/cantina-canalla/fotos/13_eg4fyd.jpg",
           "imageAlt": "Costilla de carne"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201138/agencia-tinta/portfolio/cantina-canalla/fotos/13_ifnvt6.jpg",
-          "imageAlt": "Costilla de carne"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034986/agencia-tinta/portfolio/cantina-canalla/fotos/14_cuhl2h.jpg",
+          "imageAlt": "Sirviendo margarita en una copa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034992/agencia-tinta/portfolio/cantina-canalla/fotos/15_r8gfhg.jpg",
+          "imageAlt": "Plato de tacos con margarita de fondo"
         }
       ]
     }
   ],
   "related": [
     {
-      "title": "Cantina Canalla",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201142/agencia-tinta/portfolio/cantina-canalla/fotos/14_jsugzk.jpg",
-      "imageAlt": "Cantina Canalla",
-      "slug": "cantina-canalla"
+      "title": "Smash",
+      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
+      "imageAlt": "smash burger",
+      "slug": "smash-burger"
     },
     {
       "title": "Black Label",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
-      "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741464948/agencia-tinta/portfolio/black-label/fotos/10_tdlgz7.jpg",
       "imageAlt": "Black Label",
       "slug": "black-label"
     }

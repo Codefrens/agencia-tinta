@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Agape",
+    "subtitle": "Captura la esencia del Mediterráneo en cada joya. Con oro martillado y diseño atemporal, cada pieza es un tributo al arte y la historia.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035846/agencia-tinta/portfolio/agape/banner_hat2kh.jpg",
+    "imageAlt": "Joya sobre el mar",
+    "sector": "Joyería",
+    "categories": ["Video"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "Cada reel capturó el brillo del oro martillado en movimiento, evocando los reflejos del sol sobre el mar y el encanto de una joya con historia. A través de una narrativa visual sofisticada y una dirección artística alineada con su identidad, logramos transmitir la calidez, la elegancia y el legado que define a Agapée. Este enfoque permitió a la marca reforzar su imagen en redes sociales, conectar emocionalmente con su audiencia y potenciar su identidad visual como una joyería inspirada en la cultura mediterránea y parisina. "
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Agape",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
+          "videoAlt": "Video de ejemplo",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Malavida",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+      "imageAlt": "Malavida",
+      "slug": "malavida"
+    },
+    {
+      "title": "Remax Coast",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
+      "imageAlt": "Remax Coast",
+      "slug": "remax-coast"
+    }
+  ]
+}

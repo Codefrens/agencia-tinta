@@ -75,7 +75,9 @@ const Footer = () => {
             />
           </div>
           <div className={styles.info}>
-            <a href="mailto:hola@agenciatinta.com">hola@agenciatinta.com</a>
+            <a href="mailto:agenciadigitaltinta@gmail.com">
+              agenciadigitaltinta@gmail.com
+            </a>
             <a href="tel:611149862">611 149 862</a>
           </div>
         </div>
