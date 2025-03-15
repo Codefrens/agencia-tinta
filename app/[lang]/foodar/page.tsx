@@ -2,8 +2,10 @@ import Hero from "@/components/FoodarPage/Hero";
 import { getTranslations } from "../translations";
 import Script from "next/script";
 import HowItWorks from "@/components/FoodarPage/HowItWorks";
-import OneImage from "@/components/ui/OneImage";
 import Form from "@/components/Form";
+import Pricing from "@/components/FoodarPage/Pricing/Pricing";
+import Benefits from "@/components/FoodarPage/Benefits";
+import Container from "@/components/ui/Container";
 
 export default async function FoodarPage({
   params,
@@ -12,7 +14,7 @@ export default async function FoodarPage({
 }) {
   const lang = (await params).lang;
   const { foodarPage, contactPage } = await getTranslations(lang);
-  const { hero, howItWorks } = foodarPage;
+  const { hero, howItWorks, pricing, benefits } = foodarPage;
   return (
     <main>
       <Script
@@ -23,15 +25,11 @@ export default async function FoodarPage({
       />
       <Hero translations={hero} />
       <HowItWorks translations={howItWorks} />
-      <OneImage
-        imageUrl={
-          "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png"
-        }
-        imageAlt="Realidad aumentada"
-        aspectRatio={16 / 9}
-        centered
-      />
-      <Form translations={contactPage.form} />
+      <Benefits translations={benefits} />
+      <Pricing translations={pricing} />
+      <Container>
+        <Form translations={contactPage.form} />
+      </Container>
     </main>
   );
 }

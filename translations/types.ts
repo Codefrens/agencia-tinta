@@ -14,6 +14,15 @@ type Service = {
   tags: string[];
 };
 
+type PricingPlan = {
+  title: string;
+  price: string;
+  period: string;
+  isFeatured?: boolean;
+  features: { text: string }[];
+  ctaText?: string;
+};
+
 export type Translations = {
   common: {
     navigationLinks: {
@@ -107,7 +116,14 @@ export type Translations = {
     };
     benefits: {
       title: string;
-      description: string;
-    }[];
+      imageUrl: string;
+      imageAlt: string;
+      features: {
+        title: string;
+        description: string;
+        iconUrl: string;
+      }[];
+    };
+    pricing: PricingPlan[];
   };
 };

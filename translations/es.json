@@ -193,46 +193,93 @@
       "cards": [
         {
           "id": "1",
-          "title": "Escanea un código QR en la mesa",
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
-          "imageAlt": "Realidad aumentada"
+          "title": "Cada comensal escanea el código QR en la mesa",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050708/agencia-tinta/foodar/1_u1fzpp.png",
+          "imageAlt": "Escanea el codigo QR"
         },
         {
           "id": "2",
-          "title": "Explora los platos en 3D desde cualquier ángulo",
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
-          "imageAlt": "Realidad aumentada"
+          "title": "Visualiza cada plato en 3D con proporciones y texturas reales.",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050706/agencia-tinta/foodar/2_kbw3ab.png",
+          "imageAlt": "Visualiza cada plato"
         },
         {
           "id": "3",
-          "title": "Elige tu plato con una experiencia más realista",
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
-          "imageAlt": "Realidad aumentada"
+          "title": "Elige con confianza viendo cada detalle del plato",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050715/agencia-tinta/foodar/3_i426vv.png",
+          "imageAlt": "Plato de comida en la mesa"
         },
         {
           "id": "4",
-          "title": "Pide con confianza y disfruta",
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
-          "imageAlt": "Realidad aumentada"
+          "title": "Cada bocado es exactamente como lo imaginó",
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050711/agencia-tinta/foodar/4_n6cffq.png",
+          "imageAlt": "Mujer joven disfrutando de la comida"
         }
       ]
     },
-    "benefits": [
+    "benefits": {
+      "title": "Beneficios",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
+      "imageAlt": "Realidad aumentada",
+      "features": [
+        {
+          "title": "Mejor experiencia de usuario",
+          "description": "La interacción con el menú 3D genera un impacto positivo en la percepción del cliente, haciéndolo más memorable y atractivo.",
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050699/agencia-tinta/foodar/1_veuymo.png"
+        },
+        {
+          "title": "Optimización de carta y aumento de ticket medio",
+          "description": "Con el análisis de estadísticas, el restaurante puede identificar qué platos generan más interés y ajustar su oferta en consecuencia.",
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050696/agencia-tinta/foodar/3_kuxghq.png"
+        },
+        {
+          "title": "Menos indecisión, más rotación de mesas",
+          "description": "Al visualizar los platos de forma realista, los clientes deciden más rápido, reduciendo los tiempos de espera y aumentando la rotación de mesas.",
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050693/agencia-tinta/foodar/4_r7eaau.png"
+        },
+        {
+          "title": "Diferenciación competitiva",
+          "description": "Ofrecer una experiencia innovadora con realidad aumentada posiciona al restaurante como un referente tecnológico y vanguardista en la industria.",
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050690/agencia-tinta/foodar/2_g4ybep.png"
+        }
+      ]
+    },
+    "pricing": [
       {
-        "title": "Experiencias unicas",
-        "description": "Atrae más clientes con una experiencia única"
+        "title": "Basic",
+        "price": "450",
+        "period": "/mes",
+        "features": [
+          { "text": "Escaneo de 3 items" },
+          { "text": "Permanencia mínima de 3 meses" },
+          { "text": "Link desde QR" }
+        ]
       },
       {
-        "title": "Optimiza tus pedidos",
-        "description": "Reduce la indecisión y acelera pedidos"
+        "title": "Advance",
+        "price": "700",
+        "isFeatured": true,
+        "period": "/mes",
+        "features": [
+          { "text": "Escaneo de 10 items" },
+          { "text": "Permanencia mínima de 3 meses" },
+          { "text": "Landing page con menú" },
+          { "text": "Actualizaciones" },
+          { "text": "Análisis de estadísticas" }
+        ]
       },
       {
-        "title": "Un menú cool",
-        "description": "Mejora la presentación y percepción del menú"
-      },
-      {
-        "title": "Para todos",
-        "description": "Compatible con cualquier dispositivo móvil"
+        "title": "Pro",
+        "price": "950",
+        "period": "/mes",
+        "features": [
+          { "text": "Escaneo de 25 items" },
+          { "text": "Permanencia mínima de 3 meses" },
+          { "text": "Landing page con menú" },
+          { "text": "Actualizaciones" },
+          { "text": "Análisis de estadísticas" },
+          { "text": "Cross-selling" }
+        ]
       }
     ],
     "contactForm": {
