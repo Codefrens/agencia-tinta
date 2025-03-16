@@ -125,5 +125,8 @@ export type Translations = {
       }[];
     };
     pricing: PricingPlan[];
+    contactForm: {
+      title: string;
+    };
   };
 };

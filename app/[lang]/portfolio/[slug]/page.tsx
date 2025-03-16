@@ -11,6 +11,18 @@ import Related from "@/components/PortfolioDetailPage/Related";
 import Cta from "@/components/Cta";
 import ImagesInRow from "@/components/ui/ImagesInRow";
 import UniqueReel from "@/components/ui/UniqueReel";
+import { Metadata } from "next";
+import { generateSEOMetadataPortfolioDetailPage } from "@/utils/SEOmetadata";
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ lang: "es" | "en"; slug: string }>;
+}): Promise<Metadata> => {
+  const { lang, slug } = await params;
+  const meta = generateSEOMetadataPortfolioDetailPage(slug);
+  return meta[lang];
+};
 
 export default async function PortfolioDetailPage({
   params,

@@ -1,9 +1,10 @@
-import React from "react";
+"use client";
 import Container from "@/components/ui/Container";
 import styles from "./HowItWorks.module.css";
 import { Translations } from "@/translations/types";
 import Image from "next/image";
 import Blob from "@/components/ui/Blob";
+import { motion } from "motion/react";
 
 const HowItWorks = ({
   translations,
@@ -20,7 +21,14 @@ const HowItWorks = ({
           top="10%"
           left="-40%"
         />
-        <h2 className={styles.title}>{translations.title} /</h2>
+        <motion.h2
+          initial={{ y: 40, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
+          className={styles.title}
+        >
+          {translations.title} /
+        </motion.h2>
         <div className={styles.content}>
           {translations.cards.map((card, index) => (
             <Cards {...card} number={card.id} key={index} />
@@ -45,7 +53,12 @@ const Cards = ({
   imageAlt: string;
 }) => {
   return (
-    <div className={styles.cards}>
+    <motion.div
+      initial={{ y: 40, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
+      className={styles.cards}
+    >
       <div className={styles.imageCard}>
         <Image
           src={imageUrl}
@@ -59,6 +72,6 @@ const Cards = ({
         <h3 className={styles.cardTitle}>{title}</h3>
         <p className={styles.cardNumber}>{number}</p>
       </div>
-    </div>
+    </motion.div>
   );
 };

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 4rem;
-  margin: 3rem auto;
+  margin: 4rem auto;
 }
 
 .feature {
@@ -12,8 +12,8 @@
 
 .icon {
   color: white;
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   margin-bottom: 1.5rem;
 }
 
@@ -21,6 +21,7 @@
   font-weight: var(--font-bold);
   text-transform: uppercase;
   font-size: pxToRem(18);
+  margin-top: pxToRem(40);
 }
 
 .title {
@@ -44,10 +45,16 @@
   .title {
     font-size: pxToRem(20);
   }
+  .sectionTitle {
+    font-size: pxToRem(22);
+  }
 }
 
 @media (min-width: 1024px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .sectionTitle {
+    font-size: pxToRem(24);
   }
 }

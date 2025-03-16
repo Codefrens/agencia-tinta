@@ -55,7 +55,12 @@ const BenefitCard = ({
   iconUrl: string;
 }) => {
   return (
-    <div className={styles.feature}>
+    <motion.div
+      initial={{ y: 40, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
+      className={styles.feature}
+    >
       <Image
         className={styles.icon}
         src={iconUrl}
@@ -66,6 +71,6 @@ const BenefitCard = ({
       />
       <h2 className={styles.title}>{title}</h2>
       <p className={styles.description}>{description}</p>
-    </div>
+    </motion.div>
   );
 };
