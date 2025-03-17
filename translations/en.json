@@ -14,7 +14,7 @@
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
-        "imageUrl": "imageUrlhttps://res.cloudinary.com/nicojoystin/image/upload/v1742034986/agencia-tinta/portfolio/cantina-canalla/fotos/14_cuhl2h.jpg",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034986/agencia-tinta/portfolio/cantina-canalla/fotos/14_cuhl2h.jpg",
         "imageAlt": "Imagen de comida de Cantina Canalla",
         "slug": "cantina-canalla"
       },
@@ -230,17 +230,19 @@
         {
           "title": "Optimización de carta y aumento de ticket medio",
           "description": "Con el análisis de estadísticas, el restaurante puede identificar qué platos generan más interés y ajustar su oferta en consecuencia.",
-          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050696/agencia-tinta/foodar/3_kuxghq.png"
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050690/agencia-tinta/foodar/2_g4ybep.png"
         },
         {
           "title": "Menos indecisión, más rotación de mesas",
           "description": "Al visualizar los platos de forma realista, los clientes deciden más rápido, reduciendo los tiempos de espera y aumentando la rotación de mesas.",
-          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050693/agencia-tinta/foodar/4_r7eaau.png"
+
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050696/agencia-tinta/foodar/3_kuxghq.png"
         },
         {
           "title": "Diferenciación competitiva",
           "description": "Ofrecer una experiencia innovadora con realidad aumentada posiciona al restaurante como un referente tecnológico y vanguardista en la industria.",
-          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050690/agencia-tinta/foodar/2_g4ybep.png"
+
+          "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050693/agencia-tinta/foodar/4_r7eaau.png"
         }
       ]
     },

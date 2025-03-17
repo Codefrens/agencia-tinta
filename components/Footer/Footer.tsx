@@ -40,7 +40,7 @@ const Footer = () => {
           <div className={styles.locations}>
             <Location
               country="España"
-              city="Madrid"
+              city="Málaga"
               address="Plaza de la Merced 16, P1 Izquierda 29012, Málaga"
             />
             <Location
