@@ -6,6 +6,7 @@ import { Translations } from "@/translations/types";
 import Image from "next/image";
 import Button from "../../ui/Button";
 import { motion, useScroll, useTransform } from "motion/react";
+import { useRouter } from "next/navigation";
 
 const RealitySection = ({
   translations,
@@ -13,6 +14,7 @@ const RealitySection = ({
   translations: Translations["homePage"]["realitySection"];
 }) => {
   const { scrollYProgress } = useScroll();
+  const { push } = useRouter();
 
   const scale = useTransform(scrollYProgress, [0.6, 0.8], [0.95, 1]);
 
@@ -28,7 +30,9 @@ const RealitySection = ({
           >
             <h2 className={styles.title}>{translations.title}</h2>
             <p className={styles.paragraph}>{translations.paragraph}</p>
-            <Button>{translations.buttonLabel}</Button>
+            <Button onClick={() => push("/foodar")}>
+              {translations.buttonLabel}
+            </Button>
           </motion.div>
           <motion.div className={styles.image} style={{ scale }}>
             <Image
