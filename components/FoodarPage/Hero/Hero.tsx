@@ -89,7 +89,17 @@ const Hero = ({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: cubicBezier(0.6, 0.01, 0.3, 1) }}
           >
-            <Button fill>{translations.buttonLabel}</Button>
+            <Button
+              fill
+              onClick={() => {
+                const element = document.getElementById("contact");
+                element?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              {translations.buttonLabel}
+            </Button>
           </motion.div>
         </div>
       </Container>

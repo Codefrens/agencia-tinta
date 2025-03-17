@@ -40,7 +40,7 @@ export default async function FoodarPage({
       <Benefits translations={benefits} />
       <Pricing translations={pricing} />
       <Container>
-        <section className={styles.contact}>
+        <section className={styles.contact} id={"contact"}>
           <div className={styles.content}>
             <h1>{contactForm.title}</h1>
           </div>
