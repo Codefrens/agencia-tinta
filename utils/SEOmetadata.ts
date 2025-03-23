@@ -1,11 +1,11 @@
 const homePage = {
   es: {
-    title: "Tinta | Agencia de Medio Digitales",
+    title: "Tinta | Agencia Creativa",
     description: "Transformamos marcas con innovación y creatividad.",
     keywords: "agencia digital, filmmaking, diseño gráfico, diseño web",
     robots: "index, follow",
     openGraph: {
-      title: "Tinta | Agencia de Medio Digitales",
+      title: "Tinta | Agencia Creativa",
       description: "Transformamos marcas con innovación y creatividad.",
       url: process.env.BASE_URL,
       siteName: "Agencia Tinta",
@@ -22,7 +22,7 @@ const homePage = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Tinta | Agencia de Medio Digitales",
+      title: "Tinta | Agencia Creativa",
       description: "Transformamos marcas con innovación y creatividad.",
       site: "@agenciatinta",
       creator: "@agenciatinta",
@@ -35,12 +35,12 @@ const homePage = {
     },
   },
   en: {
-    title: "Tinta | Digital Agency",
+    title: "Tinta | Creative Agency",
     description: "Transforming brands with innovation and creativity.",
-    keywords: "digital agency, filmmaking, graphic design, web design",
+    keywords: "Creative Agency, filmmaking, graphic design, web design",
     robots: "index, follow",
     openGraph: {
-      title: "Tinta | Digital Agency",
+      title: "Tinta | Creative Agency",
       description: "Transforming brands with innovation and creativity.",
       url: process.env.BASE_URL,
       siteName: "Tinta Agency",
@@ -57,7 +57,7 @@ const homePage = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Tinta | Digital Agency",
+      title: "Tinta | Creative Agency",
       description: "Transforming brands with innovation and creativity.",
       site: "@agenciatinta",
       creator: "@agenciatinta",
