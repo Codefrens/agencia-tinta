@@ -24,7 +24,7 @@
 }
 
 .title {
-  font-size: pxToRem(30);
+  font-size: pxToRem(34);
   font-weight: var(--font-extra-bold);
   line-height: 1.1;
   text-wrap: balance;

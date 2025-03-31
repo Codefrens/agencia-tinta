@@ -1,6 +1,6 @@
 .imageCarrousel {
   padding-top: 40px;
-  margin: 120px 0;
+  margin: 120px 0 60px;
   overflow: hidden;
 }
 
@@ -9,7 +9,7 @@
   width: 220vw;
   overflow: hidden;
   gap: 20px;
-  height: 350px;
+  height: 230px;
 }
 
 .imageCard {
@@ -29,6 +29,9 @@
 }
 
 @mixin mediaMin768 {
+  .imageCarrousel {
+    margin: 120px 0;
+  }
   .slider {
     display: flex;
     width: 120vw;

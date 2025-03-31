@@ -19,7 +19,7 @@
   display: flex;
   gap: 14px;
   animation: scroll 40s linear infinite;
-  width: calc(130px * 8 + 14px * 8); /* Se ajusta al número de logos */
+  width: calc(150px * 8 + 14px * 8); /* Se ajusta al número de logos */
 }
 
 .clientCard {
@@ -29,9 +29,9 @@
   border-radius: 18px;
   border: 2px solid var(--color-neutral-80);
   background-color: var(--color-neutral-90);
-  min-width: 130px;
-  height: 120px;
-  padding: 30px;
+  min-width: 150px;
+  height: 160px;
+  padding: 20px;
 }
 
 /* Animación del carrusel */
@@ -40,7 +40,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-130px * 8 - 14px * 8)); /* Desplaza la mitad */
+    transform: translateX(calc(-150px * 8 - 14px * 8)); /* Desplaza la mitad */
   }
 }
 

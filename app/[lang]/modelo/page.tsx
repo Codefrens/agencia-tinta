@@ -15,10 +15,12 @@ const ModeloPage = () => {
       />
 
       {/* Usar el componente personalizado */}
+
       <ModelViewer
         src="https://res.cloudinary.com/nicojoystin/image/upload/v1741798340/agencia-tinta/plato_1_fo1m31.glb"
         alt="comida"
         ar
+        arModes="webxr scene-viewer quick-look"
         shadowIntensity={1}
         cameraControls
         touchAction="pan-y"

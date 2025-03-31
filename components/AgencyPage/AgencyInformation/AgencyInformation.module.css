@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: pxToRem(32);
-  margin: 60px 0;
+  margin: 20px 0;
 }
 
 .title {
