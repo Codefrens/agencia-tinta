@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import { notFound } from "next/navigation";
 import Hero from "@/components/PortfolioDetailPage/Hero";
 import { getTranslations } from "../../translations";
 import ContentText from "@/components/PortfolioDetailPage/ContentText";
@@ -13,6 +12,7 @@ import ImagesInRow from "@/components/ui/ImagesInRow";
 import UniqueReel from "@/components/ui/UniqueReel";
 import { Metadata } from "next";
 import { generateSEOMetadataPortfolioDetailPage } from "@/utils/SEOmetadata";
+import { loadLocalContent } from "@/content/fetch";
 
 export const generateMetadata = async ({
   params,
@@ -32,18 +32,8 @@ export default async function PortfolioDetailPage({
   const { lang, slug } = await params;
   const { common } = await getTranslations(lang);
 
-  const filePath = path.join(
-    process.cwd(),
-    "translations",
-    "portfolio",
-    lang,
-    `${slug}.json`
-  );
-
-  if (!fs.existsSync(filePath)) {
-    notFound();
-  }
-  const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const content = loadLocalContent("portfolio", lang, slug) as any;
 
   const heroContent = {
     ...content.hero,
