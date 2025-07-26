@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Container from "@/components/ui/Container";
 import styles from "./AgencyInformation.module.css";
 import { Translations } from "@/translations/types";

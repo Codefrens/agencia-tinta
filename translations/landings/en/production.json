@@ -1,7 +1,120 @@
 {
   "hero": {
-    "title": "Producción",
-    "description": "Producción",
+    "title": "Audiovisual Production and Photography on the Costa del Sol.",
+    "description": "We are a content creation agency, expert in corporate videos, event coverage, reels and high-quality photo sessions.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg"
+  },
+  "services": {
+    "title": "Audiovisual and Photography Services",
+    "servicesList": [
+      {
+        "title": "Corporate Video Production",
+        "description": "We create institutional videos that convey the essence of your company with high-impact visual narratives."
+      },
+      {
+        "title": "Event Coverage",
+        "description": "We capture the energy and key moments of your corporate, social or cultural events."
+      },
+      {
+        "title": "Reels and Social Media Content",
+        "description": "Designed to capture attention on Instagram and TikTok."
+      },
+      {
+        "title": "Product Photography",
+        "description": "Professional images for social media, e-commerce, catalogs and advertising campaigns."
+      },
+      {
+        "title": "Food Photography",
+        "description": "We enhance the visual appeal of your dishes and restaurants."
+      },
+      {
+        "title": "Space Photography",
+        "description": "Properties, hotels and commercial interiors."
+      }
+    ]
+  },
+  "works": {
+    "title": "Our work",
+    "subtitle": "Here are some examples of video and photography production carried out for our clients. Each piece reflects our commitment to visual quality, storytelling, and impact.",
+    "worksList": [
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
+        "title": "Cantina Canalla",
+        "description": "Food and space photography for restaurant"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/agape/fotos/portada_g5nlny.jpg",
+        "title": "Agape",
+        "description": "Product photography and branding session"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/remax-coast/fotos/portada_cbxdtk.jpg",
+        "title": "RE/MAX Coast",
+        "description": "Real estate and commercial space photography"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why choose Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Over 8 years of experience",
+        "description": "Professional audiovisual production and photography with proven results."
+      },
+      {
+        "title": "Boutique approach",
+        "description": "Each project is treated with personalized creativity and strategy."
+      },
+      {
+        "title": "Complete service",
+        "description": "Pre-production, filming, editing and delivery. Everything in one place."
+      },
+      {
+        "title": "Wide coverage",
+        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "testimonialsList": [
+      {
+        "quote": "The video that Agencia Tinta created for our event was key to conveying our proposal. Highly recommended.",
+        "client": "Cantina Canalla",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png"
+      },
+      {
+        "quote": "We needed professional food photography and the result exceeded our expectations. Human and very creative team.",
+        "client": "Remax",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png"
+      },
+      {
+        "quote": "We needed professional food photography and the result exceeded our expectations. Human and very creative team.",
+        "client": "AC HOTEL - Marriot",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png"
+      }
+    ]
+  },
+  "form": {
+    "title": "Request your budget",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "projectType": "Project type",
+    "message": "Message",
+    "buttonLabel": "I want to receive a proposal",
+    "buttonLabelSending": "Sending...",
+    "successMessage": "Message sent successfully! We'll contact you soon.",
+    "errorMessage": "Error sending message. Please try again.",
+    "projectTypes": {
+      "video": "Corporate video",
+      "event": "Event coverage",
+      "photography": "Photography",
+      "reels": "Reels",
+      "other": "Other"
+    }
   }
 }

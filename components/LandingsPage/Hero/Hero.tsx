@@ -1,8 +1,8 @@
 "use client";
-import { motion } from "motion/react";
 import Container from "@/components/ui/Container";
 import Image from "next/image";
 import styles from "./Hero.module.css";
+import LandingNavbar from "../LandingNavbar";
 
 interface HeroProps {
   title: string;
@@ -22,6 +22,7 @@ const Hero = ({ title, subtitle, backgroundImage, children }: HeroProps) => {
             alt=""
             fill
             className={styles.backgroundImage}
+            priority={true}
           />
         ) : (
           <div className={styles.backgroundPlaceholder} />
@@ -30,42 +31,33 @@ const Hero = ({ title, subtitle, backgroundImage, children }: HeroProps) => {
         <div className={styles.overlay} />
 
       <Container>
+        <LandingNavbar />
         <div className={styles.content}>
           {/* Contenido de texto - Izquierda */}
           <div className={styles.textContent}>
            
             
-            <motion.h1
+            <h1
               className={styles.title}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
+             
             >
               {title}
-            </motion.h1>
-            <motion.h2
+            </h1>
+            <h2
               className={styles.subtitle}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
+             
             >
               {subtitle}
-            </motion.h2>
+            </h2>
           </div>
 
           {/* Espacio para formulario - Derecha */}
-          <motion.div
+          <div
             className={styles.formContent}
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+           
           >
-            {children && (
-              <div className={styles.formWrapper}>
-                {children}
-              </div>
-            )}
-          </motion.div>
+            {children && children}
+          </div>
         </div>
       </Container>
     </section>
