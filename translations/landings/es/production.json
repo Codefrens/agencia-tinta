@@ -39,21 +39,64 @@
     "worksList": [
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789332/agencia-tinta/landings/production/fotografi%CC%81a_gastrono%CC%81mica_jvmlcw.jpg",
         "title": "Cantina Canalla",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/agape/fotos/portada_g5nlny.jpg",
-        "title": "Agape",
-        "description": "Sesión fotográfica de producto y branding"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/cobertura_evento_fq97zd.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/remax-coast/fotos/portada_cbxdtk.jpg",
-        "title": "RE/MAX Coast",
-        "description": "Fotografía inmobiliaria y de espacios comerciales"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/fotografi%CC%81a_producto_tlxu5u.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/produccio%CC%81n_audiovisual_b2ldwh.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a-gastrono%CC%81mica_djmgp4.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/video_institucional_ywm6ma.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a_hmfbkq.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/reel_evento_kefugl.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789329/agencia-tinta/landings/production/video_corporativo_khtccs.png",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
       }
     ]
   },

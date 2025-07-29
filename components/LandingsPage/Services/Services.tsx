@@ -1,5 +1,4 @@
 "use client";
-import Container from "@/components/ui/Container";
 import styles from "./Services.module.css";
 import { 
   VideoCamera, 
@@ -31,7 +30,6 @@ const Services = ({ title, servicesList }: ServicesProps) => {
   ];
 
   return (
-    <Container>
       <section className={styles.wrapper}>
         <h2 className={styles.title}>{title}</h2>
         <div className={styles.serviceContent}>
@@ -51,8 +49,8 @@ const Services = ({ title, servicesList }: ServicesProps) => {
             </div>
           ))}
         </div>
+
       </section>
-    </Container>
   );
 };
 

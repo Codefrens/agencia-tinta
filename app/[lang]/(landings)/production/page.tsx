@@ -5,6 +5,17 @@ import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import LandingForm from "@/components/LandingsPage/LandingForm";
 import { loadLocalContent } from "@/content/fetch";
+import { Metadata } from "next";
+import { SEO_METADATA } from "@/utils/SEOmetadata";
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ lang: "es" | "en" }>;
+}): Promise<Metadata> => {
+  const lang = (await params).lang;
+  return SEO_METADATA["productionPage"][lang];
+};
 
 export default async function ProductionPage({
   params,

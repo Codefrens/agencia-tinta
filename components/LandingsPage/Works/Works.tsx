@@ -3,6 +3,7 @@ import Container from "@/components/ui/Container";
 import Carousel from "@/components/ui/Carousel";
 import styles from "./Works.module.css";
 import Image from "next/image";
+import ReelVideo from "@/components/ui/ReelVideo/ReelVideo";
 
 interface WorksProps {
   title: string;
@@ -12,6 +13,7 @@ interface WorksProps {
     content: string;
     title?: string;
     description?: string;
+    posterSrc?: string;
   }>;
 }
 
@@ -46,22 +48,12 @@ const Works = ({ title, subtitle, works }: WorksProps) => {
         return (
           <div key={index} className={styles.workItem}>
             <div className={styles.videoContainer}>
-              <video 
-                src={work.content}
-                className={styles.workVideo}
-                controls
-                muted
-                playsInline
-              />
-              {work.title && (
-                <div className={styles.workOverlay}>
-                  <h4 className={styles.workTitle}>{work.title}</h4>
-                  {work.description && (
-                    <p className={styles.workDescription}>{work.description}</p>
-                  )}
-                </div>
-              )}
-            </div>
+              <ReelVideo
+                videoUrl={work.content}
+                posterSrc={work.posterSrc}
+                videoAlt={work.title || `Trabajo ${index + 1}`}
+                />
+              </div>
           </div>
         );
         
@@ -110,15 +102,15 @@ const Works = ({ title, subtitle, works }: WorksProps) => {
           breakpoints={{
             640: {
               slidesPerView: 1,
-              spaceBetween: 20,
+              spaceBetween: 16,
             },
             768: {
-              slidesPerView: 2.5,
-              spaceBetween: 30,
+              slidesPerView: 3,
+              spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 4.2,
-              spaceBetween: 40,
+              slidesPerView: 4,
+              spaceBetween: 30,
             },
           }}
         >
