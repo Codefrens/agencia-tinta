@@ -23,6 +23,14 @@ export const generateMetadata = async ({
   return SEO_METADATA["homePage"][lang];
 };
 
+// Función para detectar si es una landing page
+function isLandingPage(pathname: string): boolean {
+  // Detecta el grupo de rutas (landings) que es más robusto que buscar solo "production"
+  return pathname.includes("/(landings)/") || 
+         pathname.includes("/production") || 
+         pathname.includes("/landing");
+}
+
 export default async function RootLayout({
   children,
   params,
@@ -32,12 +40,16 @@ export default async function RootLayout({
 }>) {
   const lang = (await params).lang;
   
-  // Detectar si estamos en una landing page
   const headersList = await headers();
-  const pathname = headersList.get("x-pathname") || headersList.get("x-url") || "";
-  const isLandingPage = pathname.includes("production")
+  const pathname = headersList.get("x-pathname") || "";
   
-  if (isLandingPage) {
+  // Usar la función mejorada de detección
+  const isLanding = isLandingPage(pathname);
+  
+  console.log("Layout Debug:", { pathname, isLanding }); // Para debugging
+  
+  if (isLanding) {
+    // Layout para Landing Pages - Sin Navbar, con LandingFooter
     return (
       <html lang={lang}>
         <body className={`${dmSans.variable}`}>
@@ -52,7 +64,7 @@ export default async function RootLayout({
     );
   }
 
-  // Layout normal para páginas generales
+  // Layout normal para páginas generales - Con Navbar y Footer
   return (
     <html lang={lang}>
       <body className={`${dmSans.variable}`}>
