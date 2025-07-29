@@ -15,3 +15,12 @@ declare namespace JSX {
     };
   }
 }
+
+// Google Tag Manager types
+declare global {
+  interface Window {
+    dataLayer: Record<string, unknown>[];
+  }
+}
+
+export {};
