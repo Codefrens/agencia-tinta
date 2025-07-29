@@ -1,0 +1,148 @@
+.benefitsSection {
+  padding: 80px 0;
+  background: var(--color-neutral-100);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.title {
+  font-size: pxToRem(24);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--color-neutral-0);
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: pxToRem(16);
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.benefitItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: pxToRem(16);
+  padding: pxToRem(12);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.benefitItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  background: var(--color-neutral-90);
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  background: var(--color-orange);
+  border-radius: 20px;
+  color: white;
+  flex-shrink: 0;
+  margin-bottom: pxToRem(8);
+}
+
+.benefitContent {
+  flex: 1;
+}
+
+.benefitTitle {
+  font-size: pxToRem(16);
+  font-weight: var(--font-bold);
+  margin-bottom: pxToRem(12);
+  color: var(--color-neutral-0);
+  line-height: 1.3;
+}
+
+.benefitDescription {
+  font-size: pxToRem(14);
+  color: var(--color-neutral-20);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Tablet */
+@mixin mediaMin768 {
+  .benefitsSection {
+    padding: 100px 0;
+  }
+
+  .header {
+    margin-bottom: 64px;
+  }
+
+  .title {
+    font-size: pxToRem(28);
+  }
+
+  .benefitsGrid {
+    gap: pxToRem(40);
+  }
+
+  .benefitItem {
+    padding: pxToRem(32);
+    gap: pxToRem(20);
+  }
+
+  .iconContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 24px;
+  }
+
+  .benefitTitle {
+    font-size: pxToRem(18);
+    margin-bottom: pxToRem(16);
+  }
+
+  .benefitDescription {
+    font-size: pxToRem(16);
+  }
+}
+
+/* Desktop - 4 columnas como pidió el usuario */
+@mixin mediaMin1024 {
+  .benefitsSection {
+    padding: 120px 0;
+  }
+
+  .title {
+    font-size: pxToRem(32);
+  }
+
+  .benefitsGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: pxToRem(32);
+    max-width: 1200px;
+  }
+
+  .benefitItem {
+    padding: pxToRem(36);
+  }
+
+  .iconContainer {
+    width: 88px;
+    height: 88px;
+    border-radius: 28px;
+  }
+
+  .benefitTitle {
+    font-size: pxToRem(20);
+  }
+
+  .benefitDescription {
+    font-size: pxToRem(16);
+  }
+} 

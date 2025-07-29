@@ -349,8 +349,25 @@ const CLIENTS_IMAGES = {
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
 };
 
+// LANDINGS PAGE
+const productionPage = {
+  es: {
+    title: "Tinta | Producción audiovisual y fotografía en la Costa del Sol.",
+    description: "Somos una agencia de creación de contenido, experta en videos corporativos, coberturas de eventos, reels y sesiones fotográficas de alta calidad.",
+    keywords: "Videos corporativos, producción audiovisual, fotografía profesional, reels para redes sociales, cobertura de eventos, fotografía de producto",
+    robots: "index, follow",
+  },
+  en: {
+    title: "Tinta | Production of audiovisual and photography in the Costa del Sol.",
+    description: "We are a content creation agency, expert in corporate videos, event coverage, reels and professional photography sessions.",
+    keywords: "Corporate videos, audiovisual production, professional photography, reels for social media, event coverage, product photography",
+    robots: "index, follow",
+  },
+};
+
 export const SEO_METADATA = {
   homePage,
   portfolioPage,
   foodarPage,
+  productionPage,
 };

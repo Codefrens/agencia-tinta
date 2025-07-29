@@ -1,0 +1,22 @@
+
+.navbar {
+  position: relative;
+  top: 0;
+  z-index: 10;
+  width: 100%; /* Ajusta según la altura de tu navbar */
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  position: relative;
+  width: 100px;
+  height: 38px;
+}

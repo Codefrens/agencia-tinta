@@ -3,9 +3,10 @@ import React, { useLayoutEffect, useRef, useState } from "react";
 import styles from "./ReelVideo.module.css";
 import Image from "next/image";
 import classNames from "classnames";
-import { PauseCircle, PlayCircle } from "@phosphor-icons/react";
+import { PauseCircle } from "@phosphor-icons/react";
 import { motion, useMotionValue } from "motion/react";
 import useIsMobile from "@/utils/hooks/useIsMobile";
+import VideoButton from "../VideoButton/VideoButton";
 
 const ReelVideo = ({
   videoUrl,
@@ -69,6 +70,7 @@ const ReelVideo = ({
         }}
       >
         <Image src={posterSrc} alt={videoAlt} objectFit="cover" fill />
+        <VideoButton>Ver video</VideoButton>
       </motion.div>
 
       {isMobile ? (
@@ -76,7 +78,7 @@ const ReelVideo = ({
           {isPlaying ? (
             <PauseCircle size={48} weight="fill" />
           ) : (
-            <PlayCircle size={48} weight="fill" />
+            null
           )}
         </div>
       ) : (
@@ -95,7 +97,7 @@ const ReelVideo = ({
           {isPlaying ? (
             <PauseCircle size={48} weight="fill" />
           ) : (
-            <PlayCircle size={48} weight="fill" />
+            null
           )}
         </motion.div>
       )}

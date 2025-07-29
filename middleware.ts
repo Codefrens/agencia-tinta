@@ -23,7 +23,12 @@ export function middleware(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale) return;
+  if (pathnameHasLocale) {
+    // Agregar información del pathname para detectar landing pages
+    const response = NextResponse.next();
+    response.headers.set("x-pathname", pathname);
+    return response;
+  }
 
   // Redirect if there is no locale
   const locale = getLocale(request);
@@ -31,7 +36,9 @@ export function middleware(request: NextRequest) {
   request.nextUrl.pathname = `/${locale}${pathname}`;
   // e.g. incoming request is /products
   // The new URL is now /en-US/products
-  return NextResponse.redirect(request.nextUrl);
+  const response = NextResponse.redirect(request.nextUrl);
+  response.headers.set("x-pathname", request.nextUrl.pathname);
+  return response;
 }
 
 export const config = {
