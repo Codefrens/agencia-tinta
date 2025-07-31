@@ -1,5 +1,5 @@
 import React from "react";
-import { getTranslations } from "../translations";
+import { getTranslations } from "../../translations";
 import Hero from "@/components/PortfolioPage/Hero";
 import PortfolioGrid from "@/components/PortfolioPage/PortfolioGrid";
 import Blob from "@/components/ui/Blob";

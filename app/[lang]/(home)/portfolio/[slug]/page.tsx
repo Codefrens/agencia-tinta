@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Hero from "@/components/PortfolioDetailPage/Hero";
-import { getTranslations } from "../../translations";
+import { getTranslations } from "../../../translations";
 import ContentText from "@/components/PortfolioDetailPage/ContentText";
 import OneImage from "@/components/ui/OneImage";
 import TwoImage from "@/components/ui/TwoImage";

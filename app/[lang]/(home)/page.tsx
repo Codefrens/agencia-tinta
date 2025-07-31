@@ -1,5 +1,5 @@
 import AboutHome from "@/components/HomePage/AboutHome";
-import { getTranslations } from "./translations";
+import { getTranslations } from "../translations";
 import Hero from "@/components/HomePage/Hero";
 import PortfolioGrid from "@/components/PortfolioGrid";
 import Clients from "@/components/Clients";

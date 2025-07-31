@@ -1,6 +1,6 @@
 import Clients from "@/components/Clients";
 import Cta from "@/components/Cta";
-import { getTranslations } from "../translations";
+import { getTranslations } from "../../translations";
 import ImageCarrousel from "@/components/ui/ImageCarrousel";
 import AgencyInformation from "@/components/AgencyPage/AgencyInformation";
 

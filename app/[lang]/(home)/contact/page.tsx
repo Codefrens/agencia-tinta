@@ -1,5 +1,5 @@
 import Container from "@/components/ui/Container";
-import { getTranslations } from "../translations";
+import { getTranslations } from "../../translations";
 import styles from "./contactPage.module.css";
 import Form from "@/components/Form";
 import Image from "next/image";

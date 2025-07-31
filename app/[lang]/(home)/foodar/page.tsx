@@ -1,5 +1,5 @@
 import Hero from "@/components/FoodarPage/Hero";
-import { getTranslations } from "../translations";
+import { getTranslations } from "../../translations";
 import Script from "next/script";
 import HowItWorks from "@/components/FoodarPage/HowItWorks";
 import Form from "@/components/Form";

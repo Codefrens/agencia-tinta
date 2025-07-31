@@ -1,0 +1,1 @@
+export { default as GoogleTagManager, GoogleTagManagerNoScript } from './GoogleTagManager'; 
