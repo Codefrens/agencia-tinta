@@ -365,9 +365,25 @@ const productionPage = {
   },
 };
 
+const thankYouPage = {
+  es: {
+    title: "Gracias por tu mensaje | Agencia Tinta",
+    description: "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas.",
+    keywords: "contacto, mensaje enviado, agencia, servicios audiovisuales",
+    robots: "noindex, follow",
+  },
+  en: {
+    title: "Thank you for your message | Tinta Agency",
+    description: "We have received your request successfully. Our team will contact you within the next 24 hours.",
+    keywords: "contact, message sent, agency, audiovisual services",
+    robots: "noindex, follow",
+  },
+};
+
 export const SEO_METADATA = {
   homePage,
   portfolioPage,
   foodarPage,
   productionPage,
+  thankYouPage,
 };

@@ -95,7 +95,49 @@
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
-        "title": "Cantina Canalla",
+        "title": "AC Hotel",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.jpg",
+        "title": "AC Hotel",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.jpg",
+        "title": "Malahe",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
+        "title": "Agape",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.jpg",
+        "title": "Remax",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.jpg",
+        "title": "Remax",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg",
+        "title": "Remax",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       }
     ]
@@ -152,6 +194,7 @@
     "buttonLabelSending": "Enviando...",
     "successMessage": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
     "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "recaptchaError": "Error de verificación de seguridad. Por favor, inténtalo de nuevo.",
     "projectTypes": {
       "video": "Video institucional",
       "event": "Cobertura de evento",
@@ -159,5 +202,27 @@
       "reels": "Reels",
       "other": "Otro"
     }
-  }
+  },
+  "contactSection": {
+    "title": "¿Listo para dar vida a tu proyecto?",
+    "subtitle": "Cuéntanos tu idea y recibe una propuesta personalizada"
+  },
+  "thankYou": {
+    "title": "¡Gracias por tu mensaje!",
+    "subtitle": "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas para discutir tu proyecto y brindarte una propuesta personalizada."
+  },
+  "videos": [
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg",
+      "videoAlt": "Video corporativo Grupo Amigos - Plaza Mayor",
+      "videoLabelButton": "Ver video"
+    },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg",
+      "videoAlt": "Video corporativo Cantina Canalla - Franquicia",
+      "videoLabelButton": "Ver video"
+    }
+  ]
 }

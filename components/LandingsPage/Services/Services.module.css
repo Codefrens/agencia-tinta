@@ -33,7 +33,7 @@
   justify-content: center;
   width: 48px;
   height: 48px;
-  background: var(--gradient-gray, linear-gradient(45deg, #007bff, #0056b3));
+  background: var(--gradient-color);
   border-radius: 12px;
   color: white;
   flex-shrink: 0;

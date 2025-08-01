@@ -1,8 +1,11 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import styles from "./LandingForm.module.css";
 
 interface LandingFormProps {
+  lang: "es" | "en";
   formTranslations: {
     title: string;
     subtitle: string;
@@ -15,6 +18,7 @@ interface LandingFormProps {
     buttonLabelSending: string;
     successMessage: string;
     errorMessage: string;
+    recaptchaError: string;
     projectTypes: {
       video: string;
       event: string;
@@ -25,7 +29,10 @@ interface LandingFormProps {
   };
 }
 
-const LandingForm = ({ formTranslations }: LandingFormProps) => {
+const LandingForm = ({ lang, formTranslations }: LandingFormProps) => {
+  const router = useRouter();
+  const { executeRecaptcha } = useGoogleReCaptcha();
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -35,7 +42,7 @@ const LandingForm = ({ formTranslations }: LandingFormProps) => {
   });
 
   const [status, setStatus] = useState<
-    "idle" | "loading" | "success" | "error"
+    "idle" | "loading" | "success" | "error" | "recaptcha_error"
   >("idle");
 
   const handleChange = (
@@ -48,20 +55,46 @@ const LandingForm = ({ formTranslations }: LandingFormProps) => {
     e.preventDefault();
     setStatus("loading");
 
-    const res = await fetch("/api/landing-contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        ...formData,
-        source: "landing-production"
-      }),
-    });
+    // Verificar reCAPTCHA
+    if (!executeRecaptcha) {
+      console.log('Execute recaptcha not yet available');
+      setStatus("recaptcha_error");
+      return;
+    }
 
-    if (res.ok) {
-      setStatus("success");
-      setFormData({ name: "", email: "", phone: "", projectType: "", message: "" });
-    } else {
-      setStatus("error");
+    try {
+      // Ejecutar reCAPTCHA
+      const token = await executeRecaptcha('contact_form');
+
+      const res = await fetch("/api/landing-contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          source: "landing-production",
+          recaptchaToken: token,
+        }),
+      });
+
+      if (res.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", phone: "", projectType: "", message: "" });
+        
+        // Redirección después de 1 segundo para mostrar brevemente el mensaje de éxito
+        setTimeout(() => {
+          router.push(`/${lang}/thank-you`);
+        }, 1000);
+      } else {
+        const errorData = await res.json();
+        if (errorData.error === 'reCAPTCHA verification failed') {
+          setStatus("recaptcha_error");
+        } else {
+          setStatus("error");
+        }
+      }
+    } catch (error) {
+      console.error('reCAPTCHA error:', error);
+      setStatus("recaptcha_error");
     }
   };
 
@@ -149,6 +182,12 @@ const LandingForm = ({ formTranslations }: LandingFormProps) => {
           {formTranslations.errorMessage}
         </div>
       )}
+      {status === "recaptcha_error" && (
+        <div className={styles.errorMessage}>
+          {formTranslations.recaptchaError}
+        </div>
+      )}
+
     </div>
   );
 };

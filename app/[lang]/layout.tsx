@@ -5,6 +5,7 @@ import LenisProvider from "@/utils/LenisProvider/LenisProvider";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
 import { GoogleTagManager, GoogleTagManagerNoScript } from "@/components/GoogleTagManager";
 import { GTM_ID } from "@/utils/gtm";
+import RecaptchaProvider from "@/components/providers/RecaptchaProvider";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -20,8 +21,6 @@ export const generateMetadata = async ({
   const lang = (await params).lang;
   return SEO_METADATA["homePage"][lang];
 };
-
-
 
 export default async function RootLayout({
   children,
@@ -39,9 +38,11 @@ export default async function RootLayout({
       </head>
       <body className={`${dmSans.variable}`}>
         <GoogleTagManagerNoScript gtmId={GTM_ID} />
-        <LenisProvider>
-          {children}
-        </LenisProvider>
+        <RecaptchaProvider>
+          <LenisProvider>
+            {children}
+          </LenisProvider>
+        </RecaptchaProvider>
       </body>
     </html>
   );

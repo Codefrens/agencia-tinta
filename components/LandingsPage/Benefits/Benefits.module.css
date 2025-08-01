@@ -1,5 +1,5 @@
 .benefitsSection {
-  padding: 80px 0;
+  padding: 80px 0 0;
   background: var(--color-neutral-100);
 }
 
@@ -21,7 +21,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: pxToRem(16);
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto pxToRem(80) auto;
 }
 
 .benefitItem {
@@ -73,6 +73,58 @@
   margin: 0;
 }
 
+/* Sección de imágenes */
+.imagesSection {
+  overflow: hidden;
+}
+
+.imagesContainer {
+  display: flex;
+  gap: pxToRem(20);
+  overflow-x: auto;
+  padding: 0 pxToRem(20);
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.imagesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.imagesContainer {
+  scrollbar-width: none;
+}
+
+.imageCard {
+  border-radius: pxToRem(16);
+  position: relative;
+  width: pxToRem(380);
+  height: pxToRem(380);
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
+}
+
+.imageCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
 /* Tablet */
 @mixin mediaMin768 {
   .benefitsSection {
@@ -89,6 +141,7 @@
 
   .benefitsGrid {
     gap: pxToRem(40);
+    margin-bottom: pxToRem(100);
   }
 
   .benefitItem {
@@ -110,6 +163,20 @@
   .benefitDescription {
     font-size: pxToRem(16);
   }
+
+  .imagesContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: pxToRem(32);
+    overflow: visible;
+    padding: 0;
+  }
+
+  .imageCard {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: pxToRem(20);
+  }
 }
 
 /* Desktop - 4 columnas como pidió el usuario */
@@ -126,6 +193,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: pxToRem(32);
     max-width: 1200px;
+    margin-bottom: pxToRem(120);
   }
 
   .benefitItem {
@@ -144,5 +212,10 @@
 
   .benefitDescription {
     font-size: pxToRem(16);
+  }
+
+
+  .imagesContainer {
+    gap: pxToRem(40);
   }
 } 

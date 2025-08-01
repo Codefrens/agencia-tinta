@@ -39,21 +39,106 @@
     "worksList": [
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789332/agencia-tinta/landings/production/fotografi%CC%81a_gastrono%CC%81mica_jvmlcw.jpg",
         "title": "Cantina Canalla",
         "description": "Food and space photography for restaurant"
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/agape/fotos/portada_g5nlny.jpg",
-        "title": "Agape",
-        "description": "Product photography and branding session"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/cobertura_evento_fq97zd.jpg",
+        "title": "Cantina Canalla",
+        "description": "Event coverage and photography"
       },
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/remax-coast/fotos/portada_cbxdtk.jpg",
-        "title": "RE/MAX Coast",
-        "description": "Real estate and commercial space photography"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/fotografi%CC%81a_producto_tlxu5u.jpg",
+        "title": "Cantina Canalla",
+        "description": "Product photography for restaurant"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/produccio%CC%81n_audiovisual_b2ldwh.jpg",
+        "title": "Cantina Canalla",
+        "description": "Audiovisual production and photography"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a-gastrono%CC%81mica_djmgp4.jpg",
+        "title": "Cantina Canalla",
+        "description": "Gastronomic photography for restaurant"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/video_institucional_ywm6ma.jpg",
+        "title": "Cantina Canalla",
+        "description": "Corporate video production"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a_hmfbkq.jpg",
+        "title": "Cantina Canalla",
+        "description": "Professional photography session"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/reel_evento_kefugl.jpg",
+        "title": "Cantina Canalla",
+        "description": "Event reel and coverage"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789329/agencia-tinta/landings/production/video_corporativo_khtccs.png",
+        "title": "Cantina Canalla",
+        "description": "Corporate video production"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
+        "title": "AC Hotel",
+        "description": "Hotel promotional video and photography"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.jpg",
+        "title": "AC Hotel",
+        "description": "Corporate video for hotel chain"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.jpg",
+        "title": "Malahe",
+        "description": "Social media reel and content creation"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
+        "title": "Agape",
+        "description": "Brand video and product showcase"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.jpg",
+        "title": "Remax",
+        "description": "Real estate promotional reel"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.jpg",
+        "title": "Remax",
+        "description": "Agent promotional video content"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg",
+        "title": "Remax",
+        "description": "Real estate professional showcase"
       }
     ]
   },
@@ -109,6 +194,7 @@
     "buttonLabelSending": "Sending...",
     "successMessage": "Message sent successfully! We'll contact you soon.",
     "errorMessage": "Error sending message. Please try again.",
+    "recaptchaError": "Security verification error. Please try again.",
     "projectTypes": {
       "video": "Corporate video",
       "event": "Event coverage",
@@ -116,5 +202,27 @@
       "reels": "Reels",
       "other": "Other"
     }
-  }
+  },
+  "contactSection": {
+    "title": "Ready to bring your project to life?",
+    "subtitle": "Tell us your idea and receive a personalized proposal"
+  },
+  "thankYou": {
+    "title": "Thank you for your message!",
+    "subtitle": "We have received your request successfully. Our team will contact you within the next 24 hours to discuss your project and provide you with a personalized proposal."
+  },
+  "videos": [
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg",
+      "videoAlt": "Corporate video Grupo Amigos - Plaza Mayor",
+      "videoLabelButton": "Watch video"
+    },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg",
+      "videoAlt": "Corporate video Cantina Canalla - Franchise",
+      "videoLabelButton": "Watch video"
+    }
+  ]
 }

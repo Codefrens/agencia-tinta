@@ -1,5 +1,6 @@
 "use client";
 import Container from "@/components/ui/Container";
+import Image from "next/image";
 import styles from "./Benefits.module.css";
 import { 
   Trophy, 
@@ -27,6 +28,22 @@ const Benefits = ({ title, benefitsList }: BenefitsProps) => {
     <MapPin key="map" size={40} weight="duotone" />
   ];
 
+  // Imágenes estáticas (las mismas del ImageCarrousel)
+  const images = [
+    {
+      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_2_jioyvh.png",
+      imageAlt: "Agencia Tinta - Imagen 1",
+    },
+    {
+      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1741969635/agencia-tinta/agencia/Agencia_1_sfb8qu.png",
+      imageAlt: "Agencia Tinta - Imagen 2",
+    },
+    {
+      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_3_yfv04z.png",
+      imageAlt: "Agencia Tinta - Imagen 3",
+    },
+  ];
+
   return (
     <section className={styles.benefitsSection}>
       <Container>
@@ -46,6 +63,23 @@ const Benefits = ({ title, benefitsList }: BenefitsProps) => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Sección de imágenes horizontales */}
+        <div className={styles.imagesSection}>
+          <div className={styles.imagesContainer}>
+            {images.map((image, index) => (
+              <div key={index} className={styles.imageCard}>
+                <Image
+                  src={image.imageUrl}
+                  alt={image.imageAlt}
+                  width={400}
+                  height={400}
+                  className={styles.image}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </Container>
     </section>

@@ -1,0 +1,21 @@
+.videoSection {
+  padding: pxToRem(80) 0;
+  background: var(--color-neutral-100);
+}
+
+.carouselWrapper {
+  position: relative;
+}
+
+/* Responsive Design */
+@mixin mediaMin768 {
+  .videoSection {
+    padding: pxToRem(100) 0;
+  }
+}
+
+@mixin mediaMin1024 {
+  .videoSection {
+    padding: pxToRem(120) 0;
+  }
+} 

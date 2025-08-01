@@ -1,0 +1,62 @@
+.contactSection {
+  padding: pxToRem(60) 0;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: pxToRem(40);
+}
+
+.header {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(pxToRem(28), 6vw, pxToRem(48));
+  font-weight: var(--font-bold);
+  color: var(--color-neutral-0);
+  margin-bottom: pxToRem(16);
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: pxToRem(18);
+  color: var(--color-neutral-0);
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Responsive Design */
+@mixin mediaMin768 {
+  .contactSection {
+    padding: pxToRem(40) 0;
+  }
+
+  .content {
+    gap: pxToRem(50);
+  }
+
+  .title {
+    margin-bottom: pxToRem(20);
+  }
+
+  .subtitle {
+    font-size: pxToRem(20);
+  }
+}
+
+@mixin mediaMin1024 {
+  .contactSection {
+    padding: pxToRem(100) 0;
+  }
+
+  .content {
+    gap: pxToRem(60);
+  }
+} 
