@@ -1,6 +1,4 @@
 "use client";
-import React from "react";
-import Container from "@/components/ui/Container";
 import Carousel from "@/components/ui/Carousel";
 import VideoComponent from "@/components/ui/VideoComponent/VideoComponent";
 import styles from "./VideoCarousel.module.css";
@@ -13,13 +11,14 @@ interface Video {
 }
 
 interface VideoCarouselProps {
+  title: string;
   videos: Video[];
 }
 
-const VideoCarousel = ({ videos }: VideoCarouselProps) => {
+const VideoCarousel = ({ title, videos }: VideoCarouselProps) => {
   return (
     <section className={styles.videoSection}>
-      <Container>
+      <h2 className={styles.title}>{title}</h2>
         <div className={styles.carouselWrapper}>
           <Carousel
             slidesPerView={1}
@@ -50,7 +49,6 @@ const VideoCarousel = ({ videos }: VideoCarouselProps) => {
             ))}
           </Carousel>
         </div>
-      </Container>
     </section>
   );
 };

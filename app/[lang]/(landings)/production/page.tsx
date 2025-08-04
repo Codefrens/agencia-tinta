@@ -52,7 +52,7 @@ export default async function ProductionPage({
         works={content.works.worksList}
       />
 
-      <VideoCarousel videos={content.videos} />
+      <VideoCarousel title={content.videos.title} videos={content.videos.videosList || []} />
 
       <Benefits
         title={content.benefits.title}

@@ -211,7 +211,9 @@
     "title": "Thank you for your message!",
     "subtitle": "We have received your request successfully. Our team will contact you within the next 24 hours to discuss your project and provide you with a personalized proposal."
   },
-  "videos": [
+  "videos": {
+    "title": "Corporate videos",
+    "videosList": [
     {
       "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
       "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg",
@@ -224,5 +226,6 @@
       "videoAlt": "Corporate video Cantina Canalla - Franchise",
       "videoLabelButton": "Watch video"
     }
-  ]
+    ]
+  }
 }

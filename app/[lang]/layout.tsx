@@ -3,7 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "@/styles/index.css";
 import LenisProvider from "@/utils/LenisProvider/LenisProvider";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
-import { GoogleTagManager, GoogleTagManagerNoScript } from "@/components/GoogleTagManager";
+import { GoogleTagManager, GoogleTagManagerNoScript, PageViewTracker } from "@/components/GoogleTagManager";
 import { GTM_ID } from "@/utils/gtm";
 import RecaptchaProvider from "@/components/providers/RecaptchaProvider";
 
@@ -43,6 +43,7 @@ export default async function RootLayout({
             {children}
           </LenisProvider>
         </RecaptchaProvider>
+        <PageViewTracker />
       </body>
     </html>
   );

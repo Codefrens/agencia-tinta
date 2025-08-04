@@ -7,6 +7,15 @@
   position: relative;
 }
 
+.title {
+  font-size: pxToRem(24);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--color-neutral-0);
+  text-align: center;
+}
+
 /* Responsive Design */
 @mixin mediaMin768 {
   .videoSection {

@@ -56,6 +56,13 @@
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
+        "title": "AC Hotel",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
         "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/produccio%CC%81n_audiovisual_b2ldwh.jpg",
         "title": "Cantina Canalla",
@@ -68,9 +75,23 @@
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.jpg",
+        "title": "AC Hotel",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
         "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/video_institucional_ywm6ma.jpg",
         "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
+        "title": "Agape",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
@@ -80,29 +101,29 @@
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg",
+        "title": "Remax",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
         "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/reel_evento_kefugl.jpg",
         "title": "Cantina Canalla",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.jpg",
+        "title": "Remax",
+        "description": "Fotografía gastronómica y de espacios para restaurante"
+      },
+      {
         "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789329/agencia-tinta/landings/production/video_corporativo_khtccs.png",
         "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
-        "title": "AC Hotel",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.jpg",
-        "title": "AC Hotel",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
@@ -114,29 +135,8 @@
       },
       {
         "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
-        "title": "Agape",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.jpg",
-        "title": "Remax",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.jpg",
-        "title": "Remax",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg",
         "title": "Remax",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       }
@@ -211,7 +211,9 @@
     "title": "¡Gracias por tu mensaje!",
     "subtitle": "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas para discutir tu proyecto y brindarte una propuesta personalizada."
   },
-  "videos": [
+  "videos": {
+    "title": "Videos corporativos",
+    "videosList": [
     {
       "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
       "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg",
@@ -224,5 +226,6 @@
       "videoAlt": "Video corporativo Cantina Canalla - Franquicia",
       "videoLabelButton": "Ver video"
     }
-  ]
+    ]
+  }
 }
