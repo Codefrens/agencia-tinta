@@ -2,7 +2,6 @@
 import Container from "@/components/ui/Container";
 import Image from "next/image";
 import styles from "./Hero.module.css";
-import LandingNavbar from "../LandingNavbar";
 
 interface HeroProps {
   title: string;
@@ -31,7 +30,6 @@ const Hero = ({ title, subtitle, backgroundImage, children }: HeroProps) => {
         <div className={styles.overlay} />
 
       <Container>
-        <LandingNavbar />
         <div className={styles.content}>
           {/* Contenido de texto - Izquierda */}
           <div className={styles.textContent}>

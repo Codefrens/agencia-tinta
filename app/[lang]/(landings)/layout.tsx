@@ -1,4 +1,5 @@
 import LandingFooter from "@/components/LandingsPage/LandingFooter/LandingFooter";
+import LandingNavbar from "@/components/LandingsPage/LandingNavbar";
 
 export default async function LandingsLayout({
   children,
@@ -10,6 +11,7 @@ export default async function LandingsLayout({
   const lang = (await params).lang;
   return (
     <>
+      <LandingNavbar />
       <main>
         {children}
       </main>

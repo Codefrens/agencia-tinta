@@ -10,12 +10,14 @@ const Button = ({
   ariaLabel,
   fill = false,
   className,
+  size = "m",
 }: {
   children: React.ReactNode;
   ariaLabel?: string;
   onClick?: () => void;
   fill?: boolean;
   className?: string;
+  size?: "m" | "l";
 }) => {
   const ref = useRef(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -56,7 +58,7 @@ const Button = ({
       ref={ref}
       aria-label={ariaLabel}
       onClick={onClick}
-      className={classNames(styles.button, className, fill && styles.fill)}
+      className={classNames(styles.button, className, fill && styles.fill, size === "l" && styles.large)}
       whileHover="hover"
       animate={{ x: position.x, y: position.y }}
       transition={{ type: "spring", stiffness: 150, damping: 15 }}

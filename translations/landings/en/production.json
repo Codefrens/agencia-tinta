@@ -2,7 +2,8 @@
   "hero": {
     "title": "Audiovisual Production and Photography on the Costa del Sol.",
     "description": "We are a content creation agency, expert in corporate videos, event coverage, reels and high-quality photo sessions.",
-    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg"
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
+    "ctaText": "Schedule a call"
   },
   "services": {
     "title": "Audiovisual and Photography Services",
@@ -227,5 +228,9 @@
       "videoLabelButton": "Watch video"
     }
     ]
+  },
+  "cta": {
+    "title": "Ready to bring your project to life?",
+    "buttonLabel": "Schedule a call"
   }
 }

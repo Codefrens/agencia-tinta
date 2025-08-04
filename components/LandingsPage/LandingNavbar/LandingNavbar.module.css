@@ -1,6 +1,6 @@
 
 .navbar {
-  position: relative;
+  position: absolute;
   top: 0;
   z-index: 10;
   width: 100%; /* Ajusta según la altura de tu navbar */
