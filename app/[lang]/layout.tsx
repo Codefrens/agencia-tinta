@@ -5,8 +5,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LenisProvider from "@/utils/LenisProvider/LenisProvider";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
-import { GoogleTagManager, GoogleTagManagerNoScript, PageViewTracker } from "@/components/GoogleTagManager";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { GTM_ID } from "@/utils/gtm";
+import { PageViewTracker } from "@/components/GoogleTagManager";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -33,17 +34,14 @@ export default async function RootLayout({
   const lang = (await params).lang;
   return (
     <html lang={lang}>
-      <head>
-        <GoogleTagManager gtmId={GTM_ID} />
-      </head>
       <body className={`${dmSans.variable}`}>
-        <GoogleTagManagerNoScript gtmId={GTM_ID} />
         <PageViewTracker />
         <LenisProvider>
           <Navbar lang={lang} />
           {children}
           <Footer />
         </LenisProvider>
+        <GoogleTagManager gtmId={GTM_ID} />
       </body>
     </html>
   );
