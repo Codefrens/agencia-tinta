@@ -181,6 +181,134 @@
       "requiredError": "Este campo es obligatorio"
     }
   },
+  "legalPage": {
+    "title": "Aviso Legal",
+    "subtitle": "En cumplimiento con la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), se informa lo siguiente:",
+    "content": {
+      "owner": {
+        "title": "Titular de la web",
+        "items": [
+          "Nombre comercial: Agencia Tinta",
+          "Correo electrónico de contacto: agenciatinta@gmail.com",
+          "Actividad: Agencia de marketing y diseño",
+          "Ubicación: España (dato exacto opcional)"
+        ]
+      },
+      "intellectual": {
+        "title": "Propiedad intelectual",
+        "content": "Todos los contenidos del sitio web, incluyendo textos, imágenes, logotipos, diseño y código fuente, están protegidos por los derechos de propiedad intelectual y no pueden ser reproducidos sin autorización expresa."
+      },
+      "responsibility": {
+        "title": "Responsabilidad",
+        "content": "Agencia Tinta no se hace responsable del mal uso que los usuarios puedan hacer del contenido del sitio ni de la información enlazada a través de enlaces externos."
+      },
+      "legislation": {
+        "title": "Legislación aplicable",
+        "content": "Estas condiciones se rigen por la legislación española y cualquier controversia se someterá a los tribunales de la ciudad del titular."
+      },
+      "lastUpdate": "Última actualización: junio de 2025"
+    }
+  },
+  "cookiesPage": {
+    "title": "Política de Cookies",
+    "subtitle": "En este sitio web usamos cookies para mejorar tu experiencia y analizar el uso del sitio. A continuación, te explicamos qué son las cookies, qué tipos usamos y cómo podés gestionarlas.",
+    "content": {
+      "what": {
+        "title": "¿Qué son las cookies?",
+        "content": "Las cookies son pequeños archivos que se guardan en tu dispositivo al navegar por una web. Permiten recordar tu actividad y preferencias para mejorar tu experiencia."
+      },
+      "types": {
+        "title": "¿Qué tipos de cookies usamos?",
+        "technical": {
+          "title": "Cookies técnicas (necesarias)",
+          "content": "Permiten el funcionamiento básico del sitio. No requieren consentimiento."
+        },
+        "analytics": {
+          "title": "Cookies analíticas",
+          "content": "Google Analytics: nos ayuda a entender cómo navegan los usuarios en el sitio."
+        },
+        "advertising": {
+          "title": "Cookies de publicidad",
+          "content": "Píxel de Meta (Facebook/Instagram): permite mostrarte anuncios relevantes en redes sociales."
+        }
+      },
+      "manage": {
+        "title": "¿Cómo gestionar las cookies?",
+        "content": "Podés configurar tu navegador para aceptar, rechazar o borrar las cookies. Además, al entrar al sitio te mostramos un banner donde podés gestionar tu consentimiento."
+      },
+      "sharing": {
+        "title": "¿Quién usa la información de las cookies?",
+        "content": "Los datos pueden ser compartidos con:",
+        "companies": [
+          "Google LLC (Google Analytics)",
+          "Meta Platforms, Inc. (Facebook Pixel)"
+        ]
+      },
+      "changes": {
+        "title": "Cambios en esta política",
+        "content": "Nos reservamos el derecho a modificar esta política. Última actualización: junio de 2025."
+      }
+    }
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "subtitle": "En Agencia Tinta, nos comprometemos a proteger tu privacidad. Esta política explica cómo recopilamos, usamos y protegemos los datos personales que puedas proporcionarnos a través de nuestra web.",
+    "content": {
+      "responsible": {
+        "title": "Responsable del tratamiento",
+        "items": [
+          "Nombre comercial: Agencia Tinta",
+          "Correo electrónico de contacto: agenciatinta@gmail.com",
+          "Actividad: Agencia de marketing y diseño"
+        ]
+      },
+      "dataCollected": {
+        "title": "Datos que recopilamos",
+        "intro": "A través del formulario de contacto o mediante el uso de herramientas de analítica, podemos recopilar:",
+        "items": [
+          "Nombre",
+          "Correo electrónico",
+          "Dirección IP",
+          "Información de navegación (mediante cookies)"
+        ]
+      },
+      "purpose": {
+        "title": "Finalidad del tratamiento",
+        "items": [
+          "Responder a consultas o solicitudes recibidas.",
+          "Mejorar la experiencia de usuario y analizar el comportamiento de navegación.",
+          "Enviar comunicaciones comerciales, si has dado tu consentimiento."
+        ]
+      },
+      "legitimacy": {
+        "title": "Legitimación",
+        "content": "Consentimiento del usuario al enviar el formulario o aceptar el uso de cookies."
+      },
+      "recipients": {
+        "title": "Destinatarios",
+        "intro": "Utilizamos servicios de terceros que pueden procesar datos en nuestro nombre:",
+        "items": [
+          "Google Analytics (Google LLC)",
+          "Meta Platforms, Inc. (para el píxel de Facebook)",
+          "Netlify (hosting del sitio)",
+          "Resend (envío de correos desde formularios)"
+        ]
+      },
+      "rights": {
+        "title": "Derechos del usuario",
+        "content": "Podés ejercer tus derechos de acceso, rectificación, cancelación, oposición, portabilidad y limitación escribiendo a: agenciatinta@gmail.com"
+      },
+      "retention": {
+        "title": "Conservación de los datos",
+        "content": "Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que fueron recogidos y para cumplir con obligaciones legales."
+      },
+      "changes": {
+        "title": "Cambios en esta política",
+        "content": "Agencia Tinta se reserva el derecho a modificar esta política para adaptarla a cambios legislativos o técnicos. Te recomendamos revisarla periódicamente."
+      },
+      "lastUpdate": "Última actualización: junio de 2025"
+    }
+  },
   "foodarPage": {
     "hero": {
       "name": "Foodar",

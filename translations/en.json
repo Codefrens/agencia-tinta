@@ -181,6 +181,134 @@
       "requiredError": "Este campo es obligatorio"
     }
   },
+  "legalPage": {
+    "title": "Legal Notice",
+    "subtitle": "In compliance with Law 34/2002 on Information Society Services and Electronic Commerce (LSSI-CE), the following information is provided:",
+    "content": {
+      "owner": {
+        "title": "Website Owner",
+        "items": [
+          "Business name: Agencia Tinta",
+          "Contact email: agenciatinta@gmail.com",
+          "Activity: Marketing and design agency",
+          "Location: Spain (exact data optional)"
+        ]
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "All website content, including texts, images, logos, design and source code, are protected by intellectual property rights and cannot be reproduced without express authorization."
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "content": "Agencia Tinta is not responsible for misuse that users may make of the site content or information linked through external links."
+      },
+      "legislation": {
+        "title": "Applicable Legislation",
+        "content": "These conditions are governed by Spanish legislation and any controversy will be submitted to the courts of the owner's city."
+      },
+      "lastUpdate": "Last update: June 2025"
+    }
+  },
+  "cookiesPage": {
+    "title": "Cookie Policy",
+    "subtitle": "On this website we use cookies to improve your experience and analyze site usage. Below, we explain what cookies are, what types we use and how you can manage them.",
+    "content": {
+      "what": {
+        "title": "What are cookies?",
+        "content": "Cookies are small files that are stored on your device when browsing a website. They allow us to remember your activity and preferences to improve your experience."
+      },
+      "types": {
+        "title": "What types of cookies do we use?",
+        "technical": {
+          "title": "Technical cookies (necessary)",
+          "content": "They allow the basic functioning of the site. They do not require consent."
+        },
+        "analytics": {
+          "title": "Analytics cookies",
+          "content": "Google Analytics: helps us understand how users navigate the site."
+        },
+        "advertising": {
+          "title": "Advertising cookies",
+          "content": "Meta Pixel (Facebook/Instagram): allows us to show you relevant ads on social networks."
+        }
+      },
+      "manage": {
+        "title": "How to manage cookies?",
+        "content": "You can configure your browser to accept, reject or delete cookies. Additionally, when entering the site we show you a banner where you can manage your consent."
+      },
+      "sharing": {
+        "title": "Who uses cookie information?",
+        "content": "Data may be shared with:",
+        "companies": [
+          "Google LLC (Google Analytics)",
+          "Meta Platforms, Inc. (Facebook Pixel)"
+        ]
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "content": "We reserve the right to modify this policy. Last update: June 2025."
+      }
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "subtitle": "At Agencia Tinta, we are committed to protecting your privacy. This policy explains how we collect, use and protect the personal data you may provide us through our website.",
+    "content": {
+      "responsible": {
+        "title": "Data Controller",
+        "items": [
+          "Business name: Agencia Tinta",
+          "Contact email: agenciatinta@gmail.com",
+          "Activity: Marketing and design agency"
+        ]
+      },
+      "dataCollected": {
+        "title": "Data we collect",
+        "intro": "Through the contact form or through the use of analytics tools, we may collect:",
+        "items": [
+          "Name",
+          "Email address",
+          "IP address",
+          "Browsing information (through cookies)"
+        ]
+      },
+      "purpose": {
+        "title": "Purpose of processing",
+        "items": [
+          "Respond to inquiries or requests received.",
+          "Improve user experience and analyze browsing behavior.",
+          "Send commercial communications, if you have given your consent."
+        ]
+      },
+      "legitimacy": {
+        "title": "Legal basis",
+        "content": "User consent when submitting the form or accepting the use of cookies."
+      },
+      "recipients": {
+        "title": "Recipients",
+        "intro": "We use third-party services that may process data on our behalf:",
+        "items": [
+          "Google Analytics (Google LLC)",
+          "Meta Platforms, Inc. (for Facebook pixel)",
+          "Netlify (site hosting)",
+          "Resend (sending emails from forms)"
+        ]
+      },
+      "rights": {
+        "title": "User rights",
+        "content": "You can exercise your rights of access, rectification, cancellation, opposition, portability and limitation by writing to: agenciatinta@gmail.com"
+      },
+      "retention": {
+        "title": "Data retention",
+        "content": "Data will be retained for the time necessary to fulfill the purpose for which it was collected and to comply with legal obligations."
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "content": "Agencia Tinta reserves the right to modify this policy to adapt it to legislative or technical changes. We recommend reviewing it periodically."
+      },
+      "lastUpdate": "Last update: June 2025"
+    }
+  },
   "foodarPage": {
     "hero": {
       "name": "Foodar",

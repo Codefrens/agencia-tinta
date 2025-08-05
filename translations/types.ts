@@ -98,6 +98,108 @@ export type Translations = {
       requiredError: string;
     };
   };
+  legalPage: {
+    title: string;
+    subtitle: string;
+    content: {
+      owner: {
+        title: string;
+        items: string[];
+      };
+      intellectual: {
+        title: string;
+        content: string;
+      };
+      responsibility: {
+        title: string;
+        content: string;
+      };
+      legislation: {
+        title: string;
+        content: string;
+      };
+      lastUpdate: string;
+    };
+  };
+  cookiesPage: {
+    title: string;
+    subtitle: string;
+    content: {
+      what: {
+        title: string;
+        content: string;
+      };
+      types: {
+        title: string;
+        technical: {
+          title: string;
+          content: string;
+        };
+        analytics: {
+          title: string;
+          content: string;
+        };
+        advertising: {
+          title: string;
+          content: string;
+        };
+      };
+      manage: {
+        title: string;
+        content: string;
+      };
+      sharing: {
+        title: string;
+        content: string;
+        companies: string[];
+      };
+      changes: {
+        title: string;
+        content: string;
+      };
+    };
+  };
+  privacyPage: {
+    title: string;
+    subtitle: string;
+    content: {
+      responsible: {
+        title: string;
+        items: string[];
+      };
+      dataCollected: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      purpose: {
+        title: string;
+        items: string[];
+      };
+      legitimacy: {
+        title: string;
+        content: string;
+      };
+      recipients: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      rights: {
+        title: string;
+        content: string;
+      };
+      retention: {
+        title: string;
+        content: string;
+      };
+      changes: {
+        title: string;
+        content: string;
+      };
+      lastUpdate: string;
+    };
+  };
   foodarPage: {
     hero: {
       name: string;
