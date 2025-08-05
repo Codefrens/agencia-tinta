@@ -3,6 +3,8 @@ import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import Image from "next/image";
 import styles from "./HeroB.module.css";
+import { gtmEvent } from "@/utils/gtm";
+import { usePathname, useRouter } from "next/navigation";
 
 interface HeroBProps {
   title: string;
@@ -12,6 +14,10 @@ interface HeroBProps {
 }
 
 const HeroB = ({ title, subtitle, backgroundImage, ctaText }: HeroBProps) => {
+
+
+  const pathname = usePathname();
+  
   return (
     <section className={styles.hero}>
       {/* Background Image */}
@@ -41,7 +47,12 @@ const HeroB = ({ title, subtitle, backgroundImage, ctaText }: HeroBProps) => {
             <div className={styles.ctaWrapper}>
               <Button
                 onClick={() => {
-                  console.log("Cta clicked");
+                  gtmEvent("cta_click", {
+                    landing_page: pathname,
+                    section: "hero",
+                    page_destination: "https://calendar.app.google/EuWs5SfLFcWazatP7",
+                  });
+                  window.open("https://calendar.app.google/EuWs5SfLFcWazatP7", "_blank");
                 }}
                 ariaLabel={ctaText}
                 className={styles.ctaButton}
