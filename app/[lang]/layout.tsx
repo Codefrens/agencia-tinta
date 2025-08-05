@@ -3,9 +3,10 @@ import { DM_Sans } from "next/font/google";
 import "@/styles/index.css";
 import LenisProvider from "@/utils/LenisProvider/LenisProvider";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
-import { GoogleTagManager, GoogleTagManagerNoScript, PageViewTracker } from "@/components/GoogleTagManager";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { GTM_ID } from "@/utils/gtm";
 import RecaptchaProvider from "@/components/providers/RecaptchaProvider";
+import { PageViewTracker } from "@/components/GoogleTagManager";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -33,17 +34,14 @@ export default async function RootLayout({
   
   return (
     <html lang={lang}>
-      <head>
-        <GoogleTagManager gtmId={GTM_ID} />
-      </head>
       <body className={`${dmSans.variable}`}>
-        <GoogleTagManagerNoScript gtmId={GTM_ID} />
         <RecaptchaProvider>
           <LenisProvider>
             {children}
           </LenisProvider>
         </RecaptchaProvider>
         <PageViewTracker />
+        <GoogleTagManager gtmId={GTM_ID} />
       </body>
     </html>
   );
