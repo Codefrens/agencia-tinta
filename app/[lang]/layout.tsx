@@ -8,6 +8,7 @@ import { SEO_METADATA } from "@/utils/SEOmetadata";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { GTM_ID } from "@/utils/gtm";
 import { PageViewTracker } from "@/components/GoogleTagManager";
+import Script from "next/script";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -34,6 +35,9 @@ export default async function RootLayout({
   const lang = (await params).lang;
   return (
     <html lang={lang}>
+      <head>
+        <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/72d1e76e213845e304a05a39/script.js"></Script>
+      </head>
       <body className={`${dmSans.variable}`}>
         <PageViewTracker />
         <LenisProvider>
