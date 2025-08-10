@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 import Container from "../ui/Container";
 import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
+import Link from "next/link";
 
 const Location = ({
   country,
@@ -32,7 +33,7 @@ const SocialLink = ({ name, url }: { name: string; url: string }) => {
   );
 };
 
-const Footer = () => {
+const Footer = ({ lang }: { lang: 'es' | 'en' }) => {
   return (
     <footer className={styles.footer}>
       <Container>
@@ -81,6 +82,17 @@ const Footer = () => {
             <a href="tel:611149862">611 149 862</a>
           </div>
         </div>
+        <div className={styles.legalLinks}>
+          <Link href="/cookies" className={styles.link}>
+            {lang === 'es' ? 'Políticas de Cookies' : 'Cookie Policy'}
+          </Link>
+          <Link href="/privacy" className={styles.link}>
+            {lang === 'es' ? 'Política de Privacidad' : 'Privacy Policy'}
+          </Link>
+          <Link href="/legal" className={styles.link}>
+            {lang === 'es' ? 'Aviso Legal' : 'Legal Notice'}
+          </Link>
+          </div>
       </Container>
     </footer>
   );

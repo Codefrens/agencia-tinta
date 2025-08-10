@@ -16,7 +16,7 @@ export default async function HomeLayout({
    <>
     <Navbar lang={lang} />
       {children}
-    <Footer />
+    <Footer lang={lang} />
    </>
   );
 }
