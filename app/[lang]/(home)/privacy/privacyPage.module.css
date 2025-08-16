@@ -92,6 +92,23 @@
   left: 0;
 }
 
+.multiParagraph {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.additional {
+  font-size: pxToRem(16);
+  font-weight: var(--font-regular);
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+  color: var(--color-neutral-10);
+  font-style: italic;
+  margin-top: 16px;
+}
+
 .lastUpdate {
   margin-top: 64px;
   padding-top: 32px;
@@ -133,6 +150,10 @@
   }
 
   .list li {
+    font-size: pxToRem(18);
+  }
+
+  .additional {
     font-size: pxToRem(18);
   }
 

@@ -70,9 +70,8 @@ const Footer = ({ lang }: { lang: 'es' | 'en' }) => {
             <Image
               src="https://res.cloudinary.com/nicojoystin/image/upload/v1740221032/agencia-tinta/logo-tinta_utcrxj.svg"
               alt="Tinta logo"
-              width={100}
-              height={38}
-              priority
+              sizes="120px"
+              fill
             />
           </div>
           <div className={styles.info}>

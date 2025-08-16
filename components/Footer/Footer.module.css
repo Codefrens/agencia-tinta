@@ -89,8 +89,20 @@
   transition: color 0.3s ease;
 }
 
+.logo {
+  position: relative;
+  width: 100px;
+  height: 38px;
+}
+
 .link:hover {
   color: var(--color-green);
+}
+
+.logo img{
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 /* TABLET */

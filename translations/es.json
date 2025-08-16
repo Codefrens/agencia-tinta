@@ -183,42 +183,100 @@
   },
   "legalPage": {
     "title": "Aviso Legal",
-    "subtitle": "En cumplimiento con la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), se informa lo siguiente:",
+    "subtitle": "En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa al usuario de lo siguiente:",
     "content": {
-      "owner": {
-        "title": "Titular de la web",
+      "identificationData": {
+        "title": "1. Datos identificativos",
         "items": [
           "Nombre comercial: Agencia Tinta",
-          "Correo electrónico de contacto: agenciatinta@gmail.com",
-          "Actividad: Agencia de marketing y diseño",
-          "Ubicación: España (dato exacto opcional)"
+          "Correo electrónico de contacto: agenciadigitaltinta@gmail.com",
+          "Actividad: Agencia de marketing, diseño y producción de contenidos",
+          "Ubicación: España",
+          "Sitio web: www.agenciatinta.com"
         ]
       },
-      "intellectual": {
-        "title": "Propiedad intelectual",
-        "content": "Todos los contenidos del sitio web, incluyendo textos, imágenes, logotipos, diseño y código fuente, están protegidos por los derechos de propiedad intelectual y no pueden ser reproducidos sin autorización expresa."
+      "websiteObjective": {
+        "title": "2. Objeto del sitio web",
+        "content": "Este sitio web tiene como finalidad ofrecer información sobre los servicios y proyectos de Agencia Tinta, así como facilitar la comunicación con potenciales clientes y colaboradores.\n\nAl acceder y utilizar esta web, el usuario acepta las condiciones establecidas en este Aviso Legal. Se recomienda leerlo atentamente antes de continuar la navegación."
       },
-      "responsibility": {
-        "title": "Responsabilidad",
-        "content": "Agencia Tinta no se hace responsable del mal uso que los usuarios puedan hacer del contenido del sitio ni de la información enlazada a través de enlaces externos."
+      "intellectualProperty": {
+        "title": "3. Propiedad intelectual e industrial",
+        "content": "Todos los contenidos del sitio web, incluyendo (a título enunciativo y no limitativo) el código fuente, textos, imágenes, logotipos, diseños gráficos y elementos multimedia, son propiedad exclusiva de Agencia Tinta o de terceros que han autorizado su uso, y están protegidos por la legislación española e internacional sobre propiedad intelectual e industrial.\n\nQueda prohibida su reproducción, distribución, comunicación pública, transformación o cualquier otro uso no autorizado, total o parcial, sin el consentimiento previo y por escrito de Agencia Tinta."
       },
-      "legislation": {
-        "title": "Legislación aplicable",
-        "content": "Estas condiciones se rigen por la legislación española y cualquier controversia se someterá a los tribunales de la ciudad del titular."
+      "webUsageAndResponsibility": {
+        "title": "4. Uso de la web y responsabilidad",
+        "intro": "El usuario se compromete a utilizar la web de forma lícita y conforme a la legislación vigente, absteniéndose de realizar cualquier acción que pueda dañar la imagen, los intereses o los derechos de Agencia Tinta o de terceros.\n\nAgencia Tinta no se hace responsable de:",
+        "items": [
+          "El uso indebido que los usuarios realicen de los contenidos de la web.",
+          "La información o contenidos enlazados desde páginas externas.",
+          "Posibles errores técnicos o de seguridad derivados del uso de equipos o conexiones inadecuadas por parte del usuario."
+        ]
       },
-      "lastUpdate": "Última actualización: junio de 2025"
+      "informationUpdate": {
+        "title": "5. Actualización de la información",
+        "content": "Agencia Tinta podrá modificar, sin previo aviso, el contenido de la web, su diseño o la presente información legal, con el objetivo de mantenerla actualizada. Asimismo, se compromete a corregir cualquier error detectado tan pronto como tenga conocimiento de él."
+      },
+      "commercialCommunications": {
+        "title": "6. Comunicaciones comerciales",
+        "content": "Agencia Tinta cumple con lo dispuesto en la LSSI-CE en materia de comunicaciones comerciales.\n\nNo se considerará comunicación comercial toda la información enviada a clientes con el fin de mantener la relación contractual existente o responder a solicitudes previas de información."
+      },
+      "cookiesUsage": {
+        "title": "7. Uso de cookies",
+        "content": "Este sitio web utiliza cookies para mejorar la experiencia del usuario y recopilar datos estadísticos de forma anónima. Para más información, consulta nuestra Política de Cookies."
+      },
+      "applicableLegislation": {
+        "title": "8. Legislación aplicable y jurisdicción",
+        "content": "Este Aviso Legal se rige por la legislación española. Cualquier controversia que pudiera derivarse del acceso o uso de la web se someterá a los tribunales de la ciudad donde tenga su sede el titular de Agencia Tinta, salvo que la ley disponga lo contrario."
+      }
     }
   },
   "cookiesPage": {
-    "title": "Política de Cookies",
-    "subtitle": "En este sitio web usamos cookies para mejorar tu experiencia y analizar el uso del sitio. A continuación, te explicamos qué son las cookies, qué tipos usamos y cómo podés gestionarlas.",
+    "title": "🍪 Política de Cookies de Agencia Tinta",
+    "subtitle": "En Agencia Tinta usamos cookies. Y no, no hablamos de las de chocolate (aunque esas también nos encantan), sino de esos pequeños archivos digitales que hacen que tu experiencia en nuestra web sea más fluida, rápida y personalizada.",
+    "description": "Queremos que sepas exactamente qué son, para qué sirven y cómo puedes controlarlas. Aquí vamos 👇",
     "content": {
       "what": {
-        "title": "¿Qué son las cookies?",
-        "content": "Las cookies son pequeños archivos que se guardan en tu dispositivo al navegar por una web. Permiten recordar tu actividad y preferencias para mejorar tu experiencia."
+        "title": "1. ¿Qué son las cookies?",
+        "content": "Son pequeños archivos que tu navegador guarda en tu dispositivo cuando visitas nuestra web.",
+        "benefits": {
+          "title": "Nos ayudan a:",
+          "items": [
+            "Recordar tus preferencias (idioma, configuración, etc.).",
+            "Entender cómo usas nuestro sitio para poder mejorarlo.",
+            "Mostrarte contenido que realmente te interese."
+          ]
+        },
+        "security": "No te preocupes: no dañan tu equipo y no almacenan datos personales sensibles como contraseñas o números de tarjeta."
       },
       "types": {
-        "title": "¿Qué tipos de cookies usamos?",
+        "title": "2. Tipos de cookies que usamos",
+        "byOwner": {
+          "title": "Por quién las gestiona:",
+          "items": [
+            "Propias: creadas y gestionadas por nosotros.",
+            "De terceros: creadas por servicios externos (ej: Google Analytics, redes sociales)."
+          ]
+        },
+        "byDuration": {
+          "title": "Por cuánto duran:",
+          "items": [
+            "De sesión: se borran al cerrar tu navegador.",
+            "Persistentes: se quedan hasta que las elimines o caduquen solas."
+          ]
+        },
+        "byPurpose": {
+          "title": "Por su finalidad:",
+          "items": [
+            "Técnicas: hacen que la web funcione (sin ellas, nada sería igual).",
+            "Personalización: recuerdan tus ajustes y preferencias.",
+            "Análisis: nos dan estadísticas para seguir mejorando.",
+            "Publicitarias: gestionan los anuncios que ves.",
+            "Publicidad comportamental: muestran anuncios adaptados a tus intereses."
+          ]
+        }
+      },
+      "ourCookies": {
+        "title": "3. Cookies que usamos aquí",
         "technical": {
           "title": "Cookies técnicas (necesarias)",
           "content": "Permiten el funcionamiento básico del sitio. No requieren consentimiento."
@@ -233,80 +291,110 @@
         }
       },
       "manage": {
-        "title": "¿Cómo gestionar las cookies?",
-        "content": "Podés configurar tu navegador para aceptar, rechazar o borrar las cookies. Además, al entrar al sitio te mostramos un banner donde podés gestionar tu consentimiento."
-      },
-      "sharing": {
-        "title": "¿Quién usa la información de las cookies?",
-        "content": "Los datos pueden ser compartidos con:",
-        "companies": [
-          "Google LLC (Google Analytics)",
-          "Meta Platforms, Inc. (Facebook Pixel)"
+        "title": "4. Cómo controlar o borrar las cookies",
+        "content": "Tú mandas. Puedes permitir, bloquear o borrar las cookies desde la configuración de tu navegador:",
+        "browsers": [
+          "Google Chrome",
+          "Mozilla Firefox",
+          "Microsoft Edge",
+          "Safari (macOS)",
+          "Safari (iOS)",
+          "Chrome (Android)"
         ]
       },
-      "changes": {
-        "title": "Cambios en esta política",
-        "content": "Nos reservamos el derecho a modificar esta política. Última actualización: junio de 2025."
+      "consent": {
+        "title": "5. Consentimiento y protección de datos",
+        "content": "Al seguir navegando en nuestra web aceptas el uso de estas cookies, salvo que decidas desactivarlas.\n\nEn Agencia Tinta no usamos cookies para espiarte ni vendemos tu información. Cumplimos con el Reglamento General de Protección de Datos (UE) 2016/679 y la LSSI-CE.\n\nSi quieres saber más sobre cómo cuidamos tu privacidad, puedes leer nuestra Política de Privacidad."
       }
     }
   },
   "privacyPage": {
     "title": "Política de Privacidad",
-    "subtitle": "En Agencia Tinta, nos comprometemos a proteger tu privacidad. Esta política explica cómo recopilamos, usamos y protegemos los datos personales que puedas proporcionarnos a través de nuestra web.",
+    "subtitle": "En Agencia Tinta nos tomamos muy en serio tu privacidad y la protección de tus datos personales.\nEn cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 (RGPD), la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD) y la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), te informamos de lo siguiente:",
     "content": {
       "responsible": {
-        "title": "Responsable del tratamiento",
+        "title": "1. Responsable del tratamiento",
         "items": [
           "Nombre comercial: Agencia Tinta",
-          "Correo electrónico de contacto: agenciatinta@gmail.com",
-          "Actividad: Agencia de marketing y diseño"
+          "Correo electrónico de contacto: agenciadigitaltinta@gmail.com",
+          "Actividad: Agencia de marketing, diseño y producción de contenidos",
+          "Ubicación: España"
         ]
       },
       "dataCollected": {
-        "title": "Datos que recopilamos",
-        "intro": "A través del formulario de contacto o mediante el uso de herramientas de analítica, podemos recopilar:",
+        "title": "2. Datos que recopilamos",
+        "intro": "Podemos recopilar la siguiente información a través de formularios, interacciones con la web o herramientas de analítica:",
         "items": [
           "Nombre",
           "Correo electrónico",
           "Dirección IP",
-          "Información de navegación (mediante cookies)"
+          "Información de navegación (a través de cookies; ver nuestra Política de Cookies)"
         ]
       },
       "purpose": {
-        "title": "Finalidad del tratamiento",
+        "title": "3. Finalidad del tratamiento",
+        "intro": "Utilizamos tus datos para:",
         "items": [
           "Responder a consultas o solicitudes recibidas.",
           "Mejorar la experiencia de usuario y analizar el comportamiento de navegación.",
-          "Enviar comunicaciones comerciales, si has dado tu consentimiento."
+          "Enviar comunicaciones comerciales relacionadas con nuestros servicios, siempre que hayas dado tu consentimiento expreso."
         ]
       },
       "legitimacy": {
-        "title": "Legitimación",
-        "content": "Consentimiento del usuario al enviar el formulario o aceptar el uso de cookies."
-      },
-      "recipients": {
-        "title": "Destinatarios",
-        "intro": "Utilizamos servicios de terceros que pueden procesar datos en nuestro nombre:",
+        "title": "4. Legitimación",
+        "intro": "La base legal para el tratamiento de tus datos es:",
         "items": [
-          "Google Analytics (Google LLC)",
-          "Meta Platforms, Inc. (para el píxel de Facebook)",
-          "Netlify (hosting del sitio)",
-          "Resend (envío de correos desde formularios)"
+          "Tu consentimiento expreso al enviarnos un formulario o aceptar el uso de cookies.",
+          "La ejecución de medidas precontractuales o contractuales, cuando proceda."
         ]
       },
-      "rights": {
-        "title": "Derechos del usuario",
-        "content": "Podés ejercer tus derechos de acceso, rectificación, cancelación, oposición, portabilidad y limitación escribiendo a: agenciatinta@gmail.com"
+      "recipients": {
+        "title": "5. Destinatarios de los datos",
+        "intro": "Podemos utilizar servicios de terceros que procesan datos en nuestro nombre, como:",
+        "items": [
+          "Google LLC (Google Analytics)",
+          "Meta Platforms, Inc. (Facebook Pixel)",
+          "Netlify, Inc. (hosting del sitio web)",
+          "Resend, Inc. (envío de correos desde formularios)"
+        ],
+        "additional": "En cualquier caso, estos proveedores cumplen con la normativa de protección de datos y, cuando sea necesario, cuentan con acuerdos de tratamiento de datos firmados."
+      },
+      "internationalTransfers": {
+        "title": "6. Transferencias internacionales",
+        "content": "En caso de que alguno de los servicios indicados suponga una transferencia internacional de datos (por ejemplo, proveedores con servidores fuera de la UE), nos aseguraremos de que se realice con las debidas garantías legales, ya sea mediante Cláusulas Contractuales Tipo aprobadas por la Comisión Europea o mecanismos equivalentes."
       },
       "retention": {
-        "title": "Conservación de los datos",
-        "content": "Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que fueron recogidos y para cumplir con obligaciones legales."
+        "title": "7. Conservación de los datos",
+        "content": "Tus datos se conservarán únicamente durante el tiempo necesario para cumplir con la finalidad para la que fueron recogidos y para atender posibles responsabilidades legales derivadas del tratamiento."
       },
-      "changes": {
-        "title": "Cambios en esta política",
-        "content": "Agencia Tinta se reserva el derecho a modificar esta política para adaptarla a cambios legislativos o técnicos. Te recomendamos revisarla periódicamente."
+      "userRights": {
+        "title": "8. Derechos del usuario",
+        "intro": "Puedes ejercer en cualquier momento tus derechos de:",
+        "items": [
+          "Acceso: saber si tratamos tus datos y obtener copia de ellos.",
+          "Rectificación: corregir datos inexactos o incompletos.",
+          "Supresión (derecho al olvido): solicitar la eliminación de tus datos cuando ya no sean necesarios.",
+          "Oposición: impedir que tratemos tus datos en determinados supuestos.",
+          "Limitación del tratamiento: restringir temporalmente el uso de tus datos.",
+          "Portabilidad: recibir tus datos en formato electrónico y transmitirlos a otro responsable."
+        ]
       },
-      "lastUpdate": "Última actualización: junio de 2025"
+      "exercisingRights": {
+        "title": "9. Ejercicio de derechos",
+        "content": "Para ejercer tus derechos, puedes enviarnos un correo a agenciadigitaltinta@gmail.com indicando el derecho que deseas ejercitar y adjuntando una copia de tu documento de identidad."
+      },
+      "complaints": {
+        "title": "10. Reclamaciones ante la Autoridad de Control",
+        "intro": "Si consideras que tus derechos no han sido respetados, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD):",
+        "items": [
+          "Dirección: C/ Jorge Juan, 6, 28001 Madrid",
+          "Web: https://sedeagpd.gob.es"
+        ]
+      },
+      "policyChanges": {
+        "title": "11. Cambios en la política",
+        "content": "Agencia Tinta se reserva el derecho a modificar esta política para adaptarla a cambios legislativos o técnicos. Cualquier modificación será publicada en esta misma página."
+      }
     }
   },
   "foodarPage": {

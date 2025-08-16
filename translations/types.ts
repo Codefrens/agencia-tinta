@@ -102,34 +102,71 @@ export type Translations = {
     title: string;
     subtitle: string;
     content: {
-      owner: {
+      identificationData: {
         title: string;
         items: string[];
       };
-      intellectual: {
+      websiteObjective: {
         title: string;
         content: string;
       };
-      responsibility: {
+      intellectualProperty: {
         title: string;
         content: string;
       };
-      legislation: {
+      webUsageAndResponsibility: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      informationUpdate: {
         title: string;
         content: string;
       };
-      lastUpdate: string;
+      commercialCommunications: {
+        title: string;
+        content: string;
+      };
+      cookiesUsage: {
+        title: string;
+        content: string;
+      };
+      applicableLegislation: {
+        title: string;
+        content: string;
+      };
     };
   };
   cookiesPage: {
     title: string;
     subtitle: string;
+    description: string;
     content: {
       what: {
         title: string;
         content: string;
+        benefits: {
+          title: string;
+          items: string[];
+        };
+        security: string;
       };
       types: {
+        title: string;
+        byOwner: {
+          title: string;
+          items: string[];
+        };
+        byDuration: {
+          title: string;
+          items: string[];
+        };
+        byPurpose: {
+          title: string;
+          items: string[];
+        };
+      };
+      ourCookies: {
         title: string;
         technical: {
           title: string;
@@ -147,13 +184,9 @@ export type Translations = {
       manage: {
         title: string;
         content: string;
+        browsers: string[];
       };
-      sharing: {
-        title: string;
-        content: string;
-        companies: string[];
-      };
-      changes: {
+      consent: {
         title: string;
         content: string;
       };
@@ -174,18 +207,21 @@ export type Translations = {
       };
       purpose: {
         title: string;
+        intro: string;
         items: string[];
       };
       legitimacy: {
         title: string;
-        content: string;
+        intro: string;
+        items: string[];
       };
       recipients: {
         title: string;
         intro: string;
         items: string[];
+        additional: string;
       };
-      rights: {
+      internationalTransfers: {
         title: string;
         content: string;
       };
@@ -193,11 +229,24 @@ export type Translations = {
         title: string;
         content: string;
       };
-      changes: {
+      userRights: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      exercisingRights: {
         title: string;
         content: string;
       };
-      lastUpdate: string;
+      complaints: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      policyChanges: {
+        title: string;
+        content: string;
+      };
     };
   };
   foodarPage: {
