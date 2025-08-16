@@ -7,6 +7,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { GTM_ID } from "@/utils/gtm";
 import RecaptchaProvider from "@/components/providers/RecaptchaProvider";
 import { PageViewTracker } from "@/components/GoogleTagManager";
+import Script from "next/script";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -34,6 +35,9 @@ export default async function RootLayout({
   
   return (
     <html lang={lang}>
+      <head>
+        <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/72d1e76e213845e304a05a39/script.js"></Script>
+      </head>
       <body className={`${dmSans.variable}`}>
         <RecaptchaProvider>
           <LenisProvider>
