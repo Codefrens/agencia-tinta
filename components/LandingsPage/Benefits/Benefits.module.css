@@ -1,26 +1,34 @@
 .benefitsSection {
-  padding: 80px 0 0;
+  padding: 0;
   background: var(--color-neutral-100);
 }
 
 .header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 48px;
 }
 
 .title {
-  font-size: pxToRem(24);
-  font-weight: var(--font-bold);
-  text-transform: uppercase;
+  font-size: pxToRem(36);
   margin-bottom: 16px;
   color: var(--color-neutral-0);
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleLight {
+  font-weight: var(--font-light);
+}
+
+.titleBold {
+  font-weight: var(--font-extra-bold);
 }
 
 .benefitsGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: pxToRem(16);
-  max-width: 1024px;
   margin: 0 auto pxToRem(80) auto;
 }
 
@@ -128,7 +136,7 @@
 /* Tablet */
 @mixin mediaMin768 {
   .benefitsSection {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 
   .header {
@@ -136,7 +144,7 @@
   }
 
   .title {
-    font-size: pxToRem(28);
+    font-size: pxToRem(46);
   }
 
   .benefitsGrid {
@@ -181,18 +189,14 @@
 
 /* Desktop - 4 columnas como pidió el usuario */
 @mixin mediaMin1024 {
-  .benefitsSection {
-    padding: 120px 0;
-  }
 
   .title {
-    font-size: pxToRem(32);
+    font-size: pxToRem(48);
   }
 
   .benefitsGrid {
     grid-template-columns: repeat(4, 1fr);
     gap: pxToRem(32);
-    max-width: 1200px;
     margin-bottom: pxToRem(120);
   }
 

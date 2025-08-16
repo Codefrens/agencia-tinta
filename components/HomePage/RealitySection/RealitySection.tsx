@@ -39,7 +39,8 @@ const RealitySection = ({
               src={translations.imgSrc}
               alt={translations.imgAlt}
               fill
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
+              sizes="100vw"
             />
           </motion.div>
         </div>

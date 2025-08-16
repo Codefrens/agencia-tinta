@@ -15,11 +15,12 @@ interface Benefit {
 }
 
 interface BenefitsProps {
-  title: string;
+  titleLight: string;
+  titleBold: string;
   benefitsList: Benefit[];
 }
 
-const Benefits = ({ title, benefitsList }: BenefitsProps) => {
+const Benefits = ({ titleLight, titleBold, benefitsList }: BenefitsProps) => {
   // Iconos para cada beneficio en orden
   const benefitIcons = [
     <Trophy key="trophy" size={40} weight="duotone" />,
@@ -35,11 +36,11 @@ const Benefits = ({ title, benefitsList }: BenefitsProps) => {
       imageAlt: "Agencia Tinta - Imagen 1",
     },
     {
-      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1754416790/agencia-tinta/agencia/contenido_redes_sociales_raxug1.png",
+      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1755348589/agencia-tinta/landings/production/video_corporativo_z1krvs.webp",
       imageAlt: "Agencia Tinta - Imagen 2",
     },
     {
-      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1754416790/agencia-tinta/agencia/video_institucional_yryrub.png",
+      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1755348589/agencia-tinta/landings/production/contenido_redes_sociales_s1wvoh.webp",
       imageAlt: "Agencia Tinta - Imagen 3",
     },
   ];
@@ -48,7 +49,10 @@ const Benefits = ({ title, benefitsList }: BenefitsProps) => {
     <section className={styles.benefitsSection}>
       <Container>
         <div className={styles.header}>
-          <h2 className={styles.title}>{title}</h2>
+          <h2 className={styles.title}>
+            <span className={styles.titleLight}>{titleLight} </span>
+            <span className={styles.titleBold}>{titleBold}</span>
+          </h2>
         </div>
         
         <div className={styles.benefitsGrid}>
@@ -76,6 +80,8 @@ const Benefits = ({ title, benefitsList }: BenefitsProps) => {
                   width={400}
                   height={400}
                   className={styles.image}
+                  sizes="100vw"
+                  style={{ objectFit: "cover" }}
                 />
               </div>
             ))}

@@ -10,14 +10,17 @@ interface Testimonial {
   quote: string;
   client: string;
   logo: string;
+  personName: string;
+  personPosition: string;
 }
 
 interface TestimonialsProps {
-  title: string;
+  titleLight: string;
+  titleBold: string;
   testimonialsList: Testimonial[];
 }
 
-const Testimonials = ({ title, testimonialsList }: TestimonialsProps) => {
+const Testimonials = ({ titleLight, titleBold, testimonialsList }: TestimonialsProps) => {
   const isMobile = useIsMobile();
 
   const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
@@ -35,9 +38,13 @@ const Testimonials = ({ title, testimonialsList }: TestimonialsProps) => {
             alt={`${testimonial.client} logo`}
             fill
             style={{ objectFit: "contain" }}
+            sizes="200px"
           />
         </div>
-        <cite className={styles.clientName}>{testimonial.client}</cite>
+        <div className={styles.personInfo}>
+          <div className={styles.personName}>{testimonial.personName}</div>
+          <div className={styles.personPosition}>{testimonial.personPosition}</div>
+        </div>
       </div>
     </div>
   );
@@ -46,7 +53,10 @@ const Testimonials = ({ title, testimonialsList }: TestimonialsProps) => {
     <section className={styles.testimonialsSection}>
       <Container>
         <div className={styles.header}>
-          <h2 className={styles.title}>{title}</h2>
+          <h2 className={styles.title}>
+            <span className={styles.titleLight}>{titleLight} </span>
+            <span className={styles.titleBold}>{titleBold}</span>
+          </h2>
         </div>
         
         {isMobile ? (

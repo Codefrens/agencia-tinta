@@ -30,6 +30,7 @@ const Works = ({ title, subtitle, works }: WorksProps) => {
                 className={styles.workImage}
                 fill
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
                 style={{ objectFit: "cover" }}
               />
               {work.title && (

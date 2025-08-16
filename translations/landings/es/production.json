@@ -1,8 +1,8 @@
 {
   "hero": {
     "title": "Producción audiovisual y fotografía en la Costa del Sol.",
-    "description": "Somos una agencia de creación de contenido, experta en videos corporativos, coberturas de eventos, reels y sesiones fotográficas de alta calidad.",
-    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
+    "description": "Somos una agencia de creación de contenido, experta en videos corporativos, cobertura de eventos, reels y sesiones fotográficas de alta calidad.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
   "services": {
@@ -13,7 +13,7 @@
         "description": "Creamos videos institucionales que transmiten la esencia de tu empresa con narrativas visuales de alto impacto."
       },
       {
-        "title": "Coberturas de eventos",
+        "title": "Cobertura de eventos",
         "description": "Capturamos la energía y los momentos claves de tus eventos corporativos, sociales o culturales."
       },
       {
@@ -40,111 +40,85 @@
     "worksList": [
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789332/agencia-tinta/landings/production/fotografi%CC%81a_gastrono%CC%81mica_jvmlcw.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351606/agencia-tinta/landings/production/fotografi%CC%81a_gastrono%CC%81mica_jvmlcw_jm3azt.webp",
+        "title": "Malahe",
+        "description": "Fotografía gastronómica y foodstyling."
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/cobertura_evento_fq97zd.jpg",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351607/agencia-tinta/landings/production/cobertura_evento_fq97zd_rrewmp.webp",
         "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/fotografi%CC%81a_producto_tlxu5u.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
-        "title": "AC Hotel",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/produccio%CC%81n_audiovisual_b2ldwh.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a-gastrono%CC%81mica_djmgp4.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.jpg",
-        "title": "AC Hotel",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/video_institucional_ywm6ma.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
+        "description": "Fotografía para evento de aniversario."
       },
       {
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
         "title": "Agape",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351601/agencia-tinta/landings/production/video_corporativo_khtccs_fzixsz.webp",
+        "title": "Cantina Canalla",
+        "description": "Fotografía gastronómica y foodstyling."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351598/agencia-tinta/landings/production/fotografi%CC%81a-gastrono%CC%81mica_djmgp4_ckw9xd.webp",
+        "title": "Malavida",
+        "description": "Contenido para redes sociales."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350833/agencia-tinta/landings/production/AC_HOTEL-reel_oey4gr.webp",
+        "title": "AC Hotel",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       },
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a_hmfbkq.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg",
-        "title": "Remax",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351597/agencia-tinta/landings/production/fotografi%CC%81a_producto_tlxu5u_afbhvs.webp",
+        "title": "Smash Burger",
+        "description": "Reels y contenido para redes sociales"
       },
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/reel_evento_kefugl.jpg",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.jpg",
-        "title": "Remax",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789329/agencia-tinta/landings/production/video_corporativo_khtccs.png",
-        "title": "Cantina Canalla",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.jpg",
-        "title": "Malahe",
-        "description": "Fotografía gastronómica y de espacios para restaurante"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351599/agencia-tinta/landings/production/produccio%CC%81n_audiovisual_b2ldwh_qs9g0m.webp",
+        "title": "Smash Burger",
+        "description": "Reels y contenido para redes sociales"
       },
       {
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.jpg",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350832/agencia-tinta/landings/production/REMAX-reel_cfuwbi.webp",
         "title": "Remax",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351603/agencia-tinta/landings/production/video_institucional_ywm6ma_avdwol.webp",
+        "title": "Malahe",
+        "description": "Fotografía corporativa."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351600/agencia-tinta/landings/production/reel_evento_kefugl_bez05c.webp",
+        "title": "AC Hotel Marriot",
+        "description": "Fotografía gastronómica y foodstyling."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350832/agencia-tinta/landings/production/MALAHE-reel_drai8y.webp",
+        "title": "Malahe",
         "description": "Fotografía gastronómica y de espacios para restaurante"
       }
     ]
   },
   "benefits": {
-    "title": "¿Por qué elegir a Agencia Tinta?",
+    "titleLight": "¿Por qué elegir",
+    "titleBold": "Agencia Tinta?",
     "benefitsList": [
       {
         "title": "Más de 8 años de experiencia",
@@ -160,27 +134,34 @@
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda península."
+        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
       }
     ]
   },
   "testimonials": {
-    "title": "Lo que dicen nuestros clientes",
+    "titleLight": "Lo que dicen ",
+    "titleBold": "nuestros clientes",
     "testimonialsList": [
       {
-        "quote": "El video que creó Agencia Tinta para nuestro evento fue clave para transmitir nuestra propuesta. Altamente recomendados.",
-        "client": "Cantina Canalla",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png"
-      },
-      {
-        "quote": "Necesitábamos fotografía gastronómica profesional y el resultado superó nuestras expectativas. Equipo humano y muy creativo.",
-        "client": "Remax",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png"
-      },
-      {
-        "quote": "Necesitábamos fotografía gastronómica profesional y el resultado superó nuestras expectativas. Equipo humano y muy creativo.",
+        "quote": "Los vídeos corporativos que crearon fueron fundamentales para transmitir nuestra propuesta. Además, son gente apañá y amable, y eso siempre se agradece.",
         "client": "AC HOTEL - Marriot",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png"
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
+        "personName": "Angel Garcia Cano",
+        "personPosition": "Food & Beverage Manager"
+      },
+      {
+        "quote": "Ponerse en manos de estos grandes profesionales es garantía de éxito. Te escuchan y entienden tus necesidades adaptando su trabajo a lo que necesitas.",
+        "client": "Cantina Canalla",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
+        "personName": "Mario Navalproto",
+        "personPosition": "Director de Operaciones y HR"
+      },
+      {
+        "quote": "Grandes profesionales. Con sus servicios, elevan tu empresa a otro nivel. Recomendable 100%.",
+        "client": "Remax",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
+        "personName": "Francisco Arijo Alvarez",
+        "personPosition": "Broker"
       }
     ]
   },
@@ -205,7 +186,8 @@
     }
   },
   "contactSection": {
-    "title": "¿Listo para dar vida a tu proyecto?",
+    "titleLight": "¿Listo para dar vida",
+    "titleBold": "a tu proyecto?",
     "subtitle": "Cuéntanos tu idea y recibe una propuesta personalizada"
   },
   "thankYou": {
@@ -214,17 +196,24 @@
   },
   "videos": {
     "title": "Videos corporativos",
+    "subtitle": "Creamos videos que transmiten la esencia de tu empresa con narrativas visuales de alta impacto.",
     "videosList": [
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
+        "videoAlt": "Video corporativo Bacardi",
+        "videoLabelButton": "Ver video"
+      },
     {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg",
-      "videoAlt": "Video corporativo Grupo Amigos - Plaza Mayor",
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+      "videoAlt": "Video corporativo Cantina Cannalla",
       "videoLabelButton": "Ver video"
     },
     {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg",
-      "videoAlt": "Video corporativo Cantina Canalla - Franquicia",
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+      "videoAlt": "Video corporativo Grupo Amigos",
       "videoLabelButton": "Ver video"
     }
     ]

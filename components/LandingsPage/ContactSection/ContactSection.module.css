@@ -19,10 +19,19 @@
 
 .title {
   font-size: clamp(pxToRem(28), 6vw, pxToRem(48));
-  font-weight: var(--font-bold);
   color: var(--color-neutral-0);
   margin-bottom: pxToRem(16);
   line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleLight {
+  font-weight: var(--font-light);
+}
+
+.titleBold {
+  font-weight: var(--font-bold);
 }
 
 .subtitle {

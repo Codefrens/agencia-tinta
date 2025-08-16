@@ -22,6 +22,7 @@ const Hero = ({ title, subtitle, backgroundImage, children }: HeroProps) => {
             fill
             className={styles.backgroundImage}
             priority={true}
+            sizes="100vw"
           />
         ) : (
           <div className={styles.backgroundPlaceholder} />

@@ -13,12 +13,14 @@ interface Video {
 interface VideoCarouselProps {
   title: string;
   videos: Video[];
+  subtitle: string;
 }
 
-const VideoCarousel = ({ title, videos }: VideoCarouselProps) => {
+const VideoCarousel = ({ title, videos, subtitle }: VideoCarouselProps) => {
   return (
     <section className={styles.videoSection}>
       <h2 className={styles.title}>{title}</h2>
+      <p className={styles.subtitle}>{subtitle}</p>
         <div className={styles.carouselWrapper}>
           <Carousel
             slidesPerView={1}

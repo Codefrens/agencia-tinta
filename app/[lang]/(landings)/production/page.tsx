@@ -52,21 +52,24 @@ export default async function ProductionPage({
         works={content.works.worksList}
       />
 
-      <VideoCarousel title={content.videos.title} videos={content.videos.videosList || []} />
+      <VideoCarousel title={content.videos.title} subtitle={content.videos.subtitle} videos={content.videos.videosList || []} />
 
       <Benefits
-        title={content.benefits.title}
+        titleLight={content.benefits.titleLight}
+        titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
       />
 
       <Testimonials
-        title={content.testimonials.title}
+        titleLight={content.testimonials.titleLight}
+        titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
       />
 
       <ContactSection 
         lang={lang}
-        title={content.contactSection.title}
+        titleLight={content.contactSection.titleLight}
+        titleBold={content.contactSection.titleBold}
         subtitle={content.contactSection.subtitle}
         formTranslations={content.form} 
       />

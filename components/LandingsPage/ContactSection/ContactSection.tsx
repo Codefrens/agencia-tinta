@@ -4,7 +4,8 @@ import styles from "./ContactSection.module.css";
 
 interface ContactSectionProps {
   lang: "es" | "en";
-  title: string;
+  titleLight: string;
+  titleBold: string;
   subtitle: string;
   formTranslations: {
     title: string;
@@ -31,7 +32,8 @@ interface ContactSectionProps {
 
 const ContactSection = ({ 
   lang,
-  title,
+  titleLight,
+  titleBold,
   subtitle,
   formTranslations 
 }: ContactSectionProps) => {
@@ -40,7 +42,10 @@ const ContactSection = ({
       <Container>
         <div className={styles.content}>
           <div className={styles.header}>
-            <h2 className={styles.title}>{title}</h2>
+            <h2 className={styles.title}>
+              <span className={styles.titleLight}>{titleLight} </span>
+              <span className={styles.titleBold}>{titleBold}</span>
+            </h2>
             <p className={styles.subtitle}>{subtitle}</p>
           </div>
           

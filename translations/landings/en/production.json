@@ -2,7 +2,7 @@
   "hero": {
     "title": "Audiovisual Production and Photography on the Costa del Sol.",
     "description": "We are a content creation agency, expert in corporate videos, event coverage, reels and high-quality photo sessions.",
-    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
   "services": {
@@ -144,7 +144,8 @@
     ]
   },
   "benefits": {
-    "title": "Why choose Agencia Tinta?",
+    "titleLight": "Why choose",
+    "titleBold": "Agencia Tinta?",
     "benefitsList": [
       {
         "title": "Over 8 years of experience",
@@ -165,23 +166,31 @@
     ]
   },
   "testimonials": {
-    "title": "What our clients say",
+    "titleLight": "What our ",
+    "titleBold": "clients say",
     "testimonialsList": [
       {
-        "quote": "The video that Agencia Tinta created for our event was key to conveying our proposal. Highly recommended.",
-        "client": "Cantina Canalla",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png"
-      },
-      {
-        "quote": "We needed professional food photography and the result exceeded our expectations. Human and very creative team.",
-        "client": "Remax",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png"
-      },
-      {
-        "quote": "We needed professional food photography and the result exceeded our expectations. Human and very creative team.",
+        "quote": "The corporate videos they created were fundamental to conveying our proposal. Plus, they are great and friendly people, and that is always appreciated.",
         "client": "AC HOTEL - Marriot",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png"
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
+        "personName": "Angel Garcia Cano",
+        "personPosition": "Food & Beverage Manager"
+      },
+      {
+        "quote": "Putting yourself in the hands of these great professionals is a guarantee of success. They listen and understand your needs, adapting their work to what you need.",
+        "client": "Cantina Canalla",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
+        "personName": "Mario Navalproto",
+        "personPosition": "Operations and HR Director"
+      },
+      {
+        "quote": "Great professionals. With their services, they elevate your company to another level. 100% recommended.",
+        "client": "Remax",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
+        "personName": "Francisco Arijo Alvarez",
+        "personPosition": "Broker"
       }
+
     ]
   },
   "form": {
@@ -205,7 +214,8 @@
     }
   },
   "contactSection": {
-    "title": "Ready to bring your project to life?",
+    "titleLight": "Ready to bring your project",
+    "titleBold": "to life?",
     "subtitle": "Tell us your idea and receive a personalized proposal"
   },
   "thankYou": {
@@ -214,17 +224,24 @@
   },
   "videos": {
     "title": "Corporate videos",
+    "subtitle": "We create videos that convey the essence of your company with high-impact visual narratives.",
     "videosList": [
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
+        "videoAlt": "Corporate Video Bacardi",
+        "videoLabelButton": "Watch video"
+      },
     {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg",
-      "videoAlt": "Corporate video Grupo Amigos - Plaza Mayor",
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+      "videoAlt": "Corporate Video Cantina Cannalla",
       "videoLabelButton": "Watch video"
     },
     {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg",
-      "videoAlt": "Corporate video Cantina Canalla - Franchise",
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+      "videoAlt": "Corporate Video Grupo Amigos",
       "videoLabelButton": "Watch video"
     }
     ]
