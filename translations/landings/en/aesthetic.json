@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "title": "Social media management and digital marketing for aesthetic clinics in Spain",
+    "description": "Professional videos, treatment photography, effective advertising and social media to boost your brand in the aesthetic sector.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "I want to boost my aesthetic clinic"
+  },
+  "services": {
+    "title": "Specialists in visual content and marketing for advanced aesthetics",
+    "servicesList": [
+      {
+        "title": "Video production for aesthetic clinics",
+        "description": "Corporate videos, explained treatments, testimonials and content for social media."
+      },
+      {
+        "title": "Professional aesthetic photography",
+        "description": "Before and after treatments, professional portraits, spaces and equipment."
+      },
+      {
+        "title": "Digital advertising on Google Ads and Meta Ads",
+        "description": "Attract new clients through targeted ads by area, age, interests and aesthetics."
+      },
+      {
+        "title": "Social media management",
+        "description": "Content strategy, visual design and monthly planning for Instagram and Facebook."
+      }
+    ]
+  },
+  "works": {
+    "title": "Beauty, confidence and results in every project",
+    "subtitle": "These are some examples of visual content we create for aesthetic and medical aesthetic centers. From reels to results photography sessions.",
+    "worksList": []
+  },
+  "benefits": {
+    "titleLight": "Why choose",
+    "titleBold": "Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Over 8 years of experience",
+        "description": "Professional audiovisual production and photography with proven results."
+      },
+      {
+        "title": "Boutique approach",
+        "description": "Each project is treated with personalized creativity and strategy."
+      },
+      {
+        "title": "Complete service",
+        "description": "Pre-production, filming, editing and delivery. Everything in one place."
+      },
+      {
+        "title": "Wide coverage",
+        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+      }
+    ]
+  },
+  "testimonials": {
+    "titleLight": "What our ",
+    "titleBold": "clients say",
+    "testimonialsList": [
+      {
+        "quote": "The corporate videos they created were fundamental to conveying our proposal. Plus, they are great and friendly people, and that is always appreciated.",
+        "client": "AC HOTEL - Marriot",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
+        "personName": "Angel Garcia Cano",
+        "personPosition": "Food & Beverage Manager"
+      },
+      {
+        "quote": "Putting yourself in the hands of these great professionals is a guarantee of success. They listen and understand your needs, adapting their work to what you need.",
+        "client": "Cantina Canalla",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
+        "personName": "Mario Navalproto",
+        "personPosition": "Operations and HR Director"
+      },
+      {
+        "quote": "Great professionals. With their services, they elevate your company to another level. 100% recommended.",
+        "client": "Remax",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
+        "personName": "Francisco Arijo Alvarez",
+        "personPosition": "Broker"
+      }
+    ]
+  },
+  "form": {
+    "title": "Request your budget",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "projectType": "Project type",
+    "message": "Message",
+    "buttonLabel": "I want to receive a proposal",
+    "buttonLabelSending": "Sending...",
+    "successMessage": "Message sent successfully! We'll contact you soon.",
+    "errorMessage": "Error sending message. Please try again.",
+    "recaptchaError": "Security verification error. Please try again.",
+    "projectTypes": {
+      "video": "Video for aesthetic clinic",
+      "photography": "Treatment photography",
+      "ads": "Digital advertising",
+      "social": "Social media management",
+      "other": "Other"
+    }
+  },
+  "contactSection": {
+    "titleLight": "Ready to boost",
+    "titleBold": "your aesthetic clinic?",
+    "subtitle": "Tell us about your project and receive a personalized proposal to boost your center"
+  },
+  "thankYou": {
+    "title": "Thank you for your message!",
+    "subtitle": "We have received your request successfully. Our team will contact you within the next 24 hours to discuss your project and provide you with a personalized proposal."
+  },
+  "videos": {
+    "title": "Corporate videos",
+    "subtitle": "We create videos that convey the essence of your company with high-impact visual narratives.",
+    "videosList": [
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
+        "videoAlt": "Corporate Video Bacardi",
+        "videoLabelButton": "Watch video"
+      },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+      "videoAlt": "Corporate Video Cantina Cannalla",
+      "videoLabelButton": "Watch video"
+    },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+      "videoAlt": "Corporate Video Grupo Amigos",
+      "videoLabelButton": "Watch video"
+    }
+    ]
+  },
+  "cta": {
+    "title": "Ready to boost your aesthetic clinic?",
+    "buttonLabel": "I want to boost my aesthetic clinic"
+  }
+}

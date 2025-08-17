@@ -28,6 +28,7 @@ interface ContactSectionProps {
       other: string;
     };
   };
+  source: string;
 }
 
 const ContactSection = ({ 
@@ -35,7 +36,8 @@ const ContactSection = ({
   titleLight,
   titleBold,
   subtitle,
-  formTranslations 
+  formTranslations,
+  source
 }: ContactSectionProps) => {
   return (
     <section className={styles.contactSection}>
@@ -49,7 +51,7 @@ const ContactSection = ({
             <p className={styles.subtitle}>{subtitle}</p>
           </div>
           
-          <LandingForm lang={lang} formTranslations={formTranslations} />
+          <LandingForm lang={lang} formTranslations={formTranslations} source={source} />
         </div>
       </Container>
     </section>

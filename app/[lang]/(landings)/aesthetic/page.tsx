@@ -16,10 +16,10 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["productionPage"][lang];
+  return SEO_METADATA["aestheticPage"][lang];
 };
 
-export default async function ProductionPage({
+export default async function AestheticPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
@@ -27,7 +27,7 @@ export default async function ProductionPage({
 
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const content = loadLocalContent("landings", lang, "production") as any;
+  const content = loadLocalContent("landings", lang, "aesthetic") as any;
 
   return (
     <>
@@ -36,7 +36,7 @@ export default async function ProductionPage({
         subtitle={content.hero.description}
         backgroundImage={content.hero.backgroundImage}
       >
-        <LandingForm lang={lang} formTranslations={content.form} source="landing-production" />
+        <LandingForm lang={lang} formTranslations={content.form} source="landing-aesthetic" />
       </Hero>
 
    
@@ -72,7 +72,7 @@ export default async function ProductionPage({
         titleBold={content.contactSection.titleBold}
         subtitle={content.contactSection.subtitle}
         formTranslations={content.form} 
-        source="landing-production"
+        source="landing-aesthetic"
       />
     </>
   );

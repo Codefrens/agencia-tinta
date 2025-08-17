@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "title": "Manejo de redes sociales y marketing digital para clínicas estéticas en España",
+    "description": "Videos profesionales, fotografía de tratamientos, publicidad efectiva y redes sociales para potenciar tu marca en el sector estético.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Quiero impulsar mi clínica estética"
+  },
+  "services": {
+    "title": "Especialistas en contenido visual y marketing para estética avanzada",
+    "servicesList": [
+      {
+        "title": "Producción de video para clínicas estéticas",
+        "description": "Videos corporativos, tratamientos explicados, testimonios y contenido para redes."
+      },
+      {
+        "title": "Fotografía profesional estética",
+        "description": "Antes y después de tratamientos, retratos profesionales, espacios y equipamiento."
+      },
+      {
+        "title": "Publicidad digital en Google Ads y Meta Ads",
+        "description": "Captación de nuevos clientes mediante anuncios segmentados por zona, edad, intereses y estética."
+      },
+      {
+        "title": "Gestión de redes sociales",
+        "description": "Estrategia de contenido, diseño visual y planificación mensual para Instagram y Facebook."
+      }
+    ]
+  },
+  "works": {
+    "title": "Belleza, confianza y resultados en cada proyecto",
+    "subtitle": "Estos son algunos ejemplos de contenido visual que creamos para centros de estética y medicina estética. Desde reels hasta sesiones de fotografía de resultados.",
+    "worksList": []
+  },
+  "benefits": {
+    "titleLight": "¿Por qué elegir",
+    "titleBold": "Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Más de 8 años de experiencia",
+        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+      },
+      {
+        "title": "Enfoque boutique",
+        "description": "Cada proyecto es tratado con creatividad y estrategia personalizada."
+      },
+      {
+        "title": "Servicio completo",
+        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+      },
+      {
+        "title": "Cobertura amplia",
+        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
+      }
+    ]
+  },
+  "testimonials": {
+    "titleLight": "Lo que dicen ",
+    "titleBold": "nuestros clientes",
+    "testimonialsList": [
+      {
+        "quote": "Los vídeos corporativos que crearon fueron fundamentales para transmitir nuestra propuesta. Además, son gente apañá y amable, y eso siempre se agradece.",
+        "client": "AC HOTEL - Marriot",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
+        "personName": "Angel Garcia Cano",
+        "personPosition": "Food & Beverage Manager"
+      },
+      {
+        "quote": "Ponerse en manos de estos grandes profesionales es garantía de éxito. Te escuchan y entienden tus necesidades adaptando su trabajo a lo que necesitas.",
+        "client": "Cantina Canalla",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
+        "personName": "Mario Navalproto",
+        "personPosition": "Director de Operaciones y HR"
+      },
+      {
+        "quote": "Grandes profesionales. Con sus servicios, elevan tu empresa a otro nivel. Recomendable 100%.",
+        "client": "Remax",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
+        "personName": "Francisco Arijo Alvarez",
+        "personPosition": "Broker"
+      }
+    ]
+  },
+  "form": {
+    "title": "Solicita tu presupuesto",
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono (opcional)",
+    "projectType": "Tipo de proyecto",
+    "message": "Mensaje",
+    "buttonLabel": "Quiero recibir una propuesta",
+    "buttonLabelSending": "Enviando...",
+    "successMessage": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
+    "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "recaptchaError": "Error de verificación de seguridad. Por favor, inténtalo de nuevo.",
+    "projectTypes": {
+      "video": "Video para clínica estética",
+      "photography": "Fotografía de tratamientos",
+      "ads": "Publicidad digital",
+      "social": "Gestión de redes sociales",
+      "other": "Otro"
+    }
+  },
+  "contactSection": {
+    "titleLight": "¿Listo para potenciar",
+    "titleBold": "tu clínica estética?",
+    "subtitle": "Cuéntanos tu proyecto y recibe una propuesta personalizada para impulsar tu centro"
+  },
+  "thankYou": {
+    "title": "¡Gracias por tu mensaje!",
+    "subtitle": "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas para discutir tu proyecto y brindarte una propuesta personalizada."
+  },
+  "videos": {
+    "title": "Videos corporativos",
+    "subtitle": "Creamos videos que transmiten la esencia de tu empresa con narrativas visuales de alta impacto.",
+    "videosList": [
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
+        "videoAlt": "Video corporativo Bacardi",
+        "videoLabelButton": "Ver video"
+      },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+      "videoAlt": "Video corporativo Cantina Cannalla",
+      "videoLabelButton": "Ver video"
+    },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+      "videoAlt": "Video corporativo Grupo Amigos",
+      "videoLabelButton": "Ver video"
+    }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para potenciar tu clínica estética?",
+    "buttonLabel": "Quiero impulsar mi clínica estética"
+  }
+}

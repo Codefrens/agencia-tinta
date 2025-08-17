@@ -365,6 +365,21 @@ const productionPage = {
   },
 };
 
+const aestheticPage = {
+  es: {
+    title: "Tinta | Marketing digital y redes sociales para clínicas estéticas en España",
+    description: "Especialistas en videos profesionales, fotografía de tratamientos, publicidad efectiva y gestión de redes sociales para potenciar clínicas estéticas.",
+    keywords: "marketing digital clínicas estéticas, videos para centros de belleza, fotografía tratamientos estéticos, gestión redes sociales medicina estética, publicidad Google Ads clínicas",
+    robots: "index, follow",
+  },
+  en: {
+    title: "Tinta | Digital marketing and social media for aesthetic clinics in Spain",
+    description: "Specialists in professional videos, treatment photography, effective advertising and social media management to boost aesthetic clinics.",
+    keywords: "digital marketing aesthetic clinics, videos for beauty centers, aesthetic treatment photography, social media management aesthetic medicine, Google Ads advertising clinics",
+    robots: "index, follow",
+  },
+};
+
 const thankYouPage = {
   es: {
     title: "Gracias por tu mensaje | Agencia Tinta",
@@ -385,5 +400,6 @@ export const SEO_METADATA = {
   portfolioPage,
   foodarPage,
   productionPage,
+  aestheticPage,
   thankYouPage,
 };

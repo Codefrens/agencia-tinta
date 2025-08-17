@@ -27,9 +27,10 @@ interface LandingFormProps {
       other: string;
     };
   };
+  source: string;
 }
 
-const LandingForm = ({ lang, formTranslations }: LandingFormProps) => {
+const LandingForm = ({ lang, formTranslations, source }: LandingFormProps) => {
   const router = useRouter();
   const { executeRecaptcha } = useGoogleReCaptcha();
   
@@ -71,7 +72,7 @@ const LandingForm = ({ lang, formTranslations }: LandingFormProps) => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          source: "landing-production",
+          source: source,
           recaptchaToken: token,
         }),
       });
