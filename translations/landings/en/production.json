@@ -40,106 +40,79 @@
     "worksList": [
       {
         "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789332/agencia-tinta/landings/production/fotografi%CC%81a_gastrono%CC%81mica_jvmlcw.jpg",
-        "title": "Cantina Canalla",
-        "description": "Food and space photography for restaurant"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450789/agencia-tinta/landings/production/imagen_1_fotografi%CC%81a_gastrono%CC%81mica_qrjro1.webp",
+        "title": "Malahe",
+        "description": "Gastronomic photography and food styling."
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/cobertura_evento_fq97zd.jpg",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_2_cobertura_evento_xakh3b.webp",
         "title": "Cantina Canalla",
-        "description": "Event coverage and photography"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/fotografi%CC%81a_producto_tlxu5u.jpg",
-        "title": "Cantina Canalla",
-        "description": "Product photography for restaurant"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789331/agencia-tinta/landings/production/produccio%CC%81n_audiovisual_b2ldwh.jpg",
-        "title": "Cantina Canalla",
-        "description": "Audiovisual production and photography"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a-gastrono%CC%81mica_djmgp4.jpg",
-        "title": "Cantina Canalla",
-        "description": "Gastronomic photography for restaurant"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/video_institucional_ywm6ma.jpg",
-        "title": "Cantina Canalla",
-        "description": "Corporate video production"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/fotografi%CC%81a_hmfbkq.jpg",
-        "title": "Cantina Canalla",
-        "description": "Professional photography session"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789330/agencia-tinta/landings/production/reel_evento_kefugl.jpg",
-        "title": "Cantina Canalla",
-        "description": "Event reel and coverage"
-      },
-      {
-        "type": "image",
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1753789329/agencia-tinta/landings/production/video_corporativo_khtccs.png",
-        "title": "Cantina Canalla",
-        "description": "Corporate video production"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.jpg",
-        "title": "AC Hotel",
-        "description": "Hotel promotional video and photography"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791923/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Landing_yelrzt.jpg",
-        "title": "AC Hotel",
-        "description": "Corporate video for hotel chain"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.jpg",
-        "title": "Malahe",
-        "description": "Social media reel and content creation"
+        "description": "Photography for an anniversary event."
       },
       {
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
         "title": "Agape",
-        "description": "Brand video and product showcase"
+        "description": ""
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755351601/agencia-tinta/landings/production/video_corporativo_khtccs_fzixsz.webp",
+        "title": "Cantina Canalla",
+        "description": "Gastronomic photography and food styling."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_5_fotografi%CC%81a_pjpcl8.webp",
+        "title": "Malavida",
+        "description": "Social media content."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350833/agencia-tinta/landings/production/AC_HOTEL-reel_oey4gr.webp",
+        "title": "AC Hotel",
+        "description": "Gastronomic photography and restaurant space photography."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_7_fotografi%CC%81a_producto_cwarft.webp",
+        "title": "Smash Burger",
+        "description": "Reels and social media content."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_8_produccio%CC%81n_audiovisual_amoxi8.webp",
+        "title": "Smash Burger",
+        "description": "Reels and social media content."
       },
       {
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.jpg",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350832/agencia-tinta/landings/production/REMAX-reel_cfuwbi.webp",
         "title": "Remax",
-        "description": "Real estate promotional reel"
+        "description": ""
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_10_video_institucional_zjbuaa.webp",
+        "title": "Malahe",
+        "description": "Corporate photography."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450789/agencia-tinta/landings/production/imagen_11_fotografi%CC%81a-gastrono%CC%81mica_fetyzu.webp",
+        "title": "AC Hotel Marriot",
+        "description": "Gastronomic photography and food styling."
       },
       {
         "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1753791829/agencia-tinta/portfolio/remax/videos/01_Reel_Julio_remax_FINAL_mhpyvu.jpg",
-        "title": "Remax",
-        "description": "Agent promotional video content"
-      },
-      {
-        "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1742032736/agencia-tinta/portfolio/remax/videos/Reel_3_-_Jose_Maria_o66bn7.jpg",
-        "title": "Remax",
-        "description": "Real estate professional showcase"
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350832/agencia-tinta/landings/production/MALAHE-reel_drai8y.webp",
+        "title": "Malahe",
+        "description": "Gastronomic photography and restaurant space photography."
       }
     ]
   },
