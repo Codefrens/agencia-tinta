@@ -115,6 +115,11 @@
     gap: pxToRem(40);
   }
 
+  .serviceContent.fourColumns {
+    grid-template-columns: repeat(4, 1fr);
+    gap: pxToRem(32);
+  }
+
   .serviceItem {
     flex-direction: column;
     gap: pxToRem(20);
