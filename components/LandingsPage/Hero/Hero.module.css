@@ -64,6 +64,7 @@
   color: var(--color-neutral-0);
   margin-bottom: 20px;
   text-wrap: balance;
+  text-align: center;
 }
 
 .subtitle {
@@ -72,6 +73,7 @@
   color: var(--color-neutral-0);
   margin-bottom: 16px;
   letter-spacing: 0.05em;
+  text-align: center;
 }
 
 /* Form Content */
@@ -113,11 +115,13 @@
   .title {
     font-size: pxToRem(48);
     margin-bottom: 24px;
+    text-align: left;
   }
 
   .subtitle {
     font-size: pxToRem(18);
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .formWrapper {
