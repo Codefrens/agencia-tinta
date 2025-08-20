@@ -1,0 +1,226 @@
+{
+  "hero": {
+    "title": "Audiovisual Production and Photography on the Costa del Sol.",
+    "description": "We are a content creation agency, expert in corporate videos, event coverage, reels and high-quality photo sessions.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Schedule a call"
+  },
+  "services": {
+    "title": "Audiovisual and Photography Services",
+    "servicesList": [
+      {
+        "title": "Corporate Video Production",
+        "description": "We create institutional videos that convey the essence of your company with high-impact visual narratives."
+      },
+      {
+        "title": "Event Coverage",
+        "description": "We capture the energy and key moments of your corporate, social or cultural events."
+      },
+      {
+        "title": "Reels and Social Media Content",
+        "description": "Designed to capture attention on Instagram and TikTok."
+      },
+      {
+        "title": "Product Photography",
+        "description": "Professional images for social media, e-commerce, catalogs and advertising campaigns."
+      },
+      {
+        "title": "Food Photography",
+        "description": "We enhance the visual appeal of your dishes and restaurants."
+      },
+      {
+        "title": "Space Photography",
+        "description": "Properties, hotels and commercial interiors."
+      }
+    ]
+  },
+  "works": {
+    "title": "Our work",
+    "subtitle": "Here are some examples of video and photography production carried out for our clients. Each piece reflects our commitment to visual quality, storytelling, and impact.",
+    "worksList": [
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450789/agencia-tinta/landings/production/imagen_1_fotografi%CC%81a_gastrono%CC%81mica_qrjro1.webp",
+        "title": "Malahe",
+        "description": "Gastronomic photography and food styling."
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_2_cobertura_evento_xakh3b.webp",
+        "title": "Cantina Canalla",
+        "description": "Photography for an anniversary event."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg",
+        "title": "Agape",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_3_fotografi%CC%81a_gastrono%CC%81mica_kell0l.webp",
+        "title": "Cantina Canalla",
+        "description": "Gastronomic photography and food styling."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_5_fotografi%CC%81a_pjpcl8.webp",
+        "title": "Malavida",
+        "description": "Social media content."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791924/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_pa61pv.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350833/agencia-tinta/landings/production/AC_HOTEL-reel_oey4gr.webp",
+        "title": "AC Hotel",
+        "description": "Gastronomic photography and restaurant space photography."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_7_fotografi%CC%81a_producto_cwarft.webp",
+        "title": "Smash Burger",
+        "description": "Reels and social media content."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_8_produccio%CC%81n_audiovisual_amoxi8.webp",
+        "title": "Smash Burger",
+        "description": "Reels and social media content."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1741466002/agencia-tinta/portfolio/remax/videos/Reel_1_-_Melody_5_errores_gc4pwb.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350832/agencia-tinta/landings/production/REMAX-reel_cfuwbi.webp",
+        "title": "Remax",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_10_video_institucional_zjbuaa.webp",
+        "title": "Malahe",
+        "description": "Corporate photography."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450789/agencia-tinta/landings/production/imagen_11_fotografi%CC%81a-gastrono%CC%81mica_fetyzu.webp",
+        "title": "AC Hotel Marriot",
+        "description": "Gastronomic photography and food styling."
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1753791880/agencia-tinta/portfolio/malahe/videos/Malahe_reel_Landing_yw1vps.mov",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755350832/agencia-tinta/landings/production/MALAHE-reel_drai8y.webp",
+        "title": "Malahe",
+        "description": "Gastronomic photography and restaurant space photography."
+      }
+    ]
+  },
+  "benefits": {
+    "titleLight": "Why choose",
+    "titleBold": "Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Over 8 years of experience",
+        "description": "Professional audiovisual production and photography with proven results."
+      },
+      {
+        "title": "Boutique approach",
+        "description": "Each project is treated with personalized creativity and strategy."
+      },
+      {
+        "title": "Complete service",
+        "description": "Pre-production, filming, editing and delivery. Everything in one place."
+      },
+      {
+        "title": "Wide coverage",
+        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+      }
+    ]
+  },
+  "testimonials": {
+    "titleLight": "What our ",
+    "titleBold": "clients say",
+    "testimonialsList": [
+      {
+        "quote": "The corporate videos they created were fundamental to conveying our proposal. Plus, they are great and friendly people, and that is always appreciated.",
+        "client": "AC HOTEL - Marriot",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
+        "personName": "Angel Garcia Cano",
+        "personPosition": "Food & Beverage Manager"
+      },
+      {
+        "quote": "Putting yourself in the hands of these great professionals is a guarantee of success. They listen and understand your needs, adapting their work to what you need.",
+        "client": "Cantina Canalla",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
+        "personName": "Mario Navalproto",
+        "personPosition": "Operations and HR Director"
+      },
+      {
+        "quote": "Great professionals. With their services, they elevate your company to another level. 100% recommended.",
+        "client": "Remax",
+        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
+        "personName": "Francisco Arijo Alvarez",
+        "personPosition": "Broker"
+      }
+
+    ]
+  },
+  "form": {
+    "title": "Request your budget",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "projectType": "Project type",
+    "message": "Message",
+    "buttonLabel": "I want to receive a proposal",
+    "buttonLabelSending": "Sending...",
+    "successMessage": "Message sent successfully! We'll contact you soon.",
+    "errorMessage": "Error sending message. Please try again.",
+    "recaptchaError": "Security verification error. Please try again.",
+    "projectTypes": {
+      "video": "Corporate video",
+      "event": "Event coverage",
+      "photography": "Photography",
+      "reels": "Reels",
+      "other": "Other"
+    }
+  },
+  "contactSection": {
+    "titleLight": "Ready to bring your project",
+    "titleBold": "to life?",
+    "subtitle": "Tell us your idea and receive a personalized proposal"
+  },
+  "thankYou": {
+    "title": "Thank you for your message!",
+    "subtitle": "We have received your request successfully. Our team will contact you within the next 24 hours to discuss your project and provide you with a personalized proposal."
+  },
+  "videos": {
+    "title": "Corporate videos",
+    "subtitle": "We create videos that convey the essence of your company with high-impact visual narratives.",
+    "videosList": [
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
+        "videoAlt": "Corporate Video Bacardi",
+        "videoLabelButton": "Watch video"
+      },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+      "videoAlt": "Corporate Video Cantina Cannalla",
+      "videoLabelButton": "Watch video"
+    },
+    {
+      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+      "videoAlt": "Corporate Video Grupo Amigos",
+      "videoLabelButton": "Watch video"
+    }
+    ]
+  },
+  "cta": {
+    "title": "Ready to bring your project to life?",
+    "buttonLabel": "Schedule a call"
+  }
+}

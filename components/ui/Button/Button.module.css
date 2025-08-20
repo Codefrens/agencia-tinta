@@ -32,9 +32,19 @@
   color: var(--color-neutral-100);
 }
 
+.large {
+  padding: pxToRem(16) pxToRem(32);
+  font-size: pxToRem(16);
+}
+
 @mixin mediaMin768 {
   .button {
     padding: pxToRem(16) pxToRem(32);
     font-size: pxToRem(14);
+  }
+
+  .large {
+    padding: pxToRem(18) pxToRem(36);
+    font-size: pxToRem(18);
   }
 }

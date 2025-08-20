@@ -1,3 +1,15 @@
 @import "./base/index.css";
 @import "./globals/index.css";
 @import "./helpers/index.css";
+
+/* reCAPTCHA Badge Styling */
+.grecaptcha-badge {
+  z-index: 1000 !important;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.grecaptcha-badge:hover {
+  opacity: 1;
+}
+

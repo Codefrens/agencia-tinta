@@ -98,6 +98,157 @@ export type Translations = {
       requiredError: string;
     };
   };
+  legalPage: {
+    title: string;
+    subtitle: string;
+    content: {
+      identificationData: {
+        title: string;
+        items: string[];
+      };
+      websiteObjective: {
+        title: string;
+        content: string;
+      };
+      intellectualProperty: {
+        title: string;
+        content: string;
+      };
+      webUsageAndResponsibility: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      informationUpdate: {
+        title: string;
+        content: string;
+      };
+      commercialCommunications: {
+        title: string;
+        content: string;
+      };
+      cookiesUsage: {
+        title: string;
+        content: string;
+      };
+      applicableLegislation: {
+        title: string;
+        content: string;
+      };
+    };
+  };
+  cookiesPage: {
+    title: string;
+    subtitle: string;
+    description: string;
+    content: {
+      what: {
+        title: string;
+        content: string;
+        benefits: {
+          title: string;
+          items: string[];
+        };
+        security: string;
+      };
+      types: {
+        title: string;
+        byOwner: {
+          title: string;
+          items: string[];
+        };
+        byDuration: {
+          title: string;
+          items: string[];
+        };
+        byPurpose: {
+          title: string;
+          items: string[];
+        };
+      };
+      ourCookies: {
+        title: string;
+        technical: {
+          title: string;
+          content: string;
+        };
+        analytics: {
+          title: string;
+          content: string;
+        };
+        advertising: {
+          title: string;
+          content: string;
+        };
+      };
+      manage: {
+        title: string;
+        content: string;
+        browsers: string[];
+      };
+      consent: {
+        title: string;
+        content: string;
+      };
+    };
+  };
+  privacyPage: {
+    title: string;
+    subtitle: string;
+    content: {
+      responsible: {
+        title: string;
+        items: string[];
+      };
+      dataCollected: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      purpose: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      legitimacy: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      recipients: {
+        title: string;
+        intro: string;
+        items: string[];
+        additional: string;
+      };
+      internationalTransfers: {
+        title: string;
+        content: string;
+      };
+      retention: {
+        title: string;
+        content: string;
+      };
+      userRights: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      exercisingRights: {
+        title: string;
+        content: string;
+      };
+      complaints: {
+        title: string;
+        intro: string;
+        items: string[];
+      };
+      policyChanges: {
+        title: string;
+        content: string;
+      };
+    };
+  };
   foodarPage: {
     hero: {
       name: string;

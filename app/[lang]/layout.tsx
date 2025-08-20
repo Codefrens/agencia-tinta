@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "@/styles/index.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import LenisProvider from "@/utils/LenisProvider/LenisProvider";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { GTM_ID } from "@/utils/gtm";
+import RecaptchaProvider from "@/components/providers/RecaptchaProvider";
 import { PageViewTracker } from "@/components/GoogleTagManager";
 import Script from "next/script";
 
@@ -33,18 +32,19 @@ export default async function RootLayout({
   params: Promise<{ lang: "en" | "es" }>;
 }>) {
   const lang = (await params).lang;
+  
   return (
     <html lang={lang}>
       <head>
         <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/72d1e76e213845e304a05a39/script.js"></Script>
       </head>
       <body className={`${dmSans.variable}`}>
+        <RecaptchaProvider>
+          <LenisProvider>
+            {children}
+          </LenisProvider>
+        </RecaptchaProvider>
         <PageViewTracker />
-        <LenisProvider>
-          <Navbar lang={lang} />
-          {children}
-          <Footer />
-        </LenisProvider>
         <GoogleTagManager gtmId={GTM_ID} />
       </body>
     </html>

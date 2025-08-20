@@ -181,6 +181,222 @@
       "requiredError": "Este campo es obligatorio"
     }
   },
+  "legalPage": {
+    "title": "Legal Notice",
+    "subtitle": "In compliance with Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSI-CE), the user is informed of the following:",
+    "content": {
+      "identificationData": {
+        "title": "1. Identification data",
+        "items": [
+          "Business name: Agencia Tinta",
+          "Contact email: agenciadigitaltinta@gmail.com",
+          "Activity: Marketing, design and content production agency",
+          "Location: Spain",
+          "Website: www.agenciatinta.com"
+        ]
+      },
+      "websiteObjective": {
+        "title": "2. Website purpose",
+        "content": "This website aims to provide information about Agencia Tinta's services and projects, as well as facilitate communication with potential clients and collaborators.\n\nBy accessing and using this website, the user accepts the conditions established in this Legal Notice. It is recommended to read it carefully before continuing browsing."
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual and industrial property",
+        "content": "All website content, including (for illustrative and non-limiting purposes) source code, texts, images, logos, graphic designs and multimedia elements, are the exclusive property of Agencia Tinta or third parties who have authorized their use, and are protected by Spanish and international legislation on intellectual and industrial property.\n\nTheir reproduction, distribution, public communication, transformation or any other unauthorized use, total or partial, is prohibited without the prior written consent of Agencia Tinta."
+      },
+      "webUsageAndResponsibility": {
+        "title": "4. Website usage and responsibility",
+        "intro": "The user commits to use the website lawfully and in accordance with current legislation, refraining from performing any action that may damage the image, interests or rights of Agencia Tinta or third parties.\n\nAgencia Tinta is not responsible for:",
+        "items": [
+          "Improper use that users make of the website content.",
+          "Information or content linked from external pages.",
+          "Possible technical or security errors arising from the use of inadequate equipment or connections by the user."
+        ]
+      },
+      "informationUpdate": {
+        "title": "5. Information update",
+        "content": "Agencia Tinta may modify, without prior notice, the website content, its design or this legal information, with the aim of keeping it updated. Likewise, it commits to correct any detected error as soon as it becomes aware of it."
+      },
+      "commercialCommunications": {
+        "title": "6. Commercial communications",
+        "content": "Agencia Tinta complies with the provisions of the LSSI-CE regarding commercial communications.\n\nAll information sent to clients with the purpose of maintaining the existing contractual relationship or responding to prior information requests will not be considered commercial communication."
+      },
+      "cookiesUsage": {
+        "title": "7. Use of cookies",
+        "content": "This website uses cookies to improve user experience and collect statistical data anonymously. For more information, check our Cookie Policy."
+      },
+      "applicableLegislation": {
+        "title": "8. Applicable legislation and jurisdiction",
+        "content": "This Legal Notice is governed by Spanish legislation. Any controversy that may arise from access or use of the website will be submitted to the courts of the city where Agencia Tinta has its headquarters, unless the law provides otherwise."
+      }
+    }
+  },
+  "cookiesPage": {
+    "title": "🍪 Agencia Tinta Cookie Policy",
+    "subtitle": "At Agencia Tinta we use cookies. And no, we're not talking about the chocolate ones (although we love those too), but those small digital files that make your experience on our website more fluid, fast and personalized.",
+    "description": "We want you to know exactly what they are, what they're for and how you can control them. Here we go 👇",
+    "content": {
+      "what": {
+        "title": "1. What are cookies?",
+        "content": "They are small files that your browser stores on your device when you visit our website.",
+        "benefits": {
+          "title": "They help us to:",
+          "items": [
+            "Remember your preferences (language, settings, etc.).",
+            "Understand how you use our site so we can improve it.",
+            "Show you content that really interests you."
+          ]
+        },
+        "security": "Don't worry: they don't harm your equipment and don't store sensitive personal data like passwords or card numbers."
+      },
+      "types": {
+        "title": "2. Types of cookies we use",
+        "byOwner": {
+          "title": "By who manages them:",
+          "items": [
+            "First-party: created and managed by us.",
+            "Third-party: created by external services (e.g. Google Analytics, social networks)."
+          ]
+        },
+        "byDuration": {
+          "title": "By how long they last:",
+          "items": [
+            "Session: deleted when you close your browser.",
+            "Persistent: stay until you delete them or they expire on their own."
+          ]
+        },
+        "byPurpose": {
+          "title": "By their purpose:",
+          "items": [
+            "Technical: make the website work (without them, nothing would be the same).",
+            "Personalization: remember your settings and preferences.",
+            "Analytics: give us statistics to keep improving.",
+            "Advertising: manage the ads you see.",
+            "Behavioral advertising: show ads tailored to your interests."
+          ]
+        }
+      },
+      "ourCookies": {
+        "title": "3. Cookies we use here",
+        "technical": {
+          "title": "Technical cookies (necessary)",
+          "content": "They allow the basic functioning of the site. They do not require consent."
+        },
+        "analytics": {
+          "title": "Analytics cookies",
+          "content": "Google Analytics: helps us understand how users navigate the site."
+        },
+        "advertising": {
+          "title": "Advertising cookies",
+          "content": "Meta Pixel (Facebook/Instagram): allows us to show you relevant ads on social networks."
+        }
+      },
+      "manage": {
+        "title": "4. How to control or delete cookies",
+        "content": "You're in control. You can allow, block or delete cookies from your browser settings:",
+        "browsers": [
+          "Google Chrome",
+          "Mozilla Firefox",
+          "Microsoft Edge",
+          "Safari (macOS)",
+          "Safari (iOS)",
+          "Chrome (Android)"
+        ]
+      },
+      "consent": {
+        "title": "5. Consent and data protection",
+        "content": "By continuing to browse our website you accept the use of these cookies, unless you decide to deactivate them.\n\nAt Agencia Tinta we don't use cookies to spy on you or sell your information. We comply with the General Data Protection Regulation (EU) 2016/679 and the LSSI-CE.\n\nIf you want to know more about how we take care of your privacy, you can read our Privacy Policy."
+      }
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "subtitle": "At Agencia Tinta we take your privacy and the protection of your personal data very seriously.\nIn compliance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR), Organic Law 3/2018, of 5 December, on the Protection of Personal Data and Guarantee of Digital Rights (LOPDGDD) and Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI-CE), we inform you of the following:",
+    "content": {
+      "responsible": {
+        "title": "1. Data controller",
+        "items": [
+          "Business name: Agencia Tinta",
+          "Contact email: agenciadigitaltinta@gmail.com",
+          "Activity: Marketing, design and content production agency",
+          "Location: Spain"
+        ]
+      },
+      "dataCollected": {
+        "title": "2. Data we collect",
+        "intro": "We may collect the following information through forms, website interactions or analytics tools:",
+        "items": [
+          "Name",
+          "Email address",
+          "IP address",
+          "Browsing information (through cookies; see our Cookie Policy)"
+        ]
+      },
+      "purpose": {
+        "title": "3. Purpose of processing",
+        "intro": "We use your data to:",
+        "items": [
+          "Respond to inquiries or requests received.",
+          "Improve user experience and analyze browsing behavior.",
+          "Send commercial communications related to our services, provided that you have given your express consent."
+        ]
+      },
+      "legitimacy": {
+        "title": "4. Legal basis",
+        "intro": "The legal basis for processing your data is:",
+        "items": [
+          "Your express consent when sending us a form or accepting the use of cookies.",
+          "The execution of pre-contractual or contractual measures, when applicable."
+        ]
+      },
+      "recipients": {
+        "title": "5. Data recipients",
+        "intro": "We may use third-party services that process data on our behalf, such as:",
+        "items": [
+          "Google LLC (Google Analytics)",
+          "Meta Platforms, Inc. (Facebook Pixel)",
+          "Netlify, Inc. (website hosting)",
+          "Resend, Inc. (sending emails from forms)"
+        ],
+        "additional": "In any case, these providers comply with data protection regulations and, when necessary, have signed data processing agreements."
+      },
+      "internationalTransfers": {
+        "title": "6. International transfers",
+        "content": "In the event that any of the indicated services involves an international data transfer (for example, providers with servers outside the EU), we will ensure that it is carried out with the appropriate legal safeguards, either through Standard Contractual Clauses approved by the European Commission or equivalent mechanisms."
+      },
+      "retention": {
+        "title": "7. Data retention",
+        "content": "Your data will be retained only for the time necessary to fulfill the purpose for which it was collected and to address possible legal responsibilities arising from the processing."
+      },
+      "userRights": {
+        "title": "8. User rights",
+        "intro": "You can exercise your rights at any time:",
+        "items": [
+          "Access: know if we process your data and obtain a copy of it.",
+          "Rectification: correct inaccurate or incomplete data.",
+          "Erasure (right to be forgotten): request the deletion of your data when it is no longer necessary.",
+          "Opposition: prevent us from processing your data in certain cases.",
+          "Restriction of processing: temporarily restrict the use of your data.",
+          "Portability: receive your data in electronic format and transmit it to another controller."
+        ]
+      },
+      "exercisingRights": {
+        "title": "9. Exercising rights",
+        "content": "To exercise your rights, you can send us an email to agenciadigitaltinta@gmail.com indicating the right you wish to exercise and attaching a copy of your identity document."
+      },
+      "complaints": {
+        "title": "10. Complaints to the Supervisory Authority",
+        "intro": "If you consider that your rights have not been respected, you can file a complaint with the Spanish Data Protection Agency (AEPD):",
+        "items": [
+          "Address: C/ Jorge Juan, 6, 28001 Madrid",
+          "Website: https://sedeagpd.gob.es"
+        ]
+      },
+      "policyChanges": {
+        "title": "11. Policy changes",
+        "content": "Agencia Tinta reserves the right to modify this policy to adapt it to legislative or technical changes. Any modification will be published on this same page."
+      }
+    }
+  },
   "foodarPage": {
     "hero": {
       "name": "Foodar",

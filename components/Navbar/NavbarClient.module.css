@@ -30,6 +30,12 @@
   height: 38px;
 }
 
+.logo img{
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .links ul {
   display: flex;
   gap: 60px;

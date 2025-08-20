@@ -39,9 +39,9 @@ const NavbarClient = ({
             <Image
               src="https://res.cloudinary.com/nicojoystin/image/upload/v1740221032/agencia-tinta/logo-tinta_utcrxj.svg"
               alt="Tinta logo"
-              fill
               priority
-              style={{ objectFit: "contain" }}
+              sizes="120px"
+              fill
             />
           </Link>
           <div className={styles.links}>

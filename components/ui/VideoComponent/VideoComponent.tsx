@@ -33,7 +33,7 @@ const VideoComponent = ({
       {/* Imagen del primer frame con botón de play */}
       <Container>
         <div className={styles.videoPreview} onClick={() => setIsOpen(true)}>
-          <Image src={posterSrc} alt={videoAlt} objectFit="cover" fill />
+          <Image src={posterSrc} alt={videoAlt} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw" style={{ objectFit: "cover" }} />
           <div className={styles.playButton}>
             <VideoButton>{videoLabelButton}</VideoButton>
           </div>

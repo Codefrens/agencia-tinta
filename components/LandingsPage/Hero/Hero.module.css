@@ -1,0 +1,159 @@
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Background */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.backgroundPlaceholder {
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-gray);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* Content Layout */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+/* Text Content */
+.textContent {
+  flex: 1;
+}
+
+.title {
+  font-size: pxToRem(32);
+  font-weight: var(--font-extra-bold);
+  line-height: 1.1;
+  color: var(--color-neutral-0);
+  margin-bottom: 20px;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: pxToRem(16);
+  font-weight: var(--font-medium);
+  color: var(--color-neutral-0);
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+/* Form Content */
+.formContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@mixin mediaMin768 {
+  .content {
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+  }
+
+  .textContent {
+    flex: 1;
+  }
+
+  .formContent {
+    flex: 0 0 45%;
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: pxToRem(48);
+    margin-bottom: 24px;
+    text-align: left;
+  }
+
+  .subtitle {
+    font-size: pxToRem(18);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .formWrapper {
+    padding: 40px;
+  }
+}
+
+@mixin mediaMin1024 {
+  .content {
+    gap: 80px;
+  }
+
+  .formContent {
+    flex: 0 0 40%;
+  }
+}
+
+@mixin mediaMin1240 {
+
+  .title {
+    font-size: pxToRem(48);
+  }
+
+  .subtitle {
+    font-size: pxToRem(20);
+  }
+} 
+
+@mixin mediaMin1440 {
+
+  .title {
+    font-size: pxToRem(56);
+  }
+
+} 

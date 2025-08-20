@@ -16,9 +16,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: none;
   z-index: 1;
 }
+
 
 .hide-poster {
   display: none;

@@ -73,6 +73,38 @@
   font-weight: var(--font-extra-bold);
 }
 
+
+
+.legalLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.link {
+  color: var(--color-neutral-10);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.logo {
+  position: relative;
+  width: 100px;
+  height: 38px;
+}
+
+.link:hover {
+  color: var(--color-green);
+}
+
+.logo img{
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 /* TABLET */
 @mixin mediaMin768 {
   .footer {
@@ -108,5 +140,10 @@
     display: flex;
     flex-direction: row;
     gap: pxToRem(60);
+  }
+
+  .legalLinks {
+    flex-direction: row;
+    gap: 1rem;
   }
 }

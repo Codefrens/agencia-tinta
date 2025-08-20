@@ -1,0 +1,59 @@
+.videoSection {
+  padding: pxToRem(80) 0;
+  background: var(--color-neutral-100);
+}
+
+.carouselWrapper {
+  position: relative;
+}
+
+.title {
+  font-size: pxToRem(24);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--color-neutral-0);
+  text-align: center;
+}
+
+.subtitle {
+  font-size: pxToRem(16);
+  color: var(--color-neutral-10);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-wrap: balance;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@mixin mediaMin768 {
+  .videoSection {
+    padding: pxToRem(100) 0;
+  }
+
+  .title {
+    font-size: pxToRem(28);
+  }
+
+  .subtitle {
+    font-size: pxToRem(18);
+  }
+
+}
+
+@mixin mediaMin1024 {
+  .videoSection {
+    padding: pxToRem(120) 0;
+  }
+
+
+  .title {
+    font-size: pxToRem(32);
+  }
+
+  .subtitle {
+    font-size: pxToRem(20);
+  }
+} 
