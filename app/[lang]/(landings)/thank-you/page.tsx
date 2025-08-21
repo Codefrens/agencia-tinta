@@ -42,7 +42,7 @@ export default async function ThankYouPage({
           </p>
           
           <div className={styles.actions}>
-            <Link href={`/${lang}/production`} className={styles.primaryButton}>
+            <Link href={`/${lang}/agencia-publicidad-form`} className={styles.primaryButton}>
               {lang === "es" ? "Volver a la página anterior" : "Back to previous page"}
             </Link>
             
