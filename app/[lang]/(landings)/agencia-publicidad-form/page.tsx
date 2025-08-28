@@ -59,6 +59,7 @@ export default async function ProductionPage({
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
+        source="landing-production"
       />
 
       <Testimonials

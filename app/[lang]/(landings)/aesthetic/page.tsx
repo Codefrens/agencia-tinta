@@ -52,13 +52,12 @@ export default async function AestheticPage({
         subtitle={content.works.subtitle}
         works={content.works.worksList}
       />
-
-      <VideoCarousel title={content.videos.title} subtitle={content.videos.subtitle} videos={content.videos.videosList || []} />
-
+      
       <Benefits
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
+        source="landing-aesthetic"
       />
 
       <Testimonials

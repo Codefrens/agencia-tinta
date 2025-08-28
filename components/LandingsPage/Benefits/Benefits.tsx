@@ -3,11 +3,15 @@ import Container from "@/components/ui/Container";
 import Image from "next/image";
 import styles from "./Benefits.module.css";
 import { 
-  Trophy, 
-  Palette, 
-  CheckCircle, 
-  MapPin 
+  Medal, 
+  Lightbulb, 
+  HandHeart, 
+  Package, 
+  Palette,
+  CheckCircle,
+  MapPin
 } from "@phosphor-icons/react";
+import { Trophy } from "@phosphor-icons/react/dist/ssr/Trophy";
 
 interface Benefit {
   title: string;
@@ -18,18 +22,34 @@ interface BenefitsProps {
   titleLight: string;
   titleBold: string;
   benefitsList: Benefit[];
+  source: string;
 }
 
-const Benefits = ({ titleLight, titleBold, benefitsList }: BenefitsProps) => {
-  // Iconos para cada beneficio en orden
-  const benefitIcons = [
-    <Trophy key="trophy" size={40} weight="duotone" />,
-    <Palette key="palette" size={40} weight="duotone" />,
-    <CheckCircle key="check" size={40} weight="duotone" />,
-    <MapPin key="map" size={40} weight="duotone" />
-  ];
+const aestheticBenefitIcons = [
+  <Medal key="experience" size={40} weight="duotone" />,
+  <Lightbulb key="creativity" size={40} weight="duotone" />,
+  <HandHeart key="personal-attention" size={40} weight="duotone" />,
+  <Package key="complete-service" size={40} weight="duotone" />
+];
 
-  // Imágenes estáticas (las mismas del ImageCarrousel)
+const productionBenefitIcons = [
+  <Trophy key="trophy" size={40} weight="duotone" />,
+  <Palette key="palette" size={40} weight="duotone" />,
+  <CheckCircle key="check" size={40} weight="duotone" />,
+  <MapPin key="map" size={40} weight="duotone" />
+];
+
+
+
+const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps) => {
+
+  const benefitIcons = {
+    "landing-aesthetic": aestheticBenefitIcons,
+    "landing-production": productionBenefitIcons
+  }
+
+  const currentIcons = benefitIcons[source];
+
   const images = [
     {
       imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1754416790/agencia-tinta/agencia/produccio%CC%81n_audiovisual_no9vm5.png",
@@ -59,7 +79,7 @@ const Benefits = ({ titleLight, titleBold, benefitsList }: BenefitsProps) => {
           {benefitsList.map((benefit, index) => (
             <div key={index} className={styles.benefitItem}>
               <div className={styles.iconContainer}>
-                {benefitIcons[index]}
+                {currentIcons[index]}
               </div>
               <div className={styles.benefitContent}>
                 <h3 className={styles.benefitTitle}>{benefit.title}</h3>

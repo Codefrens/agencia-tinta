@@ -9,7 +9,9 @@ import {
   DeviceMobile, 
   Package, 
   ForkKnife, 
-  Buildings 
+  Buildings,
+  TrendUp,
+  PencilSimple
 } from "@phosphor-icons/react";
 
 interface Service {
@@ -24,10 +26,12 @@ interface ServicesProps {
 }
 
 const aestheticServiceIcons = [
-  <VideoCamera key="video" size={32} weight="duotone" />,
-  <Camera key="camera" size={32} weight="duotone" />,
-  <Megaphone key="megaphone" size={32} weight="duotone" />,
-  <ShareNetwork key="social" size={32} weight="duotone" />,
+  <TrendUp key="market-analysis" size={32} weight="duotone" />,
+  <ShareNetwork key="social-media" size={32} weight="duotone" />,
+  <VideoCamera key="video-production" size={32} weight="duotone" />,
+  <Camera key="photography" size={32} weight="duotone" />,
+  <PencilSimple key="editing" size={32} weight="duotone" />,
+  <Megaphone key="digital-ads" size={32} weight="duotone" />,
 ];
 
 const productionServiceIcons = [
