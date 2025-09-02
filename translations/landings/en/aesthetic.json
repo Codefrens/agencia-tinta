@@ -93,11 +93,11 @@
     "errorMessage": "Error sending message. Please try again.",
     "recaptchaError": "Security verification error. Please try again.",
     "projectTypes": {
-      "video": "Video for aesthetic clinic",
-      "photography": "Treatment photography",
-      "ads": "Digital advertising",
-      "social": "Social media management",
-      "other": "Other"
+        "video": "Corporate video",
+        "event": "Event coverage",
+        "photography": "Photography",
+        "reels": "Reels",
+        "other": "Other"
     }
   },
   "contactSection": {

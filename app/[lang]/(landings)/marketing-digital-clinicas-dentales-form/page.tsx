@@ -16,10 +16,10 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["aestheticPage"][lang];
+  return SEO_METADATA["dentalPage"][lang];
 };
 
-export default async function AestheticPage({
+export default async function DentalPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
@@ -27,7 +27,7 @@ export default async function AestheticPage({
 
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const content = loadLocalContent("landings", lang, "aesthetic") as any;
+  const content = loadLocalContent("landings", lang, "dental") as any;
 
   return (
     <>
@@ -36,13 +36,13 @@ export default async function AestheticPage({
         subtitle={content.hero.description}
         backgroundImage={content.hero.backgroundImage}
       >
-        <LandingForm lang={lang} formTranslations={content.form} source="landing-aesthetic" />
+        <LandingForm lang={lang} formTranslations={content.form} source="landing-dental" />
       </Hero>
 
       <Services 
         title={content.services.title}
         servicesList={content.services.servicesList}
-        source="landing-aesthetic"
+        source="landing-dental"
       />
 
       <Works
@@ -57,7 +57,7 @@ export default async function AestheticPage({
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
-        source="landing-aesthetic"
+        source="landing-dental"
       />
 
       <Testimonials
@@ -72,7 +72,7 @@ export default async function AestheticPage({
         titleBold={content.contactSection.titleBold}
         subtitle={content.contactSection.subtitle}
         formTranslations={content.form} 
-        source="landing-aesthetic"
+        source="landing-dental"
       />
     </>
   );

@@ -1,6 +1,5 @@
-   import Services from "@/components/LandingsPage/Services";
+import Services from "@/components/LandingsPage/Services";
 import Works from "@/components/LandingsPage/Works";
-import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import { loadLocalContent } from "@/content/fetch";
@@ -15,10 +14,10 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["aestheticPage"][lang];
+  return SEO_METADATA["dentalPage"][lang];
 };
 
-export default async function AestheticPage({
+export default async function DentalBPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
@@ -26,7 +25,7 @@ export default async function AestheticPage({
 
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const content = loadLocalContent("landings", lang, "aesthetic") as any;
+  const content = loadLocalContent("landings", lang, "dental") as any;
 
 
   return (
@@ -42,7 +41,7 @@ export default async function AestheticPage({
       <Services 
         title={content.services.title}
         servicesList={content.services.servicesList}
-        source="landing-aesthetic"
+        source="landing-dental"
       />
 
       <Works
@@ -51,12 +50,11 @@ export default async function AestheticPage({
         works={content.works.worksList}
       />
 
-      <VideoCarousel title={content.videos.title} subtitle={content.videos.subtitle} videos={content.videos.videosList || []} />
-
       <Benefits
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
+        source="landing-dental"
       />
 
       <Testimonials

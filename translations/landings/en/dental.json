@@ -1,0 +1,170 @@
+{
+  "hero": {
+    "title": "Social media management and digital marketing for dental clinics",
+    "description": "Attract more clients, fill your schedule and position your dental clinic on social media, through professional videos and photography.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Schedule a call"
+  },
+  "services": {
+    "title": "Specialists in high-impact visual content",
+    "servicesList": [
+      {
+        "title": "Market analysis",
+        "description": "Deep sector research to detect trends, opportunities and define the most effective content verticals."
+      },
+      {
+        "title": "Social media management",
+        "description": "Strategies to convey the essence and value proposition, accompanied by visual content that captivates and builds loyalty, reinforcing your brand identity."
+      },
+      {
+        "title": "Video production",
+        "description": "We develop high-quality videos that tell your center's story and explain your treatments clearly and attractively."
+      },
+      {
+        "title": "Photography",
+        "description": "Professional before and after images, team portraits, spaces and equipment."
+      },
+      {
+        "title": "Digital editing and retouching",
+        "description": "Photo and video editing with professional finishes that differentiate you from the competition."
+      },
+      {
+        "title": "Digital advertising on Google Ads and Meta Ads",
+        "description": "Attract new clients with campaigns segmented by area, age, interests and aesthetic profile."
+      }
+    ]
+  },
+  "works": {
+    "title": "Our work",
+    "subtitle": "These are some examples of video and photography production done for our clients.",
+    "worksList": [
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_3/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.jpg",
+        "title": "Dental clinics",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
+        "title": "Dental Care",
+        "description": "Graphic Design"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
+        "title": "Dental Care",
+        "description": "Graphic Design"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
+        "title": "Dental Care",
+        "description": "Graphic Design"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
+        "title": "Dental Care",
+        "description": "Graphic Design"
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.jpg",
+        "title": "Dental clinics",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
+        "title": "Dental Clinic",
+        "description": "Social media management"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
+        "title": "",
+        "description": "Digital marketing dental clinic"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/9_glfgbv.webp",
+        "title": "",
+        "description": "Social media management"
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/10_fafpdy.webp",
+        "title": "",
+        "description": "Photography production"
+      }
+    ]
+  },
+  "benefits": {
+    "titleLight": "Why choose",
+    "titleBold": "Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Experience",
+        "description": "More than 8 years creating audiovisual content and strategies that convert."
+      },
+      {
+        "title": "Creativity with strategy",
+        "description": "Original ideas designed to highlight your brand and attract the ideal client."
+      },
+      {
+        "title": "Close and personalized attention",
+        "description": "We work with you hand in hand to understand your essence and differentiate you."
+      },
+      {
+        "title": "Complete service",
+        "description": "From audiovisual production to digital marketing."
+      }
+    ]
+  },
+  "testimonials": {
+    "titleLight": "What our ",
+    "titleBold": "clients say",
+    "testimonialsList": []
+  },
+  "videos": {
+    "title": "Videos of our work",
+    "subtitle": "Get to know some of our audiovisual projects",
+    "videosList": []
+  },
+  "form": {
+    "title": "Request your quote",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "projectType": "Project type",
+    "message": "Message",
+    "buttonLabel": "I want to boost my dental clinic",
+    "buttonLabelSending": "Sending...",
+    "successMessage": "Message sent successfully! We'll contact you soon.",
+    "errorMessage": "Error sending message. Please try again.",
+    "recaptchaError": "Security verification error. Please try again.",
+    "projectTypes": {
+      "video": "Corporate video",
+      "event": "Event coverage",
+      "photography": "Photography",
+      "reels": "Reels",
+      "other": "Other"
+    }
+  },
+  "contactSection": {
+    "titleLight": "Ready to boost",
+    "titleBold": "your dental clinic?",
+    "subtitle": "Tell us about your project and receive a personalized proposal to boost your clinic"
+  },
+  "thankYou": {
+    "title": "Thank you for your message!",
+    "subtitle": "We have received your request successfully. Our team will contact you within the next 24 hours to discuss your project and provide you with a personalized proposal."
+  },
+  "cta": {
+    "title": "Ready to boost your business?",
+    "buttonLabel": "Schedule a call"
+  }
+}

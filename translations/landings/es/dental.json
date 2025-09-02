@@ -1,9 +1,9 @@
 {
   "hero": {
-    "title": "Manejo de redes sociales y marketing digital para centros de estética",
-    "description": "Atrae más clientes, llena tu agenda y posiciona tu centro de estética en redes sociales, a través de videos y fotografias profesionales.",
+    "title": "Manejo de redes sociales y marketing digital para clínicas dentales",
+    "description": "Atrae más clientes, llena tu agenda y posiciona tu clínica dental en redes sociales, a través de videos y fotografías profesionales.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
-    "ctaText": "Quiero impulsar mi clínica estética"
+    "ctaText": "Agendar llamada"
   },
   "services": {
     "title": "Especialistas en contenido visual de alto impacto",
@@ -42,51 +42,51 @@
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.mp4",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_3/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.jpg",
-        "title": "Clínicas de tratamientos",
+        "title": "Clínicas dentales",
         "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
-        "title": "Skin Care",
+        "title": "Dental Care",
         "description": "Diseño Gráfico"
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
-        "title": "Skin Care",
+        "title": "Dental Care",
         "description": "Diseño Gráfico"
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
-        "title": "Skin Care",
+        "title": "Dental Care",
         "description": "Diseño Gráfico"
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
-        "title": "Skin Care",
+        "title": "Dental Care",
         "description": "Diseño Gráfico"
       },
       {
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.mp4",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.jpg",
-        "title": "Clínicas de tratamientos",
+        "title": "Clínicas dentales",
         "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
-        "title": "Élan",
+        "title": "Clínica Dental",
         "description": "Manejo de redes sociales"
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
         "title": "",
-        "description": "Marketing digital centro de estética"
+        "description": "Marketing digital clínica dental"
       },
       {
         "type": "image", 
@@ -129,6 +129,11 @@
     "titleBold": "nuestros clientes",
     "testimonialsList": []
   },
+  "videos": {
+    "title": "Videos de nuestros trabajos",
+    "subtitle": "Conoce algunos de nuestros proyectos audiovisuales",
+    "videosList": []
+  },
   "form": {
     "title": "Solicita tu presupuesto",
     "name": "Nombre",
@@ -136,7 +141,7 @@
     "phone": "Teléfono (opcional)",
     "projectType": "Tipo de proyecto",
     "message": "Mensaje",
-    "buttonLabel": "Quiero impulsar mi clínica estética",
+    "buttonLabel": "Quiero impulsar mi clínica dental",
     "buttonLabelSending": "Enviando...",
     "successMessage": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
     "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
@@ -151,8 +156,8 @@
   },
   "contactSection": {
     "titleLight": "¿Listo para potenciar",
-    "titleBold": "tu clínica estética?",
-    "subtitle": "Cuéntanos tu proyecto y recibe una propuesta personalizada para impulsar tu centro"
+    "titleBold": "tu clínica dental?",
+    "subtitle": "Cuéntanos tu proyecto y recibe una propuesta personalizada para impulsar tu clínica"
   },
   "thankYou": {
     "title": "¡Gracias por tu mensaje!",
@@ -160,6 +165,6 @@
   },
   "cta": {
     "title": "¿Listo para potenciar tu negocio?",
-    "buttonLabel": "Quiero impulsar mi clínica estética"
+    "buttonLabel": "Agendar llamada"
   }
 }

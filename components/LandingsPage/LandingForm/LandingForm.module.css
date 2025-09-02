@@ -60,6 +60,7 @@
 .select {
   cursor: pointer;
   color: var(--color-neutral-80);
+  width: 100%;
 }
 
 .select option {

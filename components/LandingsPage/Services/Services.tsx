@@ -43,11 +43,21 @@ const productionServiceIcons = [
   <Buildings key="buildings" size={32} weight="duotone" />
 ];
 
+const dentalServiceIcons = [
+  <VideoCamera key="video" size={32} weight="duotone" />,
+  <Calendar key="calendar" size={32} weight="duotone" />,
+  <DeviceMobile key="mobile" size={32} weight="duotone" />,
+  <Package key="package" size={32} weight="duotone" />,
+  <DeviceMobile key="mobile" size={32} weight="duotone" />,
+  <Package key="package" size={32} weight="duotone" />,
+];
+
 const Services = ({ title, servicesList, source }: ServicesProps) => {
 
   const serviceIcons = {
     "landing-aesthetic": aestheticServiceIcons,
-    "landing-production": productionServiceIcons
+    "landing-production": productionServiceIcons,
+    "landing-dental": dentalServiceIcons
   }
 
   const currentIcons = serviceIcons[source];

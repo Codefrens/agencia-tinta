@@ -39,13 +39,20 @@ const productionBenefitIcons = [
   <MapPin key="map" size={40} weight="duotone" />
 ];
 
-
+const dentalBenefitIcons = [
+  <Trophy key="trophy" size={40} weight="duotone" />,
+  <Palette key="palette" size={40} weight="duotone" />,
+  <CheckCircle key="check" size={40} weight="duotone" />,
+  <MapPin key="map" size={40} weight="duotone" />
+];
+  
 
 const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps) => {
 
   const benefitIcons = {
     "landing-aesthetic": aestheticBenefitIcons,
-    "landing-production": productionBenefitIcons
+    "landing-production": productionBenefitIcons,
+    "landing-dental": dentalBenefitIcons
   }
 
   const currentIcons = benefitIcons[source];
