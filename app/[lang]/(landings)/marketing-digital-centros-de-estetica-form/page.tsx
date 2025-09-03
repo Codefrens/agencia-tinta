@@ -1,7 +1,6 @@
 import Hero from "@/components/LandingsPage/Hero";
 import Services from "@/components/LandingsPage/Services";
 import Works from "@/components/LandingsPage/Works";
-import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import ContactSection from "@/components/LandingsPage/ContactSection";

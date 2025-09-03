@@ -52,8 +52,6 @@ export default async function DentalPage({
         works={content.works.worksList}
       />
 
-      <VideoCarousel title={content.videos.title} subtitle={content.videos.subtitle} videos={content.videos.videosList || []} />
-
       <Benefits
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}

@@ -40,65 +40,53 @@
     "worksList": [
       {
         "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_3/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.jpg",
-        "title": "Dental clinics",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756918386/agencia-tinta/landings/dental/01_Dentistas_evitar_la_caries_e3m1eh.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1756918386/agencia-tinta/landings/dental/01_Dentistas_evitar_la_caries_e3m1eh.jpg",
+        "title": "Clínicas dentales",
         "description": ""
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/2_po9zte.webp",
         "title": "Dental Care",
-        "description": "Graphic Design"
+        "description": "Digital marketing for dental clinics."
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/3_zoy7q7.webp",
         "title": "Dental Care",
-        "description": "Graphic Design"
+        "description": "Social media management."
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/4_c7mjzv.webp",
         "title": "Dental Care",
-        "description": "Graphic Design"
-      },
-      {
-        "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
-        "title": "Dental Care",
-        "description": "Graphic Design"
+        "description": "Graphic design."
       },
       {
         "type": "video",
-        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.jpg",
-        "title": "Dental clinics",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756918394/agencia-tinta/landings/dental/02_Dentistas_tratamientos_pohxyc.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1756918394/agencia-tinta/landings/dental/02_Dentistas_tratamientos_pohxyc.jpg",
+        "title": "Clínicas dentales",
         "description": ""
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
-        "title": "Dental Clinic",
-        "description": "Social media management"
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/6_aegwmy.webp",
+        "title": "Clínica Dental",
+        "description": "Social media management."
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918373/agencia-tinta/landings/dental/7_uedrbs.webp",
         "title": "",
-        "description": "Digital marketing dental clinic"
+        "description": "Graphic design."
       },
       {
         "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/9_glfgbv.webp",
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918373/agencia-tinta/landings/dental/8_gy4pvm.webp",
         "title": "",
-        "description": "Social media management"
-      },
-      {
-        "type": "image", 
-        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/10_fafpdy.webp",
-        "title": "",
-        "description": "Photography production"
+        "description": "Digital marketing for dental clinics."
       }
     ]
   },

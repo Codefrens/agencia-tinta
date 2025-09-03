@@ -146,22 +146,14 @@ const LandingForm = ({ lang, formTranslations, source }: LandingFormProps) => {
             className={styles.select}
           >
             <option value="">{formTranslations.projectType}</option>
-            { source === "landing-production" && (
-              <>
+        
+        
                 <option value="video">{formTranslations.projectTypes.video}</option>
               <option value="event">{formTranslations.projectTypes.event}</option>
               <option value="photography">{formTranslations.projectTypes.photography}</option>
               <option value="reels">{formTranslations.projectTypes.reels}</option>
-              </>
-            )}
-            { source === "landing-aesthetic" && (
-              <>
-              <option value="video">{formTranslations.projectTypes.video}</option>  
-              <option value="photography">{formTranslations.projectTypes.photography}</option>
-              <option value="ads">{formTranslations.projectTypes.ads}</option>
-              <option value="social">{formTranslations.projectTypes.social}</option>
-              </>
-            )}
+             
+            
             <option value="other">{formTranslations.projectTypes.other}</option>
           </select>
         </div>
