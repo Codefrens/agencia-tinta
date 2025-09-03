@@ -5,6 +5,7 @@ import styles from "./Testimonials.module.css";
 import Image from "next/image";
 import useIsMobile from "@/utils/hooks/useIsMobile";
 import { Quotes } from "@phosphor-icons/react";
+import { ReactNode } from "react";
 
 interface Testimonial {
   quote: string;
@@ -18,9 +19,10 @@ interface TestimonialsProps {
   titleLight: string;
   titleBold: string;
   testimonialsList: Testimonial[];
+  testimonialsGoogle?: ReactNode;
 }
 
-const Testimonials = ({ titleLight, titleBold, testimonialsList }: TestimonialsProps) => {
+const Testimonials = ({ titleLight, titleBold, testimonialsList, testimonialsGoogle }: TestimonialsProps) => {
   const isMobile = useIsMobile();
 
   const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
@@ -87,6 +89,8 @@ const Testimonials = ({ titleLight, titleBold, testimonialsList }: TestimonialsP
             ))}
           </div>
         )}
+
+        {testimonialsGoogle}
       </Container>
     </section>
   );

@@ -30,6 +30,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-google-recaptcha-v3": "^1.11.0",
+    "react-google-reviews": "^1.7.4",
     "resend": "^4.1.2",
     "swiper": "^11.2.10",
     "three": "^0.169.0"

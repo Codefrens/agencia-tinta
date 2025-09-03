@@ -9,6 +9,7 @@ import LandingForm from "@/components/LandingsPage/LandingForm";
 import { loadLocalContent } from "@/content/fetch";
 import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
+import ReviewsFeaturable from "@/components/ui/Reviews/ReviewsFeaturable";
 
 export const generateMetadata = async ({
   params,
@@ -64,6 +65,7 @@ export default async function AestheticPage({
         titleLight={content.testimonials.titleLight}
         titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
+        testimonialsGoogle={<ReviewsFeaturable />}
       />
 
       <ContactSection 
