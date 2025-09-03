@@ -24,8 +24,6 @@ interface LandingFormProps {
       event: string;
       photography: string;
       reels: string;
-      ads: string;
-      social: string;
       other: string;
       };
   };
