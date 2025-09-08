@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741712475/agencia-tinta/portfolio/remax/fotos/Banner_ja8hma.jpg",
     "imageAlt": "Remax Coast",
     "sector": "Inmobiliario",
-    "categories": ["Fotografía", "Video"]
+    "categories": ["Fotografía", "Video"], 
+    "client": "Remax Coast"
   },
   "sections": [
     {

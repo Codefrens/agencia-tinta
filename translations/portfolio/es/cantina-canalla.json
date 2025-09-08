@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741709460/agencia-tinta/portfolio/cantina-canalla/fotos/cantina-banner_kmj7zg.jpg",
     "imageAlt": "Cantina Canalla",
     "sector": "Gastronomía",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "categories": ["Identidad Visual", "Fotografía", "Video"],
+    "client": "Cantina Canalla"
   },
   "sections": [
     {

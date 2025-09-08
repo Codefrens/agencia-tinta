@@ -56,11 +56,11 @@ const NavbarClient = ({
                   {translations.navigationLinks.portfolio}
                 </Link>
               </li>
-              <li>
+{/*               <li>
                 <Link href="/foodar">
                   {translations.navigationLinks.foodar}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">
                   {translations.navigationLinks.contact}

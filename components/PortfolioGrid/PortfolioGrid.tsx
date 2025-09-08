@@ -1,6 +1,5 @@
 "use client";
 import { Translations } from "@/translations/types";
-import React from "react";
 import styles from "./PortfolioGrid.module.css";
 import Card from "../ui/Card";
 import Container from "../ui/Container";
