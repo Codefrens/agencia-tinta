@@ -45,7 +45,7 @@ export default async function FoodarPage({
             <h1>{contactForm.title}</h1>
           </div>
           <div className={styles.imageContainer}>
-            <Form translations={contactPage.form} />
+            <Form translations={contactPage.form} lang={lang} />
           </div>
         </section>
       </Container>
