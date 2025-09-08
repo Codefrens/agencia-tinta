@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710135/agencia-tinta/portfolio/smash/fotos/banner_erwcue.jpg",
     "imageAlt": "Imagen de local de Smash Burger",
     "sector": "Gastronomía",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "categories": ["Identidad Visual", "Fotografía", "Video"],
+    "client": "Smash Burger"
   },
   "sections": [
     {

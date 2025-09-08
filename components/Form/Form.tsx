@@ -2,12 +2,19 @@
 import React, { useState } from "react";
 import styles from "./Form.module.css";
 import { Translations } from "@/translations/types";
+import { useRouter } from "next/navigation";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const Form = ({
   translations,
+  lang,
 }: {
   translations: Translations["contactPage"]["form"];
+  lang: "es" | "en";
 }) => {
+  const router = useRouter();
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,7 +22,7 @@ const Form = ({
   });
 
   const [status, setStatus] = useState<
-    "idle" | "loading" | "success" | "error"
+    "idle" | "loading" | "success" | "error" | "recaptcha_error"
   >("idle");
 
   const handleChange = (
@@ -28,18 +35,44 @@ const Form = ({
     e.preventDefault();
     setStatus("loading");
 
-    const res = await fetch("api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    if (res.ok) {
-      setStatus("success");
-      setFormData({ name: "", email: "", message: "" });
-    } else {
-      setStatus("error");
+    if (!executeRecaptcha) {
+      console.log('Execute recaptcha not yet available');
+      setStatus("recaptcha_error");
+      return;
     }
+
+    const token = await executeRecaptcha('contact_form');
+    
+    try {
+      const res = await fetch("api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          recaptchaToken: token,
+        }),
+      });
+  
+      if (res.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+        
+        setTimeout(() => {
+          router.push(`/${lang}/thank-you?origin=home`);
+        }, 1000);
+      } else {
+        const errorData = await res.json();
+        if (errorData.error === 'reCAPTCHA verification failed') {
+          setStatus("recaptcha_error");
+        } else {
+          setStatus("error");
+        }
+      }
+    } catch (error) {
+      console.error('reCAPTCHA error:', error);
+      setStatus("recaptcha_error");
+    }
+   
   };
 
   return (

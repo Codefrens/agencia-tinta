@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036450/agencia-tinta/portfolio/grupo-amigos/banner_qe0yqu.jpg",
     "imageAlt": "Cartel de grupo amigos",
     "sector": "Gastronomía",
-    "categories": ["Video"]
+    "categories": ["Video"],
+    "client": "Grupo Amigos"
   },
   "sections": [
     {
@@ -16,9 +17,9 @@
     },
     {
       "type": "video",
-      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.mp4",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1757352347/agencia-tinta/portfolio/grupo-amigos/Grupo_Amigos_Portfolio_r7rcoh.mp4",
       "videoAlt": "Video de ejemplo",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742036585/agencia-tinta/portfolio/grupo-amigos/__Spot_Plaza_Mayor_jttfdm.jpg"
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1757352347/agencia-tinta/portfolio/grupo-amigos/Grupo_Amigos_Portfolio_r7rcoh.jpg"
     }
   ],
   "related": [

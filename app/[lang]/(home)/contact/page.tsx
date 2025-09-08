@@ -18,7 +18,7 @@ const ContactPage = async ({
           <div className={styles.content}>
             <h1>{contactPage.title}</h1>
             <p>{contactPage.subtitle}</p>
-            <Form translations={contactPage.form} />
+            <Form translations={contactPage.form} lang={lang} />
           </div>
           <div className={styles.imageContainer}>
             <Image
