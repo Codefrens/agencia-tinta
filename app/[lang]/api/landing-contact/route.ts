@@ -72,7 +72,7 @@ export async function POST(req: Request) {
 
     const response = await resend.emails.send({
       from: "Agencia Tinta <nopreply@info.agenciatinta.com>",
-      to: "agenciadigitaltinta@gmail.com",
+      to: "hola@agenciatinta.com",
       subject: `Nuevo lead de Landing - ${projectTypeLabel} - ${name}`,
       replyTo: email,
       text: `Nuevo contacto desde Landing de Producción:
