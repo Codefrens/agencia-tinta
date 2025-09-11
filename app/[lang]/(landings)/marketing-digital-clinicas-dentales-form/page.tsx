@@ -9,6 +9,7 @@ import LandingForm from "@/components/LandingsPage/LandingForm";
 import { loadLocalContent } from "@/content/fetch";
 import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
+import ReviewsFeaturable from "@/components/ui/Reviews/ReviewsFeaturable";
 
 export const generateMetadata = async ({
   params,
@@ -16,10 +17,10 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["aestheticPage"][lang];
+  return SEO_METADATA["dentalPage"][lang];
 };
 
-export default async function AestheticPage({
+export default async function DentalPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
@@ -27,7 +28,7 @@ export default async function AestheticPage({
 
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const content = loadLocalContent("landings", lang, "aesthetic") as any;
+  const content = loadLocalContent("landings", lang, "dental") as any;
 
   return (
     <>
@@ -36,13 +37,13 @@ export default async function AestheticPage({
         subtitle={content.hero.description}
         backgroundImage={content.hero.backgroundImage}
       >
-        <LandingForm lang={lang} formTranslations={content.form} source="landing-aesthetic" />
+        <LandingForm lang={lang} formTranslations={content.form} source="landing-dental" />
       </Hero>
 
       <Services 
         title={content.services.title}
         servicesList={content.services.servicesList}
-        source="landing-aesthetic"
+        source="landing-dental"
       />
 
       <Works
@@ -51,20 +52,20 @@ export default async function AestheticPage({
         works={content.works.worksList}
       />
 
-      <VideoCarousel title={content.videos.title} subtitle={content.videos.subtitle} videos={content.videos.videosList || []} />
-
       <Benefits
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
-        source="landing-aesthetic"
+        source="landing-dental"
       />
 
       <Testimonials
         titleLight={content.testimonials.titleLight}
         titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
+        testimonialsGoogle={<ReviewsFeaturable />}
       />
+
 
       <ContactSection 
         lang={lang}
@@ -72,7 +73,7 @@ export default async function AestheticPage({
         titleBold={content.contactSection.titleBold}
         subtitle={content.contactSection.subtitle}
         formTranslations={content.form} 
-        source="landing-aesthetic"
+        source="landing-dental"
       />
     </>
   );

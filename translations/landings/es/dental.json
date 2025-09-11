@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "title": "Manejo de redes sociales y marketing digital para clínicas dentales",
+    "description": "Atrae más clientes, llena tu agenda y posiciona tu clínica dental en redes sociales, a través de videos y fotografías profesionales.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Agendar llamada"
+  },
+  "services": {
+    "title": "Especialistas en contenido visual de alto impacto",
+    "servicesList": [
+      {
+        "title": "Análisis de mercado",
+        "description": "Investigación profunda del sector para detectar tendencias, oportunidades y definir las verticales de contenido más efectivas."
+      },
+      {
+        "title": "Gestión de redes sociales",
+        "description": "Estrategias para transmitir la esencia y la propuesta de valor, acompañadas de contenido visual que enamora y fideliza, reforzando la identidad de tu marca."
+      },
+      {
+        "title": "Producción de video",
+        "description": "Desarrollamos vídeos de alta calidad que cuentan la historia de tu centro y explican tus tratamientos de forma clara y atractiva."
+      },
+      {
+        "title": "Fotografía",
+        "description": "Imágenes profesionales de antes y después, retratos del equipo, espacios y equipamiento."
+      },
+      {
+        "title": "Montaje y retoque digital",
+        "description": "Edición de fotos y vídeos con acabados profesionales que te diferencian de la competencia."
+      },
+      {
+        "title": "Publicidad digital en Google Ads y Meta Ads",
+        "description": "Captación de nuevos clientes con campañas segmentadas por zona, edad, intereses y perfil estético."
+      }
+    ]
+  },
+  "works": {
+    "title": "Nuestros trabajos",
+    "subtitle": "Estos son algunos ejemplos de producción de video y fotografía realizados para nuestros clientes.",
+    "worksList": [
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756918386/agencia-tinta/landings/dental/01_Dentistas_evitar_la_caries_e3m1eh.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1756918386/agencia-tinta/landings/dental/01_Dentistas_evitar_la_caries_e3m1eh.jpg",
+        "title": "Marketing digital clínica dental",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/2_po9zte.webp",
+        "title": "Marketing digital clínica dental",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/3_zoy7q7.webp",
+        "title": "Manejo de redes sociales",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/4_c7mjzv.webp",
+        "title": "Diseño Gráfico",
+        "description": ""
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756918394/agencia-tinta/landings/dental/02_Dentistas_tratamientos_pohxyc.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1756918394/agencia-tinta/landings/dental/02_Dentistas_tratamientos_pohxyc.jpg",
+        "title": "Marketing digital clínica dental",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918374/agencia-tinta/landings/dental/6_aegwmy.webp",
+        "title": "Manejo de redes sociales",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918373/agencia-tinta/landings/dental/7_uedrbs.webp",
+        "title": "Diseño Gráfico",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756918373/agencia-tinta/landings/dental/8_gy4pvm.webp",
+        "title": "Marketing digital clínica dental",
+        "description": ""
+      }
+    ]
+  },
+  "benefits": {
+    "titleLight": "¿Por qué elegir",
+    "titleBold": "Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Experiencia",
+        "description": "Más de 8 años creando contenido audiovisual y estrategias que convierten."
+      },
+      {
+        "title": "Creatividad con estrategia",
+        "description": "Ideas originales pensadas para destacar tu marca y atraer al cliente ideal."
+      },
+      {
+        "title": "Atención cercana y personalizada",
+        "description": "Trabajamos contigo mano a mano para entender tu esencia y diferenciarte."
+      },
+      {
+        "title": "Servicio completo",
+        "description": "Desde la producción audiovisual hasta el marketing digital."
+      }
+    ]
+  },
+  "testimonials": {
+    "titleLight": "Lo que dicen ",
+    "titleBold": "nuestros clientes",
+    "testimonialsList": []
+  },
+  "videos": {
+    "title": "Videos de nuestros trabajos",
+    "subtitle": "Conoce algunos de nuestros proyectos audiovisuales",
+    "videosList": []
+  },
+  "form": {
+    "title": "Solicita tu presupuesto",
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono (opcional)",
+    "projectType": "Tipo de proyecto",
+    "message": "Mensaje",
+    "buttonLabel": "Quiero impulsar mi clínica dental",
+    "buttonLabelSending": "Enviando...",
+    "successMessage": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
+    "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "recaptchaError": "Error de verificación de seguridad. Por favor, inténtalo de nuevo.",
+    "projectTypes": {
+      "video": "Video institucional",
+      "event": "Cobertura de evento",
+      "photography": "Fotografía",
+      "reels": "Reels",
+      "other": "Otro"
+    }
+  },
+  "contactSection": {
+    "titleLight": "¿Listo para potenciar",
+    "titleBold": "tu clínica dental?",
+    "subtitle": "Cuéntanos tu proyecto y recibe una propuesta personalizada para impulsar tu clínica"
+  },
+  "thankYou": {
+    "title": "¡Gracias por tu mensaje!",
+    "subtitle": "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas para discutir tu proyecto y brindarte una propuesta personalizada."
+  },
+  "cta": {
+    "title": "¿Listo para potenciar tu negocio?",
+    "buttonLabel": "Agendar llamada"
+  }
+}

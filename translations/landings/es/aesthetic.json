@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "title": "Manejo de redes sociales y marketing digital para centros de estética",
+    "description": "Atrae más clientes, llena tu agenda y posiciona tu centro de estética en redes sociales, a través de videos y fotografias profesionales.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Quiero impulsar mi clínica estética"
+  },
+  "services": {
+    "title": "Especialistas en contenido visual de alto impacto",
+    "servicesList": [
+      {
+        "title": "Análisis de mercado",
+        "description": "Investigación profunda del sector para detectar tendencias, oportunidades y definir las verticales de contenido más efectivas."
+      },
+      {
+        "title": "Gestión de redes sociales",
+        "description": "Estrategias para transmitir la esencia y la propuesta de valor, acompañadas de contenido visual que enamora y fideliza, reforzando la identidad de tu marca."
+      },
+      {
+        "title": "Producción de video",
+        "description": "Desarrollamos vídeos de alta calidad que cuentan la historia de tu centro y explican tus tratamientos de forma clara y atractiva."
+      },
+      {
+        "title": "Fotografía",
+        "description": "Imágenes profesionales de antes y después, retratos del equipo, espacios y equipamiento."
+      },
+      {
+        "title": "Montaje y retoque digital",
+        "description": "Edición de fotos y vídeos con acabados profesionales que te diferencian de la competencia."
+      },
+      {
+        "title": "Publicidad digital en Google Ads y Meta Ads",
+        "description": "Captación de nuevos clientes con campañas segmentadas por zona, edad, intereses y perfil estético."
+      }
+    ]
+  },
+  "works": {
+    "title": "Nuestros trabajos",
+    "subtitle": "Estos son algunos ejemplos de producción de video y fotografía realizados para nuestros clientes.",
+    "worksList": [
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.jpg",
+        "title": "Clínicas de tratamientos",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
+        "title": "Diseño Gráfico",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
+        "title": "Diseño Gráfico",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
+        "title": "Diseño Gráfico",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
+        "title": "Diseño Gráfico",
+        "description": ""
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.jpg",
+        "title": "Marketing digital centro de estética",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
+        "title": "Manejo de redes sociales",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
+        "title": "Marketing digital centro de estética",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/9_glfgbv.webp",
+        "title": "Manejo de redes sociales",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/10_fafpdy.webp",
+        "title": "Producción fotografía",
+        "description": ""
+      }
+    ]
+  },
+  "benefits": {
+    "titleLight": "¿Por qué elegir",
+    "titleBold": "Agencia Tinta?",
+    "benefitsList": [
+      {
+        "title": "Experiencia",
+        "description": "Más de 8 años creando contenido audiovisual y estrategias que convierten."
+      },
+      {
+        "title": "Creatividad con estrategia",
+        "description": "Ideas originales pensadas para destacar tu marca y atraer al cliente ideal."
+      },
+      {
+        "title": "Atención cercana y personalizada",
+        "description": "Trabajamos contigo mano a mano para entender tu esencia y diferenciarte."
+      },
+      {
+        "title": "Servicio completo",
+        "description": "Desde la producción audiovisual hasta el marketing digital."
+      }
+    ]
+  },
+  "testimonials": {
+    "titleLight": "Lo que dicen ",
+    "titleBold": "nuestros clientes",
+    "testimonialsList": []
+  },
+  "form": {
+    "title": "Solicita tu presupuesto",
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono (opcional)",
+    "projectType": "Tipo de proyecto",
+    "message": "Mensaje",
+    "buttonLabel": "Quiero impulsar mi clínica estética",
+    "buttonLabelSending": "Enviando...",
+    "successMessage": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
+    "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "recaptchaError": "Error de verificación de seguridad. Por favor, inténtalo de nuevo.",
+    "projectTypes": {
+      "video": "Video institucional",
+      "event": "Cobertura de evento",
+      "photography": "Fotografía",
+      "reels": "Reels",
+      "other": "Otro"
+    }
+  },
+  "contactSection": {
+    "titleLight": "¿Listo para potenciar",
+    "titleBold": "tu clínica estética?",
+    "subtitle": "Cuéntanos tu proyecto y recibe una propuesta personalizada para impulsar tu centro"
+  },
+  "thankYou": {
+    "title": "¡Gracias por tu mensaje!",
+    "subtitle": "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas para discutir tu proyecto y brindarte una propuesta personalizada."
+  },
+  "cta": {
+    "title": "¿Listo para potenciar tu negocio?",
+    "buttonLabel": "Quiero impulsar mi clínica estética"
+  }
+}

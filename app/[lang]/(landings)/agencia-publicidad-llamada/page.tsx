@@ -43,6 +43,7 @@ export default async function ProductionPage({
       <Services 
         title={content.services.title}
         servicesList={content.services.servicesList}
+        source="landing-production"
       />
 
       <Works
@@ -57,6 +58,7 @@ export default async function ProductionPage({
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
         benefitsList={content.benefits.benefitsList}
+        source="landing-production"
       />
 
       <Testimonials

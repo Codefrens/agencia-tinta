@@ -25,11 +25,12 @@ interface LandingFormProps {
       photography: string;
       reels: string;
       other: string;
-    };
+      };
   };
+  source: string;
 }
 
-const LandingForm = ({ lang, formTranslations }: LandingFormProps) => {
+const LandingForm = ({ lang, formTranslations, source }: LandingFormProps) => {
   const router = useRouter();
   const { executeRecaptcha } = useGoogleReCaptcha();
   
@@ -71,7 +72,7 @@ const LandingForm = ({ lang, formTranslations }: LandingFormProps) => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          source: "landing-production",
+          source: source,
           recaptchaToken: token,
         }),
       });
@@ -143,10 +144,14 @@ const LandingForm = ({ lang, formTranslations }: LandingFormProps) => {
             className={styles.select}
           >
             <option value="">{formTranslations.projectType}</option>
-            <option value="video">{formTranslations.projectTypes.video}</option>
-            <option value="event">{formTranslations.projectTypes.event}</option>
-            <option value="photography">{formTranslations.projectTypes.photography}</option>
-            <option value="reels">{formTranslations.projectTypes.reels}</option>
+        
+        
+                <option value="video">{formTranslations.projectTypes.video}</option>
+              <option value="event">{formTranslations.projectTypes.event}</option>
+              <option value="photography">{formTranslations.projectTypes.photography}</option>
+              <option value="reels">{formTranslations.projectTypes.reels}</option>
+             
+            
             <option value="other">{formTranslations.projectTypes.other}</option>
           </select>
         </div>

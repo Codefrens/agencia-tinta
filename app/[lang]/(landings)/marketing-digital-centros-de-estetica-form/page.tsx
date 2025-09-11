@@ -1,7 +1,6 @@
 import Hero from "@/components/LandingsPage/Hero";
 import Services from "@/components/LandingsPage/Services";
 import Works from "@/components/LandingsPage/Works";
-import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import ContactSection from "@/components/LandingsPage/ContactSection";
@@ -9,6 +8,7 @@ import LandingForm from "@/components/LandingsPage/LandingForm";
 import { loadLocalContent } from "@/content/fetch";
 import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
+import ReviewsFeaturable from "@/components/ui/Reviews/ReviewsFeaturable";
 
 export const generateMetadata = async ({
   params,
@@ -39,6 +39,8 @@ export default async function AestheticPage({
         <LandingForm lang={lang} formTranslations={content.form} source="landing-aesthetic" />
       </Hero>
 
+   
+      
       <Services 
         title={content.services.title}
         servicesList={content.services.servicesList}
@@ -50,9 +52,7 @@ export default async function AestheticPage({
         subtitle={content.works.subtitle}
         works={content.works.worksList}
       />
-
-      <VideoCarousel title={content.videos.title} subtitle={content.videos.subtitle} videos={content.videos.videosList || []} />
-
+      
       <Benefits
         titleLight={content.benefits.titleLight}
         titleBold={content.benefits.titleBold}
@@ -64,6 +64,7 @@ export default async function AestheticPage({
         titleLight={content.testimonials.titleLight}
         titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
+        testimonialsGoogle={<ReviewsFeaturable />}
       />
 
       <ContactSection 
