@@ -48,57 +48,57 @@
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
-        "title": "Skin Care",
-        "description": "Diseño Gráfico"
+        "title": "Diseño Gráfico",
+        "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
-        "title": "Skin Care",
-        "description": "Diseño Gráfico"
+        "title": "Diseño Gráfico",
+        "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
-        "title": "Skin Care",
-        "description": "Diseño Gráfico"
+        "title": "Diseño Gráfico",
+        "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
-        "title": "Skin Care",
-        "description": "Diseño Gráfico"
+        "title": "Diseño Gráfico",
+        "description": ""
       },
       {
         "type": "video",
         "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.mp4",
         "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.jpg",
-        "title": "Clínicas de tratamientos",
+        "title": "Marketing digital centro de estética",
         "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
-        "title": "Élan",
-        "description": "Manejo de redes sociales"
+        "title": "Manejo de redes sociales",
+        "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
-        "title": "",
-        "description": "Marketing digital centro de estética"
+        "title": "Marketing digital centro de estética",
+        "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/9_glfgbv.webp",
-        "title": "",
-        "description": "Manejo de redes sociales"
+        "title": "Manejo de redes sociales",
+        "description": ""
       },
       {
         "type": "image", 
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/10_fafpdy.webp",
-        "title": "",
-        "description": "Producción fotografía"
+        "title": "Producción fotografía",
+        "description": ""
       }
     ]
   },

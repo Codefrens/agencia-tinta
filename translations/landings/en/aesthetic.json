@@ -29,7 +29,70 @@
   "works": {
     "title": "Beauty, confidence and results in every project",
     "subtitle": "These are some examples of visual content we create for aesthetic and medical aesthetic centers. From reels to results photography sessions.",
-    "worksList": []
+    "worksList": [
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1756382405/agencia-tinta/landings/aesthetic/01_Cli%CC%81nicas_tratamientos_gdsegn.jpg",
+        "title": "Clínicas de tratamientos",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
+        "title": "Graphic design",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
+        "title": "Graphic design",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
+        "title": "Graphic design",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
+        "title": "Graphic design",
+        "description": ""
+      },
+      {
+        "type": "video",
+        "content": "https://res.cloudinary.com/nicojoystin/video/upload/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_10/v1756382406/agencia-tinta/landings/aesthetic/02_Cli%CC%81nicas_ELAN_qydnfv.jpg",
+        "title": "Digital marketing for aesthetic clinics",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
+        "title": "Social media management",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
+        "title": "Digital marketing for aesthetic clinics",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/9_glfgbv.webp",
+        "title": "Social media management",
+        "description": ""
+      },
+      {
+        "type": "image", 
+        "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/10_fafpdy.webp",
+        "title": "Photography production",
+        "description": ""
+      }
+    ]
   },
   "benefits": {
     "titleLight": "Why choose",

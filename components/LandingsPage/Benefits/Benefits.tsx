@@ -57,23 +57,59 @@ const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps)
 
   const currentIcons = benefitIcons[source];
 
-  const images = [
-    {
-      imageUrl:
-        "https://res.cloudinary.com/nicojoystin/image/upload/v1757617286/agencia-tinta/agencia/EQUIPO_wilzd3.webp",
-      imageAlt: "Equipo fundador de Tinta",
-    },
-    {
-      imageUrl:
-        "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_3_yfv04z.png",
-      imageAlt: "",
-    },
-    {
-      imageUrl:
-        "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_2_jioyvh.png",
-      imageAlt: "",
-    },
-  ];
+  const images = {
+    "landing-aesthetic": [
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757617286/agencia-tinta/agencia/EQUIPO_wilzd3.webp",
+        imageAlt: "Equipo fundador de Tinta",
+      },
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757616331/agencia-tinta/landings/aesthetic/CLINICA_ESTE%CC%81TICA_OP1_otpcdu.webp",
+        imageAlt: "",
+      },
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757616332/agencia-tinta/landings/aesthetic/CLINICA_ESTE%CC%81TICA_TRABAJANDO_wkxlnd.webp",
+        imageAlt: "",
+      },
+    ],
+    "landing-production": [
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757617286/agencia-tinta/agencia/EQUIPO_wilzd3.webp",
+        imageAlt: "Equipo fundador de Tinta",
+      },
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_3_yfv04z.png",
+          imageAlt: "Persona filmando",
+      },
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_2_jioyvh.png",
+        imageAlt: "Persona trabajando en escritorio con ordenador",
+      },
+    ],
+    "landing-dental": [
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757617286/agencia-tinta/agencia/EQUIPO_wilzd3.webp",
+        imageAlt: "Equipo fundador de Tinta",
+      },
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757616308/agencia-tinta/landings/dental/CLINICA_DENTISTA_OP1_nmnkwf.webp",
+        imageAlt: "Persona filmando",
+      },
+      {
+        imageUrl:
+          "https://res.cloudinary.com/nicojoystin/image/upload/v1757616308/agencia-tinta/landings/dental/CLINICA_DENTAL_TRABAJANDO_edqamd.webp",
+        imageAlt: "Persona trabajando en escritorio con ordenador",
+      },
+    ]
+  };
 
   return (
     <section className={styles.benefitsSection}>
@@ -102,7 +138,7 @@ const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps)
         {/* Sección de imágenes horizontales */}
         <div className={styles.imagesSection}>
           <div className={styles.imagesContainer}>
-            {images.map((image, index) => (
+            {images[source].map((image, index) => (
               <div key={index} className={styles.imageCard}>
                 <Image
                   src={image.imageUrl}
