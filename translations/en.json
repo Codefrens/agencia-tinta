@@ -14,7 +14,7 @@
       {
         "title": "AC Hotel",
         "categories": ["Fotografía", "Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351673/agencia-tinta/portfolio/ac-hoteles/PORTADA_Y_REPETIR_OTRA_VEZ_EN_POSICION_8_fm3jk4.webp",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
         "imageAlt": "Imagen de comida de AC Hotel",
         "slug": "ac-hotel"
       },
@@ -28,7 +28,7 @@
       {
         "title": "Bacardi",
         "categories": ["Fotografía", "Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348555/agencia-tinta/portfolio/bacardi/Portada_dcw0zw.webp",
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
         "imageAlt": "Bacardi",
         "slug": "bacardi"
       },

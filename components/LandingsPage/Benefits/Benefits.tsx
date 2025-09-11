@@ -32,16 +32,19 @@ const Benefits = ({ titleLight, titleBold, benefitsList }: BenefitsProps) => {
   // Imágenes estáticas (las mismas del ImageCarrousel)
   const images = [
     {
-      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1754416790/agencia-tinta/agencia/produccio%CC%81n_audiovisual_no9vm5.png",
-      imageAlt: "Agencia Tinta - Imagen 1",
+      imageUrl:
+        "https://res.cloudinary.com/nicojoystin/image/upload/v1757617286/agencia-tinta/agencia/EQUIPO_wilzd3.webp",
+      imageAlt: "Equipo fundador de Tinta",
     },
     {
-      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1755348589/agencia-tinta/landings/production/video_corporativo_z1krvs.webp",
-      imageAlt: "Agencia Tinta - Imagen 2",
+      imageUrl:
+        "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_3_yfv04z.png",
+      imageAlt: "",
     },
     {
-      imageUrl: "https://res.cloudinary.com/nicojoystin/image/upload/v1755348589/agencia-tinta/landings/production/contenido_redes_sociales_s1wvoh.webp",
-      imageAlt: "Agencia Tinta - Imagen 3",
+      imageUrl:
+        "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_2_jioyvh.png",
+      imageAlt: "",
     },
   ];
 

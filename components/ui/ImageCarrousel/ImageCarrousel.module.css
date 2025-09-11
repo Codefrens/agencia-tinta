@@ -1,5 +1,5 @@
 .imageCarrousel {
-  padding-top: 40px;
+
   margin: 120px 0 60px;
   overflow: hidden;
 }
@@ -31,6 +31,7 @@
 @mixin mediaMin768 {
   .imageCarrousel {
     margin: 120px 0;
+    padding-top: 40px;
   }
   .slider {
     display: flex;
