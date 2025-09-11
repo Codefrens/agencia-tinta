@@ -354,9 +354,9 @@ const CLIENTS_IMAGES = {
   "grupo-amigos":
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
   bacardi:
-    "https://res.cloudinary.com/nicojoystin/image/upload/v1757348555/agencia-tinta/portfolio/bacardi/Portada_dcw0zw.webp",
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
   "ac-hotel":
-    "https://res.cloudinary.com/nicojoystin/image/upload/v1757351673/agencia-tinta/portfolio/ac-hoteles/PORTADA_Y_REPETIR_OTRA_VEZ_EN_POSICION_8_fm3jk4.webp",
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
 };
 
 // LANDINGS PAGE
