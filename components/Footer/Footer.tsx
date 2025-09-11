@@ -44,25 +44,17 @@ const Footer = ({ lang }: { lang: 'es' | 'en' }) => {
               city="Málaga"
               address="Plaza de la Merced 16, P1 Izquierda 29012, Málaga"
             />
-            <Location
-              country="Argentina"
-              city="Buenos Aires"
-              address="Santos Dumont 2719 1426, CABA"
-            />
           </div>
           <div className={styles.socialLinks}>
             <SocialLink
-              name="Facebook"
-              url="https://www.facebook.com/agenciatinta"
+              name="Linkedin"
+              url="https://www.linkedin.com/company/agencia-de-publidad-tinta"
             />
             <SocialLink
               name="Instagram"
               url="https://www.instagram.com/agenciatinta"
             />
-            <SocialLink
-              name="Twitter"
-              url="https://www.twitter.com/agenciatinta"
-            />
+           
           </div>
         </div>
         <div className={styles.downFooter}>
@@ -75,8 +67,8 @@ const Footer = ({ lang }: { lang: 'es' | 'en' }) => {
             />
           </div>
           <div className={styles.info}>
-            <a href="mailto:agenciadigitaltinta@gmail.com">
-              agenciadigitaltinta@gmail.com
+            <a href="mailto:hola@agenciatinta.com">
+              hola@agenciatinta.com
             </a>
             <a href="tel:611149862">611 149 862</a>
           </div>

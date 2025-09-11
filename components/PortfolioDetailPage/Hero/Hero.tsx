@@ -16,6 +16,7 @@ const Hero = ({
   sector,
   sectorLabel,
   clientLabel,
+  client,
   categories,
 }: {
   title: string;
@@ -27,6 +28,7 @@ const Hero = ({
   categories: string[];
   yearLabel: string;
   sectorLabel: string;
+  client: string;
   clientLabel: string;
 }) => {
   return (
@@ -77,7 +79,7 @@ const Hero = ({
           </div>
           <div>
             <p className={styles.label}>{clientLabel}</p>
-            <p className={styles.value}>{title}</p>
+            <p className={styles.value}>{client}</p>
           </div>
           <div>
             <p className={styles.label}>{sectorLabel}</p>

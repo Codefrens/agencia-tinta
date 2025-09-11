@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Bacardi",
+    "subtitle": "We accompanied the launch of Bacardi's new Caribbean line, in collaboration with BigBadWolf agency",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
+    "imageAlt": "Jewel over the sea",
+    "sector": "Beverages",
+    "categories": ["Photography", "Video"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Result",
+      "description": "Bacardi presented its new Caribbean-style rum collection and we were contacted by the London-based agency Big Bad Wolf to produce the corporate video that would accompany the launch. After several creative meetings, we developed a visual proposal aligned with the brand's values: freshness, trajectory and tropical heritage. Our mission was to transform that concept into an audiovisual piece faithful to Bacardi's spirit. The result was a dynamic video that combines brand narrative and dynamism, designed for multiple platforms. The campaign reinforced Bacardi's global presence and highlighted its new line as a celebration of Caribbean identity. This project consolidated our experience in high-level work with global brands, effectively coordinating with international agencies and executing productions with demanding creative standards."
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1757348524/agencia-tinta/portfolio/bacardi/Bacardi_Portfolio_ot0vrz.mp4",
+      "videoAlt": "Example video",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1757348524/agencia-tinta/portfolio/bacardi/Bacardi_Portfolio_ot0vrz.jpg"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348558/agencia-tinta/portfolio/bacardi/1_sca1ry.webp",
+          "imageAlt": "Rum"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348555/agencia-tinta/portfolio/bacardi/2_zx74za.webp",
+          "imageAlt": "Rum presentation"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348554/agencia-tinta/portfolio/bacardi/4_1_foluye.webp",
+      "imageAlt": "Presentation of different rums",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348556/agencia-tinta/portfolio/bacardi/3_nrg8ox.webp",
+          "imageAlt": "Bottle pouring rum"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348556/agencia-tinta/portfolio/bacardi/4_gyy37x.webp",
+          "imageAlt": "Santa Teresa Rum bottle"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348557/agencia-tinta/portfolio/bacardi/5_zwha8m.webp",
+          "imageAlt": "Bartender serving rum"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348557/agencia-tinta/portfolio/bacardi/8_mh4vh2.webp",
+          "imageAlt": "Woman touching a tablet"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348558/agencia-tinta/portfolio/bacardi/9_lwoc1q.webp",
+          "imageAlt": "Man smelling the rum"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Malavida",
+      "categories": ["Photography", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+      "imageAlt": "Malavida",
+      "slug": "malavida"
+    },
+    {
+      "title": "Agape",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+      "imageAlt": "Agape",
+      "slug": "agape"
+    }
+  ]
+}

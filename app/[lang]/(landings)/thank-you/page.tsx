@@ -16,10 +16,13 @@ export const generateMetadata = async ({
 
 export default async function ThankYouPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
+  searchParams: Promise<{ origin: string }>;
 }) {
   const lang = (await params).lang;
+  const origin = (await searchParams).origin;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const content = loadLocalContent("landings", lang, "production") as any;
 
@@ -42,10 +45,11 @@ export default async function ThankYouPage({
           </p>
           
           <div className={styles.actions}>
+            {origin !== 'home' && (
             <Link href={`/${lang}/agencia-publicidad-form`} className={styles.primaryButton}>
               {lang === "es" ? "Volver a la página anterior" : "Back to previous page"}
             </Link>
-            
+            )}            
             <Link href={`/${lang}`} className={styles.secondaryButton}>
               {lang === "es" ? "Ir al inicio" : "Go to homepage"}
             </Link>

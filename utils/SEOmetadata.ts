@@ -1,11 +1,11 @@
 const homePage = {
   es: {
-    title: "Tinta | Agencia Creativa",
+    title: "Tinta | Agencia de Publicidad",
     description: "Transformamos marcas con innovación y creatividad.",
     keywords: "agencia digital, filmmaking, diseño gráfico, diseño web",
     robots: "index, follow",
     openGraph: {
-      title: "Tinta | Agencia Creativa",
+      title: "Tinta | Agencia de Publicidad",
       description: "Transformamos marcas con innovación y creatividad.",
       url: process.env.BASE_URL,
       siteName: "Agencia Tinta",
@@ -22,7 +22,7 @@ const homePage = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Tinta | Agencia Creativa",
+      title: "Tinta | Agencia de Publicidad",
       description: "Transformamos marcas con innovación y creatividad.",
       site: "@agenciatinta",
       creator: "@agenciatinta",
@@ -305,6 +305,8 @@ const CLIENTS = {
   malavida: "Malavida",
   agape: "Agape",
   "grupo-amigos": "Grupo Amigos",
+  bacardi: "Bacardi",
+  "ac-hotel": "AC Hotel",
 };
 
 const CLIENTS_DESCRIPTIONS_ES = {
@@ -317,6 +319,8 @@ const CLIENTS_DESCRIPTIONS_ES = {
     "Malavida es un punto de encuentro donde la buena comida, los cócteles y la diversión se viven sin reglas",
   agape: "Captura la esencia del Mediterráneo en cada joya",
   "grupo-amigos": "Autenticidad mexicana con un giro sofisticado",
+  bacardi: "Acompañamos el lanzamiento de la nueva línea caribeña de Bacardi, en colaboración con la agencia BigBadWolf",
+  "ac-hotel": "Elevamos la experiencia de The Suite Bar, el rooftop más exclusivo del Hotel AC by Marriott Málaga Palacio.",
 };
 
 const CLIENTS_DESCRIPTIONS_EN = {
@@ -330,6 +334,8 @@ const CLIENTS_DESCRIPTIONS_EN = {
     "Malavida is a meeting point where good food, cocktails, and fun are experienced without rules",
   agape: "Captures the essence of the Mediterranean in every jewel",
   "grupo-amigos": "Mexican authenticity with a sophisticated twist",
+  bacardi: "We accompany the launch of the new Caribbean line of Bacardi, in collaboration with the BigBadWolf agency",
+  "ac-hotel": "We elevate the experience of The Suite Bar, the most exclusive rooftop at the AC Hotel by Marriott Málaga Palacio.",
 };
 
 const CLIENTS_IMAGES = {
@@ -347,6 +353,10 @@ const CLIENTS_IMAGES = {
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
   "grupo-amigos":
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
+  bacardi:
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
+  "ac-hotel":
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
 };
 
 // LANDINGS PAGE

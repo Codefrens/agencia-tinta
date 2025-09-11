@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224046/agencia-tinta/portfolio/black-label/fotos/banner_boyrds.jpg",
     "imageAlt": "Black Label",
     "sector": "Gastronomía",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "categories": ["Identidad Visual", "Fotografía", "Video"],
+    "client": "Black Label"
   },
   "sections": [
     {

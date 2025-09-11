@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "year": "2025",
+    "title": "AC Hotel",
+    "subtitle": "We elevated the experience of The Suite Bar, the most exclusive rooftop of the AC by Marriott Málaga Palacio Hotel.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
+    "imageAlt": "Food dishes",
+    "sector": "Hospitality",
+    "categories": ["Photography", "Video"],
+    "client": "AC Hotel By Marriott Málaga Palacio"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Result",
+      "description": "AC by Marriott Málaga Palacio Hotel entrusted us with creating audiovisual content to highlight one of its most representative spaces: The Suite Bar, an exclusive terrace with privileged views of the city. Together with the hotel team and the Mermelada de Perlas agency, we developed the technical script, conducted casting and carried out integral production, taking care of every aesthetic and narrative detail. \n\n The result was three audiovisual pieces that capture the premium experience of The Suite Bar. Additionally, we professionally captured the most iconic dishes of their cuisine, integrating the visual and gastronomic in a comprehensive brand narrative. The content was used on their website, advertising campaigns, social media and offline advertising, reinforcing their positioning as a reference of style and exclusivity in Málaga. A project that demonstrates how a well-constructed visual narrative can enhance the value of a space and its culinary proposal."
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "AC Hotel",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1757351495/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Portfolio_nlhwgz.mp4",
+          "videoAlt": "AC Hotel Reel",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_/v1757351495/agencia-tinta/portfolio/ac-hoteles/videos/01_AC_Hotel_Portfolio_nlhwgz.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1757351487/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_e0twvt.mp4",
+          "videoAlt": "AC Hotel Reel",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1757351487/agencia-tinta/portfolio/ac-hoteles/videos/02_AC_Hotel_Landing_e0twvt.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1757351364/agencia-tinta/portfolio/ac-hoteles/videos/03_AC_Hotel_portfolio_wczhdl.mp4",
+          "videoAlt": "AC Hotel Reel",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1757351364/agencia-tinta/portfolio/ac-hoteles/videos/03_AC_Hotel_portfolio_wczhdl.jpg"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351669/agencia-tinta/portfolio/ac-hoteles/1_fbxwti.webp",
+          "imageAlt": "Food dish"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351670/agencia-tinta/portfolio/ac-hoteles/2_qp6edo.webp",
+          "imageAlt": "Food dishes viewed from above"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351672/agencia-tinta/portfolio/ac-hoteles/3_dgqmqd.webp",
+          "imageAlt": "Dish from above"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351668/agencia-tinta/portfolio/ac-hoteles/4_paj9rv.webp",
+          "imageAlt": "Meat dish with mushrooms"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351668/agencia-tinta/portfolio/ac-hoteles/5_gzjbhf.webp",
+          "imageAlt": "Octopus dish"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351667/agencia-tinta/portfolio/ac-hoteles/6_uatyg7.webp",
+          "imageAlt": "Gourmet dish"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351671/agencia-tinta/portfolio/ac-hoteles/7_wl8qy3.webp",
+          "imageAlt": "Dish viewed from above"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
+          "imageAlt": "Dishes viewed from above"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757351668/agencia-tinta/portfolio/ac-hoteles/9_wciirq.webp",
+          "imageAlt": "Delicious dish"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Bacardi",
+      "categories": ["Photography", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
+      "imageAlt": "Bacardi",
+      "slug": "bacardi"
+    },
+    {
+      "title": "Agape",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+      "imageAlt": "Agape",
+      "slug": "agape"
+    }
+  ]
+}

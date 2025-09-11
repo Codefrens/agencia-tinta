@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "year": "2024",
+    "title": "Bacardi",
+    "subtitle": "Acompañamos el lanzamiento de la nueva línea caribeña de Bacardi, en colaboración con la agencia BigBadWolf",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
+    "imageAlt": "Joya sobre el mar",
+    "sector": "Bebidas",
+    "categories": ["Fotografía", "Video"],
+    "client": "Bacardi"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "Bacardi presentó su nueva colección de ron estilo caribeño y fuimos contactados por la agencia londinense Big Bad Wolf para producir el video corporativo que acompañaría el lanzamiento. Tras varias reuniones creativas, desarrollamos una propuesta visual alineada con los valores de la marca: frescura, trayectoria y herencia tropical. Nuestra misión fue transformar ese concepto en una pieza audiovisual fiel al espíritu de Bacardi. El resultado fue un video dinámico que combina narrativa de marca y dinamismo, pensado para múltiples plataformas. La campaña reforzó la presencia global de Bacardi y destacó su nueva línea como una celebración de la identidad caribeña. Este proyecto consolidó nuestra experiencia en trabajos de alto nivel con marcas globales, coordinando de forma eficaz con agencias internacionales y ejecutando producciones con estándares creativos exigentes. "
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1757348524/agencia-tinta/portfolio/bacardi/Bacardi_Portfolio_ot0vrz.mp4",
+      "videoAlt": "Video de ejemplo",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_0/v1757348524/agencia-tinta/portfolio/bacardi/Bacardi_Portfolio_ot0vrz.jpg"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348558/agencia-tinta/portfolio/bacardi/1_sca1ry.webp",
+          "imageAlt": "Ron"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348555/agencia-tinta/portfolio/bacardi/2_zx74za.webp",
+          "imageAlt": "Presentacion de ron"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348554/agencia-tinta/portfolio/bacardi/4_1_foluye.webp",
+      "imageAlt": "Presentacion de diferentes rones",
+      "aspectRatio": "16/9",
+      "centered": true
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348556/agencia-tinta/portfolio/bacardi/3_nrg8ox.webp",
+          "imageAlt": "Botella sirviendo un ron"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348556/agencia-tinta/portfolio/bacardi/4_gyy37x.webp",
+          "imageAlt": "Botella de Santa Teresa Ron"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348557/agencia-tinta/portfolio/bacardi/5_zwha8m.webp",
+          "imageAlt": "Bartender sirviendo un ron"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348557/agencia-tinta/portfolio/bacardi/8_mh4vh2.webp",
+          "imageAlt": "Mujer tocando una tablet"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757348558/agencia-tinta/portfolio/bacardi/9_lwoc1q.webp",
+          "imageAlt": "Hombre oliendo el ron"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Malavida",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+      "imageAlt": "Malavida",
+      "slug": "malavida"
+    },
+    {
+      "title": "Agape",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+      "imageAlt": "Agape",
+      "slug": "agape"
+    }
+  ]
+}

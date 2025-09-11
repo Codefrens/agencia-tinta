@@ -12,6 +12,34 @@
     },
     "portfolioGrid": [
       {
+        "title": "AC Hotel",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
+        "imageAlt": "Imagen de comida de AC Hotel",
+        "slug": "ac-hotel"
+      },
+      {
+        "title": "Agape",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+        "imageAlt": "Agape",
+        "slug": "agape"
+      },
+      {
+        "title": "Bacardi",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
+        "imageAlt": "Bacardi",
+        "slug": "bacardi"
+      },
+      {
+        "title": "Malavida",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+        "imageAlt": "",
+        "slug": "malavida"
+      },
+      {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
@@ -33,26 +61,13 @@
         "slug": "remax-coast"
       },
       {
-        "title": "Malavida",
-        "categories": ["Fotografía", "Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
-        "imageAlt": "",
-        "slug": "malavida"
-      },
-      {
         "title": "Smash",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
         "imageAlt": "",
         "slug": "smash-burger"
       },
-      {
-        "title": "Agape",
-        "categories": ["Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
-        "imageAlt": "Agape",
-        "slug": "agape"
-      },
+      
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
@@ -72,7 +87,7 @@
   },
   "homePage": {
     "hero": {
-      "subtitle": "AGENCIA CREATIVA",
+      "subtitle": "AGENCIA DE PUBLICIDAD",
       "title": "Transformamos marcas con innovación y creatividad.",
       "highlightWords": ["innovación", "creatividad"],
       "reelLabel": "Ver reel"
@@ -189,7 +204,7 @@
         "title": "1. Datos identificativos",
         "items": [
           "Nombre comercial: Agencia Tinta",
-          "Correo electrónico de contacto: agenciadigitaltinta@gmail.com",
+          "Correo electrónico de contacto: hola@agenciatinta.com",
           "Actividad: Agencia de marketing, diseño y producción de contenidos",
           "Ubicación: España",
           "Sitio web: www.agenciatinta.com"
@@ -316,7 +331,7 @@
         "title": "1. Responsable del tratamiento",
         "items": [
           "Nombre comercial: Agencia Tinta",
-          "Correo electrónico de contacto: agenciadigitaltinta@gmail.com",
+          "Correo electrónico de contacto: hola@agenciatinta.com",
           "Actividad: Agencia de marketing, diseño y producción de contenidos",
           "Ubicación: España"
         ]
@@ -381,7 +396,7 @@
       },
       "exercisingRights": {
         "title": "9. Ejercicio de derechos",
-        "content": "Para ejercer tus derechos, puedes enviarnos un correo a agenciadigitaltinta@gmail.com indicando el derecho que deseas ejercitar y adjuntando una copia de tu documento de identidad."
+        "content": "Para ejercer tus derechos, puedes enviarnos un correo a hola@agenciatinta.com indicando el derecho que deseas ejercitar y adjuntando una copia de tu documento de identidad."
       },
       "complaints": {
         "title": "10. Reclamaciones ante la Autoridad de Control",

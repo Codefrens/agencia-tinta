@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035846/agencia-tinta/portfolio/agape/banner_hat2kh.jpg",
     "imageAlt": "Joya sobre el mar",
     "sector": "Joyería",
-    "categories": ["Video"]
+    "categories": ["Video"],
+    "client": "Agape"
   },
   "sections": [
     {
@@ -28,18 +29,18 @@
   ],
   "related": [
     {
-      "title": "Malavida",
+      "title": "AC Hotel",
       "categories": ["Fotografía", "Video"],
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
-      "imageAlt": "Malavida",
-      "slug": "malavida"
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
+      "imageAlt": "AC Hotel",
+      "slug": "ac-hotel"
     },
     {
-      "title": "Remax Coast",
+      "title": "Bacardi",
       "categories": ["Fotografía", "Video"],
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
-      "imageAlt": "Remax Coast",
-      "slug": "remax-coast"
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
+      "imageAlt": "Bacardi",
+      "slug": "bacardi"
     }
   ]
 }

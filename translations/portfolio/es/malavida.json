@@ -6,7 +6,8 @@
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033083/agencia-tinta/portfolio/malavida/fotos/banner_pphdge.jpg",
     "imageAlt": "Malavida local",
     "sector": "Gastronomía",
-    "categories": ["Fotografía", "Video"]
+    "categories": ["Fotografía", "Video"],
+    "client": "Malavida"
   },
   "sections": [
     {

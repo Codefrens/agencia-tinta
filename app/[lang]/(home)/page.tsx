@@ -3,9 +3,7 @@ import { getTranslations } from "../translations";
 import Hero from "@/components/HomePage/Hero";
 import PortfolioGrid from "@/components/PortfolioGrid";
 import Clients from "@/components/Clients";
-import AiSection from "@/components/HomePage/AiSection";
 import Cta from "@/components/Cta";
-import RealitySection from "@/components/HomePage/RealitySection";
 import Blob from "@/components/ui/Blob";
 
 export default async function HomePage({
@@ -15,7 +13,7 @@ export default async function HomePage({
 }) {
   const lang = (await params).lang;
   const { homePage, common } = await getTranslations(lang);
-  const { hero, about, portfolio, aiSection, realitySection } = homePage;
+  const { hero, about, portfolio } = homePage;
   const { cta } = common;
   return (
     <main>
@@ -33,8 +31,8 @@ export default async function HomePage({
           top="30%"
           right="-20%"
         />
-        <AiSection translations={aiSection} />
-        <RealitySection translations={realitySection} />
+        {/* <AiSection translations={aiSection} /> */}
+       {/*  <RealitySection translations={realitySection} /> */}
       </div>
       <Cta translations={cta} />
     </main>
