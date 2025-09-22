@@ -3,7 +3,6 @@ import Works from "@/components/LandingsPage/Works";
 import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
-import ContactSection from "@/components/LandingsPage/ContactSection";
 import { loadLocalContent } from "@/content/fetch";
 import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
@@ -19,7 +18,7 @@ export const generateMetadata = async ({
   return SEO_METADATA["productionPage"][lang];
 };
 
-export default async function ProductionPage({
+export default async function ProductionBPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
