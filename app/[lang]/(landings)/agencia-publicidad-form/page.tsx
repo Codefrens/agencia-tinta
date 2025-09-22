@@ -16,10 +16,10 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["aestheticPage"][lang];
+  return SEO_METADATA["productionPage"][lang];
 };
 
-export default async function AestheticPage({
+export default async function ProductionPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
@@ -27,7 +27,7 @@ export default async function AestheticPage({
 
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const content = loadLocalContent("landings", lang, "aesthetic") as any;
+  const content = loadLocalContent("landings", lang, "production") as any;
 
   return (
     <>

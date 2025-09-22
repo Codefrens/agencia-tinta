@@ -35,18 +35,6 @@
       href="https://agenciatinta.com/portfolio/en"/>
     <lastmod>2025-03-20</lastmod>
   </url>
-    <url>
-    <loc>https://agenciatinta.com/foodar</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://agenciatinta.com/foodar/es"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://agenciatinta.com/foodar/en"/>
-    <lastmod>2025-03-20</lastmod>
-  </url>
   <url>
     <loc>https://agenciatinta.com/contact</loc>
     <xhtml:link
@@ -165,6 +153,18 @@
       rel="alternate"
       hreflang="en"
       href="https://agenciatinta.com/portfolio/grupo-amigos/en"/>
+    <lastmod>2025-03-20</lastmod>
+  </url>
+    <url>
+    <loc>https://agenciatinta.com/portfolio/ac-hotel</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/portfolio/ac-hotel/es"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/portfolio/ac-hotel/en"/>
     <lastmod>2025-03-20</lastmod>
   </url>
 </urlset>
