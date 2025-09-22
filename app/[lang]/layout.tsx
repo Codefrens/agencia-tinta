@@ -24,6 +24,7 @@ export const generateMetadata = async ({
   return SEO_METADATA["homePage"][lang];
 };
 
+
 export default async function RootLayout({
   children,
   params,
