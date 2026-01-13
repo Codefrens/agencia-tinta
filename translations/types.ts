@@ -27,6 +27,8 @@ export type Translations = {
   common: {
     navigationLinks: {
       agency: string;
+      video: string;
+      fotografia: string;
       portfolio: string;
       foodar: string;
       contact: string;

@@ -2,6 +2,8 @@
   "common": {
     "navigationLinks": {
       "agency": "Agencia",
+      "video": "Video",
+      "fotografia": "Fotography",
       "portfolio": "Portfolio",
       "foodar": "FoodAr",
       "contact": "Contacto"
