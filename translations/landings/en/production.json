@@ -5,6 +5,18 @@
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
+  "heroVideo": {
+    "title": "Video production for brands on the Costa del Sol.",
+    "description": "We create corporate videos, event coverage, reels and social content with strong storytelling, pace and a consistent look to strengthen your brand.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Schedule a call"
+  },
+  "heroPhotography": {
+    "title": "Professional photography for businesses on the Costa del Sol.",
+    "description": "We shoot product, food, corporate and interior photography to project a polished, attractive image aligned with your brand identity.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Schedule a call"
+  },
   "services": {
     "title": "Audiovisual and Photography Services",
     "servicesList": [
@@ -33,6 +45,16 @@
         "description": "Properties, hotels and commercial interiors."
       }
     ]
+  },
+  "worksVideo": {
+    "title": "Video projects",
+    "subtitle": "A selection of audiovisual pieces we’ve produced for brands and businesses: storytelling, pace, and a look aligned with your goals.",
+    "worksList": []
+  },
+  "worksPhotography": {
+    "title": "Photography projects",
+    "subtitle": "A selection of shoots and photos for brands and businesses: products, spaces, food, and social content.",
+    "worksList": []
   },
   "works": {
     "title": "Our work",
@@ -116,6 +138,50 @@
       }
     ]
   },
+  "benefitsVideo": {
+    "titleLight": "Why choose",
+    "titleBold": "our videos?",
+    "benefitsList": [
+      {
+        "title": "Over 8 years of experience",
+        "description": "Professional audiovisual production and photography with proven results."
+      },
+      {
+        "title": "Strategic approach",
+        "description": "Videos designed to communicate, position and convert: scripting, production and post aligned to your goals."
+      },
+      {
+        "title": "Complete service",
+        "description": "Pre-production, filming, editing and delivery. Everything in one place."
+      },
+      {
+        "title": "Wide coverage",
+        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+      }
+    ]
+  },
+  "benefitsPhotography": {
+    "titleLight": "Why choose",
+    "titleBold": "our photography?",
+    "benefitsList": [
+      {
+        "title": "Quality that sells",
+        "description": "Carefully crafted photography to elevate brand perception on web, e-commerce and social media."
+      },
+      {
+        "title": "Art direction & styling",
+        "description": "Composition, lighting and styling so every image is consistent with your brand’s visual identity."
+      },
+      {
+        "title": "Professional editing",
+        "description": "Retouching and color grading for a premium finish without losing a natural look."
+      },
+      {
+        "title": "Wide coverage",
+        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+      }
+    ]
+  },
   "benefits": {
     "titleLight": "Why choose",
     "titleBold": "Agencia Tinta?",
@@ -194,6 +260,70 @@
   "thankYou": {
     "title": "Thank you for your message!",
     "subtitle": "We have received your request successfully. Our team will contact you within the next 24 hours to discuss your project and provide you with a personalized proposal."
+  },
+  "faqVideo": {
+    "titleLight": "Frequently",
+    "titleBold": "asked questions",
+    "subtitle": "Common questions about business video production: process, timelines, deliverables and usage.",
+    "items": [
+      {
+        "question": "What’s included in a corporate video production service?",
+        "answer": "Typically: planning and scripting (if needed), pre-production, filming, editing, music and basic motion graphics, color, and exports optimized for web and social. The exact scope depends on your goals."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "It depends on the format and volume of material, but we usually deliver a first cut within a few business days after filming. Final timelines are agreed before we start."
+      },
+      {
+        "question": "Do you handle script, creative direction and storytelling?",
+        "answer": "Yes. We can support you from concept to execution: message structure, script, visual style, direction and editing pace so the video delivers results."
+      },
+      {
+        "question": "Do you film outside the Costa del Sol?",
+        "answer": "Yes. We work on the Costa del Sol, Madrid, and can travel to other areas depending on the project."
+      },
+      {
+        "question": "Can I use the footage for social and ads?",
+        "answer": "Yes. We can deliver optimized versions (vertical, square or horizontal) per channel, and create cutdowns for campaigns and social media."
+      }
+    ]
+  },
+  "faqPhotography": {
+    "titleLight": "Frequently",
+    "titleBold": "asked questions",
+    "subtitle": "Common questions about professional photography for businesses: planning, delivery and usage.",
+    "items": [
+      {
+        "question": "What types of business photography do you offer?",
+        "answer": "Corporate, events, product, food, real estate/interiors, and social content. We adapt the style to your industry and marketing goals."
+      },
+      {
+        "question": "How do we plan a photo shoot?",
+        "answer": "We define objectives, visual style, references, location, a shot list and timing. For product/food, we also coordinate styling and preparation to keep everything consistent."
+      },
+      {
+        "question": "When will I receive the photos and in which format?",
+        "answer": "We deliver an edited selection via download link, with versions optimized for web/social/print. Timelines depend on volume and are agreed before the shoot."
+      },
+      {
+        "question": "Is editing and retouching included?",
+        "answer": "Yes. We include color/exposure adjustments and professional retouching for a premium, natural finish aligned with your brand."
+      },
+      {
+        "question": "Can you create social media assets from the shoot?",
+        "answer": "Yes. We can plan for Instagram/LinkedIn/TikTok formats and deliver crops/variants ready for posting and campaigns."
+      }
+    ]
+  },
+  "videosVideo": {
+    "title": "Corporate videos",
+    "subtitle": "Audiovisual pieces designed to communicate your value proposition, strengthen positioning, and turn visits into customers.",
+    "videosList": []
+  },
+  "videosPhotography": {
+    "title": "Videos & social content",
+    "subtitle": "Video content to support your photo shoots and campaigns: behind-the-scenes, reels, and short-form content for social media.",
+    "videosList": []
   },
   "videos": {
     "title": "Corporate videos",

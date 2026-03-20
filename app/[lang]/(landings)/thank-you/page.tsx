@@ -11,7 +11,41 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["thankYouPage"]?.[lang] || SEO_METADATA["productionPage"][lang];
+  const base =
+    (SEO_METADATA["thankYouPage"]?.[lang] as Metadata | undefined) ||
+    (SEO_METADATA["productionPage"][lang] as Metadata);
+
+  const baseUrl = process.env.BASE_URL || "https://agenciatinta.com";
+  const canonical = `${baseUrl}/${lang}/thank-you`;
+  const siteName = lang === "es" ? "Agencia Tinta" : "Tinta Agency";
+  const ogImage =
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg";
+
+  return {
+    ...base,
+    alternates: { ...(base as any).alternates, canonical },
+    openGraph: {
+      ...(base as any).openGraph,
+      title: (base as any).openGraph?.title || (base as any).title,
+      description: (base as any).openGraph?.description || (base as any).description,
+      url: canonical,
+      siteName,
+      images:
+        (base as any).openGraph?.images ||
+        [{ url: ogImage, width: 1200, height: 630, alt: siteName }],
+      locale: lang === "es" ? "es_ES" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      ...(base as any).twitter,
+      card: "summary_large_image",
+      title: (base as any).twitter?.title || (base as any).title,
+      description: (base as any).twitter?.description || (base as any).description,
+      site: "@agenciatinta",
+      creator: "@agenciatinta",
+      images: (base as any).twitter?.images || [ogImage],
+    },
+  };
 };
 
 export default async function ThankYouPage({

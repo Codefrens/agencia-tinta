@@ -5,6 +5,85 @@
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
+  "heroVideo": {
+    "title": "Producción de video profesional para empresas",
+    "description": "En Agencia Tinta desarrollamos proyectos de producción de video pensados para empresas que buscan comunicar con claridad su propuesta de valor, fortalecer su posicionamiento y generar contenido audiovisual alineado con sus objetivos de marketing, comunicación corporativa y crecimiento digital.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Agenda tu llamada"
+  },
+  "heroPhotography": {
+    "title": "Fotografía profesional para empresas y marcas",
+    "description": "En Agencia Tinta desarrollamos proyectos de fotografía profesional para empresas que desean fortalecer su imagen de marca, generar contenido visual para marketing y mejorar su presencia digital con imágenes estratégicas adaptadas a distintos canales y objetivos comerciales.",
+    "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
+    "ctaText": "Agenda tu llamada"
+  },
+  "servicesVideo": {
+    "title": "Servicios de Servicios de producción de video para empresas",
+    "subtitle": "Cada proyecto audiovisual responde a una necesidad concreta: reforzar la identidad de marca, captar nuevos clientes, mejorar la comunicación interna o potenciar campañas digitales. Por eso diseñamos formatos de video adaptados a cada estrategia, cuidando tanto el mensaje como la ejecución técnica.",
+    "servicesList": [
+      {
+        "title": "Videos corporativos",
+        "description": "Los videos corporativos permiten presentar la identidad de una empresa, explicar su propuesta de valor y fortalecer su comunicación institucional. Son ideales para páginas web, presentaciones comerciales, redes sociales y estrategias de posicionamiento de marca."
+      },
+      {
+        "title": "Videos promocionales",
+        "description": "Los videos promocionales ayudan a comunicar productos, servicios o campañas de forma clara y atractiva. Son una herramienta clave para anuncios digitales, campañas publicitarias y contenido orientado a la conversión."
+      },
+      {
+        "title": "Videos para redes sociales",
+        "description": "Creamos contenido audiovisual específico para plataformas como Instagram, TikTok, YouTube o LinkedIn. Estos formatos están pensados para captar la atención en segundos, reforzar la identidad visual de la marca, aumentar el alcance, mejorar el engagement y reforzar las estrategias de marketing digital."
+      },
+      {
+        "title": "Videos de eventos",
+        "description": "La producción de videos de eventos permite documentar lanzamientos, activaciones, conferencias o encuentros corporativos, transformando cada experiencia en contenido reutilizable para comunicación digital y promoción de marca."
+      },
+      {
+        "title": "Videos de entrevistas",
+        "description": "Las entrevistas en video ayudan a mostrar liderazgo, compartir conocimiento y fortalecer la marca personal dentro de una organización. Este formato aporta cercanía, credibilidad y profundidad al mensaje corporativo."
+      },
+      {
+        "title": "Videos de producto",
+        "description": "Los videos de producto muestran características, aplicaciones y beneficios de forma clara y visual, apoyando la comunicación comercial y facilitando la toma de decisiones en procesos de compra."
+      },
+      {
+        "title": "Videos podcast",
+        "description": "La producción de video podcast permite generar contenido conversacional de alto valor para empresas, profesionales y marcas que desean compartir conocimiento, reforzar su posicionamiento y construir comunidad en entornos digitales.."
+      }
+
+
+
+    ]
+  },
+  "servicesPhotography": {
+    "title": "Servicios de fotografía profesional para empresas",
+    "subtitle": "Cada empresa necesita comunicar visualmente de forma diferente. Por eso ofrecemos distintos servicios de fotografía profesional adaptados a cada sector, teniendo presentes los objetivos comerciales y las estrategias de marketing digital.",
+    "servicesList": [
+      {
+        "title": "Fotografía corporativa",
+        "description": "La fotografía corporativa permite mostrar el equipo humano, los espacios de trabajo y la identidad visual de una empresa. Estas imágenes refuerzan la credibilidad de la marca, proyectan profesionalismo y mejoran la presentación de la empresa en webs, redes sociales y materiales corporativos."
+      },
+      {
+        "title": "Fotografía de eventos",
+        "description": "La fotografía de eventos documenta lanzamientos, conferencias, activaciones o encuentros empresariales, generando contenido visual que puede utilizarse posteriormente en comunicación corporativa, prensa, redes sociales y campañas de marketing."
+      },
+      {
+        "title": "Fotografía para redes sociales",
+        "description": "Creamos fotografía profesional adaptada a redes sociales como Instagram, LinkedIn o TikTok. Estas imágenes ayudan a mantener una estética coherente de marca y generan contenido visual atractivo que mejora el engagement y la visibilidad digital."
+      },
+      {
+        "title": "Fotografía de producto ",
+        "description": "La fotografía de producto permite mostrar características, detalles y beneficios de forma clara y estratégica. Es fundamental para ecommerce, catálogos digitales y campañas publicitarias donde la imagen tiene un impacto directo en la decisión de compra."
+      },
+      {
+        "title": "Fotografía gastronómica",
+        "description": "La fotografía gastronómica ayuda a restaurantes y marcas alimentarias a presentar sus productos de forma atractiva y estratégica, transmitiendo calidad, detalles y texturas de cada alimento, generando una experiencia y presentación culinaria para desarrollar campañas publicitarias, cartas digitales y contenido para redes sociales."
+      },
+      {
+        "title": "Fotografía inmobiliaria",
+        "description": "La fotografía inmobiliaria permite presentar propiedades, hoteles e interiores comerciales con imágenes profesionales que destacan la amplitud, la iluminación y los elementos arquitectónicos, facilitando la captación de clientes potenciales."
+      }
+    ]
+  },
   "services": {
     "title": "Servicios audiovisuales y fotográficos",
     "servicesList": [
@@ -33,6 +112,16 @@
         "description": "Propiedades, hoteles e interiores comerciales."
       }
     ]
+  },
+  "worksVideo": {
+    "title": "Producción audiovisual aplicada al marketing digital",
+    "subtitle": "Hoy el video es uno de los formatos con mayor capacidad de impacto en internet. Las empresas utilizan contenido audiovisual para redes sociales, campañas publicitarias y estrategias de video marketing que aumentan la visibilidad, mejoran la interacción y fortalecen el reconocimiento de marca.",
+    "worksList": []
+  },
+  "worksPhotography": {
+    "title": "Fotografía profesional aplicada al marketing digital",
+    "subtitle": "Hoy en día la imagen es un elemento clave dentro de cualquier estrategia de marketing. Muchas empresas utilizan fotografía profesional para alimentar sus redes sociales, mejorar su presencia online y crear contenido visual coherente que refuerce su posicionamiento de marca y su identidad visual.",
+    "worksList": []
   },
   "works": {
     "title": "Nuestros trabajos",
@@ -116,6 +205,52 @@
       }
     ]
   },
+  "benefitsVideo": {
+    "titleLight": "¿Por qué elegir Agencia Tinta",
+    "titleBold": "para producir tus videos?",
+    "subtitle": "Trabajamos con empresas que buscan algo más que una grabación puntual. Nuestro enfoque integra dirección creativa, planificación estratégica de contenido y producción técnica para desarrollar piezas audiovisuales coherentes con los objetivos reales de cada marca, aportando valor real en la comunicación.",
+    "benefitsList": [
+      {
+        "title": "Más de 8 años de experiencia",
+        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+      },
+      {
+        "title": "Enfoque estratégico",
+        "description": "Videos pensados para comunicar, posicionar y convertir: guion, rodaje y postproducción alineados a objetivos."
+      },
+      {
+        "title": "Servicio completo",
+        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+      },
+      {
+        "title": "Cobertura amplia",
+        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
+      }
+    ]
+  },
+  "benefitsPhotography": {
+    "titleLight": "¿Por qué elegir Agencia Tinta ",
+    "titleBold": "para tus proyectos de fotografía?",
+    "subtitle": "Nuestro equipo combina experiencia técnica, dirección creativa y visión estratégica para desarrollar imágenes que aporten valor a cada marca. Trabajamos con empresas que buscan mejorar su comunicación visual y diferenciarse mediante contenido profesional.",
+    "benefitsList": [
+      {
+        "title": "Más de 8 años de experiencia",
+        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+      },
+      {
+        "title": "Enfoque estratégico",
+        "description": "Videos pensados para comunicar, posicionar y convertir: guion, rodaje y postproducción alineados a objetivos."
+      },
+      {
+        "title": "Servicio completo",
+        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+      },
+      {
+        "title": "Cobertura amplia",
+        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
+      }
+    ]
+  },
   "benefits": {
     "titleLight": "¿Por qué elegir",
     "titleBold": "Agencia Tinta?",
@@ -193,6 +328,60 @@
   "thankYou": {
     "title": "¡Gracias por tu mensaje!",
     "subtitle": "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas para discutir tu proyecto y brindarte una propuesta personalizada."
+  },
+  "faqVideo": {
+    "titleLight": "Preguntas frecuentes sobre ",
+    "titleBold": "producción de video",
+    "subtitle": "",
+    "items": [
+      {
+        "question": "¿Cuánto tarda una producción de video para empresas?",
+        "answer": "El tiempo depende del tipo de proyecto, número de locaciones y complejidad del rodaje. En general, una producción completa suele desarrollarse entre dos y cuatro semanas incluyendo planificación, grabación y edición."
+      },
+      {
+        "question": "¿Cuánto cuesta producir un video corporativo?",
+        "answer": "El presupuesto depende de factores como duración del video, recursos técnicos, número de jornadas de grabación y tipo de edición. Por eso trabajamos con propuestas personalizadas adaptadas a cada proyecto."
+      },
+      {
+        "question": "¿Qué entregables incluye la producción de video?",
+        "answer": "Normalmente entregamos el video final en alta resolución, versiones adaptadas para redes sociales y archivos optimizados para campañas digitales o páginas web."
+      },
+      {
+        "question": "¿Para qué sirve el video en marketing digital?",
+        "answer": "El video permite explicar ideas de forma clara, captar la atención del público y mejorar la comunicación de marca. Además, es uno de los formatos con mayor rendimiento en redes sociales y campañas publicitarias."
+      }
+    ]
+  },
+  "faqPhotography": {
+    "titleLight": "Preguntas frecuentes sobre",
+    "titleBold": "fotografía profesional",
+    "subtitle": "",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo tarda una sesión de fotografía profesional?",
+        "answer": "El tiempo depende del tipo de proyecto, número de locaciones y volumen de contenido necesario. Una sesión corporativa o de producto suele planificarse previamente para optimizar tiempos y garantizar resultados alineados con los objetivos de la empresa."
+      },
+      {
+        "question": "¿En qué formatos se entregan las fotografías?",
+        "answer": "Las fotografías finales se entregan en alta resolución y también en versiones optimizadas para web, redes sociales, ecommerce o materiales impresos, según las necesidades del proyecto."
+      },
+      {
+        "question": "¿Los derechos de uso están incluidos?",
+        "answer": "Los derechos de uso se acuerdan previamente según el tipo de proyecto. Generalmente incluyen utilización digital, comercial y corporativa dentro de los canales definidos con el cliente."
+      },
+      {
+        "question": "¿Cómo se planifica una sesión de fotografía corporativa?",
+        "answer": "Antes de cada sesión analizamos la identidad de la empresa, definimos objetivos visuales y organizamos locaciones, iluminación y estilo fotográfico para garantizar que las imágenes reflejen correctamente la marca."
+      }
+    ]
+  },
+  "videosVideo": {
+    "title": "Nuestro trabajo en producción audiovisual",
+    "subtitle": "En esta sección puedes ver algunos de los proyectos de producción de video que hemos desarrollado para empresas y marcas de distintos sectores. Cada trabajo refleja nuestro enfoque: combinar creatividad, estrategia y calidad técnica para crear contenido que realmente aporten valor y funcionen en entornos digitales."
+  },
+  "videosPhotography": {
+    "title": "Nuestro trabajo en fotografía profesional",
+    "subtitle": "En esta sección puedes ver algunos de los proyectos de fotografía que hemos desarrollado para empresas, marcas y profesionales. Cada trabajo refleja nuestro enfoque y compromiso, donde combinamos dirección creativa, técnicas fotográficas y estrategia visual para crear contenido con impacto real."
   },
   "videos": {
     "title": "Videos corporativos",

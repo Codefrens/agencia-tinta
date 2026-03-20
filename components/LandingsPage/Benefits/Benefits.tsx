@@ -21,6 +21,7 @@ interface Benefit {
 interface BenefitsProps {
   titleLight: string;
   titleBold: string;
+  subtitle: string;
   benefitsList: Benefit[];
   source: string;
 }
@@ -47,15 +48,16 @@ const dentalBenefitIcons = [
 ];
   
 
-const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps) => {
+const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: BenefitsProps) => {
 
   const benefitIcons = {
     "landing-aesthetic": aestheticBenefitIcons,
     "landing-production": productionBenefitIcons,
+    "landing-photography": productionBenefitIcons,
     "landing-dental": dentalBenefitIcons
   }
 
-  const currentIcons = benefitIcons[source];
+  const currentIcons = benefitIcons[source] || benefitIcons["landing-production"] || [];  
 
   const images = {
     "landing-aesthetic": [
@@ -111,6 +113,8 @@ const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps)
     ]
   };
 
+  const currentImages = images[source] || images["landing-production"] || [];
+
   return (
     <section className={styles.benefitsSection}>
       <Container>
@@ -119,13 +123,14 @@ const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps)
             <span className={styles.titleLight}>{titleLight} </span>
             <span className={styles.titleBold}>{titleBold}</span>
           </h2>
+          <p className={styles.subtitle}>{subtitle}</p>
         </div>
         
         <div className={styles.benefitsGrid}>
           {benefitsList.map((benefit, index) => (
             <div key={index} className={styles.benefitItem}>
               <div className={styles.iconContainer}>
-                {currentIcons[index]}
+                {currentIcons[index] || null}
               </div>
               <div className={styles.benefitContent}>
                 <h3 className={styles.benefitTitle}>{benefit.title}</h3>
@@ -138,7 +143,7 @@ const Benefits = ({ titleLight, titleBold, benefitsList, source}: BenefitsProps)
         {/* Sección de imágenes horizontales */}
         <div className={styles.imagesSection}>
           <div className={styles.imagesContainer}>
-            {images[source].map((image, index) => (
+            {currentImages.map((image, index) => (
               <div key={index} className={styles.imageCard}>
                 <Image
                   src={image.imageUrl}

@@ -50,6 +50,7 @@ export type Translations = {
       highlightWords: string[];
       subtitle: string;
       reelLabel: string;
+      paragraph: string;
     };
     about: {
       title: string;
@@ -72,16 +73,25 @@ export type Translations = {
       imgSrc: string;
       imgAlt: string;
     };
+    faq: {
+      titleLight: string;
+      titleBold: string;
+      subtitle: string;
+      items: { question: string; answer: string }[];
+    };
   };
   portfolioPage: {
     hero: {
       title: string;
+      lead: string;
+      sections: { title: string; paragraph: string }[];
     };
   };
   agencyPage: {
     title: string;
     paragraph1: string;
     paragraph2: string;
+    paragraph3: string;
     quote: string;
     serviceTitle: string;
     services: Service[];
