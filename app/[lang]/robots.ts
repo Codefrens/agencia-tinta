@@ -1,12 +1,18 @@
 import type { MetadataRoute } from "next";
 
-export default function robots(): MetadataRoute.Robots {
+export default function robots({
+  params,
+}: {
+  params: { lang: "es" | "en" };
+}): MetadataRoute.Robots {
+  const baseUrl = process.env.BASE_URL || "https://agenciatinta.com";
+
   return {
     rules: {
       userAgent: "*",
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: process.env.BASE_URL + "/sitemap.xml",
+    sitemap: `${baseUrl}/${params.lang}/sitemap.xml`,
   };
 }

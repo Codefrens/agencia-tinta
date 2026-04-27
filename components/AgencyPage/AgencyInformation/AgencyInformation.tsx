@@ -12,10 +12,11 @@ const AgencyInformation = ({
   return (
     <Container>
       <motion.section className={styles.wrapper}>
-        <h2 className={styles.title}>{translations.title}</h2>
+        <h1 className={styles.title}>{translations.title}</h1>
         <div className={styles.content}>
           <p className="font-color font-medium">{translations.paragraph1}</p>
-          <p className="font-color-gray">{translations.paragraph2}</p>
+          <p className="font-color font-medium">{translations.paragraph2}</p>
+          <p className="font-color-gray">{translations.paragraph3}</p>
           <p className={styles.quote}>{translations.quote}</p>
         </div>
       </motion.section>

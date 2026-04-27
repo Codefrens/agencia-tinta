@@ -52,6 +52,7 @@ const Hero = ({
       </motion.div>
       <Container>
         <div className={styles.content}>
+          {/*
           <motion.p
             className={styles.subtitle}
             initial={{ opacity: 0, y: 20 }}
@@ -63,12 +64,24 @@ const Hero = ({
           >
             {translations.subtitle}
           </motion.p>
+          */}
           <h1 className={styles.title} aria-label={translations.title}>
             <AnimatedTitle
               title={translations.title}
               highlightedWords={translations.highlightWords}
             />
           </h1>
+          <motion.p
+            className={styles.content}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.8,
+              ease: cubicBezier(0.6, 0.01, 0.3, 1),
+            }}
+          >
+            {translations.paragraph}
+          </motion.p>
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
