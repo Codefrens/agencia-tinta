@@ -1,7 +1,6 @@
 import Hero from "@/components/LandingsPage/Hero";
 import Services from "@/components/LandingsPage/Services";
 import Works from "@/components/LandingsPage/Works";
-import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import ContactSection from "@/components/LandingsPage/ContactSection";
@@ -26,27 +25,27 @@ export const generateMetadata = async ({
 
   return {
     ...base,
-    alternates: { ...(base as any).alternates, canonical },
+    alternates: { ...(base as Metadata).alternates, canonical },
     openGraph: {
-      ...(base as any).openGraph,
-      title: (base as any).openGraph?.title || (base as any).title,
-      description: (base as any).openGraph?.description || (base as any).description,
+      ...(base as Metadata).openGraph,
+      title: (base as Metadata).openGraph?.title || (base as Metadata).title,
+      description: (base as Metadata).openGraph?.description || (base as Metadata).description,
       url: canonical,
       siteName,
       images:
-        (base as any).openGraph?.images ||
+        (base as Metadata).openGraph?.images ||
         [{ url: ogImage, width: 1200, height: 630, alt: siteName }],
       locale: lang === "es" ? "es_ES" : "en_US",
       type: "website",
     },
     twitter: {
-      ...(base as any).twitter,
+      ...(base as Metadata).twitter,
       card: "summary_large_image",
-      title: (base as any).twitter?.title || (base as any).title,
-      description: (base as any).twitter?.description || (base as any).description,
+      title: (base as Metadata).twitter?.title || (base as Metadata).title,
+      description: (base as Metadata).twitter?.description || (base as Metadata).description,
       site: "@agenciatinta",
       creator: "@agenciatinta",
-      images: (base as any).twitter?.images || [ogImage],
+      images: (base as Metadata).twitter?.images || [ogImage],
     },
   };
 };
@@ -71,7 +70,7 @@ export default async function DentalPage({
         <LandingForm lang={lang} formTranslations={content.form} source="landing-dental" />
       </Hero>
 
-      <Services 
+      <Services
         title={content.services.title}
         subtitle={content.services.subtitle}
         servicesList={content.services.servicesList}
@@ -100,12 +99,12 @@ export default async function DentalPage({
       />
 
 
-      <ContactSection 
+      <ContactSection
         lang={lang}
         titleLight={content.contactSection.titleLight}
         titleBold={content.contactSection.titleBold}
         subtitle={content.contactSection.subtitle}
-        formTranslations={content.form} 
+        formTranslations={content.form}
         source="landing-dental"
       />
     </>

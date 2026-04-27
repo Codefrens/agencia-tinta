@@ -3,9 +3,9 @@ import "server-only";
 
 const translations: Record<"es" | "en", () => Promise<Translations>> = {
   es: () =>
-    import("../../translations/es.json").then((module) => module.default),
+    import("../../translations/es.json").then((module) => module.default) as Promise<Translations>,
   en: () =>
-    import("../../translations/en.json").then((module) => module.default),
+    import("../../translations/en.json").then((module) => module.default) as Promise<Translations>,
 };
 
 export const getTranslations = async (
