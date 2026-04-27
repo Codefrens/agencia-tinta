@@ -23,6 +23,10 @@
   max-width: 768px;
 }
 
+.content p{
+  margin-bottom: 30px;
+}
+
 .title {
   font-size: pxToRem(34);
   font-weight: var(--font-extra-bold);
@@ -36,6 +40,13 @@
   font-weight: var(--font-bold);
   text-transform: uppercase;
   margin-bottom: 16px;
+}
+
+.paragraph {
+  font-size: pxToRem(16);
+  font-weight: var(--font-regular);
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 .wordWrapper {

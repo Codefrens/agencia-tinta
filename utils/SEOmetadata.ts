@@ -1,13 +1,16 @@
+const BASE_URL = process.env.BASE_URL || "https://agenciatinta.com";
+
+
 const homePage = {
   es: {
-    title: "Tinta | Agencia de Publicidad",
-    description: "Transformamos marcas con innovación y creatividad.",
+    title: "Agencia de producción audiovisual que transforma ideas en experiencias",
+    description: "Creamos narrativas visuales que conectan con tu público como agencia de producción audiovisual enfocada en diseño, fotografía y soluciones auténticas",
     keywords: "agencia digital, filmmaking, diseño gráfico, diseño web",
     robots: "index, follow",
     openGraph: {
       title: "Tinta | Agencia de Publicidad",
       description: "Transformamos marcas con innovación y creatividad.",
-      url: process.env.BASE_URL,
+      url: `${BASE_URL}/es`,
       siteName: "Agencia Tinta",
       images: [
         {
@@ -31,7 +34,7 @@ const homePage = {
       ],
     },
     alternates: {
-      canonical: process.env.BASE_URL,
+      canonical: `${BASE_URL}/es`,
     },
   },
   en: {
@@ -42,7 +45,7 @@ const homePage = {
     openGraph: {
       title: "Tinta | Creative Agency",
       description: "Transforming brands with innovation and creativity.",
-      url: process.env.BASE_URL,
+      url: `${BASE_URL}/en`,
       siteName: "Tinta Agency",
       images: [
         {
@@ -66,21 +69,102 @@ const homePage = {
       ],
     },
     alternates: {
-      canonical: process.env.BASE_URL,
+      canonical: `${BASE_URL}/en`,
+    },
+  },
+};
+
+const agencyPage = {
+  es: {
+    title: "Contenido, estrategia y vídeo profesional en nuestra agencia creativa",
+    description:
+      "En nuestra agencia creativa diseñamos estrategias y producciones de video profesional que convierten mensajes en experiencias visuales. ",
+    keywords:
+      "agencia creativa, producción audiovisual, fotografía profesional, marketing digital, branding, diseño web",
+    robots: "index, follow",
+    openGraph: {
+      title: "Tinta | Nuestra agencia",
+      description:
+        "Estrategia, creatividad y producción audiovisual para marcas que buscan diferenciarse.",
+      url: `${process.env.BASE_URL}/es/agency`,
+      siteName: "Agencia Tinta",
+      images: [
+        {
+          url: "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Vista previa de la página de agencia",
+        },
+      ],
+      locale: "es_ES",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Tinta | Nuestra agencia",
+      description:
+        "Estrategia, creatividad y producción audiovisual para marcas que buscan diferenciarse.",
+      site: "@agenciatinta",
+      creator: "@agenciatinta",
+      images: [
+        "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg",
+      ],
+    },
+    alternates: {
+      canonical: `${process.env.BASE_URL}/es/agency`,
+    },
+  },
+  en: {
+    title: "Tinta | About the agency",
+    description:
+      "Meet Tinta: strategy, creativity and audiovisual production to build brands with identity and results.",
+    keywords:
+      "creative agency, audiovisual production, professional photography, digital marketing, branding, web design",
+    robots: "index, follow",
+    openGraph: {
+      title: "Tinta | About the agency",
+      description:
+        "Strategy, creativity and audiovisual production for brands that want to stand out.",
+      url: `${process.env.BASE_URL}/en/agency`,
+      siteName: "Tinta Agency",
+      images: [
+        {
+          url: "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Preview of the agency page",
+        },
+      ],
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Tinta | About the agency",
+      description:
+        "Strategy, creativity and audiovisual production for brands that want to stand out.",
+      site: "@agenciatinta",
+      creator: "@agenciatinta",
+      images: [
+        "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg",
+      ],
+    },
+    alternates: {
+      canonical: `${process.env.BASE_URL}/en/agency`,
     },
   },
 };
 
 const portfolioPage = {
   es: {
-    title: "Tinta | Nuestros trabajos",
-    description: "Transformamos marcas con innovación y creatividad.",
+    title: "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
+    description: "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
     keywords: "agencia digital, filmmaking, diseño gráfico, diseño web",
     robots: "index, follow",
     openGraph: {
-      title: "Tinta | Nuestros trabajos",
-      description: "Transformamos marcas con innovación y creatividad.",
-      url: process.env.BASE_URL,
+      title: "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
+      description: "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
+      url: `${BASE_URL}/es/portfolio`,
       siteName: "Agencia Tinta",
       images: [
         {
@@ -95,8 +179,8 @@ const portfolioPage = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Tinta | Nuestros trabajos",
-      description: "Transformamos marcas con innovación y creatividad.",
+      title: "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
+      description: "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
       site: "@agenciatinta",
       creator: "@agenciatinta",
       images: [
@@ -104,7 +188,7 @@ const portfolioPage = {
       ],
     },
     alternates: {
-      canonical: process.env.BASE_URL,
+      canonical: `${BASE_URL}/es`,
     },
   },
   en: {
@@ -115,7 +199,7 @@ const portfolioPage = {
     openGraph: {
       title: "Tinta | Works",
       description: "Transforming brands with innovation and creativity.",
-      url: process.env.BASE_URL,
+      url: `${BASE_URL}/en/portfolio`,
       siteName: "Tinta Agency",
       images: [
         {
@@ -139,7 +223,7 @@ const portfolioPage = {
       ],
     },
     alternates: {
-      canonical: process.env.BASE_URL,
+      canonical: `${BASE_URL}/en`,
     },
   },
 };
@@ -236,7 +320,7 @@ export const generateSEOMetadataPortfolioDetailPage = (slug: string) => {
       openGraph: {
         title: `${CLIENTS[slug]} | Agencia Tinta`,
         description: `${CLIENTS_DESCRIPTIONS_ES[slug]}`,
-        url: process.env.BASE_URL,
+        url: `${BASE_URL}/es/portfolio/${slug}`,
         siteName: "Agencia Tinta",
         images: [
           {
@@ -258,7 +342,7 @@ export const generateSEOMetadataPortfolioDetailPage = (slug: string) => {
         images: [`${CLIENTS_IMAGES[slug]}`],
       },
       alternates: {
-        canonical: `${process.env.BASE_URL}/es/portfolio/${slug}`,
+        canonical: `${BASE_URL}/es/portfolio/${slug}`,
       },
     },
     en: {
@@ -269,7 +353,7 @@ export const generateSEOMetadataPortfolioDetailPage = (slug: string) => {
       openGraph: {
         title: `${CLIENTS[slug]} | Agencia Tinta`,
         description: `${CLIENTS_DESCRIPTIONS_EN[slug]}`,
-        url: process.env.BASE_URL,
+        url: `${BASE_URL}/en/portfolio/${slug}`,
         siteName: "Tinta Agency",
         images: [
           {
@@ -291,7 +375,7 @@ export const generateSEOMetadataPortfolioDetailPage = (slug: string) => {
         images: [`${CLIENTS_IMAGES[slug]}`],
       },
       alternates: {
-        canonical: `${process.env.BASE_URL}/en/portfolio/${slug}`,
+        canonical: `${BASE_URL}/en/portfolio/${slug}`,
       },
     },
   };
@@ -375,6 +459,44 @@ const productionPage = {
   },
 };
 
+const videoPage = {
+  es: {
+    title: "Producción de video para empresas | Videos corporativos y contenido audiovisual",
+    description:
+      "Producción de video para empresas: videos corporativos, contenido para redes sociales, cobertura de eventos y videos promocionales. Creamos contenido audiovisual estratégico para marcas que buscan visibilidad y crecimiento.",
+    keywords:
+      "producción audiovisual, videos corporativos, cobertura de eventos, reels, video marketing, contenido para redes sociales",
+    robots: "index, follow",
+  },
+  en: {
+    title: "Tinta | Audiovisual production on the Costa del Sol.",
+    description:
+      "Video production for brands: corporate videos, event coverage, reels and social media content with a strategic approach.",
+    keywords:
+      "audiovisual production, corporate videos, event coverage, reels, video marketing, social media content",
+    robots: "index, follow",
+  },
+};
+
+const fotografiaPage = {
+  es: {
+    title: "Servicios de fotografía profesional para empresas | Agencia Tinta",
+    description:
+      "Fotografía profesional para empresas: fotografía corporativa, producto, eventos, gastronomía e inmobiliaria. Creamos imágenes estratégicas para marcas, redes sociales y marketing digital.",
+    keywords:
+      "fotografía profesional, fotografía de producto, fotografía gastronómica, fotografía corporativa, fotografía de espacios, contenido para marcas",
+    robots: "index, follow",
+  },
+  en: {
+    title: "Tinta | Professional photography on the Costa del Sol.",
+    description:
+      "Professional photography for businesses: product, food, interiors and corporate shoots to project a consistent, attractive image.",
+    keywords:
+      "professional photography, product photography, food photography, corporate photography, interior photography, brand content",
+    robots: "index, follow",
+  },
+};
+
 const aestheticPage = {
   es: {
     title: "Tinta | Marketing digital y redes sociales para clínicas estéticas en España",
@@ -422,9 +544,12 @@ const thankYouPage = {
 
 export const SEO_METADATA = {
   homePage,
+  agencyPage,
   portfolioPage,
   foodarPage,
   productionPage,
+  videoPage,
+  fotografiaPage,
   aestheticPage,
   dentalPage,
   thankYouPage,

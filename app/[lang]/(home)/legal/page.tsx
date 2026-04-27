@@ -1,6 +1,50 @@
 import Container from "@/components/ui/Container";
 import { getTranslations } from "../../translations";
 import styles from "./legalPage.module.css";
+import { Metadata } from "next";
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ lang: "es" | "en" }>;
+}): Promise<Metadata> => {
+  const lang = (await params).lang;
+  const baseUrl = process.env.BASE_URL || "https://agenciatinta.com";
+  const canonical = `${baseUrl}/${lang}/legal`;
+  const title =
+    lang === "es" ? "Aviso legal | Agencia Tinta" : "Legal notice | Tinta Agency";
+  const description =
+    lang === "es"
+      ? "Aviso legal y condiciones de uso de agenciatinta.com."
+      : "Legal notice and terms of use for agenciatinta.com.";
+  const siteName = lang === "es" ? "Agencia Tinta" : "Tinta Agency";
+  const ogImage =
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg";
+
+  return {
+    title,
+    description,
+    robots: "index, follow",
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: siteName }],
+      locale: lang === "es" ? "es_ES" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      site: "@agenciatinta",
+      creator: "@agenciatinta",
+      images: [ogImage],
+    },
+  };
+};
 
 export default async function LegalPage({
   params,

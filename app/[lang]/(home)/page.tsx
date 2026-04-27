@@ -5,6 +5,7 @@ import PortfolioGrid from "@/components/PortfolioGrid";
 import Clients from "@/components/Clients";
 import Cta from "@/components/Cta";
 import Blob from "@/components/ui/Blob";
+import FaqSection from "@/components/HomePage/FaqSection";
 
 export default async function HomePage({
   params,
@@ -13,7 +14,7 @@ export default async function HomePage({
 }) {
   const lang = (await params).lang;
   const { homePage, common } = await getTranslations(lang);
-  const { hero, about, portfolio } = homePage;
+  const { hero, about, portfolio, faq } = homePage;
   const { cta } = common;
   return (
     <main>
@@ -22,6 +23,7 @@ export default async function HomePage({
       <PortfolioGrid
         translations={{ portfolioGrid: common.portfolioGrid, portfolio }}
       />
+      
       <Clients />
       <div style={{ position: "relative", overflow: "hidden" }}>
         <Blob
@@ -31,6 +33,7 @@ export default async function HomePage({
           top="30%"
           right="-20%"
         />
+        <FaqSection translations={faq} />
         {/* <AiSection translations={aiSection} /> */}
        {/*  <RealitySection translations={realitySection} /> */}
       </div>

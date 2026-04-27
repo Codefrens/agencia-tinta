@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Squeeze as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import styles from "./BurgerMenu.module.css";
@@ -14,8 +14,9 @@ const BurgerMenu = ({
   const links = [
     { href: "/", label: "Home" },
     { href: "/agency", label: translations.agency },
+    { href: "/video", label: translations.video },
+    { href: "/fotografia", label: translations.fotografia },
     { href: "/portfolio", label: translations.portfolio },
-    { href: "/foodar", label: translations.foodar },
     { href: "/contact", label: translations.contact },
     {
       href: `https://wa.me/+34611149862?text=Hola`,
