@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 export const generateMetadata = async ({
   params,
 }: {
-  params: { lang: "en" | "es" };
+  params: Promise<{ lang: "en" | "es" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
   return SEO_METADATA["homePage"][lang];
@@ -35,15 +35,45 @@ export default async function RootLayout({
   const lang = (await params).lang;
   
   return (
-    <html lang={lang}>
+    <html lang={lang} suppressHydrationWarning>
       <head>
-        <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/72d1e76e213845e304a05a39/script.js"></Script>
+        <meta name="google-site-verification" content="z1d_IZR_ALntZVSmGYBAiekspOvd19fUWolUuYaCI-w" />
+        <Script
+          id="cookieyes"
+          type="text/javascript"
+          src="https://cdn-cookieyes.com/client_data/72d1e76e213845e304a05a39/script.js"
+        />
+        <Script id="schema-org" type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": `${process.env.BASE_URL || "https://agenciatinta.com"}#organization`,
+                name: lang === "es" ? "Agencia Tinta" : "Tinta Agency",
+                url: `${process.env.BASE_URL || "https://agenciatinta.com"}/${lang}`,
+                sameAs: [
+                  "https://www.instagram.com/agenciatinta/",
+                  "https://www.tiktok.com/@agenciatinta",
+                ],
+              },
+              {
+                "@type": "WebSite",
+                "@id": `${process.env.BASE_URL || "https://agenciatinta.com"}#website`,
+                url: `${process.env.BASE_URL || "https://agenciatinta.com"}/${lang}`,
+                name: lang === "es" ? "Agencia Tinta" : "Tinta Agency",
+                publisher: {
+                  "@id": `${process.env.BASE_URL || "https://agenciatinta.com"}#organization`,
+                },
+                inLanguage: lang,
+              },
+            ],
+          })}
+        </Script>
       </head>
-      <body className={`${dmSans.variable}`}>
+      <body className={`${dmSans.variable}`} suppressHydrationWarning>
         <RecaptchaProvider>
-          <LenisProvider>
-            {children}
-          </LenisProvider>
+          <LenisProvider>{children}</LenisProvider>
         </RecaptchaProvider>
         <PageViewTracker />
         <GoogleTagManager gtmId={GTM_ID} />

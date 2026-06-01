@@ -2,6 +2,8 @@
   "common": {
     "navigationLinks": {
       "agency": "Agencia",
+      "video": "Video",
+      "fotografia": "Fotography",
       "portfolio": "Portfolio",
       "foodar": "FoodAr",
       "contact": "Contacto"
@@ -89,6 +91,7 @@
     "hero": {
       "subtitle": "AGENCIA DE PUBLICIDAD",
       "title": "Transformamos marcas con innovación y creatividad.",
+      "paragraph": "Somos una agencia de producción audiovisual que convierte ideas en experiencias estratégicas, acompañando a cada marca a crecer con creatividad y visión sólida.",
       "highlightWords": ["innovación", "creatividad"],
       "reelLabel": "Ver reel"
     },
@@ -112,11 +115,49 @@
       "buttonLabel": "Conoce Foodar",
       "imgSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
       "imgAlt": "Realidad aumentada"
+    },
+    "faq": {
+      "titleLight": "Preguntas",
+      "titleBold": "frecuentes",
+      "subtitle": "",
+      "items": [
+        {
+          "question": "¿Qué servicios ofrece Agencia Tinta?",
+          "answer": "Creamos estrategia, contenido y producción audiovisual (video y fotografía), identidad visual, gestión de redes y proyectos web orientados a performance."
+        },
+        {
+          "question": "¿Cómo es el proceso de trabajo?",
+          "answer": "Iniciamos con una reunión para entender objetivos y audiencia, planteamos una propuesta creativa/estratégica y ejecutamos la producción. Luego entregamos piezas finales listas para publicar."
+        },
+        {
+          "question": "¿Trabajan con marcas de cualquier tamaño?",
+          "answer": "Sí. Nos adaptamos a la etapa de tu marca: desde lanzamientos y rebranding hasta campañas puntuales y producción recurrente de contenido."
+        },
+        {
+          "question": "¿En cuánto tiempo entregan el contenido?",
+          "answer": "Depende del alcance. En general, una producción sencilla puede entregarse en 7–14 días, y proyectos más grandes requieren planificación y calendario de rodaje/edición."
+        },
+        {
+          "question": "¿Pueden ayudar con la estrategia para redes sociales?",
+          "answer": "Sí. Definimos pilares de contenido, guiones, formatos, calendario, lineamientos visuales y optimización según rendimiento."
+        }
+      ]
     }
   },
   "portfolioPage": {
     "hero": {
-      "title": "Explora nuestros trabajos"
+      "title": "Explore our work",
+      "lead": "Our audiovisual project portfolio shows how we turn ideas into strategic visual experiences that strengthen each brand’s identity. Every proposal blends creativity, aesthetic consistency, and commercial vision, projecting a solid, attractive, memorable image. This is how we connect with the right audience, reinforce values and differentiation, and leave a lasting impression at every touchpoint with clarity and emotion.",
+      "sections": [
+        {
+          "title": "Creative projects that strengthen branding",
+          "paragraph": "We create projects that combine strategy and emotion. We define concept, script, and art direction so every piece adds real value to brand positioning. We reinforce visual identity and tone, building a coherent narrative that feels authentic, earns trust, and supports your brand today and tomorrow."
+        },
+        {
+          "title": "Audiovisual production and strategic positioning",
+          "paragraph": "Our audiovisual production boosts branding with integrated strategies that combine creative direction, visual storytelling, and professional photography. Video marketing strengthens emotional connection with specific audiences and helps consolidate coherent, memorable, competitive brands in digital campaigns."
+        }
+      ]
     }
   },
   "agencyPage": {

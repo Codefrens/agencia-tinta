@@ -25,6 +25,19 @@
   font-weight: var(--font-extra-bold);
 }
 
+.subtitle {
+  font-size: pxToRem(16);
+  color: var(--color-neutral-10);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-wrap: balance;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
 .benefitsGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

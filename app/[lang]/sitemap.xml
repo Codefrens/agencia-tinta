@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://agenciatinta.com</loc>
+    <loc>https://agenciatinta.com/es</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
@@ -9,162 +9,318 @@
       rel="alternate"
       hreflang="en"
       href="https://agenciatinta.com/en"/>
-    <lastmod>2025-03-20</lastmod>
-  </url>
-    <url>
-    <loc>https://agenciatinta.com/agency</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://agenciatinta.com/agency/es"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://agenciatinta.com/agency/en"/>
-    <lastmod>2025-03-20</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio</loc>
+    <loc>https://agenciatinta.com/es/agency</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/es"/>
+      href="https://agenciatinta.com/es/agency"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/agency"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/contact</loc>
+    <loc>https://agenciatinta.com/es/portfolio</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/contact/es"/>
+      href="https://agenciatinta.com/es/portfolio"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/contact/en"/>
-    <lastmod>2025-03-20</lastmod>
-  </url>
-    <url>
-    <loc>https://agenciatinta.com/portfolio/cantina-canalla</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://agenciatinta.com/portfolio/cantina-canalla/es"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://agenciatinta.com/portfolio/cantina-canalla/en"/>
-    <lastmod>2025-03-20</lastmod>
-  </url>
-      <url>
-    <loc>https://agenciatinta.com/portfolio/black-label</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://agenciatinta.com/portfolio/black-label/es"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://agenciatinta.com/portfolio/black-label/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/remax-coast</loc>
+    <loc>https://agenciatinta.com/es/contact</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/remax-coast/es"/>
+      href="https://agenciatinta.com/es/contact"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/remax-coast/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/contact"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/malavida</loc>
+    <loc>https://agenciatinta.com/es/portfolio/cantina-canalla</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/malavida/es"/>
+      href="https://agenciatinta.com/es/portfolio/cantina-canalla"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/malavida/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/cantina-canalla"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/bacardi</loc>
+    <loc>https://agenciatinta.com/es/portfolio/black-label</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/bacardi/es"/>
+      href="https://agenciatinta.com/es/portfolio/black-label"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/bacardi/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/black-label"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/barberia-m</loc>
+    <loc>https://agenciatinta.com/es/portfolio/remax-coast</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/barberia-m/es"/>
+      href="https://agenciatinta.com/es/portfolio/remax-coast"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/barberia-m/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/remax-coast"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/agape</loc>
+    <loc>https://agenciatinta.com/es/portfolio/malavida</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/agape/es"/>
+      href="https://agenciatinta.com/es/portfolio/malavida"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/agape/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/malavida"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/smash-burger</loc>
+    <loc>https://agenciatinta.com/es/portfolio/bacardi</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/smash-burger/es"/>
+      href="https://agenciatinta.com/es/portfolio/bacardi"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/smash-burger/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/bacardi"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://agenciatinta.com/portfolio/grupo-amigos</loc>
+    <loc>https://agenciatinta.com/es/portfolio/barberia-m</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/grupo-amigos/es"/>
+      href="https://agenciatinta.com/es/portfolio/barberia-m"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/grupo-amigos/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/barberia-m"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
-    <url>
-    <loc>https://agenciatinta.com/portfolio/ac-hotel</loc>
+  <url>
+    <loc>https://agenciatinta.com/es/portfolio/agape</loc>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://agenciatinta.com/portfolio/ac-hotel/es"/>
+      href="https://agenciatinta.com/es/portfolio/agape"/>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://agenciatinta.com/portfolio/ac-hotel/en"/>
-    <lastmod>2025-03-20</lastmod>
+      href="https://agenciatinta.com/en/portfolio/agape"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/portfolio/smash-burger</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/portfolio/smash-burger"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/portfolio/smash-burger"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/portfolio/grupo-amigos</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/portfolio/grupo-amigos"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/portfolio/grupo-amigos"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/portfolio/ac-hotel</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/portfolio/ac-hotel"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/portfolio/ac-hotel"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/foodar</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/foodar"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/foodar"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/video</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/video"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/video"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/fotografia</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/fotografia"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/fotografia"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/agencia-publicidad-form</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/agencia-publicidad-form"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/agencia-publicidad-form"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/agencia-publicidad-llamada</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/agencia-publicidad-llamada"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/agencia-publicidad-llamada"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/marketing-digital-centros-de-estetica-form</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/marketing-digital-centros-de-estetica-form"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/marketing-digital-centros-de-estetica-form"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/marketing-digital-centros-de-estetica-llamada</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/marketing-digital-centros-de-estetica-llamada"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/marketing-digital-centros-de-estetica-llamada"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/marketing-digital-clinicas-dentales-form</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/marketing-digital-clinicas-dentales-form"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/marketing-digital-clinicas-dentales-form"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/marketing-digital-clinicas-dentales-llamada</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/marketing-digital-clinicas-dentales-llamada"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/marketing-digital-clinicas-dentales-llamada"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/cookies</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/cookies"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/cookies"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/legal</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/legal"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/legal"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/privacy</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/privacy"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/privacy"/>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://agenciatinta.com/es/modelo</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://agenciatinta.com/es/modelo"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://agenciatinta.com/en/modelo"/>
+    <lastmod>2026-03-20</lastmod>
   </url>
 </urlset>

@@ -1,14 +1,15 @@
 import Hero from "@/components/LandingsPage/Hero";
 import Services from "@/components/LandingsPage/Services";
 import Works from "@/components/LandingsPage/Works";
+import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import ContactSection from "@/components/LandingsPage/ContactSection";
+import FaqSection from "@/components/HomePage/FaqSection";
 import LandingForm from "@/components/LandingsPage/LandingForm";
 import { loadLocalContent } from "@/content/fetch";
 import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
-import ReviewsFeaturable from "@/components/ui/Reviews/ReviewsFeaturable";
 
 export const generateMetadata = async ({
   params,
@@ -16,9 +17,9 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  const base = SEO_METADATA["dentalPage"][lang] as Metadata;
+  const base = SEO_METADATA["fotografiaPage"][lang] as Metadata;
   const baseUrl = process.env.BASE_URL || "https://agenciatinta.com";
-  const canonical = `${baseUrl}/${lang}/marketing-digital-clinicas-dentales-form`;
+  const canonical = `${baseUrl}/${lang}/fotografia`;
   const siteName = lang === "es" ? "Agencia Tinta" : "Tinta Agency";
   const ogImage =
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742127198/agencia-tinta/hometinta_g4plpq.jpg";
@@ -50,7 +51,7 @@ export const generateMetadata = async ({
   };
 };
 
-export default async function DentalPage({
+export default async function ProductionPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
@@ -58,46 +59,62 @@ export default async function DentalPage({
 
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const content = loadLocalContent("landings", lang, "dental") as any;
+  const content = loadLocalContent("landings", lang, "production") as any;
+  const hero = content.heroPhotography || content.hero;
+  const services = content.servicesPhotography || content.services;
+  const videosSection = content.videosPhotography || content.videos;
+  const videosList = videosSection?.videosList || content.videos?.videosList || [];
+
+  const worksSection = content.worksPhotography || content.works;
+  const worksList =
+    worksSection?.worksList?.length
+      ? worksSection.worksList
+      : (content.works?.worksList || []).filter((work) => work.type === "image");
 
   return (
     <>
       <Hero
-        title={content.hero.title}
-        subtitle={content.hero.description}
-        backgroundImage={content.hero.backgroundImage}
+        title={hero.title}
+        subtitle={hero.description}
+        backgroundImage={hero.backgroundImage}
       >
-        <LandingForm lang={lang} formTranslations={content.form} source="landing-dental" />
+        <LandingForm lang={lang} formTranslations={content.form} source="landing-aesthetic" />
       </Hero>
 
       <Services
-        title={content.services.title}
-        subtitle={content.services.subtitle}
-        servicesList={content.services.servicesList}
-        source="landing-dental"
+        title={services.title}
+        subtitle={services.subtitle}
+        servicesList={services.servicesList}
+        source="landing-photography"
       />
 
       <Works
-        title={content.works.title}
-        subtitle={content.works.subtitle}
-        works={content.works.worksList}
+        title={worksSection.title}
+        subtitle={worksSection.subtitle}
+        works={worksList}
+      />
+
+      <VideoCarousel
+        title={videosSection.title}
+        subtitle={videosSection.subtitle}
+        videos={videosList}
       />
 
       <Benefits
-        titleLight={content.benefits.titleLight}
-        titleBold={content.benefits.titleBold}
-        subtitle={content.benefits.subtitle}
-        benefitsList={content.benefits.benefitsList}
-        source="landing-dental"
+        titleLight={(content.benefitsPhotography || content.benefits).titleLight}
+        titleBold={(content.benefitsPhotography || content.benefits).titleBold}
+        subtitle={content.benefitsPhotography?.subtitle || content.benefits?.subtitle}
+        benefitsList={(content.benefitsPhotography || content.benefits).benefitsList}
+        source="landing-photography"
       />
 
       <Testimonials
         titleLight={content.testimonials.titleLight}
         titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
-        testimonialsGoogle={<ReviewsFeaturable />}
       />
 
+      {content.faqPhotography ? <FaqSection translations={content.faqPhotography} /> : null}
 
       <ContactSection
         lang={lang}
@@ -105,7 +122,7 @@ export default async function DentalPage({
         titleBold={content.contactSection.titleBold}
         subtitle={content.contactSection.subtitle}
         formTranslations={content.form}
-        source="landing-dental"
+        source="landing-aesthetic"
       />
     </>
   );

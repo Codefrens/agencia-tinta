@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import styles from "./NavbarClient.module.css";
 import Container from "../ui/Container";
 import BurgerMenu from "../ui/BurgerMenu";
@@ -49,6 +49,16 @@ const NavbarClient = ({
               <li>
                 <Link href="/agency">
                   {translations.navigationLinks.agency}
+                </Link>
+              </li>
+              <li>
+                <Link href="/video">
+                  {translations.navigationLinks.video}
+                </Link>
+              </li>
+              <li>
+                <Link href="/fotografia">
+                  {translations.navigationLinks.fotografia}
                 </Link>
               </li>
               <li>
