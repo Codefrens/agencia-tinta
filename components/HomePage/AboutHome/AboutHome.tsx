@@ -8,6 +8,7 @@ import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import Blob from "@/components/ui/Blob";
 import { motion, useScroll, useTransform } from "motion/react";
+import classNames from "classnames";
 
 const AboutHome = ({
   translations,
@@ -41,7 +42,7 @@ const AboutHome = ({
             initial={{ y: 40, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
-            className="font-color font-bold"
+            className={classNames(styles.title, 'font-color font-bold')}
           >
             {translations.paragraph1}
           </motion.p>
@@ -50,9 +51,8 @@ const AboutHome = ({
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
             className="font-color-gray"
-          >
-            {translations.paragraph2}
-          </motion.p>
+            dangerouslySetInnerHTML={{ __html: translations.paragraph2 }}
+          />
           <motion.div
             initial={{ y: 40, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}

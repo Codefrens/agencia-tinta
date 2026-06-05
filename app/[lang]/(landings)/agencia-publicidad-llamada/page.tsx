@@ -8,6 +8,7 @@ import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
 import HeroB from "@/components/LandingsPage/HeroB";
 import CtaCall from "@/components/LandingsPage/CtaCall";
+import ReviewsFeaturable from "@/components/ui/Reviews/ReviewsFeaturable";
 
 export const generateMetadata = async ({
   params,
@@ -97,6 +98,7 @@ export default async function ProductionBPage({
         titleLight={content.testimonials.titleLight}
         titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
+        testimonialsGoogle={<ReviewsFeaturable />}
       />
       <CtaCall translations={content.cta} />
     </>

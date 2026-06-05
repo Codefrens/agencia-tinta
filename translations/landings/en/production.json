@@ -1,18 +1,18 @@
 {
   "hero": {
-    "title": "Audiovisual Production and Photography on the Costa del Sol.",
+    "title": "Audiovisual Production and Photography in Spain.",
     "description": "We are a content creation agency, expert in corporate videos, event coverage, reels and high-quality photo sessions.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
   "heroVideo": {
-    "title": "Video production for brands on the Costa del Sol.",
+    "title": "Video production for brands in Spain.",
     "description": "We create corporate videos, event coverage, reels and social content with strong storytelling, pace and a consistent look to strengthen your brand.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
   "heroPhotography": {
-    "title": "Professional photography for businesses on the Costa del Sol.",
+    "title": "Professional photography for businesses in Spain.",
     "description": "We shoot product, food, corporate and interior photography to project a polished, attractive image aligned with your brand identity.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
@@ -156,7 +156,7 @@
       },
       {
         "title": "Wide coverage",
-        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+        "description": "Presence throughout Spain."
       }
     ]
   },
@@ -178,7 +178,7 @@
       },
       {
         "title": "Wide coverage",
-        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+        "description": "Presence throughout Spain."
       }
     ]
   },
@@ -200,7 +200,7 @@
       },
       {
         "title": "Wide coverage",
-        "description": "Presence in Costa del Sol, Madrid and possibility of travel throughout the peninsula."
+        "description": "Presence throughout Spain."
       }
     ]
   },
@@ -208,27 +208,7 @@
     "titleLight": "What our ",
     "titleBold": "clients say",
     "testimonialsList": [
-      {
-        "quote": "The corporate videos they created were fundamental to conveying our proposal. Plus, they are great and friendly people, and that is always appreciated.",
-        "client": "AC HOTEL - Marriot",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
-        "personName": "Angel Garcia Cano",
-        "personPosition": "Food & Beverage Manager"
-      },
-      {
-        "quote": "Putting yourself in the hands of these great professionals is a guarantee of success. They listen and understand your needs, adapting their work to what you need.",
-        "client": "Cantina Canalla",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
-        "personName": "Mario Navalproto",
-        "personPosition": "Operations and HR Director"
-      },
-      {
-        "quote": "Great professionals. With their services, they elevate your company to another level. 100% recommended.",
-        "client": "Remax",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
-        "personName": "Francisco Arijo Alvarez",
-        "personPosition": "Broker"
-      }
+    
 
     ]
   },
@@ -279,8 +259,8 @@
         "answer": "Yes. We can support you from concept to execution: message structure, script, visual style, direction and editing pace so the video delivers results."
       },
       {
-        "question": "Do you film outside the Costa del Sol?",
-        "answer": "Yes. We work on the Costa del Sol, Madrid, and can travel to other areas depending on the project."
+        "question": "Do you film outside of Spain?",
+        "answer": "Yes. We work throughout Spain and can travel to other areas depending on the project."
       },
       {
         "question": "Can I use the footage for social and ads?",

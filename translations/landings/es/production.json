@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Producción audiovisual y fotografía en la Costa del Sol.",
+    "title": "Producción audiovisual y fotografía en España.",
     "description": "Somos una agencia de creación de contenido, experta en videos corporativos, cobertura de eventos, reels y sesiones fotográficas de alta calidad.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
@@ -224,7 +224,7 @@
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
+        "description": "Presencia en toda España."
       }
     ]
   },
@@ -247,7 +247,7 @@
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
+        "description": "Presencia en toda España."
       }
     ]
   },
@@ -269,7 +269,7 @@
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en Costa del Sol, Madrid y posibilidad de desplazamiento en toda la península."
+        "description": "Presencia en toda España."
       }
     ]
   },
@@ -277,27 +277,7 @@
     "titleLight": "Lo que dicen ",
     "titleBold": "nuestros clientes",
     "testimonialsList": [
-      {
-        "quote": "Los vídeos corporativos que crearon fueron fundamentales para transmitir nuestra propuesta. Además, son gente apañá y amable, y eso siempre se agradece.",
-        "client": "AC HOTEL - Marriot",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
-        "personName": "Angel Garcia Cano",
-        "personPosition": "Food & Beverage Manager"
-      },
-      {
-        "quote": "Ponerse en manos de estos grandes profesionales es garantía de éxito. Te escuchan y entienden tus necesidades adaptando su trabajo a lo que necesitas.",
-        "client": "Cantina Canalla",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
-        "personName": "Mario Navalproto",
-        "personPosition": "Director de Operaciones y HR"
-      },
-      {
-        "quote": "Grandes profesionales. Con sus servicios, elevan tu empresa a otro nivel. Recomendable 100%.",
-        "client": "Remax",
-        "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741897583/agencia-tinta/clientes/remax_logo_gmqncx.png",
-        "personName": "Francisco Arijo Alvarez",
-        "personPosition": "Broker"
-      }
+      
     ]
   },
   "form": {
