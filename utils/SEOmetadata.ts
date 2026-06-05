@@ -446,13 +446,13 @@ const CLIENTS_IMAGES = {
 // LANDINGS PAGE
 const productionPage = {
   es: {
-    title: "Tinta | Producción audiovisual y fotografía en la Costa del Sol.",
+    title: "Tinta | Producción audiovisual y fotografía en España.",
     description: "Somos una agencia de creación de contenido, experta en videos corporativos, coberturas de eventos, reels y sesiones fotográficas de alta calidad.",
     keywords: "Videos corporativos, producción audiovisual, fotografía profesional, reels para redes sociales, cobertura de eventos, fotografía de producto",
     robots: "index, follow",
   },
   en: {
-    title: "Tinta | Production of audiovisual and photography in the Costa del Sol.",
+    title: "Tinta | Production of audiovisual and photography in Spain.",
     description: "We are a content creation agency, expert in corporate videos, event coverage, reels and professional photography sessions.",
     keywords: "Corporate videos, audiovisual production, professional photography, reels for social media, event coverage, product photography",
     robots: "index, follow",
@@ -469,7 +469,7 @@ const videoPage = {
     robots: "index, follow",
   },
   en: {
-    title: "Tinta | Audiovisual production on the Costa del Sol.",
+    title: "Tinta | Audiovisual production in Spain.",
     description:
       "Video production for brands: corporate videos, event coverage, reels and social media content with a strategic approach.",
     keywords:
@@ -488,7 +488,7 @@ const fotografiaPage = {
     robots: "index, follow",
   },
   en: {
-    title: "Tinta | Professional photography on the Costa del Sol.",
+    title: "Tinta | Professional photography in Spain.",
     description:
       "Professional photography for businesses: product, food, interiors and corporate shoots to project a consistent, attractive image.",
     keywords:

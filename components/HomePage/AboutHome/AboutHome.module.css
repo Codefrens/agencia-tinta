@@ -17,8 +17,8 @@
 }
 
 .content p {
-  font-size: pxToRem(16);
-  line-height: 1.6;
+  font-size: pxToRem(14);
+  line-height: 1.4;
   margin-bottom: pxToRem(18);
 }
 
@@ -36,8 +36,8 @@
     font-size: pxToRem(22);
   }
   .content p {
-    font-size: pxToRem(20);
-    line-height: 1.6;
+    font-size: pxToRem(18);
+    line-height: 1.4;
     margin-bottom: pxToRem(36);
   }
   .button {
@@ -50,8 +50,8 @@
     font-size: pxToRem(24);
   }
   .content p {
-    font-size: pxToRem(26);
-    line-height: 1.6;
+    font-size: pxToRem(20);
+    line-height: 1.4;
     margin-bottom: pxToRem(36);
   }
 }

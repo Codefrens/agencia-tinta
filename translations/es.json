@@ -14,10 +14,10 @@
     },
     "portfolioGrid": [
       {
-        "title": "AC Hotel",
+        "title": "AC Hotel Marriot",
         "categories": ["Fotografía", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
-        "imageAlt": "Imagen de comida de AC Hotel",
+        "imageAlt": "Imagen de comida de AC Hotel Marriot",
         "slug": "ac-hotel"
       },
       {
@@ -98,7 +98,7 @@
     "about": {
       "title": "somos/",
       "paragraph1": "Narradores de conceptos en la era digital.",
-      "paragraph2": "Exploramos nuevas tendencias para crear contenido audiovisual que combina estética, estrategia y tecnología, convirtiendo ideas en historias que evolucionan y dejan huella como Agencia de producción audiovisual impulsada por el storytelling visual y la innovación constante.",
+      "paragraph2": "Nos especializamos en <span class='font-extra-bold font-color'>producción audiovisual</span>. Ayudamos a empresas a potenciar su comunicación digital a través de <span class='font-extra-bold font-color'>vídeos corporativos</span>, <span class='font-extra-bold font-color'>spots publicitarios</span> y <span class='font-extra-bold font-color'>fotografias comerciales</span> que dejan huella.",
       "buttonLabel": "Conocenos"
     },
     "portfolio": {
