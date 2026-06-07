@@ -5,13 +5,8 @@ import Image from "next/image";
 const clients = [
   {
     logoUrl:
-      "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
-    logoAlt: "AC Hoteles logo",
-  },
-  {
-    logoUrl:
-      "https://res.cloudinary.com/nicojoystin/image/upload/v1741895737/agencia-tinta/clientes/2_BACARDI_oubtxw.png",
-    logoAlt: "Bacardi Logo",
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/black_logo_nh3gls.png",
+    logoAlt: "Black Label Logo",
   },
   {
     logoUrl:
@@ -20,13 +15,33 @@ const clients = [
   },
   {
     logoUrl:
-      "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
-    logoAlt: "Cantina Canalla Logo",
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1741895737/agencia-tinta/clientes/2_BACARDI_oubtxw.png",
+    logoAlt: "Bacardi Logo",
   },
   {
     logoUrl:
-      "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/black_logo_nh3gls.png",
-    logoAlt: "Black Label Logo",
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/schmit-logo_ojfghq.png",
+    logoAlt: "Schmit Logo",
+  },
+  {
+    logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/festival-malaga-logo_thgzuf.png",
+    logoAlt: "Festival de Málaga Logo",
+  },
+  {
+    logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/ibima-logo_p6p0ia.png",
+    logoAlt: "Ibima Logo",
+  },
+  {
+    logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
+    logoAlt: "AC Hoteles logo",
+  },
+  {
+    logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1741897584/agencia-tinta/clientes/cantina_logo_y61iam.png",
+    logoAlt: "Cantina Canalla Logo",
   },
   {
     logoUrl:
@@ -42,6 +57,16 @@ const clients = [
     logoUrl:
       "https://res.cloudinary.com/nicojoystin/image/upload/v1741897585/agencia-tinta/clientes/barberiaM_logo_rqyts9.png",
     logoAlt: "Barberia M Logo",
+  },
+  {
+    logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/nordic-logo_i9siuj.png",
+    logoAlt: "Nordic Logo",
+  },
+  {
+    logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834745/agencia-tinta/clientes/delegacion-gobierno-madrid-logo_yblz8t.png",
+    logoAlt: "Delegación del Gobierno en Madrid Logo",
   },
 ];
 

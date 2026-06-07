@@ -27,7 +27,7 @@ const ImagesInRow = ({
             src={image.imageUrl}
             alt={image.imageAlt}
             className={styles.image}
-            width={900}
+            width={1400}
             height={900}
           />
         </div>

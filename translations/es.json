@@ -69,6 +69,13 @@
         "imageAlt": "",
         "slug": "smash-burger"
       },
+      {
+        "title": "Festival de Málaga",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+        "imageAlt": "",
+        "slug": "festival-malaga"
+      },
       
       {
         "title": "Grupo Amigos",
@@ -76,6 +83,13 @@
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
         "imageAlt": "Grupo amigos",
         "slug": "grupo-amigos"
+      },
+      {
+        "title": "Nordic Guarantee",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+        "imageAlt": "Nordic Guarantee",
+        "slug": "nordic"
       }
     ],
     "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],

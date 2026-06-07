@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "year": "2026",
+    "title": "Ibima",
+    "subtitle": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
+    "imageAlt": "Cobertura audiovisual del Festival de Málaga",
+    "sector": "Cultura",
+    "categories": ["Video", "Fotografía"],
+    "client": "Festival de Málaga"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "El desafío",
+      "description": "El Instituto de Investigación Biomédica de Málaga (IBIMA) nos convocó para la producción de un vídeo institucional durante un encuentro científico celebrado en el Hospital Virgen de la Victoria (Málaga), que reunió a dermatólogos de España y Portugal en colaboración con la biofarmacéutica AbbVie. El evento tenía como eje central el intercambio de conocimiento en torno a la dermatitis atópica, la investigación clínica y la colaboración internacional entre equipos médicos."
+    },
+    {
+      "type": "paragraph",
+      "title": "La estrategia",
+      "description": "Desarrollamos una producción de vídeo institucional orientada a documentar el encuentro desde una narrativa clara y accesible, sin perder el rigor científico del contexto. El enfoque se centró en captar las ponencias, las dinámicas de intercambio entre profesionales y el valor de la colaboración internacional, construyendo una pieza audiovisual que reflejara tanto el contenido académico como la importancia del trabajo conjunto entre instituciones de investigación y la industria biofarmacéutica."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "Se entregó un vídeo institucional que sintetiza los principales momentos del encuentro y transmite el valor de la investigación colaborativa en el ámbito de la dermatología. El material permitió a IBIMA disponer de una pieza audiovisual de comunicación científica para su difusión en canales institucionales, reforzando su posicionamiento como referente en investigación biomédica y colaboración internacional."
+    }
+  ],
+  "related": [
+    {
+      "title": "Smash",
+      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
+      "imageAlt": "smash burger",
+      "slug": "smash-burger"
+    },
+    {
+      "title": "Black Label",
+      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
+      "imageAlt": "Black Label",
+      "slug": "black-label"
+    }
+  ]
+}

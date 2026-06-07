@@ -387,10 +387,12 @@ const CLIENTS = {
   "remax-coast": "Remax Coast",
   "smash-burger": "Smash Burger",
   malavida: "Malavida",
+  nordic: "Nordic Guarantee",
   agape: "Agape",
   "grupo-amigos": "Grupo Amigos",
   bacardi: "Bacardi",
   "ac-hotel": "AC Hotel",
+  "festival-malaga": "Festival de Málaga",
 };
 
 const CLIENTS_DESCRIPTIONS_ES = {
@@ -401,10 +403,14 @@ const CLIENTS_DESCRIPTIONS_ES = {
   "smash-burger": "La esencia de la smash burger: rápida, intensa y sin rodeos",
   malavida:
     "Malavida es un punto de encuentro donde la buena comida, los cócteles y la diversión se viven sin reglas",
+  nordic:
+    "Nordic Guarantee, compañía internacional especializada en garantías financieras y seguros de caución con presencia en toda Europa, nos convocó para documentar un evento corporativo celebrado en el Hotel Miramar de Málaga.",
   agape: "Captura la esencia del Mediterráneo en cada joya",
   "grupo-amigos": "Autenticidad mexicana con un giro sofisticado",
   bacardi: "Acompañamos el lanzamiento de la nueva línea caribeña de Bacardi, en colaboración con la agencia BigBadWolf",
   "ac-hotel": "Elevamos la experiencia de The Suite Bar, el rooftop más exclusivo del Hotel AC by Marriott Málaga Palacio.",
+  "festival-malaga": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+  ibima: ""
 };
 
 const CLIENTS_DESCRIPTIONS_EN = {
@@ -416,10 +422,14 @@ const CLIENTS_DESCRIPTIONS_EN = {
     "The essence of the smash burger: fast, intense, and straightforward",
   malavida:
     "Malavida is a meeting point where good food, cocktails, and fun are experienced without rules",
+  nordic:
+    "Nordic Guarantee, an international company specialized in financial guarantees and surety insurance with presence across Europe, invited us to document a corporate event held at the Hotel Miramar in Málaga.",
   agape: "Captures the essence of the Mediterranean in every jewel",
   "grupo-amigos": "Mexican authenticity with a sophisticated twist",
   bacardi: "We accompany the launch of the new Caribbean line of Bacardi, in collaboration with the BigBadWolf agency",
   "ac-hotel": "We elevate the experience of The Suite Bar, the most exclusive rooftop at the AC Hotel by Marriott Málaga Palacio.",
+  "festival-malaga": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+  ibima: ""
 };
 
 const CLIENTS_IMAGES = {
@@ -433,6 +443,8 @@ const CLIENTS_IMAGES = {
     "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
   malavida:
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+  nordic:
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
   agape:
     "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
   "grupo-amigos":
@@ -441,6 +453,8 @@ const CLIENTS_IMAGES = {
     "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
   "ac-hotel":
     "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
+  "festival-malaga":
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
 };
 
 // LANDINGS PAGE
