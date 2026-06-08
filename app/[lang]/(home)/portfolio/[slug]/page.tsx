@@ -38,7 +38,6 @@ export default async function PortfolioDetailPage({
   const heroContent = {
     ...content.hero,
     clientLabel: common.client,
-    yearLabel: common.year,
     sectorLabel: common.sector,
   };
 

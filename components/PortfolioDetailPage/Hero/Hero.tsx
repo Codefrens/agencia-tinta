@@ -1,6 +1,5 @@
 "use client";
 import Container from "@/components/ui/Container";
-import React from "react";
 import styles from "./Hero.module.css";
 import Image from "next/image";
 import AnimatedTitle from "@/components/ui/AnimatedTitle";
@@ -9,8 +8,6 @@ import { motion } from "motion/react";
 const Hero = ({
   title,
   subtitle,
-  year,
-  yearLabel,
   imageUrl,
   imageAlt,
   sector,
@@ -21,12 +18,10 @@ const Hero = ({
 }: {
   title: string;
   subtitle: string;
-  year: string;
   imageUrl: string;
   imageAlt: string;
   sector: string;
   categories: string[];
-  yearLabel: string;
   sectorLabel: string;
   client: string;
   clientLabel: string;
@@ -34,14 +29,6 @@ const Hero = ({
   return (
     <section className={styles.hero}>
       <Container className={styles.content}>
-        <motion.span
-          initial={{ y: 40, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: [0.26, 0.01, 0.06, 0.94] }}
-          className={styles.year}
-        >
-          {year}
-        </motion.span>
         <h1 className={styles.title}>
           <AnimatedTitle title={title} />
         </h1>
@@ -73,10 +60,6 @@ const Hero = ({
 
       <div className={styles.info}>
         <div className={styles.infoItems}>
-          <div>
-            <p className={styles.label}>{yearLabel}</p>
-            <p className={styles.value}>{year}</p>
-          </div>
           <div>
             <p className={styles.label}>{clientLabel}</p>
             <p className={styles.value}>{client}</p>

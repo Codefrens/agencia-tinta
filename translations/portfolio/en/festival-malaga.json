@@ -1,0 +1,135 @@
+{
+  "hero": {
+    "title": "Festival de Málaga",
+    "subtitle": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835289/agencia-tinta/portfolio/festival-malaga/video-institucional_1_gox3gn.webp",
+    "imageAlt": "Cobertura audiovisual del Festival de Málaga",
+    "sector": "Cultura",
+    "categories": ["Video", "Fotografía"],
+    "client": "Festival de Málaga"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "El desafío",
+      "description": "El Festival de Málaga nos incorporó a su equipo de comunicación para colaborar en la generación de contenido audiovisual durante una de las citas cinematográficas más importantes del país. El proyecto requería cubrir una amplia variedad de actividades y momentos clave, manteniendo la calidad, agilidad y capacidad de respuesta que exige un evento de alcance internacional."
+    },
+    {
+      "type": "paragraph",
+      "title": "La estrategia",
+      "description": "Trabajamos de forma integrada con el equipo de comunicación del festival, participando en la producción de vídeo, la creación de contenido para redes sociales y la cobertura de los principales hitos de cada jornada. Nuestro trabajo incluyó la cobertura de alfombras rojas, entregas de premios, homenajes especiales, entrevistas y reportajes audiovisuales. Además, desarrollamos contenido en tiempo real para Instagram, TikTok, YouTube y X (Twitter), adaptando cada pieza a las características de cada plataforma para maximizar su alcance e impacto."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "Generamos un flujo constante de contenido audiovisual desde la inauguración hasta la clausura, permitiendo acercar la experiencia del festival tanto a los asistentes como a miles de espectadores que siguieron el evento de forma digital. La estrategia contribuyó a incrementar la visibilidad del festival respecto a ediciones anteriores, reforzando su presencia en redes sociales y consolidándolo como uno de los festivales de cine con mayor alcance e interacción digital de España. Las fotografías que acompañan este proyecto fueron realizadas por Leo Hidalgo, quien también formó parte del equipo de comunicación y cobertura audiovisual del Festival de Málaga."
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835289/agencia-tinta/portfolio/festival-malaga/video-institucional_2_phttsf.webp",
+          "imageAlt": "Equipo de comunicación del festival"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835291/agencia-tinta/portfolio/festival-malaga/video-institucional_3_mliibc.webp",
+          "imageAlt": "Cobertura alfombra roja Festival de Málaga"
+        }
+      ]
+    },
+
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835290/agencia-tinta/portfolio/festival-malaga/video-institucional_4_ylorcg.webp",
+          "imageAlt": "Entrevistas y reportajes audiovisuales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835290/agencia-tinta/portfolio/festival-malaga/video-institucional_5_n1h7wt.webp",
+          "imageAlt": "Producción de contenido para redes sociales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835291/agencia-tinta/portfolio/festival-malaga/video-institucional_6_wrjmkm.webp",
+          "imageAlt": "Cobertura audiovisual Festival de Málaga"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835292/agencia-tinta/portfolio/festival-malaga/video-institucional_7_guoxup.webp",
+          "imageAlt": "Entregas de premios del festival"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835292/agencia-tinta/portfolio/festival-malaga/video-institucional_8_vsslsw.webp",
+          "imageAlt": "Homenajes especiales del festival"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835292/agencia-tinta/portfolio/festival-malaga/video-institucional_9_edkpjf.webp",
+          "imageAlt": "Producción audiovisual en directo"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Festival de Málaga",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780932550/agencia-tinta/portfolio/festival-malaga/Alauda-Homenaje_d0ek4u.mp4",
+          "videoAlt": "Reel homenaje Alauda - Festival de Málaga",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1780932550/agencia-tinta/portfolio/festival-malaga/Alauda-Homenaje_d0ek4u.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780932539/agencia-tinta/portfolio/festival-malaga/Francella-Homenaje_l11wyd.mp4",
+          "videoAlt": "Reel homenaje Francella - Festival de Málaga",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1780932539/agencia-tinta/portfolio/festival-malaga/Francella-Homenaje_l11wyd.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780835312/agencia-tinta/portfolio/festival-malaga/Javis-Festival2025_mqro9h.mov",
+          "videoAlt": "Reel Javis - Festival de Málaga 2025",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1780835312/agencia-tinta/portfolio/festival-malaga/Javis-Festival2025_mqro9h.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780932526/agencia-tinta/portfolio/festival-malaga/Oreiro-Homenaje_dafty2.mp4",
+          "videoAlt": "Reel homenaje Natalia Oreiro - Festival de Málaga",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_1/v1780932526/agencia-tinta/portfolio/festival-malaga/Oreiro-Homenaje_dafty2.jpg"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835293/agencia-tinta/portfolio/festival-malaga/video-institucional_10_rivtkc.webp",
+          "imageAlt": "Contenido para redes Festival de Málaga"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835293/agencia-tinta/portfolio/festival-malaga/video-institucional_11_of6xgx.webp",
+          "imageAlt": "Cobertura evento cinematográfico"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835294/agencia-tinta/portfolio/festival-malaga/video-institucional_12_fzrijs.webp",
+          "imageAlt": "Clausura Festival de Málaga"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Smash",
+      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
+      "imageAlt": "smash burger",
+      "slug": "smash-burger"
+    },
+    {
+      "title": "Black Label",
+      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
+      "imageAlt": "Black Label",
+      "slug": "black-label"
+    }
+  ]
+}

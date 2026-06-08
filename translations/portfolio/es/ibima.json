@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Ibima",
+    "subtitle": "Producción de vídeo institucional para el Instituto de Investigación Biomédica de Málaga (IBIMA) durante un encuentro científico internacional sobre dermatología atópica.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
+    "imageAlt": "Vídeo institucional IBIMA - Instituto de Investigación Biomédica de Málaga",
+    "sector": "Salud",
+    "categories": ["Video"],
+    "client": "Ibima"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "El desafío",
+      "description": "El Instituto de Investigación Biomédica de Málaga (IBIMA) nos convocó para la producción de un vídeo institucional durante un encuentro científico celebrado en el Hospital Virgen de la Victoria (Málaga), que reunió a dermatólogos de España y Portugal en colaboración con la biofarmacéutica AbbVie. El evento tenía como eje central el intercambio de conocimiento en torno a la dermatitis atópica, la investigación clínica y la colaboración internacional entre equipos médicos."
+    },
+    {
+      "type": "paragraph",
+      "title": "La estrategia",
+      "description": "Desarrollamos una producción de vídeo institucional orientada a documentar el encuentro desde una narrativa clara y accesible, sin perder el rigor científico del contexto. El enfoque se centró en captar las ponencias, las dinámicas de intercambio entre profesionales y el valor de la colaboración internacional, construyendo una pieza audiovisual que reflejara tanto el contenido académico como la importancia del trabajo conjunto entre instituciones de investigación y la industria biofarmacéutica."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "Se entregó un vídeo institucional que sintetiza los principales momentos del encuentro y transmite el valor de la investigación colaborativa en el ámbito de la dermatología. El material permitió a IBIMA disponer de una pieza audiovisual de comunicación científica para su difusión en canales institucionales, reforzando su posicionamiento como referente en investigación biomédica y colaboración internacional."
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780860692/agencia-tinta/portfolio/ibima/Ibima_lhpqsi.mp4",
+      "videoAlt": "Vídeo institucional Ibima",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp"
+    }
+  ],
+  "related": [
+    {
+      "title": "Nordic Guarantee",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+      "imageAlt": "Nordic Guarantee",
+      "slug": "nordic"
+    },
+    {
+      "title": "Festival de Málaga",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+      "imageAlt": "Festival de Málaga",
+      "slug": "festival-malaga"
+    }
+  ]
+}

@@ -26,8 +26,8 @@ const OneImage = ({
           src={imageUrl}
           alt={imageAlt}
           className={styles.image}
-          width={1400}
-          height={500}
+          width={1600}
+          height={700}
         />
       </div>
     </div>

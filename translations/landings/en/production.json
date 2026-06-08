@@ -67,7 +67,7 @@
         "description": "Gastronomic photography and food styling."
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450788/agencia-tinta/landings/production/imagen_2_cobertura_evento_xakh3b.webp",
         "title": "Cantina Canalla",
         "description": "Photography for an anniversary event."
@@ -126,7 +126,7 @@
       {
         "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1755450789/agencia-tinta/landings/production/imagen_11_fotografi%CC%81a-gastrono%CC%81mica_fetyzu.webp",
-        "title": "AC Hotel Marriot",
+        "title": "AC Hotel Marriott",
         "description": "Gastronomic photography and food styling."
       },
       {
@@ -207,10 +207,7 @@
   "testimonials": {
     "titleLight": "What our ",
     "titleBold": "clients say",
-    "testimonialsList": [
-    
-
-    ]
+    "testimonialsList": []
   },
   "form": {
     "title": "Request your budget",
@@ -315,18 +312,18 @@
         "videoAlt": "Corporate Video Bacardi",
         "videoLabelButton": "Watch video"
       },
-    {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
-      "videoAlt": "Corporate Video Cantina Cannalla",
-      "videoLabelButton": "Watch video"
-    },
-    {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
-      "videoAlt": "Corporate Video Grupo Amigos",
-      "videoLabelButton": "Watch video"
-    }
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+        "videoAlt": "Corporate Video Cantina Cannalla",
+        "videoLabelButton": "Watch video"
+      },
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+        "videoAlt": "Corporate Video Grupo Amigos",
+        "videoLabelButton": "Watch video"
+      }
     ]
   },
   "cta": {

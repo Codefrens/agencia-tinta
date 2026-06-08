@@ -14,19 +14,20 @@
     },
     "portfolioGrid": [
       {
-        "title": "AC Hotel Marriot",
+        "title": "AC Hotel Marriott",
         "categories": ["Fotografía", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
-        "imageAlt": "Imagen de comida de AC Hotel Marriot",
+        "imageAlt": "Imagen de comida de AC Hotel Marriott",
         "slug": "ac-hotel"
       },
       {
-        "title": "Agape",
-        "categories": ["Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
-        "imageAlt": "Agape",
-        "slug": "agape"
+        "title": "Delegación del Gobierno en Madrid",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
+        "imageAlt": "Delegación del Gobierno en Madrid",
+        "slug": "gobierno-madrid"
       },
+
       {
         "title": "Bacardi",
         "categories": ["Fotografía", "Video"],
@@ -35,12 +36,13 @@
         "slug": "bacardi"
       },
       {
-        "title": "Malavida",
+        "title": "Schmit Cocinas",
         "categories": ["Fotografía", "Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
-        "imageAlt": "",
-        "slug": "malavida"
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
+        "imageAlt": "Schmit Cocinas",
+        "slug": "schmit-cocinas"
       },
+
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
@@ -69,13 +71,48 @@
         "imageAlt": "",
         "slug": "smash-burger"
       },
-      
+      {
+        "title": "Festival de Málaga",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+        "imageAlt": "",
+        "slug": "festival-malaga"
+      },
+
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
         "imageAlt": "Grupo amigos",
         "slug": "grupo-amigos"
+      },
+      {
+        "title": "Nordic Guarantee",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+        "imageAlt": "Nordic Guarantee",
+        "slug": "nordic"
+      },
+      {
+        "title": "Ibima",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
+        "imageAlt": "Ibima",
+        "slug": "ibima"
+      },
+      {
+        "title": "Agape",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+        "imageAlt": "Agape",
+        "slug": "agape"
+      },
+      {
+        "title": "Malavida",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+        "imageAlt": "",
+        "slug": "malavida"
       }
     ],
     "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],
@@ -84,7 +121,6 @@
     "notFoundSubtitle": "La página que buscas no existe",
     "notFoundButtonLabel": "Volver a la página principal",
     "client": "Cliente",
-    "year": "Año",
     "sector": "Sector"
   },
   "homePage": {

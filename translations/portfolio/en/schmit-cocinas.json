@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "title": "Schmit Cocinas",
+    "subtitle": "We strengthened the digital presence of Schmidt Málaga Centro with a content strategy that humanizes the brand through professional photography, video production, and content featuring their own team.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839002/agencia-tinta/portfolio/schmit/cobertura-evento-1_oblfpn.webp",
+    "imageAlt": "Schmit Cocinas",
+    "sector": "Mobiliario",
+    "categories": ["Fotografía", "Video"],
+    "client": "Schmit Cocinas"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "El desafío",
+      "description": "Schmidt, one of Europe's leading manufacturers of kitchens and custom furniture, needed to strengthen its social media presence at a local level. While the quality of its products was undisputed, its digital communication did not reflect with the same strength the personalized guidance, attention to detail, and human factor that characterize the experience of its customers."
+    },
+    {
+      "type": "paragraph",
+      "title": "La estrategia",
+      "description": "We developed a content strategy centered on humanizing the brand without losing its premium positioning. We combined professional photography of kitchens and finished spaces, video production for social media, event coverage, and content creation featuring the Schmidt Málaga Centro team itself. The goal was to showcase not only the final result of each project, but also the process, the advisory work, and the close relationship the brand builds with each client from the first meeting to the final delivery."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultado",
+      "description": "We created a visual content library capable of conveying the brand's essence from a closer and more authentic perspective. Through corporate photography, social media videos, and people-centered content, Schmidt Málaga Centro managed to communicate its value proposition more effectively, reinforcing the trust of potential clients and differentiating itself in a highly competitive sector."
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838995/agencia-tinta/portfolio/schmit/cobertura-evento-2_wu5i2o.webp",
+          "imageAlt": "Schmidt kitchen photography"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838994/agencia-tinta/portfolio/schmit/cobertura-evento-3_e3dsrb.webp",
+          "imageAlt": "Custom furniture"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838999/agencia-tinta/portfolio/schmit/cobertura-evento-4_qdld8v.webp",
+          "imageAlt": "Interior design"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Schmit Cocinas",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780860874/agencia-tinta/portfolio/schmit/02_Reel_NOV_Schmidt_ejikqd.mp4",
+          "videoAlt": "Schmidt November reel",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780860874/agencia-tinta/portfolio/schmit/02_Reel_NOV_Schmidt_ejikqd.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780839030/agencia-tinta/portfolio/schmit/01_Reel_NOV._SCH_V2_fj3ohx.mp4",
+          "videoAlt": "Schmidt November reel V2",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780839030/agencia-tinta/portfolio/schmit/01_Reel_NOV._SCH_V2_fj3ohx.jpg"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839000/agencia-tinta/portfolio/schmit/cobertura-evento-5_gipcyh.webp",
+          "imageAlt": "Personalized attention Schmidt"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838997/agencia-tinta/portfolio/schmit/cobertura-evento-6_rpkwan.webp",
+          "imageAlt": "Schmidt Málaga showroom"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839003/agencia-tinta/portfolio/schmit/cobertura-evento-7_j3mueg.webp",
+          "imageAlt": "Kitchen consulting"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838998/agencia-tinta/portfolio/schmit/cobertura-evento-8_jwqkg3.webp",
+          "imageAlt": "Schmidt Málaga Centro team"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838996/agencia-tinta/portfolio/schmit/cobertura-evento-9_kqulok.webp",
+      "imageAlt": "Finished Schmidt kitchen"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839004/agencia-tinta/portfolio/schmit/cobertura-evento-11_ldq4th.webp",
+          "imageAlt": "Schmidt corporate photography"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839005/agencia-tinta/portfolio/schmit/cobertura-evento-12_ovdqbv.webp",
+          "imageAlt": "Designed kitchen space"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Schmit Cocinas",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780860879/agencia-tinta/portfolio/schmit/01_Reel_schmidt_ENE_tttozh.mp4",
+          "videoAlt": "Schmidt January reel",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780860879/agencia-tinta/portfolio/schmit/01_Reel_schmidt_ENE_tttozh.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780861049/agencia-tinta/portfolio/schmit/01_Reel_ABR._Schmidt_o1pjdu.mp4",
+          "videoAlt": "Schmidt April reel",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780861049/agencia-tinta/portfolio/schmit/01_Reel_ABR._Schmidt_o1pjdu.jpg"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839006/agencia-tinta/portfolio/schmit/cobertura-evento-13_sq9bjg.webp",
+      "imageAlt": "Schmidt social media content"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839007/agencia-tinta/portfolio/schmit/cobertura-evento-14_tpiozo.webp",
+          "imageAlt": "Schmidt kitchen project"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839008/agencia-tinta/portfolio/schmit/cobertura-evento-15_akxbun.webp",
+          "imageAlt": "Custom kitchen design"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839009/agencia-tinta/portfolio/schmit/cobertura-evento-16_tp1ayb.webp",
+          "imageAlt": "Schmidt product photography"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839010/agencia-tinta/portfolio/schmit/cobertura-evento-17_p9ghak.webp",
+          "imageAlt": "Premium Schmidt kitchen"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "title": "Nordic Guarantee",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+      "imageAlt": "Nordic Guarantee",
+      "slug": "nordic"
+    },
+    {
+      "title": "Festival de Málaga",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+      "imageAlt": "Festival de Málaga",
+      "slug": "festival-malaga"
+    }
+  ]
+}
