@@ -21,7 +21,7 @@ const clients = [
   {
     logoUrl:
       "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/schmit-logo_ojfghq.png",
-    logoAlt: "Schmit Logo",
+    logoAlt: "Schmidt Logo",
   },
   {
     logoUrl:
