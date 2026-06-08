@@ -1,58 +1,58 @@
 {
   "hero": {
-    "title": "Schmit Cocinas",
-    "subtitle": "Fortalecimos la presencia digital de Schmidt Málaga Centro con una estrategia de contenidos que humaniza la marca a través de fotografía profesional, producción de vídeo y contenido protagonizado por su equipo.",
+    "title": "Schmidt Cocinas",
+    "subtitle": "We strengthened the digital presence of Schmidt Málaga Centro with a content strategy that humanizes the brand through professional photography, video production, and content featuring their own team.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839002/agencia-tinta/portfolio/schmit/cobertura-evento-1_oblfpn.webp",
-    "imageAlt": "Schmit Cocinas",
+    "imageAlt": "Schmidt Cocinas",
     "sector": "Mobiliario",
     "categories": ["Fotografía", "Video"],
-    "client": "Schmit Cocinas"
+    "client": "Schmidt Cocinas"
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "El desafío",
-      "description": "Schmidt, uno de los principales fabricantes europeos de cocinas y mobiliario a medida, necesitaba fortalecer su presencia en redes sociales a nivel local. Si bien la calidad de sus productos era indiscutible, su comunicación digital no reflejaba con la misma fuerza el acompañamiento personalizado, la atención al detalle y el factor humano que caracterizan la experiencia de sus clientes."
+      "description": "Schmidt, one of Europe's leading manufacturers of kitchens and custom furniture, needed to strengthen its social media presence at a local level. While the quality of its products was undisputed, its digital communication did not reflect with the same strength the personalized guidance, attention to detail, and human factor that characterize the experience of its customers."
     },
     {
       "type": "paragraph",
       "title": "La estrategia",
-      "description": "Desarrollamos una estrategia de contenidos centrada en humanizar la marca sin perder su posicionamiento premium. Combinamos fotografía profesional de cocinas y espacios terminados, producción de vídeo para redes sociales, cobertura de eventos y generación de contenido protagonizado por el propio equipo de Schmidt Málaga Centro. El objetivo fue mostrar no solo el resultado final de cada proyecto, sino también el proceso, el asesoramiento y la relación cercana que la marca construye con cada cliente desde la primera reunión hasta la entrega final."
+      "description": "We developed a content strategy centered on humanizing the brand without losing its premium positioning. We combined professional photography of kitchens and finished spaces, video production for social media, event coverage, and content creation featuring the Schmidt Málaga Centro team itself. The goal was to showcase not only the final result of each project, but also the process, the advisory work, and the close relationship the brand builds with each client from the first meeting to the final delivery."
     },
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "Creamos una biblioteca de contenido visual capaz de transmitir la esencia de la marca desde una perspectiva más cercana y auténtica. A través de fotografías corporativas, vídeos para redes sociales y contenido centrado en las personas, Schmidt Málaga Centro logró comunicar de forma más efectiva su propuesta de valor, reforzando la confianza de potenciales clientes y diferenciándose en un sector altamente competitivo."
+      "description": "We created a visual content library capable of conveying the brand's essence from a closer and more authentic perspective. Through corporate photography, social media videos, and people-centered content, Schmidt Málaga Centro managed to communicate its value proposition more effectively, reinforcing the trust of potential clients and differentiating itself in a highly competitive sector."
     },
     {
       "type": "imagesInRow",
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838995/agencia-tinta/portfolio/schmit/cobertura-evento-2_wu5i2o.webp",
-          "imageAlt": "Fotografía de cocina Schmidt"
+          "imageAlt": "Schmidt kitchen photography"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838994/agencia-tinta/portfolio/schmit/cobertura-evento-3_e3dsrb.webp",
-          "imageAlt": "Mobiliario a medida"
+          "imageAlt": "Custom furniture"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838999/agencia-tinta/portfolio/schmit/cobertura-evento-4_qdld8v.webp",
-          "imageAlt": "Diseño de interiores"
+          "imageAlt": "Interior design"
         }
       ]
     },
     {
       "type": "uniqueReel",
-      "backText": "Schmit Cocinas",
+      "backText": "Schmidt Cocinas",
       "videos": [
         {
           "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780860874/agencia-tinta/portfolio/schmit/02_Reel_NOV_Schmidt_ejikqd.mp4",
-          "videoAlt": "Reel Schmidt noviembre",
+          "videoAlt": "Schmidt November reel",
           "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780860874/agencia-tinta/portfolio/schmit/02_Reel_NOV_Schmidt_ejikqd.jpg"
         },
         {
           "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780839030/agencia-tinta/portfolio/schmit/01_Reel_NOV._SCH_V2_fj3ohx.mp4",
-          "videoAlt": "Reel Schmidt noviembre V2",
+          "videoAlt": "Schmidt November reel V2",
           "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780839030/agencia-tinta/portfolio/schmit/01_Reel_NOV._SCH_V2_fj3ohx.jpg"
         }
       ]
@@ -62,52 +62,52 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839000/agencia-tinta/portfolio/schmit/cobertura-evento-5_gipcyh.webp",
-          "imageAlt": "Atención personalizada Schmidt"
+          "imageAlt": "Personalized attention Schmidt"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838997/agencia-tinta/portfolio/schmit/cobertura-evento-6_rpkwan.webp",
-          "imageAlt": "Showroom Schmidt Málaga"
+          "imageAlt": "Schmidt Málaga showroom"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839003/agencia-tinta/portfolio/schmit/cobertura-evento-7_j3mueg.webp",
-          "imageAlt": "Asesoramiento en cocinas"
+          "imageAlt": "Kitchen consulting"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838998/agencia-tinta/portfolio/schmit/cobertura-evento-8_jwqkg3.webp",
-          "imageAlt": "Equipo Schmidt Málaga Centro"
+          "imageAlt": "Schmidt Málaga Centro team"
         }
       ]
     },
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838996/agencia-tinta/portfolio/schmit/cobertura-evento-9_kqulok.webp",
-      "imageAlt": "Cocina terminada Schmidt"
+      "imageAlt": "Finished Schmidt kitchen"
     },
     {
       "type": "twoImages",
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839004/agencia-tinta/portfolio/schmit/cobertura-evento-11_ldq4th.webp",
-          "imageAlt": "Fotografía corporativa Schmidt"
+          "imageAlt": "Schmidt corporate photography"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839005/agencia-tinta/portfolio/schmit/cobertura-evento-12_ovdqbv.webp",
-          "imageAlt": "Espacio de cocina diseñado"
+          "imageAlt": "Designed kitchen space"
         }
       ]
     },
     {
       "type": "uniqueReel",
-      "backText": "Schmit Cocinas",
+      "backText": "Schmidt Cocinas",
       "videos": [
         {
           "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780860879/agencia-tinta/portfolio/schmit/01_Reel_schmidt_ENE_tttozh.mp4",
-          "videoAlt": "Reel Schmidt enero",
+          "videoAlt": "Schmidt January reel",
           "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780860879/agencia-tinta/portfolio/schmit/01_Reel_schmidt_ENE_tttozh.jpg"
         },
         {
           "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780861049/agencia-tinta/portfolio/schmit/01_Reel_ABR._Schmidt_o1pjdu.mp4",
-          "videoAlt": "Reel Schmidt abril",
+          "videoAlt": "Schmidt April reel",
           "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780861049/agencia-tinta/portfolio/schmit/01_Reel_ABR._Schmidt_o1pjdu.jpg"
         }
       ]
@@ -115,26 +115,26 @@
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839006/agencia-tinta/portfolio/schmit/cobertura-evento-13_sq9bjg.webp",
-      "imageAlt": "Contenido para redes Schmidt"
+      "imageAlt": "Schmidt social media content"
     },
     {
       "type": "imagesInRow",
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839007/agencia-tinta/portfolio/schmit/cobertura-evento-14_tpiozo.webp",
-          "imageAlt": "Proyecto de cocina Schmidt"
+          "imageAlt": "Schmidt kitchen project"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839008/agencia-tinta/portfolio/schmit/cobertura-evento-15_akxbun.webp",
-          "imageAlt": "Diseño de cocina a medida"
+          "imageAlt": "Custom kitchen design"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839009/agencia-tinta/portfolio/schmit/cobertura-evento-16_tp1ayb.webp",
-          "imageAlt": "Fotografía de producto Schmidt"
+          "imageAlt": "Schmidt product photography"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839010/agencia-tinta/portfolio/schmit/cobertura-evento-17_p9ghak.webp",
-          "imageAlt": "Cocina premium Schmidt"
+          "imageAlt": "Premium Schmidt kitchen"
         }
       ]
     }

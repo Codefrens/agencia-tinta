@@ -403,7 +403,7 @@ const CLIENTS = {
   "festival-malaga": "Festival de Málaga",
   ibima: "Ibima",
   "gobierno-madrid": "Delegación del Gobierno en Madrid",
-  "schmit-cocinas": "Schmit Cocinas",
+  "schmidt-cocinas": "Schmidt Cocinas",
 };
 
 const CLIENTS_DESCRIPTIONS_ES = {
@@ -424,9 +424,12 @@ const CLIENTS_DESCRIPTIONS_ES = {
     "Elevamos la experiencia de The Suite Bar, el rooftop más exclusivo del Hotel AC by Marriottt Málaga Palacio.",
   "festival-malaga":
     "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
-  ibima: "Producción de vídeo institucional para el Instituto de Investigación Biomédica de Málaga (IBIMA) durante un encuentro científico internacional sobre dermatología atópica.",
-  "gobierno-madrid": "Cobertura fotográfica y audiovisual de actos institucionales de la Delegación del Gobierno en Madrid, documentando eventos culturales y oficiales con una narrativa cercana y auténtica.",
-  "schmit-cocinas": "Fortalecimos la presencia digital de Schmidt Málaga Centro con una estrategia de contenidos que humaniza la marca a través de fotografía profesional, producción de vídeo y contenido protagonizado por su equipo.",
+  ibima:
+    "Producción de vídeo institucional para el Instituto de Investigación Biomédica de Málaga (IBIMA) durante un encuentro científico internacional sobre dermatología atópica.",
+  "gobierno-madrid":
+    "Cobertura fotográfica y audiovisual de actos institucionales de la Delegación del Gobierno en Madrid, documentando eventos culturales y oficiales con una narrativa cercana y auténtica.",
+  "schmidt-cocinas":
+    "Fortalecimos la presencia digital de Schmidt Málaga Centro con una estrategia de contenidos que humaniza la marca a través de fotografía profesional, producción de vídeo y contenido protagonizado por su equipo.",
 };
 
 const CLIENTS_DESCRIPTIONS_EN = {
@@ -448,9 +451,12 @@ const CLIENTS_DESCRIPTIONS_EN = {
     "We elevate the experience of The Suite Bar, the most exclusive rooftop at the AC Hotel by Marriottt Málaga Palacio.",
   "festival-malaga":
     "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
-  ibima: "Institutional video production for the Biomedical Research Institute of Málaga (IBIMA) during an international scientific meeting on atopic dermatitis.",
-  "gobierno-madrid": "Photographic and audiovisual coverage of institutional events for the Government Delegation in Madrid, documenting cultural and official events with a close and authentic narrative.",
-  "schmit-cocinas": "We strengthened the digital presence of Schmidt Málaga Centro with a content strategy that humanizes the brand through professional photography, video production, and content featuring their own team.",
+  ibima:
+    "Institutional video production for the Biomedical Research Institute of Málaga (IBIMA) during an international scientific meeting on atopic dermatitis.",
+  "gobierno-madrid":
+    "Photographic and audiovisual coverage of institutional events for the Government Delegation in Madrid, documenting cultural and official events with a close and authentic narrative.",
+  "schmidt-cocinas":
+    "We strengthened the digital presence of Schmidt Málaga Centro with a content strategy that humanizes the brand through professional photography, video production, and content featuring their own team.",
 };
 
 const CLIENTS_IMAGES = {
@@ -480,7 +486,7 @@ const CLIENTS_IMAGES = {
     "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
   "gobierno-madrid":
     "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
-  "schmit-cocinas":
+  "schmidt-cocinas":
     "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
 };
 
