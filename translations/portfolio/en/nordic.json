@@ -1,94 +1,39 @@
 {
   "hero": {
-    "year": "2026",
     "title": "Nordic Guarantee",
-    "subtitle": "Nordic Guarantee, an international company specialized in financial guarantees and surety insurance with presence across Europe, invited us to document a corporate event held at the Hotel Miramar in Málaga.",
-    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+    "subtitle": "Nordic Guarantee, compañía internacional especializada en garantías financieras y seguros de caución con presencia en toda Europa, nos convocó para documentar un evento corporativo celebrado en el Hotel Miramar de Málaga.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838945/agencia-tinta/portfolio/nordic/cobertura-evento_1_mrywlx.webp",
     "imageAlt": "Nordic Guarantee",
     "sector": "Finanzas y seguros",
-    "categories": ["Video"]
+    "categories": ["Video"],
+    "client": "Nordic Guarantee"
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "El desafío",
-      "description": "Nordic Guarantee, an international company specialized in financial guarantees and surety insurance with presence across Europe, invited us to document a corporate event held at the Hotel Miramar in Málaga, with representatives from the United States, South Africa and several European countries. The goal was to produce a photographic report reflecting the international nature of the gathering and the importance of in-person networking, as well as institutional material for internal communications, corporate website and social media."
+      "description": "Nordic Guarantee, compañía internacional especializada en garantías financieras y seguros de caución con presencia en toda Europa, nos convocó para documentar un evento corporativo celebrado en el Hotel Miramar de Málaga, con la participación de representantes de Estados Unidos, Sudáfrica y varios países europeos. El objetivo del encargo era generar un reportaje fotográfico capaz de reflejar el carácter internacional del encuentro y la importancia del networking presencial, así como realizar material institucional destinado a su uso en comunicación interna, web corporativa y redes sociales."
     },
     {
       "type": "paragraph",
       "title": "La estrategia",
-      "description": "We approached the project from a corporate and institutional photography perspective, combining event coverage with image production aimed at reinforcing and documenting the brand identity and the importance of the event. The focus centered on capturing both key moments of the gathering and attendee interaction, prioritizing a visual narrative that conveyed professionalism, warmth, and the company's European character. We also produced a set of institutional photographs of the team and corporate environment for use across various communication channels."
+      "description": "Abordamos el proyecto desde una perspectiva de fotografía corporativa e institucional, combinando cobertura de evento con producción de imágenes orientadas a reforzar y documentar la identidad de marca y la importancia del encuentro. El enfoque estuvo centrado en capturar tanto los momentos clave del encuentro como la interacción entre asistentes, priorizando una narrativa visual que transmitiera profesionalidad, cercanía y el carácter europeo de la compañía. Además, realizamos un set de fotografías institucionales del equipo y del entorno corporativo para su uso en distintos canales de comunicación."
     },
     {
       "type": "paragraph",
       "title": "El resultado",
-      "description": "We delivered a high-quality image bank that documented the event and strengthened Nordic Guarantee's visual communication internationally. The material was used on their corporate website and social media, bringing visual consistency to their digital presence and reinforcing their positioning as a European company specialized in financial solutions and guarantees."
+      "description": "Entregamos un banco de imágenes de alta calidad que permitió documentar el evento y fortalecer la comunicación visual de Nordic Guarantee a nivel internacional. El material fue utilizado en su web corporativa y redes sociales, aportando coherencia visual a su presencia digital y reforzando su posicionamiento como compañía europea especializada en soluciones financieras y garantías."
     },
     {
       "type": "imagesInRow",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838945/agencia-tinta/portfolio/nordic/cobertura-evento_1_mrywlx.webp",
-          "imageAlt": "Corporate meeting at Hotel Miramar"
-        },
-        {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838944/agencia-tinta/portfolio/nordic/cobertura-evento_2_rcjxtw.webp",
-          "imageAlt": "Nordic Guarantee international representatives"
+          "imageAlt": "Representantes internacionales de Nordic Guarantee"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838936/agencia-tinta/portfolio/nordic/cobertura-evento_3_bqqrrv.webp",
-          "imageAlt": "Networking during corporate event"
-        }
-      ]
-    },
-    {
-      "type": "imagesInRow",
-      "images": [
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_5_oqjwyk.webp",
-          "imageAlt": "Working session and networking"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838938/agencia-tinta/portfolio/nordic/cobertura-evento_6_nap1ae.webp",
-          "imageAlt": "Institutional team photography"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_7_meqzcr.webp",
-          "imageAlt": "Corporate environment and attendees"
-        }
-      ]
-    },
-    {
-      "type": "imagesInRow",
-      "images": [
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838935/agencia-tinta/portfolio/nordic/cobertura-evento_8_o7fpiz.webp",
-          "imageAlt": "International gathering documentation"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838936/agencia-tinta/portfolio/nordic/cobertura-evento_10_csfffs.webp",
-          "imageAlt": "Nordic Guarantee corporate image"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838941/agencia-tinta/portfolio/nordic/cobertura-evento_11_h1jy5f.webp",
-          "imageAlt": "International team meeting"
-        }
-      ]
-    },
-    {
-      "type": "imagesInRow",
-      "images": [
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838946/agencia-tinta/portfolio/nordic/cobertura-evento_12_ao1vxi.webp",
-          "imageAlt": "Corporate networking space"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838936/agencia-tinta/portfolio/nordic/cobertura-evento_13_n8v1dr.webp",
-          "imageAlt": "Nordic Guarantee institutional photography"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838942/agencia-tinta/portfolio/nordic/cobertura-evento_14_acxrpo.webp",
-          "imageAlt": "Company representatives"
+          "imageAlt": "Networking durante el evento corporativo"
         }
       ]
     },
@@ -97,21 +42,70 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838943/agencia-tinta/portfolio/nordic/cobertura-evento_4_ncedir.webp",
-          "imageAlt": "Corporate networking gathering"
+          "imageAlt": "Reunión de networking corporativo"
         },
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838939/agencia-tinta/portfolio/nordic/cobertura-evento_9_hdpxxi.webp",
-          "imageAlt": "Nordic Guarantee corporate environment"
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_5_oqjwyk.webp",
+          "imageAlt": "Sesión de trabajo y networking"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838938/agencia-tinta/portfolio/nordic/cobertura-evento_6_nap1ae.webp",
+          "imageAlt": "Fotografía institucional del equipo"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_7_meqzcr.webp",
+      "imageAlt": "Entorno corporativo y asistentes"
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838935/agencia-tinta/portfolio/nordic/cobertura-evento_8_o7fpiz.webp",
+      "imageAlt": "Documentación del encuentro internacional"
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838939/agencia-tinta/portfolio/nordic/cobertura-evento_9_hdpxxi.webp",
+      "imageAlt": "Entorno corporativo Nordic Guarantee"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838936/agencia-tinta/portfolio/nordic/cobertura-evento_10_csfffs.webp",
+          "imageAlt": "Imagen corporativa Nordic Guarantee"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838941/agencia-tinta/portfolio/nordic/cobertura-evento_11_h1jy5f.webp",
+          "imageAlt": "Reunión de equipo internacional"
+        }
+      ]
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838946/agencia-tinta/portfolio/nordic/cobertura-evento_12_ao1vxi.webp",
+          "imageAlt": "Espacio de networking corporativo"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838936/agencia-tinta/portfolio/nordic/cobertura-evento_13_n8v1dr.webp",
+          "imageAlt": "Fotografía institucional Nordic Guarantee"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838942/agencia-tinta/portfolio/nordic/cobertura-evento_14_acxrpo.webp",
+          "imageAlt": "Representantes de la compañía"
         }
       ]
     }
   ],
   "related": [
     {
-      "title": "AC Hotel Marriot",
+      "title": "AC Hotel Marriott",
       "categories": ["Fotografía", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
-      "imageAlt": "Imagen de comida de AC Hotel Marriot",
+      "imageAlt": "Imagen de comida de AC Hotel Marriott",
       "slug": "ac-hotel"
     },
     {

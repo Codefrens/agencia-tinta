@@ -16,6 +16,7 @@ Creates all files needed to add a new portfolio detail page. Five locations must
 ## How to use
 
 The user provides:
+
 - **Slug**: kebab-case identifier (e.g. `mi-cliente`)
 - **Client name**: display name (e.g. `Mi Cliente`)
 - **Year**: e.g. `"2026"`
@@ -32,31 +33,54 @@ The user provides:
 Each section has a `type` and type-specific fields. All image/video media comes as Cloudinary URLs.
 
 **`paragraph`** — Text block
+
 ```json
 { "type": "paragraph", "title": "Estrategia", "description": "Texto..." }
 ```
 
 **`oneImage`** — Single full-width image. Optional `aspectRatio` (e.g. `"16/9"`, `"12/8"`), optional `centered: true`.
+
 ```json
-{ "type": "oneImage", "imageUrl": "...", "imageAlt": "...", "centered": true, "aspectRatio": "12/8" }
+{
+  "type": "oneImage",
+  "imageUrl": "...",
+  "imageAlt": "...",
+  "centered": true,
+  "aspectRatio": "12/8"
+}
 ```
 
 **`twoImages`** — Side-by-side image pair
+
 ```json
-{ "type": "twoImages", "images": [{ "imageUrl": "...", "imageAlt": "..." }, { "imageUrl": "...", "imageAlt": "..." }] }
+{
+  "type": "twoImages",
+  "images": [
+    { "imageUrl": "...", "imageAlt": "..." },
+    { "imageUrl": "...", "imageAlt": "..." }
+  ]
+}
 ```
 
 **`imagesInRow`** — 2-4 images in a row
+
 ```json
 { "type": "imagesInRow", "images": [{ "imageUrl": "...", "imageAlt": "..." }, ...] }
 ```
 
 **`video`** — Single video player. Requires a poster image. Generate the poster URL from the video URL by replacing `video/upload/v` with `video/upload/w_800,so_2/v` and changing `.mp4` to `.jpg`.
+
 ```json
-{ "type": "video", "videoUrl": "...mp4", "videoAlt": "...", "posterSrc": "...jpg" }
+{
+  "type": "video",
+  "videoUrl": "...mp4",
+  "videoAlt": "...",
+  "posterSrc": "...jpg"
+}
 ```
 
 **`uniqueReel`** — Scrollable reel with 3+ videos. Videos have poster URLs. Generate poster from video URL by replacing `video/upload/v` with `video/upload/w_600,so_2/v` and `.mp4` → `.jpg`.
+
 ```json
 { "type": "uniqueReel", "backText": "CLIENT NAME", "videos": [
   { "videoUrl": "...mp4", "videoAlt": "...", "posterSrc": "...jpg" },
@@ -75,7 +99,6 @@ Pick 2 existing portfolio entries. Copy them verbatim from `translations/es.json
 ```json
 {
   "hero": {
-    "year": "2026",
     "title": "CLIENT NAME",
     "subtitle": "Spanish subtitle / short description",
     "imageUrl": "https://res.cloudinary.com/.../hero.webp",
@@ -123,7 +146,9 @@ Add two `<url>` blocks (one for `/es/portfolio/{slug}`, one for `/en/portfolio/{
 ## Verification
 
 After creating/modifying all files, run:
+
 ```bash
 npm run build
 ```
+
 to verify no build errors. If the build fails, fix the issue before handing off.

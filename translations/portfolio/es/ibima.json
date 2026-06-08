@@ -1,13 +1,12 @@
 {
   "hero": {
-    "year": "2026",
     "title": "Ibima",
-    "subtitle": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+    "subtitle": "Producción de vídeo institucional para el Instituto de Investigación Biomédica de Málaga (IBIMA) durante un encuentro científico internacional sobre dermatología atópica.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
-    "imageAlt": "Cobertura audiovisual del Festival de Málaga",
-    "sector": "Cultura",
-    "categories": ["Video", "Fotografía"],
-    "client": "Festival de Málaga"
+    "imageAlt": "Vídeo institucional IBIMA - Instituto de Investigación Biomédica de Málaga",
+    "sector": "Salud",
+    "categories": ["Video"],
+    "client": "Ibima"
   },
   "sections": [
     {
@@ -24,22 +23,28 @@
       "type": "paragraph",
       "title": "Resultado",
       "description": "Se entregó un vídeo institucional que sintetiza los principales momentos del encuentro y transmite el valor de la investigación colaborativa en el ámbito de la dermatología. El material permitió a IBIMA disponer de una pieza audiovisual de comunicación científica para su difusión en canales institucionales, reforzando su posicionamiento como referente en investigación biomédica y colaboración internacional."
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780860692/agencia-tinta/portfolio/ibima/Ibima_lhpqsi.mp4",
+      "videoAlt": "Vídeo institucional Ibima",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp"
     }
   ],
   "related": [
     {
-      "title": "Smash",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
-      "imageAlt": "smash burger",
-      "slug": "smash-burger"
+      "title": "Nordic Guarantee",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+      "imageAlt": "Nordic Guarantee",
+      "slug": "nordic"
     },
     {
-      "title": "Black Label",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
-      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
-      "imageAlt": "Black Label",
-      "slug": "black-label"
+      "title": "Festival de Málaga",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+      "imageAlt": "Festival de Málaga",
+      "slug": "festival-malaga"
     }
   ]
 }

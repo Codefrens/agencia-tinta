@@ -1,0 +1,160 @@
+{
+  "hero": {
+    "title": "Delegación del Gobierno en Madrid",
+    "subtitle": "Cobertura fotográfica y audiovisual de actos institucionales de la Delegación del Gobierno en Madrid, documentando eventos culturales y oficiales con una narrativa cercana y auténtica.",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
+    "imageAlt": "Delegación del Gobierno en Madrid",
+    "sector": "Institucional",
+    "categories": ["Fotografía", "Video"],
+    "client": "Delegación del Gobierno en Madrid"
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "title": "El desafío",
+      "description": "La Delegación de Madrid nos encargó la cobertura fotográfica y audiovisual de cuatro actos de relevancia institucional desarrollados en distintos puntos de la Comunidad de Madrid. El proyecto incluía una performance artística en la Universidad Complutense, la gala de entrega de premios de Las Meninas, el recorrido artístico de \"Murales 50 Años España en Libertad\" y el acto oficial por el Día de la Constitución Española."
+    },
+    {
+      "type": "paragraph",
+      "title": "La estrategia",
+      "description": "Desarrollamos una cobertura integral orientada a generar contenido versátil para diferentes canales y objetivos. A través de fotografía profesional, reportaje de eventos y producción de vídeo institucional, buscamos construir una narrativa cercana y auténtica, capaz de trasladar al espectador al corazón de cada encuentro. El objetivo no era solo documentar lo sucedido, sino transmitir fielmente la emoción, la participación y el significado de cada acto, haciendo que quien viera el contenido sintiera que había estado presente."
+    },
+    {
+      "type": "paragraph",
+      "title": "Resultados",
+      "description": "Entregamos un banco de contenido compuesto por fotografías, piezas audiovisuales para redes sociales y vídeos de formato más extenso para uso web e institucional. El material permitió amplificar la difusión de cada iniciativa, manteniendo la esencia y la emotividad de cada jornada, y generando recursos de valor para la comunicación de la Delegación de Madrid en múltiples canales."
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861259/agencia-tinta/portfolio/gobierno-madrid/reportaje_1_z6ld1a.webp",
+          "imageAlt": "Performance artística en la Universidad Complutense"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861258/agencia-tinta/portfolio/gobierno-madrid/reportaje_2_mc8ufk.webp",
+          "imageAlt": "Acto institucional Delegación del Gobierno"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861267/agencia-tinta/portfolio/gobierno-madrid/reportaje_3_dyrezv.webp",
+      "imageAlt": "Cobertura fotográfica evento institucional"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861263/agencia-tinta/portfolio/gobierno-madrid/reportaje_4_fn1tr1.webp",
+          "imageAlt": "Gala de entrega de premios Las Meninas"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861261/agencia-tinta/portfolio/gobierno-madrid/reportaje_5_drphk7.webp",
+          "imageAlt": "Acto oficial Delegación de Madrid"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861271/agencia-tinta/portfolio/gobierno-madrid/reportaje_6_fas0qh.webp",
+      "imageAlt": "Reportaje fotográfico institucional"
+    },
+    {
+      "type": "imagesInRow",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861265/agencia-tinta/portfolio/gobierno-madrid/reportaje_7_jjgbms.webp",
+          "imageAlt": "Murales 50 Años España en Libertad"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861392/agencia-tinta/portfolio/gobierno-madrid/reportaje_8_izwtfb.webp",
+          "imageAlt": "Recorrido artístico Madrid"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861387/agencia-tinta/portfolio/gobierno-madrid/reportaje_9_ojtstr.webp",
+          "imageAlt": "Arte urbano institucional"
+        }
+      ]
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861269/agencia-tinta/portfolio/gobierno-madrid/reportaje_10_k6euwt.webp",
+          "imageAlt": "Día de la Constitución Española"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861726/agencia-tinta/portfolio/gobierno-madrid/reportaje_11_fyhp8l.webp",
+          "imageAlt": "Acto institucional Madrid"
+        }
+      ]
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861273/agencia-tinta/portfolio/gobierno-madrid/reportaje_12_fnjc4f.webp",
+      "imageAlt": "Cobertura audiovisual institucional"
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861275/agencia-tinta/portfolio/gobierno-madrid/reportaje_13_oupfax.webp",
+      "imageAlt": "Fotografía evento Delegación del Gobierno"
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861384/agencia-tinta/portfolio/gobierno-madrid/reportaje_14_gwoifn.webp",
+      "imageAlt": "Reportaje institucional Madrid"
+    },
+    {
+      "type": "twoImages",
+      "images": [
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861385/agencia-tinta/portfolio/gobierno-madrid/reportaje_15_hh95fr.webp",
+          "imageAlt": "Contenido audiovisual Delegación de Madrid"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861431/agencia-tinta/portfolio/gobierno-madrid/reportaje_16_p7hfcu.webp",
+          "imageAlt": "Cobertura de prensa institucional"
+        }
+      ]
+    },
+    {
+      "type": "uniqueReel",
+      "backText": "Delegación del Gobierno",
+      "videos": [
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780932779/agencia-tinta/portfolio/gobierno-madrid/01_Murales_v2_2026_ostlkp.mp4",
+          "videoAlt": "Reel Murales 50 Años España en Libertad",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780932779/agencia-tinta/portfolio/gobierno-madrid/01_Murales_v2_2026_ostlkp.jpg"
+        },
+        {
+          "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780932810/agencia-tinta/portfolio/gobierno-madrid/02_Meninas_v2_2026_vg3wu1.mp4",
+          "videoAlt": "Reel Gala Las Meninas",
+          "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_600,so_2/v1780932810/agencia-tinta/portfolio/gobierno-madrid/02_Meninas_v2_2026_vg3wu1.jpg"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1780932839/agencia-tinta/portfolio/gobierno-madrid/03_Resumen_Del.Gob._Madrid_nva4fq.mp4",
+      "videoAlt": "Vídeo resumen Delegación del Gobierno en Madrid",
+      "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1780932839/agencia-tinta/portfolio/gobierno-madrid/03_Resumen_Del.Gob._Madrid_nva4fq.jpg"
+    }
+  ],
+  "related": [
+    {
+      "title": "Nordic Guarantee",
+      "categories": ["Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+      "imageAlt": "Nordic Guarantee",
+      "slug": "nordic"
+    },
+    {
+      "title": "Festival de Málaga",
+      "categories": ["Fotografía", "Video"],
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+      "imageAlt": "Festival de Málaga",
+      "slug": "festival-malaga"
+    }
+  ]
+}

@@ -38,25 +38,25 @@
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/2_wvlskd.webp",
         "title": "Graphic design",
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/3_rdmtzb.webp",
         "title": "Graphic design",
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382426/agencia-tinta/landings/aesthetic/4_s5u7d9.webp",
         "title": "Graphic design",
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382424/agencia-tinta/landings/aesthetic/5_gu1bgv.webp",
         "title": "Graphic design",
         "description": ""
@@ -69,25 +69,25 @@
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382425/agencia-tinta/landings/aesthetic/7_jivjn7.webp",
         "title": "Social media management",
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/8_nr5cpt.webp",
         "title": "Digital marketing for aesthetic clinics",
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/9_glfgbv.webp",
         "title": "Social media management",
         "description": ""
       },
       {
-        "type": "image", 
+        "type": "image",
         "content": "https://res.cloudinary.com/nicojoystin/image/upload/v1756382423/agencia-tinta/landings/aesthetic/10_fafpdy.webp",
         "title": "Photography production",
         "description": ""
@@ -122,7 +122,7 @@
     "testimonialsList": [
       {
         "quote": "The corporate videos they created were fundamental to conveying our proposal. Plus, they are great and friendly people, and that is always appreciated.",
-        "client": "AC HOTEL - Marriot",
+        "client": "AC HOTEL - Marriott",
         "logo": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895736/agencia-tinta/clientes/1_AC_HOTELES_POR_AHORA_DEJAR_OCULTO_yhqj5x.png",
         "personName": "Angel Garcia Cano",
         "personPosition": "Food & Beverage Manager"
@@ -156,11 +156,11 @@
     "errorMessage": "Error sending message. Please try again.",
     "recaptchaError": "Security verification error. Please try again.",
     "projectTypes": {
-        "video": "Corporate video",
-        "event": "Event coverage",
-        "photography": "Photography",
-        "reels": "Reels",
-        "other": "Other"
+      "video": "Corporate video",
+      "event": "Event coverage",
+      "photography": "Photography",
+      "reels": "Reels",
+      "other": "Other"
     }
   },
   "contactSection": {
@@ -182,18 +182,18 @@
         "videoAlt": "Corporate Video Bacardi",
         "videoLabelButton": "Watch video"
       },
-    {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
-      "videoAlt": "Corporate Video Cantina Cannalla",
-      "videoLabelButton": "Watch video"
-    },
-    {
-      "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
-      "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
-      "videoAlt": "Corporate Video Grupo Amigos",
-      "videoLabelButton": "Watch video"
-    }
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+        "videoAlt": "Corporate Video Cantina Cannalla",
+        "videoLabelButton": "Watch video"
+      },
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+        "videoAlt": "Corporate Video Grupo Amigos",
+        "videoLabelButton": "Watch video"
+      }
     ]
   },
   "cta": {

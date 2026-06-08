@@ -25,6 +25,11 @@ const clients = [
   },
   {
     logoUrl:
+      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834745/agencia-tinta/clientes/delegacion-gobierno-madrid-logo_yblz8t.png",
+    logoAlt: "Delegación del Gobierno en Madrid Logo",
+  },
+  {
+    logoUrl:
       "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/festival-malaga-logo_thgzuf.png",
     logoAlt: "Festival de Málaga Logo",
   },
@@ -62,11 +67,6 @@ const clients = [
     logoUrl:
       "https://res.cloudinary.com/nicojoystin/image/upload/v1780834744/agencia-tinta/clientes/nordic-logo_i9siuj.png",
     logoAlt: "Nordic Logo",
-  },
-  {
-    logoUrl:
-      "https://res.cloudinary.com/nicojoystin/image/upload/v1780834745/agencia-tinta/clientes/delegacion-gobierno-madrid-logo_yblz8t.png",
-    logoAlt: "Delegación del Gobierno en Madrid Logo",
   },
 ];
 

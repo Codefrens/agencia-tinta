@@ -1,9 +1,8 @@
 {
   "hero": {
-    "year": "2026",
     "title": "Nordic Guarantee",
     "subtitle": "Nordic Guarantee, compañía internacional especializada en garantías financieras y seguros de caución con presencia en toda Europa, nos convocó para documentar un evento corporativo celebrado en el Hotel Miramar de Málaga.",
-    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
+    "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838945/agencia-tinta/portfolio/nordic/cobertura-evento_1_mrywlx.webp",
     "imageAlt": "Nordic Guarantee",
     "sector": "Finanzas y seguros",
     "categories": ["Video"],
@@ -29,10 +28,6 @@
       "type": "imagesInRow",
       "images": [
         {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838945/agencia-tinta/portfolio/nordic/cobertura-evento_1_mrywlx.webp",
-          "imageAlt": "Reunión corporativa en el Hotel Miramar"
-        },
-        {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838944/agencia-tinta/portfolio/nordic/cobertura-evento_2_rcjxtw.webp",
           "imageAlt": "Representantes internacionales de Nordic Guarantee"
         },
@@ -46,26 +41,37 @@
       "type": "imagesInRow",
       "images": [
         {
+          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838943/agencia-tinta/portfolio/nordic/cobertura-evento_4_ncedir.webp",
+          "imageAlt": "Reunión de networking corporativo"
+        },
+        {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_5_oqjwyk.webp",
           "imageAlt": "Sesión de trabajo y networking"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838938/agencia-tinta/portfolio/nordic/cobertura-evento_6_nap1ae.webp",
           "imageAlt": "Fotografía institucional del equipo"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_7_meqzcr.webp",
-          "imageAlt": "Entorno corporativo y asistentes"
         }
       ]
     },
     {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838940/agencia-tinta/portfolio/nordic/cobertura-evento_7_meqzcr.webp",
+      "imageAlt": "Entorno corporativo y asistentes"
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838935/agencia-tinta/portfolio/nordic/cobertura-evento_8_o7fpiz.webp",
+      "imageAlt": "Documentación del encuentro internacional"
+    },
+    {
+      "type": "oneImage",
+      "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838939/agencia-tinta/portfolio/nordic/cobertura-evento_9_hdpxxi.webp",
+      "imageAlt": "Entorno corporativo Nordic Guarantee"
+    },
+    {
       "type": "imagesInRow",
       "images": [
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838935/agencia-tinta/portfolio/nordic/cobertura-evento_8_o7fpiz.webp",
-          "imageAlt": "Documentación del encuentro internacional"
-        },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838936/agencia-tinta/portfolio/nordic/cobertura-evento_10_csfffs.webp",
           "imageAlt": "Imagen corporativa Nordic Guarantee"
@@ -92,27 +98,14 @@
           "imageAlt": "Representantes de la compañía"
         }
       ]
-    },
-    {
-      "type": "imagesInRow",
-      "images": [
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838943/agencia-tinta/portfolio/nordic/cobertura-evento_4_ncedir.webp",
-          "imageAlt": "Reunión de networking corporativo"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838939/agencia-tinta/portfolio/nordic/cobertura-evento_9_hdpxxi.webp",
-          "imageAlt": "Entorno corporativo Nordic Guarantee"
-        }
-      ]
     }
   ],
   "related": [
     {
-      "title": "AC Hotel Marriot",
+      "title": "AC Hotel Marriott",
       "categories": ["Fotografía", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
-      "imageAlt": "Imagen de comida de AC Hotel Marriot",
+      "imageAlt": "Imagen de comida de AC Hotel Marriott",
       "slug": "ac-hotel"
     },
     {

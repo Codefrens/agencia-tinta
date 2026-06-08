@@ -1,32 +1,33 @@
 {
   "common": {
     "navigationLinks": {
-      "agency": "Agencia",
+      "agency": "Agency",
       "video": "Video",
-      "fotografia": "Fotography",
+      "fotografia": "Photography",
       "portfolio": "Portfolio",
       "foodar": "FoodAr",
-      "contact": "Contacto"
+      "contact": "Contact"
     },
     "cta": {
-      "title": "¿Tienes un <span class='font-extra-bold'>proyecto</span> en mente?",
-      "buttonLabel": "¿Hablamos?"
+      "title": "Do you have a <span class='font-extra-bold'>project</span> in mind?",
+      "buttonLabel": "Let's talk?"
     },
-   "portfolioGrid": [
+    "portfolioGrid": [
       {
-        "title": "AC Hotel Marriot",
+        "title": "AC Hotel Marriott",
         "categories": ["Fotografía", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
-        "imageAlt": "Imagen de comida de AC Hotel Marriot",
+        "imageAlt": "AC Hotel Marriott food image",
         "slug": "ac-hotel"
       },
       {
-        "title": "Agape",
-        "categories": ["Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
-        "imageAlt": "Agape",
-        "slug": "agape"
+        "title": "Delegación del Gobierno en Madrid",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
+        "imageAlt": "Delegación del Gobierno en Madrid",
+        "slug": "gobierno-madrid"
       },
+
       {
         "title": "Bacardi",
         "categories": ["Fotografía", "Video"],
@@ -35,17 +36,18 @@
         "slug": "bacardi"
       },
       {
-        "title": "Malavida",
+        "title": "Schmit Cocinas",
         "categories": ["Fotografía", "Video"],
-        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
-        "imageAlt": "",
-        "slug": "malavida"
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
+        "imageAlt": "Schmit Cocinas",
+        "slug": "schmit-cocinas"
       },
+
       {
         "title": "Cantina Canalla",
         "categories": ["Identidad Visual", "Fotografía", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
-        "imageAlt": "Imagen de comida de Cantina Canalla",
+        "imageAlt": "Cantina Canalla food image",
         "slug": "cantina-canalla"
       },
       {
@@ -76,11 +78,12 @@
         "imageAlt": "",
         "slug": "festival-malaga"
       },
+
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
-        "imageAlt": "Grupo amigos",
+        "imageAlt": "Grupo Amigos",
         "slug": "grupo-amigos"
       },
       {
@@ -89,165 +92,190 @@
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
         "imageAlt": "Nordic Guarantee",
         "slug": "nordic"
+      },
+      {
+        "title": "Ibima",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
+        "imageAlt": "Ibima",
+        "slug": "ibima"
+      },
+      {
+        "title": "Agape",
+        "categories": ["Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
+        "imageAlt": "Agape",
+        "slug": "agape"
+      },
+      {
+        "title": "Malavida",
+        "categories": ["Fotografía", "Video"],
+        "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
+        "imageAlt": "",
+        "slug": "malavida"
       }
     ],
-    "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],
-    "whatsappMessage": "Hola! Quiero hacer una consulta.",
+    "filters": ["All", "Visual Identity", "Photography", "Video"],
+    "whatsappMessage": "Hi! I'd like to make an inquiry.",
     "notFoundTitle": "404",
-    "notFoundSubtitle": "La página que buscas no existe",
-    "notFoundButtonLabel": "Volver a la página principal",
-    "client": "Cliente",
-    "year": "Año",
+    "notFoundSubtitle": "The page you're looking for doesn't exist",
+    "notFoundButtonLabel": "Back to home page",
+    "client": "Client",
     "sector": "Sector"
   },
   "homePage": {
     "hero": {
-      "subtitle": "AGENCIA DE PUBLICIDAD",
-      "title": "Transformamos marcas con innovación y creatividad.",
-      "paragraph": "Somos una agencia de producción audiovisual que convierte ideas en experiencias estratégicas, acompañando a cada marca a crecer con creatividad y visión sólida.",
-      "highlightWords": ["innovación", "creatividad"],
-      "reelLabel": "Ver reel"
+      "subtitle": "ADVERTISING AGENCY",
+      "title": "Audiovisual production agency that transforms brands",
+      "paragraph": "We are an audiovisual production agency that turns ideas into strategic experiences, helping each brand grow with creativity and a solid vision.",
+      "highlightWords": ["transforms"],
+      "reelLabel": "Watch reel"
     },
     "about": {
-      "title": "somos/",
-      "paragraph1": "Narradores de conceptos en la era digital.",
-      "paragraph2": "Nos especializamos en <span class='font-extra-bold font-color'>producción audiovisual</span>. Ayudamos a empresas a potenciar su comunicación digital a través de <span class='font-extra-bold font-color'>vídeos corporativos</span>, <span class='font-extra-bold font-color'>spots publicitarios</span> y <span class='font-extra-bold font-color'>fotografias comerciales</span> que dejan huella.",
-      "buttonLabel": "Conocenos"
+      "title": "we are/",
+      "paragraph1": "Concept storytellers in the digital age.",
+      "paragraph2": "We specialize in <span class='font-extra-bold font-color'>audiovisual production</span>. We help businesses enhance their digital communication through <span class='font-extra-bold font-color'>corporate videos</span>, <span class='font-extra-bold font-color'>advertising spots</span>, and <span class='font-extra-bold font-color'>commercial photography</span> that leave a lasting impression.",
+      "buttonLabel": "About us"
     },
     "portfolio": {
-      "morePortfolio": "Ver más proyectos"
+      "morePortfolio": "See more projects"
     },
     "aiSection": {
-      "title": "Inteligencia Artificial",
-      "paragraph": "Lo imposible ya se puede crear. Fusionamos tecnología y creatividad humana para dar vida a ideas que antes solo eran un sueño.",
-      "buttonLabel": "Ver Video"
+      "title": "Artificial Intelligence",
+      "paragraph": "The impossible can now be created. We merge technology and human creativity to bring to life ideas that were once only a dream.",
+      "buttonLabel": "Watch Video"
     },
     "realitySection": {
-      "title": "Realidad Aumentada",
-      "paragraph": "Menús 3D para restaurantes: impacta con visualización realista, interacción y una experiencia única.",
-      "buttonLabel": "Conoce Foodar",
+      "title": "Augmented Reality",
+      "paragraph": "3D menus for restaurants: make an impact with realistic visualization, interaction, and a unique experience.",
+      "buttonLabel": "Discover Foodar",
       "imgSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
       "imgAlt": "Realidad aumentada"
     },
     "faq": {
-      "titleLight": "Preguntas",
-      "titleBold": "frecuentes",
+      "titleLight": "What you should know about our",
+      "titleBold": "creative agency",
       "subtitle": "",
       "items": [
         {
-          "question": "¿Qué servicios ofrece Agencia Tinta?",
-          "answer": "Creamos estrategia, contenido y producción audiovisual (video y fotografía), identidad visual, gestión de redes y proyectos web orientados a performance."
+          "question": "What does an audiovisual production agency offer for my business?",
+          "answer": "As an audiovisual production agency, we design visual strategies that strengthen your brand identity, combining creativity and analysis to produce relevant content that connects with your audience and generates sustainable positioning in today's digital market."
         },
         {
-          "question": "¿Cómo es el proceso de trabajo?",
-          "answer": "Iniciamos con una reunión para entender objetivos y audiencia, planteamos una propuesta creativa/estratégica y ejecutamos la producción. Luego entregamos piezas finales listas para publicar."
+          "question": "Why hire a specialized audiovisual production agency?",
+          "answer": "A specialized audiovisual production agency guarantees strategic coherence, resource optimization, and measurable results, as it integrates planning, production, and content distribution aligned with each company's business objectives."
         },
         {
-          "question": "¿Trabajan con marcas de cualquier tamaño?",
-          "answer": "Sí. Nos adaptamos a la etapa de tu marca: desde lanzamientos y rebranding hasta campañas puntuales y producción recurrente de contenido."
+          "question": "How does an audiovisual production agency work on each project?",
+          "answer": "Our audiovisual production agency analyzes the brand's context, defines a clear narrative, and develops strategic visual pieces that convey value, differentiation, and coherence across all digital channels."
         },
         {
-          "question": "¿En cuánto tiempo entregan el contenido?",
-          "answer": "Depende del alcance. En general, una producción sencilla puede entregarse en 7–14 días, y proyectos más grandes requieren planificación y calendario de rodaje/edición."
+          "question": "How do audiovisual solutions influence a brand's visual identity?",
+          "answer": "Audiovisual solutions strengthen visual identity by integrating aesthetic coherence and strategic messaging, allowing each piece to project professionalism, differentiation, and emotional connection with the target audience."
         },
         {
-          "question": "¿Pueden ayudar con la estrategia para redes sociales?",
-          "answer": "Sí. Definimos pilares de contenido, guiones, formatos, calendario, lineamientos visuales y optimización según rendimiento."
+          "question": "What does professional photography bring to your project?",
+          "answer": "Professional photography communicates emotions, values, and quality. It elevates the perception of your product or service by generating trust and interest. It is key to standing out in digital media and creating high-impact visual content with its own personality."
+        },
+        {
+          "question": "Why is visual storytelling important for your brand?",
+          "answer": "Visual storytelling is applied in audiovisual content creation through professional video and photography. By using images and sequences, stories are built that turn concepts into visual experiences, maintaining narrative coherence and reinforcing visual identity in every piece."
         }
       ]
     }
   },
   "portfolioPage": {
     "hero": {
-      "title": "Explore our work",
-      "lead": "Our audiovisual project portfolio shows how we turn ideas into strategic visual experiences that strengthen each brand’s identity. Every proposal blends creativity, aesthetic consistency, and commercial vision, projecting a solid, attractive, memorable image. This is how we connect with the right audience, reinforce values and differentiation, and leave a lasting impression at every touchpoint with clarity and emotion.",
+      "title": "Explore our portfolio of audiovisual projects",
+      "lead": "Our portfolio of audiovisual projects reflects the way we turn ideas into strategic visual experiences, designed to strengthen each brand's identity. Every proposal integrates creativity, aesthetic coherence, and commercial vision, projecting a solid, attractive, and memorable image before its target audience.",
       "sections": [
         {
           "title": "Creative projects that strengthen branding",
-          "paragraph": "We create projects that combine strategy and emotion. We define concept, script, and art direction so every piece adds real value to brand positioning. We reinforce visual identity and tone, building a coherent narrative that feels authentic, earns trust, and supports your brand today and tomorrow."
+          "paragraph": "We develop creative projects and audiovisual production work that connect strategy and emotion, ensuring that every audiovisual project adds real value to brand positioning, reinforcing its visual identity and building a coherent narrative that impacts authentically."
         },
         {
           "title": "Audiovisual production and strategic positioning",
-          "paragraph": "Our audiovisual production boosts branding with integrated strategies that combine creative direction, visual storytelling, and professional photography. Video marketing strengthens emotional connection with specific audiences and helps consolidate coherent, memorable, competitive brands in digital campaigns."
+          "paragraph": "Our audiovisual production drives branding through comprehensive strategies that combine creative direction, visual narrative, and professional photography for businesses, while video marketing strengthens emotional connection with specific audiences and consolidates coherent and memorable brands."
         }
       ]
     }
   },
   "agencyPage": {
-    "title": "Nuestra agencia /",
-    "paragraph1": "En un mundo saturado de información, la diferenciación es clave. Una marca no solo se construye con palabras, sino con imágenes que transmiten emociones y videos que cuentan historias. En Agencia Tinta, combinamos creatividad y datos para diseñar producciones que no solo captan la atención, sino que generan impacto y convierten mensajes en experiencias visuales memorables.",
-    "paragraph2": "Creamos contenido dinámico que fortalece la presencia digital, genera comunidad y convierte audiencias en embajadores de marca. Desde la planificación estratégica hasta la producción audiovisual y fotográfica, potenciamos cada historia con innovación y precisión.",
-    "quote": "Aquí te presentamos de qué manera lo hacemos.",
-    "serviceTitle": "Servicios /",
+    "title": "We are a strategic creative agency /",
+    "paragraph1": "In a world saturated with information, differentiation is key. A brand is not only built with words, but with images that convey emotions and videos that tell stories; that's why, as a creative agency, we combine creativity and data to develop creative production and audiovisual solutions that strengthen the brand experience.",
+    "paragraph2": "At Agencia Tinta, we integrate a specialized audiovisual production team focused on professional audiovisual production and professional video and photography to design productions that not only capture attention but generate impact and turn messages into memorable visual experiences.",
+    "paragraph3": "We create dynamic content that strengthens digital presence, builds community, and turns audiences into brand ambassadors. From strategic planning to audiovisual and photographic production, we enhance every story with innovation and precision.",
+    "quote": "Here's how we do it.",
+    "serviceTitle": "Services /",
     "services": [
       {
-        "title": "Análisis y estrategia",
-        "description": "Definir una estrategia de contenido sólida es clave para construir una marca con identidad, relevancia y conexión genuina con su audiencia, asegurando un impacto duradero en el tiempo.",
+        "title": "Analysis & Strategy",
+        "description": "Defining a solid content strategy is key to building a brand with identity, relevance, and genuine connection with its audience, ensuring lasting impact over time.",
         "tags": [
-          "Análisis de mercado y competencia",
-          "Estudios de audiencia y tendencias",
-          "Estrategia de marca y comunicación",
-          "Desarrollo de contenido y planificación digital"
+          "Market and competitor analysis",
+          "Audience and trend studies",
+          "Brand and communication strategy",
+          "Content development and digital planning"
         ]
       },
       {
-        "title": "Redes Sociales",
-        "description": "Creamos comunidades digitales que conectan. Gestionamos tu presencia online con estrategias innovadoras.",
+        "title": "Social Media",
+        "description": "We create digital communities that connect. We manage your online presence with innovative strategies.",
         "tags": [
-          "Gestión de redes sociales",
+          "Social media management",
           "Community Management",
-          "Estrategias de reputación digital",
-          "Colaboraciones con influencers",
-          "Creación de contenido de alto valor"
+          "Digital reputation strategies",
+          "Influencer collaborations",
+          "High-value content creation"
         ]
       },
       {
-        "title": "Identidad visual y diseño",
-        "description": "Convertimos ideas en contenido visual que impacta, combinando diseño, creatividad y narrativa para crear piezas que conectan con las audiencias en cualquier formato, ya sea en entornos digitales o físicos.",
+        "title": "Visual Identity & Design",
+        "description": "We turn ideas into impactful visual content, combining design, creativity, and narrative to create pieces that connect with audiences in any format, whether digital or physical.",
         "tags": [
           "Branding & Naming",
-          "Diseño de identidad visual y verbal",
-          "Manifiestos y storytelling de marca",
-          "Diseño de experiencias digitales y físicas",
-          "Creación de materiales gráficos y multimedia"
+          "Visual and verbal identity design",
+          "Brand manifestos and storytelling",
+          "Digital and physical experience design",
+          "Graphic and multimedia material creation"
         ]
       },
       {
-        "title": "Web y performance marketing",
-        "description": "Optimizamos tu presencia digital para generar impacto y conversiones. Desde el diseño web hasta campañas de alto rendimiento.",
+        "title": "Web & Performance Marketing",
+        "description": "We optimize your digital presence to generate impact and conversions. From web design to high-performance campaigns.",
         "tags": [
-          "Diseño y desarrollo web, microsites y landing pages",
-          "User Experience (UX) y optimización de interfaces",
-          "SEO & Posicionamiento en buscadores",
-          "Publicidad online y campañas SEM",
-          "Optimización de rendimiento digital"
+          "Web design and development, microsites and landing pages",
+          "User Experience (UX) and interface optimization",
+          "SEO & Search engine positioning",
+          "Online advertising and SEM campaigns",
+          "Digital performance optimization"
         ]
       },
       {
-        "title": "Producción audiovisual",
-        "description": "Damos forma a tu marca a través de contenido visual que cautiva y conecta. Nos encargamos de la dirección creativa, producción y edición para crear piezas audiovisuales que dejan huella.",
+        "title": "Audiovisual Production",
+        "description": "We shape your brand through visual content that captivates and connects. We handle creative direction, production, and editing to create audiovisual pieces that leave a mark.",
         "tags": [
-          "Producción audiovisual & Fotografía",
-          "Brand Films y campañas creativas",
-          "Fotografía publicitaria y de producto",
+          "Audiovisual Production & Photography",
+          "Brand Films and creative campaigns",
+          "Advertising and product photography",
           "Packaging & Editorial",
-          "IA aplicada a producción de video y contenido digital"
+          "AI applied to video production and digital content"
         ]
       }
     ]
   },
   "contactPage": {
-    "title": "Contacta con nosotros",
-    "subtitle": "Estamos para escucharte y acompañarte con las ideas que tengas para tu marca, tu negocio o para contribuir a transformar el mundo.",
+    "title": "Contact us",
+    "subtitle": "We're here to listen and support you with the ideas you have for your brand, your business, or to help transform the world.",
     "form": {
-      "name": "Nombre Completo*",
+      "name": "Full Name*",
       "email": "Email*",
-      "message": "Mensaje*",
-      "buttonLabel": "Enviar",
-      "buttonLabelSending": "Enviando...",
-      "successMessage": "Gracias por tu mensaje. Te responderemos lo antes posible.",
-      "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
-      "requiredError": "Este campo es obligatorio"
+      "message": "Message*",
+      "buttonLabel": "Send",
+      "buttonLabelSending": "Sending...",
+      "successMessage": "Thank you for your message. We'll get back to you as soon as possible.",
+      "errorMessage": "Something went wrong. Please try again.",
+      "requiredError": "This field is required"
     }
   },
   "legalPage": {
@@ -255,9 +283,9 @@
     "subtitle": "In compliance with Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSI-CE), the user is informed of the following:",
     "content": {
       "identificationData": {
-        "title": "1. Identification data",
+        "title": "1. Identification Data",
         "items": [
-          "Business name: Agencia Tinta",
+          "Commercial name: Agencia Tinta",
           "Contact email: hola@agenciatinta.com",
           "Activity: Marketing, design and content production agency",
           "Location: Spain",
@@ -265,48 +293,48 @@
         ]
       },
       "websiteObjective": {
-        "title": "2. Website purpose",
-        "content": "This website aims to provide information about Agencia Tinta's services and projects, as well as facilitate communication with potential clients and collaborators.\n\nBy accessing and using this website, the user accepts the conditions established in this Legal Notice. It is recommended to read it carefully before continuing browsing."
+        "title": "2. Website Purpose",
+        "content": "This website aims to provide information about the services and projects of Agencia Tinta, as well as to facilitate communication with potential clients and collaborators.\n\nBy accessing and using this website, the user accepts the conditions established in this Legal Notice. It is recommended to read it carefully before continuing to browse."
       },
       "intellectualProperty": {
-        "title": "3. Intellectual and industrial property",
-        "content": "All website content, including (for illustrative and non-limiting purposes) source code, texts, images, logos, graphic designs and multimedia elements, are the exclusive property of Agencia Tinta or third parties who have authorized their use, and are protected by Spanish and international legislation on intellectual and industrial property.\n\nTheir reproduction, distribution, public communication, transformation or any other unauthorized use, total or partial, is prohibited without the prior written consent of Agencia Tinta."
+        "title": "3. Intellectual and Industrial Property",
+        "content": "All content on the website, including (but not limited to) source code, texts, images, logos, graphic designs, and multimedia elements, is the exclusive property of Agencia Tinta or third parties who have authorized its use, and is protected by Spanish and international legislation on intellectual and industrial property.\n\nIts reproduction, distribution, public communication, transformation, or any other unauthorized use, in whole or in part, is prohibited without the prior written consent of Agencia Tinta."
       },
       "webUsageAndResponsibility": {
-        "title": "4. Website usage and responsibility",
-        "intro": "The user commits to use the website lawfully and in accordance with current legislation, refraining from performing any action that may damage the image, interests or rights of Agencia Tinta or third parties.\n\nAgencia Tinta is not responsible for:",
+        "title": "4. Website Use and Responsibility",
+        "intro": "The user agrees to use the website lawfully and in accordance with current legislation, refraining from any action that may damage the image, interests, or rights of Agencia Tinta or third parties.\n\nAgencia Tinta is not responsible for:",
         "items": [
-          "Improper use that users make of the website content.",
+          "Improper use of the website content by users.",
           "Information or content linked from external pages.",
-          "Possible technical or security errors arising from the use of inadequate equipment or connections by the user."
+          "Possible technical or security errors derived from the use of inadequate equipment or connections by the user."
         ]
       },
       "informationUpdate": {
-        "title": "5. Information update",
-        "content": "Agencia Tinta may modify, without prior notice, the website content, its design or this legal information, with the aim of keeping it updated. Likewise, it commits to correct any detected error as soon as it becomes aware of it."
+        "title": "5. Information Update",
+        "content": "Agencia Tinta may modify, without prior notice, the content of the website, its design, or this legal information, in order to keep it up to date. Likewise, it undertakes to correct any errors detected as soon as it becomes aware of them."
       },
       "commercialCommunications": {
-        "title": "6. Commercial communications",
-        "content": "Agencia Tinta complies with the provisions of the LSSI-CE regarding commercial communications.\n\nAll information sent to clients with the purpose of maintaining the existing contractual relationship or responding to prior information requests will not be considered commercial communication."
+        "title": "6. Commercial Communications",
+        "content": "Agencia Tinta complies with the provisions of the LSSI-CE regarding commercial communications.\n\nAny information sent to clients in order to maintain the existing contractual relationship or respond to previous requests for information shall not be considered commercial communication."
       },
       "cookiesUsage": {
-        "title": "7. Use of cookies",
-        "content": "This website uses cookies to improve user experience and collect statistical data anonymously. For more information, check our Cookie Policy."
+        "title": "7. Cookies Usage",
+        "content": "This website uses cookies to improve the user experience and collect statistical data anonymously. For more information, please see our Cookies Policy."
       },
       "applicableLegislation": {
-        "title": "8. Applicable legislation and jurisdiction",
-        "content": "This Legal Notice is governed by Spanish legislation. Any controversy that may arise from access or use of the website will be submitted to the courts of the city where Agencia Tinta has its headquarters, unless the law provides otherwise."
+        "title": "8. Applicable Legislation and Jurisdiction",
+        "content": "This Legal Notice is governed by Spanish law. Any dispute that may arise from access to or use of the website shall be submitted to the courts of the city where the owner of Agencia Tinta has its registered office, unless the law provides otherwise."
       }
     }
   },
   "cookiesPage": {
-    "title": "🍪 Agencia Tinta Cookie Policy",
-    "subtitle": "At Agencia Tinta we use cookies. And no, we're not talking about the chocolate ones (although we love those too), but those small digital files that make your experience on our website more fluid, fast and personalized.",
-    "description": "We want you to know exactly what they are, what they're for and how you can control them. Here we go 👇",
+    "title": "🍪 Cookies Policy of Agencia Tinta",
+    "subtitle": "At Agencia Tinta we use cookies. And no, we're not talking about chocolate chip ones (though we love those too), but those small digital files that make your experience on our website smoother, faster, and more personalized.",
+    "description": "We want you to know exactly what they are, what they're for, and how you can control them. Here we go 👇",
     "content": {
       "what": {
         "title": "1. What are cookies?",
-        "content": "They are small files that your browser stores on your device when you visit our website.",
+        "content": "They are small files that your browser saves on your device when you visit our website.",
         "benefits": {
           "title": "They help us to:",
           "items": [
@@ -315,7 +343,7 @@
             "Show you content that really interests you."
           ]
         },
-        "security": "Don't worry: they don't harm your equipment and don't store sensitive personal data like passwords or card numbers."
+        "security": "Don't worry: they don't harm your device and don't store sensitive personal data like passwords or credit card numbers."
       },
       "types": {
         "title": "2. Types of cookies we use",
@@ -323,7 +351,7 @@
           "title": "By who manages them:",
           "items": [
             "First-party: created and managed by us.",
-            "Third-party: created by external services (e.g. Google Analytics, social networks)."
+            "Third-party: created by external services (e.g., Google Analytics, social media)."
           ]
         },
         "byDuration": {
@@ -356,12 +384,12 @@
         },
         "advertising": {
           "title": "Advertising cookies",
-          "content": "Meta Pixel (Facebook/Instagram): allows us to show you relevant ads on social networks."
+          "content": "Meta Pixel (Facebook/Instagram): allows us to show you relevant ads on social media."
         }
       },
       "manage": {
         "title": "4. How to control or delete cookies",
-        "content": "You're in control. You can allow, block or delete cookies from your browser settings:",
+        "content": "You're in charge. You can allow, block, or delete cookies from your browser settings:",
         "browsers": [
           "Google Chrome",
           "Mozilla Firefox",
@@ -373,18 +401,18 @@
       },
       "consent": {
         "title": "5. Consent and data protection",
-        "content": "By continuing to browse our website you accept the use of these cookies, unless you decide to deactivate them.\n\nAt Agencia Tinta we don't use cookies to spy on you or sell your information. We comply with the General Data Protection Regulation (EU) 2016/679 and the LSSI-CE.\n\nIf you want to know more about how we take care of your privacy, you can read our Privacy Policy."
+        "content": "By continuing to browse our website, you accept the use of these cookies, unless you decide to disable them.\n\nAt Agencia Tinta we don't use cookies to spy on you nor do we sell your information. We comply with the General Data Protection Regulation (EU) 2016/679 and the LSSI-CE.\n\nIf you want to know more about how we take care of your privacy, you can read our Privacy Policy."
       }
     }
   },
   "privacyPage": {
     "title": "Privacy Policy",
-    "subtitle": "At Agencia Tinta we take your privacy and the protection of your personal data very seriously.\nIn compliance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR), Organic Law 3/2018, of 5 December, on the Protection of Personal Data and Guarantee of Digital Rights (LOPDGDD) and Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI-CE), we inform you of the following:",
+    "subtitle": "At Agencia Tinta we take your privacy and the protection of your personal data very seriously.\nIn compliance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR), Organic Law 3/2018, of 5 December, on Personal Data Protection and Guarantee of Digital Rights (LOPDGDD), and Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI-CE), we inform you of the following:",
     "content": {
       "responsible": {
-        "title": "1. Data controller",
+        "title": "1. Data Controller",
         "items": [
-          "Business name: Agencia Tinta",
+          "Commercial name: Agencia Tinta",
           "Contact email: hola@agenciatinta.com",
           "Activity: Marketing, design and content production agency",
           "Location: Spain"
@@ -392,12 +420,12 @@
       },
       "dataCollected": {
         "title": "2. Data we collect",
-        "intro": "We may collect the following information through forms, website interactions or analytics tools:",
+        "intro": "We may collect the following information through forms, website interactions, or analytics tools:",
         "items": [
           "Name",
-          "Email address",
+          "Email",
           "IP address",
-          "Browsing information (through cookies; see our Cookie Policy)"
+          "Browsing information (through cookies; see our Cookies Policy)"
         ]
       },
       "purpose": {
@@ -406,15 +434,15 @@
         "items": [
           "Respond to inquiries or requests received.",
           "Improve user experience and analyze browsing behavior.",
-          "Send commercial communications related to our services, provided that you have given your express consent."
+          "Send commercial communications related to our services, provided you have given your explicit consent."
         ]
       },
       "legitimacy": {
         "title": "4. Legal basis",
         "intro": "The legal basis for processing your data is:",
         "items": [
-          "Your express consent when sending us a form or accepting the use of cookies.",
-          "The execution of pre-contractual or contractual measures, when applicable."
+          "Your explicit consent when sending us a form or accepting the use of cookies.",
+          "The execution of pre-contractual or contractual measures, where applicable."
         ]
       },
       "recipients": {
@@ -424,40 +452,40 @@
           "Google LLC (Google Analytics)",
           "Meta Platforms, Inc. (Facebook Pixel)",
           "Netlify, Inc. (website hosting)",
-          "Resend, Inc. (sending emails from forms)"
+          "Resend, Inc. (email sending from forms)"
         ],
-        "additional": "In any case, these providers comply with data protection regulations and, when necessary, have signed data processing agreements."
+        "additional": "In any case, these providers comply with data protection regulations and, where necessary, have signed data processing agreements."
       },
       "internationalTransfers": {
         "title": "6. International transfers",
-        "content": "In the event that any of the indicated services involves an international data transfer (for example, providers with servers outside the EU), we will ensure that it is carried out with the appropriate legal safeguards, either through Standard Contractual Clauses approved by the European Commission or equivalent mechanisms."
+        "content": "If any of the indicated services involves an international data transfer (for example, providers with servers outside the EU), we will ensure that it is carried out with the appropriate legal guarantees, whether through Standard Contractual Clauses approved by the European Commission or equivalent mechanisms."
       },
       "retention": {
         "title": "7. Data retention",
-        "content": "Your data will be retained only for the time necessary to fulfill the purpose for which it was collected and to address possible legal responsibilities arising from the processing."
+        "content": "Your data will be kept only for the time necessary to fulfill the purpose for which it was collected and to address possible legal liabilities arising from the processing."
       },
       "userRights": {
         "title": "8. User rights",
-        "intro": "You can exercise your rights at any time:",
+        "intro": "You may exercise your rights at any time to:",
         "items": [
           "Access: know if we process your data and obtain a copy of it.",
           "Rectification: correct inaccurate or incomplete data.",
           "Erasure (right to be forgotten): request the deletion of your data when it is no longer necessary.",
-          "Opposition: prevent us from processing your data in certain cases.",
+          "Objection: prevent us from processing your data in certain cases.",
           "Restriction of processing: temporarily restrict the use of your data.",
           "Portability: receive your data in electronic format and transmit it to another controller."
         ]
       },
       "exercisingRights": {
-        "title": "9. Exercising rights",
+        "title": "9. Exercising your rights",
         "content": "To exercise your rights, you can send us an email to hola@agenciatinta.com indicating the right you wish to exercise and attaching a copy of your identity document."
       },
       "complaints": {
         "title": "10. Complaints to the Supervisory Authority",
-        "intro": "If you consider that your rights have not been respected, you can file a complaint with the Spanish Data Protection Agency (AEPD):",
+        "intro": "If you believe your rights have not been respected, you may file a complaint with the Spanish Data Protection Agency (AEPD):",
         "items": [
           "Address: C/ Jorge Juan, 6, 28001 Madrid",
-          "Website: https://sedeagpd.gob.es"
+          "Web: https://sedeagpd.gob.es"
         ]
       },
       "policyChanges": {
@@ -469,64 +497,62 @@
   "foodarPage": {
     "hero": {
       "name": "Foodar",
-      "title": "Transforma tu carta con realidad aumentada",
-      "subtitle": "El futuro de los menús ya está aquí. Muestra tus platos como nunca antes",
-      "buttonLabel": "Agenda una demo"
+      "title": "Transform your menu with augmented reality",
+      "subtitle": "The future of menus is here. Show your dishes as never before",
+      "buttonLabel": "Schedule a demo"
     },
     "howItWorks": {
-      "title": "Como funciona",
+      "title": "How it works",
       "cards": [
         {
           "id": "1",
-          "title": "Cada comensal escanea el código QR en la mesa",
+          "title": "Each diner scans the QR code at the table",
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050708/agencia-tinta/foodar/1_u1fzpp.png",
-          "imageAlt": "Escanea el codigo QR"
+          "imageAlt": "Scan the QR code"
         },
         {
           "id": "2",
-          "title": "Visualiza cada plato en 3D con proporciones y texturas reales.",
+          "title": "View each dish in 3D with real proportions and textures.",
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050706/agencia-tinta/foodar/2_kbw3ab.png",
-          "imageAlt": "Visualiza cada plato"
+          "imageAlt": "View each dish"
         },
         {
           "id": "3",
-          "title": "Elige con confianza viendo cada detalle del plato",
+          "title": "Choose with confidence by seeing every detail of the dish",
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050715/agencia-tinta/foodar/3_i426vv.png",
-          "imageAlt": "Plato de comida en la mesa"
+          "imageAlt": "Food dish on the table"
         },
         {
           "id": "4",
-          "title": "Cada bocado es exactamente como lo imaginó",
+          "title": "Every bite is exactly as you imagined it",
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050711/agencia-tinta/foodar/4_n6cffq.png",
-          "imageAlt": "Mujer joven disfrutando de la comida"
+          "imageAlt": "Young woman enjoying food"
         }
       ]
     },
     "benefits": {
-      "title": "Beneficios",
+      "title": "Benefits",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
-      "imageAlt": "Realidad aumentada",
+      "imageAlt": "Augmented reality",
       "features": [
         {
-          "title": "Mejor experiencia de usuario",
-          "description": "La interacción con el menú 3D genera un impacto positivo en la percepción del cliente, haciéndolo más memorable y atractivo.",
+          "title": "Better user experience",
+          "description": "Interaction with the 3D menu generates a positive impact on customer perception, making it more memorable and engaging.",
           "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050699/agencia-tinta/foodar/1_veuymo.png"
         },
         {
-          "title": "Optimización de carta y aumento de ticket medio",
-          "description": "Con el análisis de estadísticas, el restaurante puede identificar qué platos generan más interés y ajustar su oferta en consecuencia.",
+          "title": "Menu optimization and increased average ticket",
+          "description": "With statistics analysis, the restaurant can identify which dishes generate the most interest and adjust its offering accordingly.",
           "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050690/agencia-tinta/foodar/2_g4ybep.png"
         },
         {
-          "title": "Menos indecisión, más rotación de mesas",
-          "description": "Al visualizar los platos de forma realista, los clientes deciden más rápido, reduciendo los tiempos de espera y aumentando la rotación de mesas.",
-
+          "title": "Less indecision, more table turnover",
+          "description": "By viewing dishes realistically, customers decide faster, reducing wait times and increasing table turnover.",
           "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050696/agencia-tinta/foodar/3_kuxghq.png"
         },
         {
-          "title": "Diferenciación competitiva",
-          "description": "Ofrecer una experiencia innovadora con realidad aumentada posiciona al restaurante como un referente tecnológico y vanguardista en la industria.",
-
+          "title": "Competitive differentiation",
+          "description": "Offering an innovative experience with augmented reality positions the restaurant as a technological and avant-garde benchmark in the industry.",
           "iconUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742050693/agencia-tinta/foodar/4_r7eaau.png"
         }
       ]
@@ -535,42 +561,42 @@
       {
         "title": "Basic",
         "price": "450",
-        "period": "/mes",
+        "period": "/month",
         "features": [
-          { "text": "Escaneo de 3 items" },
-          { "text": "Permanencia mínima de 3 meses" },
-          { "text": "Link desde QR" }
+          { "text": "3D scanning of 3 items" },
+          { "text": "Minimum 3-month commitment" },
+          { "text": "Link via QR" }
         ]
       },
       {
         "title": "Advance",
         "price": "700",
         "isFeatured": true,
-        "period": "/mes",
+        "period": "/month",
         "features": [
-          { "text": "Escaneo de 10 items" },
-          { "text": "Permanencia mínima de 3 meses" },
-          { "text": "Landing page con menú" },
-          { "text": "Actualizaciones" },
-          { "text": "Análisis de estadísticas" }
+          { "text": "3D scanning of 10 items" },
+          { "text": "Minimum 3-month commitment" },
+          { "text": "Menu landing page" },
+          { "text": "Updates" },
+          { "text": "Statistics analysis" }
         ]
       },
       {
         "title": "Pro",
         "price": "950",
-        "period": "/mes",
+        "period": "/month",
         "features": [
-          { "text": "Escaneo de 25 items" },
-          { "text": "Permanencia mínima de 3 meses" },
-          { "text": "Landing page con menú" },
-          { "text": "Actualizaciones" },
-          { "text": "Análisis de estadísticas" },
+          { "text": "3D scanning of 25 items" },
+          { "text": "Minimum 3-month commitment" },
+          { "text": "Menu landing page" },
+          { "text": "Updates" },
+          { "text": "Statistics analysis" },
           { "text": "Cross-selling" }
         ]
       }
     ],
     "contactForm": {
-      "title": "¿Quieres una demo?"
+      "title": "Want a demo?"
     }
   }
 }

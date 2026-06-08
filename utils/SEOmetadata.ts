@@ -1,10 +1,11 @@
 const BASE_URL = process.env.BASE_URL || "https://agenciatinta.com";
 
-
 const homePage = {
   es: {
-    title: "Agencia de producción audiovisual que transforma ideas en experiencias",
-    description: "Creamos narrativas visuales que conectan con tu público como agencia de producción audiovisual enfocada en diseño, fotografía y soluciones auténticas",
+    title:
+      "Agencia de producción audiovisual que transforma ideas en experiencias",
+    description:
+      "Creamos narrativas visuales que conectan con tu público como agencia de producción audiovisual enfocada en diseño, fotografía y soluciones auténticas",
     keywords: "agencia digital, filmmaking, diseño gráfico, diseño web",
     robots: "index, follow",
     openGraph: {
@@ -76,7 +77,8 @@ const homePage = {
 
 const agencyPage = {
   es: {
-    title: "Contenido, estrategia y vídeo profesional en nuestra agencia creativa",
+    title:
+      "Contenido, estrategia y vídeo profesional en nuestra agencia creativa",
     description:
       "En nuestra agencia creativa diseñamos estrategias y producciones de video profesional que convierten mensajes en experiencias visuales. ",
     keywords:
@@ -157,13 +159,17 @@ const agencyPage = {
 
 const portfolioPage = {
   es: {
-    title: "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
-    description: "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
+    title:
+      "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
+    description:
+      "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
     keywords: "agencia digital, filmmaking, diseño gráfico, diseño web",
     robots: "index, follow",
     openGraph: {
-      title: "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
-      description: "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
+      title:
+        "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
+      description:
+        "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
       url: `${BASE_URL}/es/portfolio`,
       siteName: "Agencia Tinta",
       images: [
@@ -179,8 +185,10 @@ const portfolioPage = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
-      description: "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
+      title:
+        "Explora nuestros proyectos audiovisuales aplicados en diferentes formatos",
+      description:
+        "Nuestro portfolio reúne diversos trabajos creados para marcas de distintos sectores. Proyectos audiovisuales aplicados a producto y contenidos digitales.",
       site: "@agenciatinta",
       creator: "@agenciatinta",
       images: [
@@ -393,6 +401,9 @@ const CLIENTS = {
   bacardi: "Bacardi",
   "ac-hotel": "AC Hotel",
   "festival-malaga": "Festival de Málaga",
+  ibima: "Ibima",
+  "gobierno-madrid": "Delegación del Gobierno en Madrid",
+  "schmit-cocinas": "Schmit Cocinas",
 };
 
 const CLIENTS_DESCRIPTIONS_ES = {
@@ -407,10 +418,15 @@ const CLIENTS_DESCRIPTIONS_ES = {
     "Nordic Guarantee, compañía internacional especializada en garantías financieras y seguros de caución con presencia en toda Europa, nos convocó para documentar un evento corporativo celebrado en el Hotel Miramar de Málaga.",
   agape: "Captura la esencia del Mediterráneo en cada joya",
   "grupo-amigos": "Autenticidad mexicana con un giro sofisticado",
-  bacardi: "Acompañamos el lanzamiento de la nueva línea caribeña de Bacardi, en colaboración con la agencia BigBadWolf",
-  "ac-hotel": "Elevamos la experiencia de The Suite Bar, el rooftop más exclusivo del Hotel AC by Marriott Málaga Palacio.",
-  "festival-malaga": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
-  ibima: ""
+  bacardi:
+    "Acompañamos el lanzamiento de la nueva línea caribeña de Bacardi, en colaboración con la agencia BigBadWolf",
+  "ac-hotel":
+    "Elevamos la experiencia de The Suite Bar, el rooftop más exclusivo del Hotel AC by Marriottt Málaga Palacio.",
+  "festival-malaga":
+    "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+  ibima: "Producción de vídeo institucional para el Instituto de Investigación Biomédica de Málaga (IBIMA) durante un encuentro científico internacional sobre dermatología atópica.",
+  "gobierno-madrid": "Cobertura fotográfica y audiovisual de actos institucionales de la Delegación del Gobierno en Madrid, documentando eventos culturales y oficiales con una narrativa cercana y auténtica.",
+  "schmit-cocinas": "Fortalecimos la presencia digital de Schmidt Málaga Centro con una estrategia de contenidos que humaniza la marca a través de fotografía profesional, producción de vídeo y contenido protagonizado por su equipo.",
 };
 
 const CLIENTS_DESCRIPTIONS_EN = {
@@ -426,10 +442,15 @@ const CLIENTS_DESCRIPTIONS_EN = {
     "Nordic Guarantee, an international company specialized in financial guarantees and surety insurance with presence across Europe, invited us to document a corporate event held at the Hotel Miramar in Málaga.",
   agape: "Captures the essence of the Mediterranean in every jewel",
   "grupo-amigos": "Mexican authenticity with a sophisticated twist",
-  bacardi: "We accompany the launch of the new Caribbean line of Bacardi, in collaboration with the BigBadWolf agency",
-  "ac-hotel": "We elevate the experience of The Suite Bar, the most exclusive rooftop at the AC Hotel by Marriott Málaga Palacio.",
-  "festival-malaga": "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
-  ibima: ""
+  bacardi:
+    "We accompany the launch of the new Caribbean line of Bacardi, in collaboration with the BigBadWolf agency",
+  "ac-hotel":
+    "We elevate the experience of The Suite Bar, the most exclusive rooftop at the AC Hotel by Marriottt Málaga Palacio.",
+  "festival-malaga":
+    "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+  ibima: "Institutional video production for the Biomedical Research Institute of Málaga (IBIMA) during an international scientific meeting on atopic dermatitis.",
+  "gobierno-madrid": "Photographic and audiovisual coverage of institutional events for the Government Delegation in Madrid, documenting cultural and official events with a close and authentic narrative.",
+  "schmit-cocinas": "We strengthened the digital presence of Schmidt Málaga Centro with a content strategy that humanizes the brand through professional photography, video production, and content featuring their own team.",
 };
 
 const CLIENTS_IMAGES = {
@@ -455,27 +476,38 @@ const CLIENTS_IMAGES = {
     "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
   "festival-malaga":
     "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
+  ibima:
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
+  "gobierno-madrid":
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
+  "schmit-cocinas":
+    "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
 };
 
 // LANDINGS PAGE
 const productionPage = {
   es: {
     title: "Tinta | Producción audiovisual y fotografía en España.",
-    description: "Somos una agencia de creación de contenido, experta en videos corporativos, coberturas de eventos, reels y sesiones fotográficas de alta calidad.",
-    keywords: "Videos corporativos, producción audiovisual, fotografía profesional, reels para redes sociales, cobertura de eventos, fotografía de producto",
+    description:
+      "Somos una agencia de creación de contenido, experta en videos corporativos, coberturas de eventos, reels y sesiones fotográficas de alta calidad.",
+    keywords:
+      "Videos corporativos, producción audiovisual, fotografía profesional, reels para redes sociales, cobertura de eventos, fotografía de producto",
     robots: "index, follow",
   },
   en: {
     title: "Tinta | Production of audiovisual and photography in Spain.",
-    description: "We are a content creation agency, expert in corporate videos, event coverage, reels and professional photography sessions.",
-    keywords: "Corporate videos, audiovisual production, professional photography, reels for social media, event coverage, product photography",
+    description:
+      "We are a content creation agency, expert in corporate videos, event coverage, reels and professional photography sessions.",
+    keywords:
+      "Corporate videos, audiovisual production, professional photography, reels for social media, event coverage, product photography",
     robots: "index, follow",
   },
 };
 
 const videoPage = {
   es: {
-    title: "Producción de video para empresas | Videos corporativos y contenido audiovisual",
+    title:
+      "Producción de video para empresas | Videos corporativos y contenido audiovisual",
     description:
       "Producción de video para empresas: videos corporativos, contenido para redes sociales, cobertura de eventos y videos promocionales. Creamos contenido audiovisual estratégico para marcas que buscan visibilidad y crecimiento.",
     keywords:
@@ -513,30 +545,42 @@ const fotografiaPage = {
 
 const aestheticPage = {
   es: {
-    title: "Tinta | Marketing digital y redes sociales para clínicas estéticas en España",
-    description: "Especialistas en videos profesionales, fotografía de tratamientos, publicidad efectiva y gestión de redes sociales para potenciar clínicas estéticas.",
-    keywords: "marketing digital clínicas estéticas, videos para centros de belleza, fotografía tratamientos estéticos, gestión redes sociales dental estética, publicidad Google Ads clínicas",
+    title:
+      "Tinta | Marketing digital y redes sociales para clínicas estéticas en España",
+    description:
+      "Especialistas en videos profesionales, fotografía de tratamientos, publicidad efectiva y gestión de redes sociales para potenciar clínicas estéticas.",
+    keywords:
+      "marketing digital clínicas estéticas, videos para centros de belleza, fotografía tratamientos estéticos, gestión redes sociales dental estética, publicidad Google Ads clínicas",
     robots: "index, follow",
   },
   en: {
-    title: "Tinta | Digital marketing and social media for aesthetic clinics in Spain",
-    description: "Specialists in professional videos, treatment photography, effective advertising and social media management to boost aesthetic clinics.",
-    keywords: "digital marketing aesthetic clinics, videos for beauty centers, aesthetic treatment photography, social media management aesthetic medicine, Google Ads advertising clinics",
+    title:
+      "Tinta | Digital marketing and social media for aesthetic clinics in Spain",
+    description:
+      "Specialists in professional videos, treatment photography, effective advertising and social media management to boost aesthetic clinics.",
+    keywords:
+      "digital marketing aesthetic clinics, videos for beauty centers, aesthetic treatment photography, social media management aesthetic medicine, Google Ads advertising clinics",
     robots: "index, follow",
   },
 };
 
 const dentalPage = {
   es: {
-    title: "Tinta | Marketing digital y redes sociales para clínicas dentales en España",
-    description: "Especialistas en videos profesionales, fotografía de tratamientos dentales, publicidad efectiva y gestión de redes sociales para potenciar clínicas dentales.",
-    keywords: "marketing digital clínicas dentales, videos para clínicas dentales, fotografía tratamientos dentales, gestión redes sociales odontología, publicidad Google Ads dentistas",
+    title:
+      "Tinta | Marketing digital y redes sociales para clínicas dentales en España",
+    description:
+      "Especialistas en videos profesionales, fotografía de tratamientos dentales, publicidad efectiva y gestión de redes sociales para potenciar clínicas dentales.",
+    keywords:
+      "marketing digital clínicas dentales, videos para clínicas dentales, fotografía tratamientos dentales, gestión redes sociales odontología, publicidad Google Ads dentistas",
     robots: "index, follow",
   },
   en: {
-    title: "Tinta | Digital marketing and social media for dental clinics in Spain",
-    description: "Specialists in professional videos, dental treatment photography, effective advertising and social media management to boost dental clinics.",
-    keywords: "digital marketing dental clinics, videos for dental clinics, dental treatment photography, social media management dentistry, Google Ads advertising dentists",
+    title:
+      "Tinta | Digital marketing and social media for dental clinics in Spain",
+    description:
+      "Specialists in professional videos, dental treatment photography, effective advertising and social media management to boost dental clinics.",
+    keywords:
+      "digital marketing dental clinics, videos for dental clinics, dental treatment photography, social media management dentistry, Google Ads advertising dentists",
     robots: "index, follow",
   },
 };
@@ -544,13 +588,15 @@ const dentalPage = {
 const thankYouPage = {
   es: {
     title: "Gracias por tu mensaje | Agencia Tinta",
-    description: "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas.",
+    description:
+      "Hemos recibido tu solicitud correctamente. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas.",
     keywords: "contacto, mensaje enviado, agencia, servicios audiovisuales",
     robots: "noindex, follow",
   },
   en: {
     title: "Thank you for your message | Tinta Agency",
-    description: "We have received your request successfully. Our team will contact you within the next 24 hours.",
+    description:
+      "We have received your request successfully. Our team will contact you within the next 24 hours.",
     keywords: "contact, message sent, agency, audiovisual services",
     robots: "noindex, follow",
   },
