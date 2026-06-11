@@ -19,11 +19,12 @@ export default async function HomePage({
   return (
     <main>
       <Hero translations={hero} />
-      <AboutHome translations={about} />
+      <AboutHome lang={lang} translations={about} />
       <PortfolioGrid
+        lang={lang}
         translations={{ portfolioGrid: common.portfolioGrid, portfolio }}
       />
-      
+
       <Clients />
       <div style={{ position: "relative", overflow: "hidden" }}>
         <Blob
@@ -35,9 +36,9 @@ export default async function HomePage({
         />
         <FaqSection translations={faq} />
         {/* <AiSection translations={aiSection} /> */}
-       {/*  <RealitySection translations={realitySection} /> */}
+        {/*  <RealitySection translations={realitySection} /> */}
       </div>
-      <Cta translations={cta} />
+      <Cta lang={lang} translations={cta} />
     </main>
   );
 }

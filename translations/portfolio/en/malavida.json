@@ -1,32 +1,32 @@
 {
   "hero": {
     "title": "Malavida",
-    "subtitle": "Malavida es un punto de encuentro donde la buena comida, los cócteles y la diversión se viven sin reglas.",
+    "subtitle": "Malavida is a meeting point where good food, cocktails, and fun are experienced without rules.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033083/agencia-tinta/portfolio/malavida/fotos/banner_pphdge.jpg",
     "imageAlt": "Malavida local",
-    "sector": "Gastronomía",
-    "categories": ["Fotografía", "Video"]
+    "sector": "Gastronomy",
+    "categories": ["Photography", "Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "A través de fotografía y videos dinámicos, ayudamos a definir su identidad de marca y a generar contenido de valor que refleja su espíritu descontracturado y vibrante. Desde su propuesta gastronómica—hamburguesas, pizzas y cócteles—hasta sus experiencias únicas con otras empresas, cada imagen y clip transmite el ADN de Malavida: disfrutar sin ataduras. Con este trabajo, logramos potenciar su presencia digital, reforzar su posicionamiento y conectar con un público que busca planes auténticos y llenos de energía"
+      "description": "Through photography and dynamic videos, we helped define their brand identity and generate valuable content that reflects their laid-back and vibrant spirit. From their culinary proposal—burgers, pizzas, and cocktails—to their unique experiences with other companies, every image and clip conveys Malavida's DNA: enjoying without ties. With this work, we managed to boost their digital presence, reinforce their positioning, and connect with an audience seeking authentic and energetic plans."
     },
     {
       "type": "imagesInRow",
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033053/agencia-tinta/portfolio/malavida/fotos/1_v9th9p.jpg",
-          "imageAlt": "Foto del hamburguesa"
+          "imageAlt": "Burger photo"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033056/agencia-tinta/portfolio/malavida/fotos/2_xllnb8.jpg",
-          "imageAlt": "Mujer por probar una hamburguesa con una copa de cerveza en la mano"
+          "imageAlt": "Woman about to try a burger with a beer in hand"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033075/agencia-tinta/portfolio/malavida/fotos/3_y91dcx.jpg",
-          "imageAlt": "Mesa con comida vista desde arriba"
+          "imageAlt": "Table with food viewed from above"
         }
       ]
     },
@@ -56,11 +56,11 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033060/agencia-tinta/portfolio/malavida/fotos/4_cvq10h.jpg",
-          "imageAlt": "Hamburguesa con patatas"
+          "imageAlt": "Burger with fries"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033051/agencia-tinta/portfolio/malavida/fotos/5_w0kaxa.jpg",
-          "imageAlt": "Sandwich de pollo crujiente"
+          "imageAlt": "Crispy chicken sandwich"
         }
       ]
     },
@@ -69,11 +69,11 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033070/agencia-tinta/portfolio/malavida/fotos/6_wttpie.jpg",
-          "imageAlt": "Pizza vista desde arriba"
+          "imageAlt": "Pizza viewed from above"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033063/agencia-tinta/portfolio/malavida/fotos/7_fk8mra.jpg",
-          "imageAlt": "Hot dog con cerveza"
+          "imageAlt": "Hot dog with beer"
         }
       ]
     },
@@ -82,15 +82,15 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033077/agencia-tinta/portfolio/malavida/fotos/8_oejc9x.jpg",
-          "imageAlt": "Hamburguesa con cheddar y bacon"
+          "imageAlt": "Burger with cheddar and bacon"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033065/agencia-tinta/portfolio/malavida/fotos/9_u1m1ml.jpg",
-          "imageAlt": "Grafiti en la pared"
+          "imageAlt": "Graffiti on the wall"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033067/agencia-tinta/portfolio/malavida/fotos/10_xv8uqs.jpg",
-          "imageAlt": "Sandwich de pollo"
+          "imageAlt": "Chicken sandwich"
         }
       ]
     },
@@ -99,11 +99,11 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033072/agencia-tinta/portfolio/malavida/fotos/11_bqvhfr.jpg",
-          "imageAlt": "Postre cookies con nutella"
+          "imageAlt": "Cookies with nutella dessert"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033058/agencia-tinta/portfolio/malavida/fotos/12_f2jrxo.jpg",
-          "imageAlt": "Tarta cheesecake"
+          "imageAlt": "Cheesecake"
         }
       ]
     }
@@ -111,14 +111,14 @@
   "related": [
     {
       "title": "Smash",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
       "imageAlt": "smash burger",
       "slug": "smash-burger"
     },
     {
       "title": "Black Label",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
       "imageAlt": "Black Label",
       "slug": "black-label"

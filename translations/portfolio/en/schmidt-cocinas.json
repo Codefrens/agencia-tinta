@@ -4,24 +4,24 @@
     "subtitle": "We strengthened the digital presence of Schmidt Málaga Centro with a content strategy that humanizes the brand through professional photography, video production, and content featuring their own team.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839002/agencia-tinta/portfolio/schmit/cobertura-evento-1_oblfpn.webp",
     "imageAlt": "Schmidt Cocinas",
-    "sector": "Mobiliario",
-    "categories": ["Fotografía", "Video"],
+    "sector": "Furniture",
+    "categories": ["Photography", "Video"],
     "client": "Schmidt Cocinas"
   },
   "sections": [
     {
       "type": "paragraph",
-      "title": "El desafío",
+      "title": "The Challenge",
       "description": "Schmidt, one of Europe's leading manufacturers of kitchens and custom furniture, needed to strengthen its social media presence at a local level. While the quality of its products was undisputed, its digital communication did not reflect with the same strength the personalized guidance, attention to detail, and human factor that characterize the experience of its customers."
     },
     {
       "type": "paragraph",
-      "title": "La estrategia",
+      "title": "The Strategy",
       "description": "We developed a content strategy centered on humanizing the brand without losing its premium positioning. We combined professional photography of kitchens and finished spaces, video production for social media, event coverage, and content creation featuring the Schmidt Málaga Centro team itself. The goal was to showcase not only the final result of each project, but also the process, the advisory work, and the close relationship the brand builds with each client from the first meeting to the final delivery."
     },
     {
       "type": "paragraph",
-      "title": "Resultado",
+      "title": "Result",
       "description": "We created a visual content library capable of conveying the brand's essence from a closer and more authentic perspective. Through corporate photography, social media videos, and people-centered content, Schmidt Málaga Centro managed to communicate its value proposition more effectively, reinforcing the trust of potential clients and differentiating itself in a highly competitive sector."
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "title": "Festival de Málaga",
-      "categories": ["Fotografía", "Video"],
+      "categories": ["Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
       "imageAlt": "Festival de Málaga",
       "slug": "festival-malaga"

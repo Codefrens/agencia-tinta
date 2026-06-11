@@ -12,14 +12,23 @@ type CardProps = {
   title: string;
   categories: string[];
   link: string;
+  lang?: "es" | "en";
 };
 
-const Card = ({ imgSrc, imgAlt, title, categories, link }: CardProps) => {
+const Card = ({
+  imgSrc,
+  imgAlt,
+  title,
+  categories,
+  link,
+  lang = "es",
+}: CardProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
   const [isHover, setIsHover] = useState(false);
+  const buttonText = lang === "es" ? "Ver" : "View";
 
   const mouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!ref.current) return;
@@ -54,7 +63,7 @@ const Card = ({ imgSrc, imgAlt, title, categories, link }: CardProps) => {
           exit: { scale: 0, transition: { duration: 0.1 } },
         }}
       >
-        Ver
+        {buttonText}
       </motion.div>
       <Link href={link}>
         <div className={styles.imageWrapper}>

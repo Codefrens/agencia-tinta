@@ -1,10 +1,10 @@
 {
   "hero": {
     "title": "Grupo Amigos",
-    "subtitle": "Autenticidad mexicana con un giro sofisticado. Alta cocina, arte urbano y un ambiente vibrante que transforman cada comida en una experiencia sensorial única.",
+    "subtitle": "Mexican authenticity with a sophisticated twist. Haute cuisine, urban art, and a vibrant atmosphere that transform every meal into a unique sensory experience.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036450/agencia-tinta/portfolio/grupo-amigos/banner_qe0yqu.jpg",
-    "imageAlt": "Cartel de grupo amigos",
-    "sector": "Gastronomía",
+    "imageAlt": "Grupo Amigos poster",
+    "sector": "Gastronomy",
     "categories": ["Video"],
     "client": "Grupo Amigos"
   },
@@ -12,7 +12,7 @@
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "Para el Grupo Amigos, desarrollamos un spot publicitario que resalta una propuesta gastronómica única: en la terraza Plaza Mayor, puedes disfrutar de la cocina italiana, india y mexicana en un mismo sitio. El video fue proyectado en las salas del cine y combinó una estética con planos atractivos de los platos, los espacios y la experiencia de los comensales. La estrategia visual reforzó la identidad de ambos restaurantes, aumentando su visibilidad y atrayendo a un público diverso que busca variedad sin moverse de lugar."
+      "description": "For Grupo Amigos, we developed an advertising spot highlighting a unique culinary proposal: on the Plaza Mayor terrace, you can enjoy Italian, Indian, and Mexican cuisine in one place. The video was projected in cinema halls and combined an aesthetic with attractive shots of the dishes, spaces, and diners' experience. The visual strategy reinforced the identity of both restaurants, increasing their visibility and attracting a diverse audience seeking variety without moving from one spot."
     },
     {
       "type": "video",
@@ -24,7 +24,7 @@
   "related": [
     {
       "title": "Cantina Canalla",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
       "imageAlt": "Cantina Canalla",
       "slug": "cantina-canalla"

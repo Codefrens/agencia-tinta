@@ -8,8 +8,10 @@ import Link from "next/link";
 import { motion } from "motion/react";
 
 const PortfolioGrid = ({
+  lang,
   translations,
 }: {
+  lang: "es" | "en";
   translations: {
     portfolio: Translations["homePage"]["portfolio"];
     portfolioGrid: Translations["common"]["portfolioGrid"];
@@ -34,16 +36,17 @@ const PortfolioGrid = ({
         {translations.portfolioGrid.slice(0, 4).map((port) => (
           <motion.div key={port.title}>
             <Card
+              lang={lang}
               imgAlt={port.imageAlt}
               imgSrc={port.imageUrl}
               title={port.title}
               categories={port.categories}
-              link={`/portfolio/${port.slug}`}
+              link={`/${lang}/portfolio/${port.slug}`}
             />
           </motion.div>
         ))}
       </motion.div>
-      <Link href={"/portfolio"} className={styles.buttonWrapper}>
+      <Link href={`/${lang}/portfolio`} className={styles.buttonWrapper}>
         <Button className={styles.button} fill>
           {translations.portfolio.morePortfolio}
         </Button>

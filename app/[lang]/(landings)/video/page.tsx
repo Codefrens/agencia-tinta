@@ -10,6 +10,7 @@ import LandingForm from "@/components/LandingsPage/LandingForm";
 import { loadLocalContent } from "@/content/fetch";
 import { Metadata } from "next";
 import { SEO_METADATA } from "@/utils/SEOmetadata";
+import ReviewsFeaturable from "@/components/ui/Reviews/ReviewsFeaturable";
 
 export const generateMetadata = async ({
   params,
@@ -30,12 +31,14 @@ export const generateMetadata = async ({
     openGraph: {
       ...(base as Metadata).openGraph,
       title: (base as Metadata).openGraph?.title || (base as Metadata).title,
-      description: (base as Metadata).openGraph?.description || (base as Metadata).description,
+      description:
+        (base as Metadata).openGraph?.description ||
+        (base as Metadata).description,
       url: canonical,
       siteName,
-      images:
-        (base as Metadata).openGraph?.images ||
-        [{ url: ogImage, width: 1200, height: 630, alt: siteName }],
+      images: (base as Metadata).openGraph?.images || [
+        { url: ogImage, width: 1200, height: 630, alt: siteName },
+      ],
       locale: lang === "es" ? "es_ES" : "en_US",
       type: "website",
     },
@@ -43,7 +46,9 @@ export const generateMetadata = async ({
       ...(base as Metadata).twitter,
       card: "summary_large_image",
       title: (base as Metadata).twitter?.title || (base as Metadata).title,
-      description: (base as Metadata).twitter?.description || (base as Metadata).description,
+      description:
+        (base as Metadata).twitter?.description ||
+        (base as Metadata).description,
       site: "@agenciatinta",
       creator: "@agenciatinta",
       images: (base as Metadata).twitter?.images || [ogImage],
@@ -56,20 +61,19 @@ export default async function ProductionPage({
 }: {
   params: Promise<{ lang: "es" | "en" }>;
 }) {
-
   const lang = (await params).lang;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const content = loadLocalContent("landings", lang, "production") as any;
   const hero = content.heroVideo || content.hero;
   const services = content.servicesVideo || content.services;
   const videosSection = content.videosVideo || content.videos;
-  const videosList = videosSection?.videosList || content.videos?.videosList || [];
+  const videosList =
+    videosSection?.videosList || content.videos?.videosList || [];
 
   const worksSection = content.worksVideo || content.works;
-  const worksList =
-    worksSection?.worksList?.length
-      ? worksSection.worksList
-      : (content.works?.worksList || []).filter((work) => work.type === "video");
+  const worksList = worksSection?.worksList?.length
+    ? worksSection.worksList
+    : (content.works?.worksList || []).filter((work) => work.type === "video");
 
   return (
     <>
@@ -78,7 +82,11 @@ export default async function ProductionPage({
         subtitle={hero.description}
         backgroundImage={hero.backgroundImage}
       >
-        <LandingForm lang={lang} formTranslations={content.form} source="landing-aesthetic" />
+        <LandingForm
+          lang={lang}
+          formTranslations={content.form}
+          source="landing-aesthetic"
+        />
       </Hero>
 
       <Services
@@ -112,6 +120,7 @@ export default async function ProductionPage({
         titleLight={content.testimonials.titleLight}
         titleBold={content.testimonials.titleBold}
         testimonialsList={content.testimonials.testimonialsList}
+        testimonialsGoogle={<ReviewsFeaturable />}
       />
 
       {content.faqVideo ? <FaqSection translations={content.faqVideo} /> : null}

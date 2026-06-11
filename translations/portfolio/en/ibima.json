@@ -4,24 +4,24 @@
     "subtitle": "Institutional video production for the Biomedical Research Institute of Málaga (IBIMA) during an international scientific meeting on atopic dermatitis.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
     "imageAlt": "Institutional video IBIMA - Biomedical Research Institute of Málaga",
-    "sector": "Salud",
+    "sector": "Health",
     "categories": ["Video"],
     "client": "Ibima"
   },
   "sections": [
     {
       "type": "paragraph",
-      "title": "El desafío",
+      "title": "The Challenge",
       "description": "The Biomedical Research Institute of Málaga (IBIMA) commissioned us to produce an institutional video during a scientific meeting held at the Hospital Virgen de la Victoria (Málaga), which brought together dermatologists from Spain and Portugal in collaboration with the biopharmaceutical company AbbVie. The event focused on knowledge exchange around atopic dermatitis, clinical research, and international collaboration among medical teams."
     },
     {
       "type": "paragraph",
-      "title": "La estrategia",
+      "title": "The Strategy",
       "description": "We developed an institutional video production aimed at documenting the meeting through a clear and accessible narrative, without losing the scientific rigor of the context. The approach focused on capturing the presentations, the exchange dynamics among professionals, and the value of international collaboration, building an audiovisual piece that reflected both the academic content and the importance of joint work between research institutions and the biopharmaceutical industry."
     },
     {
       "type": "paragraph",
-      "title": "Resultado",
+      "title": "Result",
       "description": "We delivered an institutional video that synthesizes the key moments of the meeting and conveys the value of collaborative research in the field of dermatology. The material allowed IBIMA to have an audiovisual piece for scientific communication to be disseminated through institutional channels, strengthening its positioning as a benchmark in biomedical research and international collaboration."
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "title": "Festival de Málaga",
-      "categories": ["Fotografía", "Video"],
+      "categories": ["Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
       "imageAlt": "Festival de Málaga",
       "slug": "festival-malaga"

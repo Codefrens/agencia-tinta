@@ -10,8 +10,10 @@ import { Translations } from "@/translations/types";
 import { cubicBezier, motion, useScroll, useTransform } from "motion/react";
 
 const NavbarClient = ({
+  lang,
   translations,
 }: {
+  lang: "es" | "en";
   translations: Translations["common"];
 }) => {
   const { scrollY } = useScroll();
@@ -35,7 +37,7 @@ const NavbarClient = ({
             delay: 0.4,
           }}
         >
-          <Link href="/" aria-label="go to home page" className={styles.logo}>
+          <Link href={`/${lang}`} aria-label="go to home page" className={styles.logo}>
             <Image
               src="https://res.cloudinary.com/nicojoystin/image/upload/v1740221032/agencia-tinta/logo-tinta_utcrxj.svg"
               alt="Tinta logo"
@@ -47,32 +49,32 @@ const NavbarClient = ({
           <div className={styles.links}>
             <ul>
               <li>
-                <Link href="/agency">
+                <Link href={`/${lang}/agency`}>
                   {translations.navigationLinks.agency}
                 </Link>
               </li>
               <li>
-                <Link href="/video">
+                <Link href={`/${lang}/video`}>
                   {translations.navigationLinks.video}
                 </Link>
               </li>
               <li>
-                <Link href="/fotografia">
+                <Link href={`/${lang}/fotografia`}>
                   {translations.navigationLinks.fotografia}
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio">
+                <Link href={`/${lang}/portfolio`}>
                   {translations.navigationLinks.portfolio}
                 </Link>
               </li>
 {/*               <li>
-                <Link href="/foodar">
+                <Link href={`/${lang}/foodar`}>
                   {translations.navigationLinks.foodar}
                 </Link>
               </li> */}
               <li>
-                <Link href="/contact">
+                <Link href={`/${lang}/contact`}>
                   {translations.navigationLinks.contact}
                 </Link>
               </li>
@@ -87,7 +89,7 @@ const NavbarClient = ({
             </ul>
           </div>
           <div className={styles.burgerMenu}>
-            <BurgerMenu translations={translations.navigationLinks} />
+            <BurgerMenu lang={lang} translations={translations} />
           </div>
         </motion.div>
       </Container>

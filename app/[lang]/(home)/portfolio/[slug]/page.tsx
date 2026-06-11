@@ -90,9 +90,9 @@ export default async function PortfolioDetailPage({
         }
       })}
       <div style={{ marginTop: "100px" }}>
-        <Cta translations={common.cta} />
+        <Cta lang={lang} translations={common.cta} />
       </div>
-      <Related related={content.related} />
+      <Related lang={lang} related={content.related} />
     </main>
   );
 }

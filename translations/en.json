@@ -15,29 +15,29 @@
     "portfolioGrid": [
       {
         "title": "AC Hotel Marriott",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
         "imageAlt": "AC Hotel Marriott food image",
         "slug": "ac-hotel"
       },
       {
         "title": "Delegación del Gobierno en Madrid",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
-        "imageAlt": "Delegación del Gobierno en Madrid",
+        "imageAlt": "Government Delegation in Madrid",
         "slug": "gobierno-madrid"
       },
 
       {
         "title": "Bacardi",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
         "imageAlt": "Bacardi",
         "slug": "bacardi"
       },
       {
         "title": "Schmidt Cocinas",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
         "imageAlt": "Schmidt Cocinas",
         "slug": "schmidt-cocinas"
@@ -45,35 +45,35 @@
 
       {
         "title": "Cantina Canalla",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "categories": ["Visual Identity", "Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
         "imageAlt": "Cantina Canalla food image",
         "slug": "cantina-canalla"
       },
       {
         "title": "Black Label",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "categories": ["Visual Identity", "Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
         "imageAlt": "Black Label",
         "slug": "black-label"
       },
       {
         "title": "Remax Coast",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
         "imageAlt": "",
         "slug": "remax-coast"
       },
       {
         "title": "Smash",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "categories": ["Visual Identity", "Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
         "imageAlt": "",
         "slug": "smash-burger"
       },
       {
         "title": "Festival de Málaga",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
         "imageAlt": "",
         "slug": "festival-malaga"
@@ -109,7 +109,7 @@
       },
       {
         "title": "Malavida",
-        "categories": ["Fotografía", "Video"],
+        "categories": ["Photography", "Video"],
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
         "imageAlt": "",
         "slug": "malavida"
@@ -150,7 +150,7 @@
       "paragraph": "3D menus for restaurants: make an impact with realistic visualization, interaction, and a unique experience.",
       "buttonLabel": "Discover Foodar",
       "imgSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1741895413/agencia-tinta/home/Food_AR_epka13.png",
-      "imgAlt": "Realidad aumentada"
+      "imgAlt": "Augmented reality"
     },
     "faq": {
       "titleLight": "What you should know about our",

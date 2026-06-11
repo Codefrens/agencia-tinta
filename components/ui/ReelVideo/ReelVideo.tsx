@@ -12,10 +12,12 @@ const ReelVideo = ({
   videoUrl,
   posterSrc,
   videoAlt,
+  videoLabelButton = "Watch video",
 }: {
   videoUrl: string;
   posterSrc: string;
   videoAlt: string;
+  videoLabelButton?: string;
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [showPoster, setShowPoster] = useState(true);
@@ -70,7 +72,7 @@ const ReelVideo = ({
         }}
       >
         <Image src={posterSrc} alt={videoAlt} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw" style={{ objectFit: "cover" }} />
-        <VideoButton>Ver video</VideoButton>
+        <VideoButton>{videoLabelButton}</VideoButton>
       </motion.div>
 
       {isMobile ? (

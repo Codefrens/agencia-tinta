@@ -1,17 +1,17 @@
 {
   "hero": {
     "title": "Agape",
-    "subtitle": "Captura la esencia del Mediterráneo en cada joya. Con oro martillado y diseño atemporal, cada pieza es un tributo al arte y la historia.",
+    "subtitle": "Captures the essence of the Mediterranean in every jewel. With hammered gold and timeless design, each piece is a tribute to art and history.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035846/agencia-tinta/portfolio/agape/banner_hat2kh.jpg",
     "imageAlt": "Joya sobre el mar",
-    "sector": "Joyería",
+    "sector": "Jewelry",
     "categories": ["Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "Cada reel capturó el brillo del oro martillado en movimiento, evocando los reflejos del sol sobre el mar y el encanto de una joya con historia. A través de una narrativa visual sofisticada y una dirección artística alineada con su identidad, logramos transmitir la calidez, la elegancia y el legado que define a Agapée. Este enfoque permitió a la marca reforzar su imagen en redes sociales, conectar emocionalmente con su audiencia y potenciar su identidad visual como una joyería inspirada en la cultura mediterránea y parisina. "
+      "description": "Each reel captured the brilliance of hammered gold in motion, evoking the sun's reflections on the sea and the charm of a jewel with history. Through a sophisticated visual narrative and art direction aligned with its identity, we managed to convey the warmth, elegance, and legacy that defines Agapée. This approach allowed the brand to strengthen its image on social media, connect emotionally with its audience, and enhance its visual identity as a jewelry brand inspired by Mediterranean and Parisian culture."
     },
     {
       "type": "uniqueReel",
@@ -19,7 +19,7 @@
       "videos": [
         {
           "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.mp4",
-          "videoAlt": "Video de ejemplo",
+          "videoAlt": "Example video",
           "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/so_1/v1742035927/agencia-tinta/portfolio/agape/Agape_v2_ztbnxc.jpg"
         }
       ]
@@ -28,14 +28,14 @@
   "related": [
     {
       "title": "AC Hotel",
-      "categories": ["Fotografía", "Video"],
+      "categories": ["Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
       "imageAlt": "AC Hotel",
       "slug": "ac-hotel"
     },
     {
       "title": "Bacardi",
-      "categories": ["Fotografía", "Video"],
+      "categories": ["Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
       "imageAlt": "Bacardi",
       "slug": "bacardi"

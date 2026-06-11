@@ -5,7 +5,7 @@ import NavbarClient from "./NavBarClient";
 const Navbar = async ({ lang }: { lang: "es" | "en" }) => {
   const { common } = await getTranslations(lang);
 
-  return <NavbarClient translations={common} />;
+  return <NavbarClient lang={lang} translations={common} />;
 };
 
 export default Navbar;

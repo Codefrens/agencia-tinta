@@ -74,13 +74,13 @@ const Footer = ({ lang }: { lang: 'es' | 'en' }) => {
           </div>
         </div>
         <div className={styles.legalLinks}>
-          <Link href="/cookies" className={styles.link}>
+          <Link href={`/${lang}/cookies`} className={styles.link}>
             {lang === 'es' ? 'Políticas de Cookies' : 'Cookie Policy'}
           </Link>
-          <Link href="/privacy" className={styles.link}>
+          <Link href={`/${lang}/privacy`} className={styles.link}>
             {lang === 'es' ? 'Política de Privacidad' : 'Privacy Policy'}
           </Link>
-          <Link href="/legal" className={styles.link}>
+          <Link href={`/${lang}/legal`} className={styles.link}>
             {lang === 'es' ? 'Aviso Legal' : 'Legal Notice'}
           </Link>
           </div>

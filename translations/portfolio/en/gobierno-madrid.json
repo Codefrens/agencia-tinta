@@ -4,24 +4,24 @@
     "subtitle": "Photographic and audiovisual coverage of institutional events for the Government Delegation in Madrid, documenting cultural and official events with a close and authentic narrative.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
     "imageAlt": "Government Delegation in Madrid",
-    "sector": "Institucional",
-    "categories": ["Fotografía", "Video"],
+    "sector": "Institutional",
+    "categories": ["Photography", "Video"],
     "client": "Delegación del Gobierno en Madrid"
   },
   "sections": [
     {
       "type": "paragraph",
-      "title": "El desafío",
+      "title": "The Challenge",
       "description": "The Madrid Government Delegation commissioned us to provide photographic and audiovisual coverage of four institutionally significant events held at different locations across the Community of Madrid. The project included an artistic performance at the Complutense University, the Las Meninas awards gala, the \"Murales 50 Años España en Libertad\" artistic tour, and the official ceremony for Spanish Constitution Day."
     },
     {
       "type": "paragraph",
-      "title": "La estrategia",
+      "title": "The Strategy",
       "description": "We developed comprehensive coverage aimed at generating versatile content for different channels and objectives. Through professional photography, event reportage, and institutional video production, we sought to build a close and authentic narrative, capable of transporting the viewer to the heart of each gathering. The goal was not only to document what happened, but to faithfully convey the emotion, participation, and significance of each event, making those who watched the content feel as if they had been there."
     },
     {
       "type": "paragraph",
-      "title": "Resultados",
+      "title": "Results",
       "description": "We delivered a content bank consisting of photographs, audiovisual pieces for social media, and longer-format videos for web and institutional use. The material helped amplify the dissemination of each initiative, preserving the essence and emotion of each day, and generating valuable resources for the Madrid Government Delegation's communication across multiple channels."
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "title": "Festival de Málaga",
-      "categories": ["Fotografía", "Video"],
+      "categories": ["Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
       "imageAlt": "Festival de Málaga",
       "slug": "festival-malaga"

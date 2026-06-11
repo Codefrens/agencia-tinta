@@ -29,7 +29,7 @@ export default async function AgencyPage({
       <ImageCarrousel />
       <AgencyInformation translations={agencyPage} />
       <Clients />
-      <Cta translations={cta} />
+      <Cta lang={lang} translations={cta} />
     </main>
   );
 }
