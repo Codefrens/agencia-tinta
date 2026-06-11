@@ -1,27 +1,27 @@
 {
   "hero": {
     "title": "Black Label",
-    "subtitle": "El street food americano elevado al máximo nivel. Hamburguesas y carnes al carbón, ingredientes premium y una atmósfera rebelde que redefine la experiencia gastronómica.",
+    "subtitle": "American street food elevated to the highest level. Burgers and charcoal-grilled meats, premium ingredients, and a rebellious atmosphere that redefines the gastronomic experience.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224046/agencia-tinta/portfolio/black-label/fotos/banner_boyrds.jpg",
     "imageAlt": "Black Label",
-    "sector": "Gastronomía",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "sector": "Gastronomy",
+    "categories": ["Visual Identity", "Photography", "Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Estrategia",
-      "description": "Black Label fusiona el espíritu del street food americano con ingredientes premium y una estética rebelde y urbana. Su concepto rinde homenaje a la cultura neoyorquina-texana, tanto en su gastronomía como en el diseño del local, capturando la esencia de los clásicos diners, las parrillas texanas y el estilo vibrante de las grandes ciudades. Antes de nuestra intervención, la marca necesitaba fortalecer su identidad y presencia digital para transmitir su diferencial y conectar mejor con su audiencia. Para ello, desarrollamos una estrategia de branding y contenido visual impactante, enfocada en storytelling gastronómico y una comunicación alineada con las tendencias del food marketing."
+      "description": "Black Label fuses the spirit of American street food with premium ingredients and a rebellious, urban aesthetic. Its concept pays homage to New York-Texan culture, both in its gastronomy and in the venue's design, capturing the essence of classic diners, Texan grills, and the vibrant style of big cities. Before our intervention, the brand needed to strengthen its identity and digital presence to convey its differential and connect better with its audience. To achieve this, we developed a striking branding and visual content strategy, focused on gastronomic storytelling and communication aligned with food marketing trends."
     },
     {
       "type": "paragraph",
       "title": "Diseño",
-      "description": "Construimos su identidad visual desde cero, definiendo una estética vintage-industrial con un aire disruptivo y callejero, inspirada en la cultura urbana estadounidense. Se trabajó con una paleta oscura de negro, rojo y dorado, tipografías serif bold y texturas inspiradas en el mundo del motor, la música y el rock & roll, con referencias a la Throwback Aesthetic y los deportes norteamericanos. La influencia texana se refleja en la parrilla y el carbón, mientras que la estética neoyorquina cobra vida en luces de neón y detalles urbanos. La dirección de arte apostó por fotografía con close-ups intensos, iluminación contrastada y fondos metálicos y de madera, reforzando su imagen potente. En redes, se aplicaron transiciones dinámicas y tendencias visuales para destacar la experiencia Black Label."
+      "description": "We built its visual identity from scratch, defining a vintage-industrial aesthetic with a disruptive, street-level air, inspired by American urban culture. We worked with a dark palette of black, red, and gold, bold serif typography, and textures inspired by the world of motors, music, and rock & roll, with references to the Throwback Aesthetic and American sports. The Texan influence is reflected in the grill and charcoal, while the New York aesthetic comes alive in neon lights and urban details. The art direction bet on photography with intense close-ups, contrasted lighting, and metallic and wood backgrounds, reinforcing its powerful image. On social media, dynamic transitions and visual trends were applied to highlight the Black Label experience."
     },
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "La marca evolucionó hacia una identidad más premium y diferenciada, consolidándose como un referente en hamburguesas gourmet con un carácter auténtico y evocador. Se logró una coherencia visual total en redes, packaging, interiorismo y experiencia de cliente, fortaleciendo su posicionamiento. El engagement en Instagram creció significativamente, se incrementaron las reservas y Black Label se consolidó como un destino gastronómico de referencia, transportando a sus clientes a la esencia más icónica del street food neoyorquino-texano."
+      "description": "The brand evolved toward a more premium and differentiated identity, establishing itself as a reference in gourmet burgers with an authentic and evocative character. Total visual coherence was achieved across social media, packaging, interior design, and customer experience, strengthening its positioning. Instagram engagement grew significantly, reservations increased, and Black Label consolidated itself as a reference gastronomic destination, transporting its customers to the most iconic essence of New York-Texan street food."
     },
     {
       "type": "twoImages",
@@ -126,14 +126,14 @@
   "related": [
     {
       "title": "Cantina Canalla",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
       "imageAlt": "Cantina Canalla",
       "slug": "cantina-canalla"
     },
     {
       "title": "Smash",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
       "imageAlt": "Smash",
       "slug": "smash-burger"

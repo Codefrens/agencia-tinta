@@ -450,7 +450,7 @@ const CLIENTS_DESCRIPTIONS_EN = {
   "ac-hotel":
     "We elevate the experience of The Suite Bar, the most exclusive rooftop at the AC Hotel by Marriottt Málaga Palacio.",
   "festival-malaga":
-    "Cobertura audiovisual integral de uno de los festivales de cine más importantes de España, generando contenido en tiempo real para maximizar el alcance y la interacción digital.",
+    "Comprehensive audiovisual coverage of one of Spain's most important film festivals, generating real-time content to maximize reach and digital engagement.",
   ibima:
     "Institutional video production for the Biomedical Research Institute of Málaga (IBIMA) during an international scientific meeting on atopic dermatitis.",
   "gobierno-madrid":

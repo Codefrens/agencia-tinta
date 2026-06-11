@@ -1,38 +1,38 @@
 {
   "hero": {
     "title": "Smash Burger",
-    "subtitle": "La esencia de la smash burger: rápida, intensa y sin rodeos. Fast food premium con ingredientes de primera, pensado para quienes buscan sabor sin esperar.",
+    "subtitle": "The essence of the smash burger: fast, intense, and straightforward. Premium fast food with top-quality ingredients, designed for those who seek flavor without waiting.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710135/agencia-tinta/portfolio/smash/fotos/banner_erwcue.jpg",
-    "imageAlt": "Imagen de local de Smash Burger",
-    "sector": "Gastronomía",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "imageAlt": "Smash Burger location image",
+    "sector": "Gastronomy",
+    "categories": ["Visual Identity", "Photography", "Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Estrategia",
-      "description": "Smash combina la calidad premium de la carne con una experiencia ágil y accesible. Su esencia es directa y sin rodeos: hamburguesas smash auténticas, ingredientes de primera y rapidez sin perder el estilo artesanal. Fusiona la esencia del fast food con el estándar gourmet, convirtiéndose en una opción ideal para quienes buscan velocidad sin sacrificar calidad. Antes de nuestra intervención, SMASH necesitaba definir una identidad propia dentro del universo Black Label y posicionarse estratégicamente en redes para atraer tanto a clientes locales como turistas. Para ello, desarrollamos una identidad visual moderna y una estrategia digital enfocada en contenido dinámico, campañas de take away y delivery, y una comunicación directa y visualmente impactante."
+      "description": "Smash combines premium meat quality with an agile and accessible experience. Its essence is direct and no-nonsense: authentic smash burgers, top-quality ingredients, and speed without losing the artisanal style. It merges the essence of fast food with the gourmet standard, becoming an ideal option for those seeking speed without sacrificing quality. Before our intervention, SMASH needed to define its own identity within the Black Label universe and position itself strategically on social media to attract both local customers and tourists. To achieve this, we developed a modern visual identity and a digital strategy focused on dynamic content, take-away and delivery campaigns, and direct, visually impactful communication."
     },
     {
       "type": "paragraph",
       "title": "Diseño",
-      "description": "Creamos la identidad de Smash inspirandonos en la estética moderna, urbana y visualmente llamativa. Se apostó por colores vibrantes y contrastes intensos que transmiten energía y frescura, combinados con una estética minimalista con toques grunge. La referencia creativa proviene del street food neoyorquino y la nueva generación de fast food, equilibrando un diseño limpio con referencias de cultura pop. Para conectar con su público joven, se incorporaron stickers, ilustraciones dinámicas y elementos gráficos disruptivos que aportan una identidad visual única. Su imagen comunica dinamismo y autenticidad, con una paleta en negro y rojo intenso, tipografías bold y texturas desgastadas. La dirección de arte enfatiza la velocidad del servicio y la explosión de sabor con fotografía de close-ups humeantes, encuadres rápidos y animaciones en redes, mientras que la cartelería y el packaging refuerzan su mensaje de comida rápida con esencia premium."
+      "description": "We created Smash's identity inspired by modern, urban, and visually striking aesthetics. We bet on vibrant colors and intense contrasts that convey energy and freshness, combined with a minimalist aesthetic with grunge touches. The creative reference comes from New York street food and the new generation of fast food, balancing a clean design with pop culture references. To connect with its young audience, stickers, dynamic illustrations, and disruptive graphic elements were incorporated, providing a unique visual identity. Its image conveys dynamism and authenticity, with a palette of black and intense red, bold typography, and worn textures. The art direction emphasizes service speed and flavor explosion with steaming close-up photography, fast framing, and social media animations, while signage and packaging reinforce its message of fast food with a premium essence."
     },
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "SMASH se ha consolidado como la referencia en smash burgers premium en Málaga, logrando una identidad clara y diferenciada en el mercado. La marca ha ganado notoriedad en poco tiempo, atrayendo a un público fiel que valora la combinación de sabor, rapidez y experiencia visualmente atractiva. Su posicionamiento en el centro de Málaga lo convierte en un destino ideal para turistas y locales, consolidando su reputación dentro del universo Black Label."
+      "description": "SMASH has established itself as the reference in premium smash burgers in Málaga, achieving a clear and differentiated identity in the market. The brand has gained notoriety in a short time, attracting a loyal audience that values the combination of flavor, speed, and a visually attractive experience. Its positioning in the center of Málaga makes it an ideal destination for tourists and locals, consolidating its reputation within the Black Label universe."
     },
     {
       "type": "twoImages",
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201641/agencia-tinta/portfolio/smash/fotos/10_zvcs5p.jpg",
-          "imageAlt": "Hamburguesa con bacon y pull pork"
+          "imageAlt": "Burger with bacon and pulled pork"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201643/agencia-tinta/portfolio/smash/fotos/8_blqqqj.jpg",
-          "imageAlt": "Cartel Smash Burger"
+          "imageAlt": "Smash Burger poster"
         }
       ]
     },
@@ -55,7 +55,7 @@
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/2_fr4lsc.jpg",
-      "imageAlt": "Smash burger clasica",
+      "imageAlt": "Classic smash burger",
       "centered": true,
       "aspectRatio": "12/8"
     },
@@ -68,11 +68,11 @@
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201644/agencia-tinta/portfolio/smash/fotos/3_fytdo9.jpg",
-          "imageAlt": "Cajas de smash burger"
+          "imageAlt": "Smash burger boxes"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201642/agencia-tinta/portfolio/smash/fotos/5_go0bpm.jpg",
-          "imageAlt": "Hamburgesas cocinandose con queso de cabra"
+          "imageAlt": "Burgers cooking with goat cheese"
         }
       ]
     },
@@ -88,18 +88,18 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201639/agencia-tinta/portfolio/smash/fotos/7_rirxfu.jpg",
-          "imageAlt": "Alitas de pollo"
+          "imageAlt": "Chicken wings"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741201640/agencia-tinta/portfolio/smash/fotos/9_jkvrnw.jpg",
-          "imageAlt": "Cerveza La Victoria"
+          "imageAlt": "La Victoria beer"
         }
       ]
     },
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710027/agencia-tinta/portfolio/smash/fotos/feed_final_1_lyxx64.png",
-      "imageAlt": "Identidad grafica Smash Burger",
+      "imageAlt": "Smash Burger graphic identity",
       "aspectRatio": "16/9",
       "centered": true
     },
@@ -122,7 +122,7 @@
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710027/agencia-tinta/portfolio/smash/fotos/feed_final_2_sojeng.png",
-      "imageAlt": "Identidad grafica Smash Burger 2",
+      "imageAlt": "Smash Burger graphic identity 2",
       "centered": true,
       "aspectRatio": "16/9"
     }
@@ -130,14 +130,14 @@
   "related": [
     {
       "title": "Cantina Canalla",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
-      "imageAlt": "Imagen de comida de Cantina Canalla",
+      "imageAlt": "Cantina Canalla food image",
       "slug": "cantina-canalla"
     },
     {
       "title": "Black Label",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
       "imageAlt": "Black Label",
       "slug": "black-label"

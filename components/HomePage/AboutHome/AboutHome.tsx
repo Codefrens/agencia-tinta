@@ -11,8 +11,10 @@ import { motion, useScroll, useTransform } from "motion/react";
 import classNames from "classnames";
 
 const AboutHome = ({
+  lang,
   translations,
 }: {
+  lang: "es" | "en";
   translations: Translations["homePage"]["about"];
 }) => {
   const { scrollY } = useScroll();
@@ -58,7 +60,7 @@ const AboutHome = ({
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
           >
-            <Link href="/agency">
+            <Link href={`/${lang}/agency`}>
               <Button className={styles.button}>
                 {translations.buttonLabel}
               </Button>

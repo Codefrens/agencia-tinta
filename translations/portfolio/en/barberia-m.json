@@ -1,27 +1,27 @@
 {
   "hero": {
     "title": "Barbería M",
-    "subtitle": "Tradición y sofisticación en el cuidado masculino. Un espacio diseñado para quienes buscan calidad, atención personalizada y una experiencia exclusiva en cada servicio.",
+    "subtitle": "Tradition and sophistication in men's grooming. A space designed for those seeking quality, personalized attention, and an exclusive experience in every service.",
     "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Cantina Canalla",
-    "sector": "Cuidado masculino",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "sector": "Men's grooming",
+    "categories": ["Visual Identity", "Photography", "Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Estrategia",
-      "description": "Barbería M es el punto de encuentro entre la tradición y la sofisticación, un espacio donde el cuidado masculino se convierte en una experiencia exclusiva. Más que una barbería, es un refugio diseñado para el disfrute del cliente, con un servicio de alta calidad y atención personalizada. Antes de nuestra intervención, la marca carecía de una identidad visual definida y una estrategia digital que reflejara su esencia. Nuestro desafío fue construir una imagen sólida, diferenciadora y alineada con su propuesta premium, potenciando su presencia en el mercado con un branding estratégico y una comunicación digital efectiva."
+      "description": "Barbería M is the meeting point between tradition and sophistication, a space where men's grooming becomes an exclusive experience. More than a barbershop, it is a refuge designed for the client's enjoyment, with high-quality service and personalized attention. Before our intervention, the brand lacked a defined visual identity and a digital strategy that reflected its essence. Our challenge was to build a solid, differentiating image aligned with its premium proposal, boosting its market presence with strategic branding and effective digital communication."
     },
     {
       "type": "paragraph",
       "title": "Diseño",
-      "description": "Creamos la identidad visual de Barbería M desde cero, desarrollando un concepto elegante y contemporáneo. Se trabajó con una paleta sobria de negro, dorado y marrón, tipografías clásicas con un toque moderno y un logotipo que equilibra exclusividad y tradición. La inspiración provino de su propio espacio, que fusiona el estilo industrial vintage con rustic luxe, utilizando materiales como hierro y madera, iluminación cálida y detalles que transmiten robustez y distinción. La dirección de arte apostó por una fotografía con composiciones cuidadas, iluminación equilibrada y un enfoque visual refinado, asegurando coherencia en redes, impresos y la ambientación del local."
+      "description": "We created Barbería M's visual identity from scratch, developing an elegant and contemporary concept. We worked with a sober palette of black, gold, and brown, classic typography with a modern touch, and a logo that balances exclusivity and tradition. The inspiration came from its own space, which fuses vintage industrial style with rustic luxe, using materials such as iron and wood, warm lighting, and details that convey robustness and distinction. The art direction bet on photography with careful compositions, balanced lighting, and a refined visual approach, ensuring coherence across social media, print materials, and the venue's ambiance."
     },
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "La nueva identidad visual y estrategia de comunicación consolidaron a Barbería M como un referente en el cuidado masculino premium. A diferencia de la mayoría de las barberías en Málaga, que han dejado de lado las técnicas y valores de la estética clásica, Barbería M mantiene vivo este legado, posicionándose sin competencia real a su altura. Su ubicación en La Malagueta, un barrio exclusivo y emblemático de la ciudad, refuerza su identidad: una reinvención de lo tradicional para convertirse en un nuevo clásico. Se logró una coherencia total en redes, materiales gráficos y experiencia en el local, fortaleciendo el posicionamiento de la marca. El impacto se tradujo en un aumento en la interacción digital, mayor captación y fidelización y una mejora en la percepción de marca."
+      "description": "The new visual identity and communication strategy consolidated Barbería M as a reference in premium men's grooming. Unlike most barbershops in Málaga, which have abandoned the techniques and values of classical aesthetics, Barbería M keeps this legacy alive, positioning itself without real competition at its level. Its location in La Malagueta, an exclusive and emblematic neighborhood of the city, reinforces its identity: a reinvention of the traditional to become a new classic. Total coherence was achieved across social media, graphic materials, and in-venue experience, strengthening the brand's positioning. The impact translated into increased digital interaction, greater customer acquisition and loyalty, and an improvement in brand perception."
     },
     {
       "type": "uniqueReel",
@@ -48,14 +48,14 @@
   "related": [
     {
       "title": "Cantina Canalla",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
       "imageAlt": "Cantina Canalla",
       "slug": "cantina-canalla"
     },
     {
       "title": "Smash",
-      "categories": ["Identidad Visual", "Fotografia", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
       "imageAlt": "Smash",
       "slug": "smash-burger"

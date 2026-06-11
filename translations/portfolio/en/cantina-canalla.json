@@ -1,27 +1,27 @@
 {
   "hero": {
     "title": "Cantina Canalla",
-    "subtitle": "Autenticidad mexicana con un giro sofisticado. Alta cocina, arte urbano y un ambiente vibrante que transforman cada comida en una experiencia sensorial única.",
+    "subtitle": "Mexican authenticity with a sophisticated twist. Haute cuisine, urban art, and a vibrant atmosphere that transform every meal into a unique sensory experience.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741709460/agencia-tinta/portfolio/cantina-canalla/fotos/cantina-banner_kmj7zg.jpg",
     "imageAlt": "Cantina Canalla",
-    "sector": "Gastronomía",
-    "categories": ["Identidad Visual", "Fotografía", "Video"]
+    "sector": "Gastronomy",
+    "categories": ["Visual Identity", "Photography", "Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Estrategia",
-      "description": "Cantina Canalla es la fusión entre la tradición mexicana y un espíritu sofisticado e irreverente. Su propuesta gastronómica premium necesitaba una identidad visual y digital que reflejara su esencia vibrante, audaz y exclusiva. El desafío fue consolidar su posicionamiento como un referente de la alta cocina mexicana en España, creando una estrategia de branding y contenido que comunicara su carácter transgresor. Nuestra solución: elevar su imagen con un concepto visual poderoso y una narrativa digital aspiracional que conectara con su audiencia ideal."
+      "description": "Cantina Canalla is the fusion between Mexican tradition and a sophisticated, irreverent spirit. Its premium culinary proposal needed a visual and digital identity that reflected its vibrant, bold, and exclusive essence. The challenge was to consolidate its positioning as a reference in Mexican haute cuisine in Spain, creating a branding and content strategy that communicated its transgressive character. Our solution: elevate its image with a powerful visual concept and an aspirational digital narrative that connected with its ideal audience."
     },
     {
       "type": "paragraph",
       "title": "Diseño",
-      "description": "Transformamos su identidad en una experiencia visual impactante. Inspirados en la riqueza cultural de México y el arte urbano, desarrollamos una estética que combina neón, lucha libre, Frida Kahlo y el Día de Muertos con una paleta intensa de rosa, negro, dorado y blanco. La dirección de arte apostó por composiciones audaces, fotografía de alta gama y texturas que reflejan su exclusividad. La coherencia se extendió a redes, menús, packaging y señalética, asegurando una experiencia visual potente y memorable."
+      "description": "We transformed their identity into a striking visual experience. Inspired by Mexico's cultural richness and urban art, we developed an aesthetic that combines neon, lucha libre, Frida Kahlo, and Day of the Dead with an intense palette of pink, black, gold, and white. The art direction bet on bold compositions, high-end photography, and textures that reflect their exclusivity. Coherence extended to social media, menus, packaging, and signage, ensuring a powerful and memorable visual experience."
     },
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "La nueva identidad de Cantina Canalla consolidó su posicionamiento como un restaurante de gastronomía mexicana de lujo. Su imagen evolucionó hacia una propuesta aspiracional que resuena con un público sofisticado. La marca experimentó un crecimiento del +120% en engagement, un +80% en seguidores en tres meses y un aumento significativo en reservas y fidelización de clientes high-ticket."
+      "description": "Cantina Canalla's new identity consolidated its positioning as a luxury Mexican gastronomy restaurant. Its image evolved into an aspirational proposal that resonates with a sophisticated audience. The brand experienced +120% growth in engagement, +80% in followers in three months, and a significant increase in reservations and high-ticket customer loyalty."
     },
     {
       "type": "twoImages",
@@ -32,20 +32,20 @@
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034995/agencia-tinta/portfolio/cantina-canalla/fotos/2_f9wf9a.png",
-          "imageAlt": "Rolls de pollo"
+          "imageAlt": "Chicken rolls"
         }
       ]
     },
     {
       "type": "video",
       "videoUrl": "https://res.cloudinary.com/nicojoystin/video/upload/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.mp4",
-      "videoAlt": "Video de ejemplo",
+      "videoAlt": "Example video",
       "posterSrc": "https://res.cloudinary.com/nicojoystin/video/upload/w_800,so_2/v1741201302/agencia-tinta/portfolio/cantina-canalla/videos/Cantina-Franquicia_nngcjz.jpg"
     },
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035019/agencia-tinta/portfolio/cantina-canalla/fotos/3_daowbq.jpg",
-      "imageAlt": "Dos platos de tacos",
+      "imageAlt": "Two plates of tacos",
       "centered": true,
       "aspectRatio": "12/8"
     },
@@ -73,7 +73,7 @@
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741970715/agencia-tinta/portfolio/cantina-canalla/fotos/Banner_1_yybzyd.jpg",
-      "imageAlt": "Identidad grafica Cantina Canalla",
+      "imageAlt": "Cantina Canalla graphic identity",
       "aspectRatio": "16/9",
       "centered": true
     },
@@ -82,7 +82,7 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035029/agencia-tinta/portfolio/cantina-canalla/fotos/4_gzopuz.jpg",
-          "imageAlt": "Joven con cuadro de Frida Kalho"
+          "imageAlt": "Young woman with Frida Kahlo painting"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035014/agencia-tinta/portfolio/cantina-canalla/fotos/5_lpvhsm.jpg",
@@ -93,7 +93,7 @@
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035016/agencia-tinta/portfolio/cantina-canalla/fotos/6_xaahkn.jpg",
-      "imageAlt": "Taco abierto sobre la mesa",
+      "imageAlt": "Open taco on the table",
       "centered": true,
       "aspectRatio": "12/8"
     },
@@ -102,15 +102,15 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034989/agencia-tinta/portfolio/cantina-canalla/fotos/7_rw5asf.jpg",
-          "imageAlt": "Joven tomando una copa de margarita"
+          "imageAlt": "Young woman drinking a margarita"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035023/agencia-tinta/portfolio/cantina-canalla/fotos/8_q0qje3.jpg",
-          "imageAlt": "Plato con tacos"
+          "imageAlt": "Plate with tacos"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035004/agencia-tinta/portfolio/cantina-canalla/fotos/9_miz4co.jpg",
-          "imageAlt": "Copa de margarita"
+          "imageAlt": "Margarita glass"
         }
       ]
     },
@@ -119,18 +119,18 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035008/agencia-tinta/portfolio/cantina-canalla/fotos/10_y60qai.jpg",
-          "imageAlt": "Taco sobre la mesa"
+          "imageAlt": "Taco on the table"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035001/agencia-tinta/portfolio/cantina-canalla/fotos/11_lal1sg.jpg",
-          "imageAlt": "Bandeja con dos tacos"
+          "imageAlt": "Tray with two tacos"
         }
       ]
     },
     {
       "type": "oneImage",
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741970716/agencia-tinta/portfolio/cantina-canalla/fotos/Banner_2_eloo4o.jpg",
-      "imageAlt": "Identidad grafica Cantina Canalla 2",
+      "imageAlt": "Cantina Canalla graphic identity 2",
       "aspectRatio": "16/9",
       "centered": true
     },
@@ -139,19 +139,19 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035010/agencia-tinta/portfolio/cantina-canalla/fotos/12_nxjttu.jpg",
-          "imageAlt": "Taco de pollo rebozado"
+          "imageAlt": "Breaded chicken taco"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035026/agencia-tinta/portfolio/cantina-canalla/fotos/13_eg4fyd.jpg",
-          "imageAlt": "Costilla de carne"
+          "imageAlt": "Meat ribs"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034986/agencia-tinta/portfolio/cantina-canalla/fotos/14_cuhl2h.jpg",
-          "imageAlt": "Sirviendo margarita en una copa"
+          "imageAlt": "Serving margarita in a glass"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742034992/agencia-tinta/portfolio/cantina-canalla/fotos/15_r8gfhg.jpg",
-          "imageAlt": "Plato de tacos con margarita de fondo"
+          "imageAlt": "Tacos plate with margarita in the background"
         }
       ]
     }
@@ -159,14 +159,14 @@
   "related": [
     {
       "title": "Smash",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
       "imageAlt": "smash burger",
       "slug": "smash-burger"
     },
     {
       "title": "Black Label",
-      "categories": ["Identidad Visual", "Fotografía", "Video"],
+      "categories": ["Visual Identity", "Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
       "imageAlt": "Black Label",
       "slug": "black-label"

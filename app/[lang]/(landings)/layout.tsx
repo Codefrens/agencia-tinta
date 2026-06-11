@@ -11,7 +11,7 @@ export default async function LandingsLayout({
   const lang = (await params).lang;
   return (
     <>
-      <LandingNavbar />
+      <LandingNavbar lang={lang} />
       <main>
         {children}
       </main>

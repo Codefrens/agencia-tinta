@@ -1,32 +1,32 @@
 {
   "hero": {
     "title": "Remax Coast",
-    "subtitle": "Transforma la compra y venta de propiedades en una experiencia visualmente impactante. Fotografía, reels y contenido estratégico para atraer y conectar.",
+    "subtitle": "Transform buying and selling properties into a visually impactful experience. Photography, reels, and strategic content to attract and connect.",
     "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741712475/agencia-tinta/portfolio/remax/fotos/Banner_ja8hma.jpg",
     "imageAlt": "Remax Coast",
-    "sector": "Inmobiliario",
-    "categories": ["Fotografía", "Video"]
+    "sector": "Real estate",
+    "categories": ["Photography", "Video"]
   },
   "sections": [
     {
       "type": "paragraph",
       "title": "Resultado",
-      "description": "A través de fotografía profesional y contenido estratégico en redes, potenciamos su presencia digital, destacando la esencia de cada espacio y consolidando su posicionamiento en el sector. Nuestro enfoque ha aumentado la interacción, mejorado la percepción de marca y ampliado su alcance."
+      "description": "Through professional photography and strategic social media content, we enhanced their digital presence, highlighting the essence of each space and consolidating their positioning in the sector. Our approach has increased interaction, improved brand perception, and expanded their reach."
     },
     {
       "type": "imagesInRow",
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465704/agencia-tinta/portfolio/remax/fotos/4_phdwbt.jpg",
-          "imageAlt": "Foto del local"
+          "imageAlt": "Location photo"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465706/agencia-tinta/portfolio/remax/fotos/7_vd1jtc.jpg",
-          "imageAlt": "Mujer empleada de Remax"
+          "imageAlt": "Remax female employee"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465706/agencia-tinta/portfolio/remax/fotos/9_lspjat.jpg",
-          "imageAlt": "Mujer empleada de Remax"
+          "imageAlt": "Remax female employee"
         }
       ]
     },
@@ -51,11 +51,11 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465703/agencia-tinta/portfolio/remax/fotos/5_rzuybt.jpg",
-          "imageAlt": "Mujer escribiendo en un escritorio"
+          "imageAlt": "Woman writing at a desk"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
-          "imageAlt": "Cartel de Remax Coast"
+          "imageAlt": "Remax Coast poster"
         }
       ]
     },
@@ -64,28 +64,28 @@
       "images": [
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465700/agencia-tinta/portfolio/remax/fotos/11_hy7ege.jpg",
-          "imageAlt": "Mujer joven empleada de Remax"
+          "imageAlt": "Young Remax female employee"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465694/agencia-tinta/portfolio/remax/fotos/1_ql4l3e.jpg",
-          "imageAlt": "Equipo de Remax Coast"
+          "imageAlt": "Remax Coast team"
         }
       ]
     },
     {
       "type": "imagesInRow",
       "images": [
-        {
+{
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465699/agencia-tinta/portfolio/remax/fotos/10_pcc93j.jpg",
-          "imageAlt": "Plato de tacos"
+          "imageAlt": "Tacos plate"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465698/agencia-tinta/portfolio/remax/fotos/3_w5puxv.jpg",
-          "imageAlt": "Mujer joven sonriendo en oficina de Remax Coast"
+          "imageAlt": "Young woman smiling at Remax Coast office"
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465696/agencia-tinta/portfolio/remax/fotos/8_oqmkwu.jpg",
-          "imageAlt": "Oficina de Remax Coast"
+          "imageAlt": "Remax Coast office"
         }
       ]
     },
@@ -114,7 +114,7 @@
         },
         {
           "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465695/agencia-tinta/portfolio/remax/fotos/6_folgdo.jpg",
-          "imageAlt": "Dos mujeres empleadas de Remax"
+          "imageAlt": "Two Remax female employees"
         }
       ]
     },
@@ -138,7 +138,7 @@
   "related": [
     {
       "title": "Malavida",
-      "categories": ["Fotografía", "Video"],
+      "categories": ["Photography", "Video"],
       "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
       "imageAlt": "",
       "slug": "malavida"

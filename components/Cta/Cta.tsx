@@ -5,8 +5,10 @@ import Container from "../ui/Container";
 import Link from "next/link";
 
 const Cta = ({
+  lang,
   translations,
 }: {
+  lang: "es" | "en";
   translations: Translations["common"]["cta"];
 }) => {
   return (
@@ -16,7 +18,7 @@ const Cta = ({
           className={styles.title}
           dangerouslySetInnerHTML={{ __html: translations.title }}
         />
-        <Link href="/contact" className={styles.button}>
+        <Link href={`/${lang}/contact`} className={styles.button}>
           {translations.buttonLabel}
         </Link>
       </div>
