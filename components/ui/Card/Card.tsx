@@ -12,10 +12,17 @@ type CardProps = {
   title: string;
   categories: string[];
   link: string;
-  lang: "es" | "en";
+  lang?: "es" | "en";
 };
 
-const Card = ({ imgSrc, imgAlt, title, categories, link, lang }: CardProps) => {
+const Card = ({
+  imgSrc,
+  imgAlt,
+  title,
+  categories,
+  link,
+  lang = "es",
+}: CardProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);

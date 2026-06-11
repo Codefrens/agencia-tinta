@@ -41,8 +41,10 @@ export type Translations = {
     filters: Categories;
     whatsappMessage: string;
     client: string;
-    year: string;
     sector: string;
+    notFoundTitle: string;
+    notFoundSubtitle: string;
+    notFoundButtonLabel: string;
   };
   homePage: {
     hero: {

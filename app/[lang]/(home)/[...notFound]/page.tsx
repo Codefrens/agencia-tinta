@@ -1,8 +1,8 @@
 import Container from "@/components/ui/Container";
 import Hero from "@/components/NotFoundPage/Hero";
-import { getTranslations } from "../translations";
+import { getTranslations } from "../../translations";
 
-export default async function NotFound({
+export default async function NotFoundPage({
   params,
 }: {
   params: Promise<{ lang: "es" | "en" }>;
