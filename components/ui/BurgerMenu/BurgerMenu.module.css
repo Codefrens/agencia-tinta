@@ -32,3 +32,16 @@
   font-size: pxToRem(32);
   font-family: var(--font-medium);
 }
+
+.langSwitcher {
+  margin-top: pxToRem(20);
+}
+
+.langSwitcher a {
+  font-size: pxToRem(32);
+  font-family: var(--font-medium);
+}
+
+.langSwitcher span span {
+  font-size: pxToRem(32);
+}

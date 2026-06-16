@@ -3,6 +3,7 @@
 import styles from "./NavbarClient.module.css";
 import Container from "../ui/Container";
 import BurgerMenu from "../ui/BurgerMenu";
+import LangSwitcher from "../ui/LangSwitcher/LangSwitcher";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 import Image from "next/image";
@@ -85,6 +86,9 @@ const NavbarClient = ({
                 >
                   <WhatsappLogo size={32} weight="light" />
                 </Link>
+              </li>
+              <li>
+                <LangSwitcher lang={lang} />
               </li>
             </ul>
           </div>
