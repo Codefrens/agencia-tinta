@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from "./BurgerMenu.module.css";
 import { AnimatePresence, motion } from "motion/react";
 import { Translations } from "@/translations/types";
+import LangSwitcher from "../LangSwitcher/LangSwitcher";
 
 const BurgerMenu = ({
   lang,
@@ -92,6 +93,9 @@ const BurgerMenu = ({
                 </motion.li>
               ))}
             </motion.ul>
+            <div className={styles.langSwitcher}>
+              <LangSwitcher lang={lang} />
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
