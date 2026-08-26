@@ -16,6 +16,7 @@
       {
         "title": "AC Hotel Marriott",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["hosteleria", "redes-sociales"], "video": ["hosteleria", "institucional", "promocionales"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
         "imageAlt": "AC Hotel Marriott food image",
         "slug": "ac-hotel"
@@ -23,6 +24,7 @@
       {
         "title": "Delegación del Gobierno en Madrid",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["corporativa", "eventos"], "video": ["entrevistas", "eventos"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
         "imageAlt": "Government Delegation in Madrid",
         "slug": "gobierno-madrid"
@@ -31,6 +33,7 @@
       {
         "title": "Bacardi",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["corporativa", "producto"], "video": ["producto", "promocionales"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
         "imageAlt": "Bacardi",
         "slug": "bacardi"
@@ -38,6 +41,7 @@
       {
         "title": "Schmidt Cocinas",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["corporativa", "eventos", "redes-sociales"], "video": ["eventos", "institucional"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
         "imageAlt": "Schmidt Cocinas",
         "slug": "schmidt-cocinas"
@@ -45,14 +49,16 @@
 
       {
         "title": "Cantina Canalla",
-        "categories": ["Visual Identity", "Photography", "Video"],
+        "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["hosteleria", "redes-sociales"], "video": ["hosteleria", "promocionales"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
         "imageAlt": "Cantina Canalla food image",
         "slug": "cantina-canalla"
       },
       {
         "title": "Black Label",
-        "categories": ["Visual Identity", "Photography", "Video"],
+        "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["hosteleria", "producto", "redes-sociales"], "video": ["hosteleria", "producto"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
         "imageAlt": "Black Label",
         "slug": "black-label"
@@ -60,13 +66,15 @@
       {
         "title": "Remax Coast",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["inmobiliaria"], "video": ["entrevistas", "institucional"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
         "imageAlt": "",
         "slug": "remax-coast"
       },
       {
         "title": "Smash",
-        "categories": ["Visual Identity", "Photography", "Video"],
+        "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["hosteleria", "producto", "redes-sociales"], "video": ["hosteleria", "producto"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
         "imageAlt": "",
         "slug": "smash-burger"
@@ -74,6 +82,7 @@
       {
         "title": "Festival de Málaga",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["eventos"], "video": ["entrevistas", "eventos"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
         "imageAlt": "",
         "slug": "festival-malaga"
@@ -82,13 +91,15 @@
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
+        "subcategories": { "video": ["promocionales"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
         "imageAlt": "Grupo Amigos",
         "slug": "grupo-amigos"
       },
       {
         "title": "Nordic Guarantee",
-        "categories": ["Video"],
+        "categories": ["Photography"],
+        "subcategories": { "fotografia": ["corporativa"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
         "imageAlt": "Nordic Guarantee",
         "slug": "nordic"
@@ -96,6 +107,7 @@
       {
         "title": "Ibima",
         "categories": ["Video"],
+        "subcategories": { "video": ["institucional"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
         "imageAlt": "Ibima",
         "slug": "ibima"
@@ -103,6 +115,7 @@
       {
         "title": "Agape",
         "categories": ["Video"],
+        "subcategories": { "video": ["producto"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
         "imageAlt": "Agape",
         "slug": "agape"
@@ -110,12 +123,33 @@
       {
         "title": "Malavida",
         "categories": ["Photography", "Video"],
+        "subcategories": { "fotografia": ["hosteleria", "redes-sociales"], "video": ["hosteleria"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
         "imageAlt": "",
         "slug": "malavida"
       }
     ],
-    "filters": ["All", "Visual Identity", "Photography", "Video"],
+    "portfolioFilters": {
+      "categories": [
+        { "slug": "identidad-visual", "label": "Visual Identity", "subcategories": [] },
+        { "slug": "fotografia", "label": "Photography", "subcategories": [
+          { "slug": "corporativa", "label": "Corporate" },
+          { "slug": "eventos", "label": "Events" },
+          { "slug": "redes-sociales", "label": "Social Media" },
+          { "slug": "producto", "label": "Product" },
+          { "slug": "hosteleria", "label": "Hospitality" },
+          { "slug": "inmobiliaria", "label": "Real Estate" }
+        ]},
+        { "slug": "video", "label": "Video", "subcategories": [
+          { "slug": "institucional", "label": "Institutional" },
+          { "slug": "promocionales", "label": "Promotional" },
+          { "slug": "hosteleria", "label": "Hospitality" },
+          { "slug": "eventos", "label": "Events" },
+          { "slug": "entrevistas", "label": "Interviews" },
+          { "slug": "producto", "label": "Product" }
+        ]}
+      ]
+    },
     "whatsappMessage": "Hi! I'd like to make an inquiry.",
     "notFoundTitle": "404",
     "notFoundSubtitle": "The page you're looking for doesn't exist",

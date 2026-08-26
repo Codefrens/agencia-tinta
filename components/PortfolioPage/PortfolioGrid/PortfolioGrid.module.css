@@ -18,6 +18,14 @@
   justify-content: flex-start;
 }
 
+.empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: pxToRem(60) 0;
+  color: var(--color-neutral-70);
+  font-size: pxToRem(16);
+}
+
 @mixin mediaMin768 {
   .portfolioGrid {
     grid-template-columns: 1fr 1fr;
