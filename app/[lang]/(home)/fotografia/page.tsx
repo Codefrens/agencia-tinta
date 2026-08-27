@@ -1,7 +1,6 @@
 import Hero from "@/components/LandingsPage/Hero";
 import Services from "@/components/LandingsPage/Services";
 import Works from "@/components/LandingsPage/Works";
-import VideoCarousel from "@/components/LandingsPage/VideoCarousel";
 import Benefits from "@/components/LandingsPage/Benefits";
 import Testimonials from "@/components/LandingsPage/Testimonials";
 import ContactSection from "@/components/LandingsPage/ContactSection";
@@ -66,9 +65,6 @@ export default async function ProductionPage({
   const content = loadLocalContent("landings", lang, "production") as any;
   const hero = content.heroPhotography || content.hero;
   const services = content.servicesPhotography || content.services;
-  const videosSection = content.videosPhotography || content.videos;
-  const videosList =
-    videosSection?.videosList || content.videos?.videosList || [];
 
   const worksSection = content.worksPhotography || content.works;
   const worksList = worksSection?.worksList?.length
@@ -100,12 +96,6 @@ export default async function ProductionPage({
         title={worksSection.title}
         subtitle={worksSection.subtitle}
         works={worksList}
-      />
-
-      <VideoCarousel
-        title={videosSection.title}
-        subtitle={videosSection.subtitle}
-        videos={videosList}
       />
 
       <Benefits

@@ -6,78 +6,74 @@
     "ctaText": "Agenda tu llamada"
   },
   "heroVideo": {
-    "title": "Producción de video profesional para empresas",
-    "description": "En Agencia Tinta desarrollamos proyectos de producción de video pensados para empresas que buscan comunicar con claridad su propuesta de valor, fortalecer su posicionamiento y generar contenido audiovisual alineado con sus objetivos de marketing, comunicación corporativa y crecimiento digital.",
+    "title": "Producción de video",
+    "description": "Transformamos la visión de empresas, instituciones y personas en contenido audiovisual de alto impacto. Desarrollamos piezas cinematográficas pensadas para fortalecer su posicionamiento, conectar con su público y darles el peso visual que merecen.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
   "heroPhotography": {
-    "title": "Fotografía profesional para empresas y marcas",
-    "description": "En Agencia Tinta desarrollamos proyectos de fotografía profesional para empresas que desean fortalecer su imagen de marca, generar contenido visual para marketing y mejorar su presencia digital con imágenes estratégicas adaptadas a distintos canales y objetivos comerciales.",
+    "title": "Fotografia especializada para empresas y marcas",
+    "description": "Desarrollamos proyectos de fotografía para instituciones y personas que desean fortalecer su imagen y comunicación. Generamos contenido para marketing digital con estrategias adaptadas a distintos canales y objetivos comerciales.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
   "servicesVideo": {
-    "title": "Servicios de Servicios de producción de video para empresas",
-    "subtitle": "Cada proyecto audiovisual responde a una necesidad concreta: reforzar la identidad de marca, captar nuevos clientes, mejorar la comunicación interna o potenciar campañas digitales. Por eso diseñamos formatos de video adaptados a cada estrategia, cuidando tanto el mensaje como la ejecución técnica.",
+    "title": "Soluciones y narrativas para producción de vídeo",
+    "subtitle": "Cada proyecto audiovisual responde a una necesidad concreta: construir identidad, captar la atención de tu público o potenciar tu estrategia digital. Por eso creamos formatos de vídeo específicos para cada objetivo, cuidando tanto el mensaje de fondo como la ejecución técnica.",
     "servicesList": [
       {
-        "title": "Videos corporativos",
-        "description": "Los videos corporativos permiten presentar la identidad de una empresa, explicar su propuesta de valor y fortalecer su comunicación institucional. Son ideales para páginas web, presentaciones comerciales, redes sociales y estrategias de posicionamiento de marca."
+        "title": "Videos institucionales",
+        "description": "Transmitimos la esencia, cultura y propuesta de valor de tu empresa para reforzar su posicionamiento institucional. Creamos piezas clave para branding, webs corporativas, presentaciones comerciales y comunicación interna."
       },
       {
         "title": "Videos promocionales",
-        "description": "Los videos promocionales ayudan a comunicar productos, servicios o campañas de forma clara y atractiva. Son una herramienta clave para anuncios digitales, campañas publicitarias y contenido orientado a la conversión."
+        "description": "Piezas dinámicas enfocadas en campañas, lanzamientos o servicios concretos para impulsar la conversión. La herramienta perfecta para anuncios publicitarios, campañas de Paid Ads y captación de clientes."
       },
       {
-        "title": "Videos para redes sociales",
-        "description": "Creamos contenido audiovisual específico para plataformas como Instagram, TikTok, YouTube o LinkedIn. Estos formatos están pensados para captar la atención en segundos, reforzar la identidad visual de la marca, aumentar el alcance, mejorar el engagement y reforzar las estrategias de marketing digital."
+        "title": "Videos de hostelería",
+        "description": "Contenido visual de alta estética pensado para resaltar la textura, el proceso y la experiencia culinaria de tu marca. Producimos piezas de alto impacto visual para restaurantes, marcas gourmet, cartas digitales y Reels."
       },
       {
         "title": "Videos de eventos",
-        "description": "La producción de videos de eventos permite documentar lanzamientos, activaciones, conferencias o encuentros corporativos, transformando cada experiencia en contenido reutilizable para comunicación digital y promoción de marca."
+        "description": "Cobertura y producción de lanzamientos, conferencias o activaciones, transformando cada experiencia en contenido reutilizable. Desarrollamos aftermovies, material para notas de prensa y recapitulaciones de networking."
       },
       {
         "title": "Videos de entrevistas",
-        "description": "Las entrevistas en video ayudan a mostrar liderazgo, compartir conocimiento y fortalecer la marca personal dentro de una organización. Este formato aporta cercanía, credibilidad y profundidad al mensaje corporativo."
+        "description": "Conversaciones y testimonios que aportan humanidad, autoridad y credibilidad al mensaje de tu organización. Ideales para mostrar casos de éxito, testimonios de clientes, marca personal y liderazgo del sector."
       },
       {
         "title": "Videos de producto",
-        "description": "Los videos de producto muestran características, aplicaciones y beneficios de forma clara y visual, apoyando la comunicación comercial y facilitando la toma de decisiones en procesos de compra."
-      },
-      {
-        "title": "Videos podcast",
-        "description": "La producción de video podcast permite generar contenido conversacional de alto valor para empresas, profesionales y marcas que desean compartir conocimiento, reforzar su posicionamiento y construir comunidad en entornos digitales.."
+        "description": "Demostraciones visuales precisas que resaltan las características y acabados de lo que ofreces para acelerar la venta. Diseñados para potenciar catálogos de e-commerce, fichas de producto y campañas de publicidad visual."
       }
     ]
   },
   "servicesPhotography": {
-    "title": "Servicios de fotografía profesional para empresas",
-    "subtitle": "Cada empresa necesita comunicar visualmente de forma diferente. Por eso ofrecemos distintos servicios de fotografía profesional adaptados a cada sector, teniendo presentes los objetivos comerciales y las estrategias de marketing digital.",
+    "title": "Sesiones fotográficas y construcción de marca",
+    "subtitle": "Lo que quieres transmitir con tu imagen es tu manera de diferenciarte. Por eso ofrecemos distintos servicios de fotografía adaptados a cada sector, potenciando tu identidad visual con un enfoque creativo.",
     "servicesList": [
       {
         "title": "Fotografía corporativa",
-        "description": "La fotografía corporativa permite mostrar el equipo humano, los espacios de trabajo y la identidad visual de una empresa. Estas imágenes refuerzan la credibilidad de la marca, proyectan profesionalismo y mejoran la presentación de la empresa en webs, redes sociales y materiales corporativos."
+        "description": "Permite mostrar el equipo humano, el espacio de trabajo, las oficinas y la identidad visual de una empresa. Estas fotografias refuerzan la credibilidad, proyectan profesionalismo y mejoran la presentación de la empresa en webs, redes sociales y materiales corporativos."
       },
       {
         "title": "Fotografía de eventos",
-        "description": "La fotografía de eventos documenta lanzamientos, conferencias, activaciones o encuentros empresariales, generando contenido visual que puede utilizarse posteriormente en comunicación corporativa, prensa, redes sociales y campañas de marketing."
+        "description": "Reportaje y cobertura de lanzamientos, conferencias, eventos sociales, activaciones y encuentros empresariales. Contenido curado para notas de prensa, comunicación interna y campañas de marketing."
       },
       {
         "title": "Fotografía para redes sociales",
-        "description": "Creamos fotografía profesional adaptada a redes sociales como Instagram, LinkedIn o TikTok. Estas imágenes ayudan a mantener una estética coherente de marca y generan contenido visual atractivo que mejora el engagement y la visibilidad digital."
+        "description": "Contenido profesional optimizado para la estética de Instagram y LinkedIn. Desarrollamos imágenes pensadas para elevar el engagement, la visibilidad digital y la coherencia de marca."
       },
       {
-        "title": "Fotografía de producto ",
-        "description": "La fotografía de producto permite mostrar características, detalles y beneficios de forma clara y estratégica. Es fundamental para ecommerce, catálogos digitales y campañas publicitarias donde la imagen tiene un impacto directo en la decisión de compra."
+        "title": "Fotografía de producto",
+        "description": "Permite mostrar características, detalles y beneficios de forma clara y estratégica. Es fundamental para ecommerce, catálogos digitales y campañas publicitarias donde la imagen tiene un impacto directo en la decisión de compra."
       },
       {
-        "title": "Fotografía gastronómica",
-        "description": "La fotografía gastronómica ayuda a restaurantes y marcas alimentarias a presentar sus productos de forma atractiva y estratégica, transmitiendo calidad, detalles y texturas de cada alimento, generando una experiencia y presentación culinaria para desarrollar campañas publicitarias, cartas digitales y contenido para redes sociales."
+        "title": "Fotografía de hostelería",
+        "description": "Capturamos la experiencia gastronómica de restaurantes y hoteles mediante técnicas de food styling y composición de bodegón. Diseñada para destacar en cartas digitales, campañas de publicidad y redes sociales."
       },
       {
         "title": "Fotografía inmobiliaria",
-        "description": "La fotografía inmobiliaria permite presentar propiedades, hoteles e interiores comerciales con imágenes profesionales que destacan la amplitud, la iluminación y los elementos arquitectónicos, facilitando la captación de clientes potenciales."
+        "description": "Producción visual de arquitectura e interiorismo para propiedades, hoteles y espacios comerciales. Dominamos la luz y la amplitud espacial para facilitar la captación de clientes e inversores."
       }
     ]
   },
@@ -111,13 +107,13 @@
     ]
   },
   "worksVideo": {
-    "title": "Producción audiovisual aplicada al marketing digital",
-    "subtitle": "Hoy el video es uno de los formatos con mayor capacidad de impacto en internet. Las empresas utilizan contenido audiovisual para redes sociales, campañas publicitarias y estrategias de video marketing que aumentan la visibilidad, mejoran la interacción y fortalecen el reconocimiento de marca.",
+    "title": "",
+    "subtitle": "",
     "worksList": []
   },
   "worksPhotography": {
-    "title": "Fotografía profesional aplicada al marketing digital",
-    "subtitle": "Hoy en día la imagen es un elemento clave dentro de cualquier estrategia de marketing. Muchas empresas utilizan fotografía profesional para alimentar sus redes sociales, mejorar su presencia online y crear contenido visual coherente que refuerce su posicionamiento de marca y su identidad visual.",
+    "title": "",
+    "subtitle": "",
     "worksList": []
   },
   "works": {
@@ -205,46 +201,46 @@
   "benefitsVideo": {
     "titleLight": "¿Por qué elegir Agencia Tinta",
     "titleBold": "para producir tus videos?",
-    "subtitle": "Trabajamos con empresas que buscan algo más que una grabación puntual. Nuestro enfoque integra dirección creativa, planificación estratégica de contenido y producción técnica para desarrollar piezas audiovisuales coherentes con los objetivos reales de cada marca, aportando valor real en la comunicación.",
+    "subtitle": "Dominamos la narrativa visual y el ritmo de montaje para construir piezas audiovisuales con intención. Aportamos mirada cinematográfica y una ejecución técnica rigurosa que eleva el impacto de tu marca.",
     "benefitsList": [
       {
-        "title": "Más de 8 años de experiencia",
-        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+        "title": "Años de experiencia",
+        "description": "Dominio técnico en iluminación cinematográfica, dirección de cámara, etalonaje y storytelling."
       },
       {
         "title": "Enfoque estratégico",
-        "description": "Videos pensados para comunicar, posicionar y convertir: guion, rodaje y postproducción alineados a objetivos."
+        "description": "Proyectos estructurados desde la escaleta, adaptados a vídeo corporativo, reels o spots de producto."
       },
       {
         "title": "Servicio completo",
-        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+        "description": "Gestión integral del flujo de trabajo: preproducción, guionaje, rodaje y postproducción."
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en toda España."
+        "description": "Desplazamiento y equipo técnico disponible para producciones fotográficas en toda España."
       }
     ]
   },
   "benefitsPhotography": {
-    "titleLight": "¿Por qué elegir Agencia Tinta ",
-    "titleBold": "para tus proyectos de fotografía?",
-    "subtitle": "Nuestro equipo combina experiencia técnica, dirección creativa y visión estratégica para desarrollar imágenes que aporten valor a cada marca. Trabajamos con empresas que buscan mejorar su comunicación visual y diferenciarse mediante contenido profesional.",
+    "titleLight": "¿Por qué elegir Agencia Tinta",
+    "titleBold": "para producir tus fototografías?",
+    "subtitle": "Dominamos la luz, la composición y el retoque para crear fotografías con intención visual. Aportamos mirada de autor y una ejecución técnica rigurosa que eleva el nivel percibido de tu marca.",
     "benefitsList": [
       {
-        "title": "Más de 8 años de experiencia",
-        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+        "title": "Años de experiencia",
+        "description": "Dominio técnico en iluminación de plató, flash de estudio, retoque digital avanzado y dirección de arte."
       },
       {
         "title": "Enfoque estratégico",
-        "description": "Videos pensados para comunicar, posicionar y convertir: guion, rodaje y postproducción alineados a objetivos."
+        "description": "Proyectos adaptados a fotografía corporativa, food styling, bodegón de producto o estética dark food."
       },
       {
         "title": "Servicio completo",
-        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+        "description": "Gestión integral desde la preproducción y estilismo hasta el rodaje y la edición final."
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en toda España."
+        "description": "Desplazamiento y equipo técnico disponible para producciones fotográficas en toda España."
       }
     ]
   },
@@ -351,12 +347,33 @@
     ]
   },
   "videosVideo": {
-    "title": "Nuestro trabajo en producción audiovisual",
-    "subtitle": "En esta sección puedes ver algunos de los proyectos de producción de video que hemos desarrollado para empresas y marcas de distintos sectores. Cada trabajo refleja nuestro enfoque: combinar creatividad, estrategia y calidad técnica para crear contenido que realmente aporten valor y funcionen en entornos digitales."
+    "title": "SPOTS Y PRODUCCIÓN COMERCIAL",
+    "subtitle": "Proyectos diseñados desde la realización contemporánea y el estándar publicitario. Piezas audiovisuales construidas para impactar con narrativa visual, intención y ritmo.",
+    "videosList": [
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
+        "videoAlt": "Video corporativo Bacardi",
+        "videoLabelButton": "Ver video"
+      },
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
+        "videoAlt": "Video corporativo Cantina Cannalla",
+        "videoLabelButton": "Ver video"
+      },
+      {
+        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
+        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
+        "videoAlt": "Video corporativo Grupo Amigos",
+        "videoLabelButton": "Ver video"
+      }
+    ]
   },
   "videosPhotography": {
     "title": "Nuestro trabajo en fotografía profesional",
-    "subtitle": "En esta sección puedes ver algunos de los proyectos de fotografía que hemos desarrollado para empresas, marcas y profesionales. Cada trabajo refleja nuestro enfoque y compromiso, donde combinamos dirección creativa, técnicas fotográficas y estrategia visual para crear contenido con impacto real."
+    "subtitle": "En esta sección puedes ver algunos de los proyectos de fotografía que hemos desarrollado para empresas, marcas y profesionales. Cada trabajo refleja nuestro enfoque y compromiso, donde combinamos dirección creativa, técnicas fotográficas y estrategia visual para crear contenido con impacto real.",
+    "videosList": []
   },
   "videos": {
     "title": "Videos corporativos",

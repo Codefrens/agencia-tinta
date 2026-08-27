@@ -126,15 +126,15 @@
   "homePage": {
     "hero": {
       "subtitle": "ADVERTISING AGENCY",
-      "title": "Audiovisual production agency that transforms brands",
-      "paragraph": "We are an audiovisual production agency that turns ideas into strategic experiences, helping each brand grow with creativity and a solid vision.",
-      "highlightWords": ["transforms"],
+      "title": "We are an agency specialized in audiovisual production",
+      "paragraph": "We help people with ideas turn them into great stories that grow their brands.",
+      "highlightWords": ["audiovisual", "production"],
       "reelLabel": "Watch reel"
     },
     "about": {
-      "title": "we are/",
-      "paragraph1": "Concept storytellers in the digital age.",
-      "paragraph2": "We specialize in <span class='font-extra-bold font-color'>audiovisual production</span>. We help businesses enhance their digital communication through <span class='font-extra-bold font-color'>corporate videos</span>, <span class='font-extra-bold font-color'>advertising spots</span>, and <span class='font-extra-bold font-color'>commercial photography</span> that leave a lasting impression.",
+      "title": "Manifesto/",
+      "paragraph1": "LESS Noise, MORE INTENTION",
+      "paragraph2": "We create <span class='font-extra-bold font-color'>audiovisual content with identity</span>. We help brands tell who they are through <span class='font-extra-bold font-color'>video and commercial photography,</span> taking care of every detail to connect with their audience honestly.",
       "buttonLabel": "About us"
     },
     "portfolio": {
@@ -153,8 +153,8 @@
       "imgAlt": "Augmented reality"
     },
     "faq": {
-      "titleLight": "What you should know about our",
-      "titleBold": "creative agency",
+      "titleLight": "What you should know about",
+      "titleBold": "agencia tinta",
       "subtitle": "",
       "items": [
         {
