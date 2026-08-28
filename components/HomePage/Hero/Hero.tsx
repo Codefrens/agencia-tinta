@@ -72,7 +72,7 @@ const Hero = ({
             />
           </h1>
           <motion.p
-            className={styles.content}
+            className={styles.paragraph}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{

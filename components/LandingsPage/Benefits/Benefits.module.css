@@ -36,8 +36,6 @@
   margin-bottom: 20px;
 }
 
-
-
 .benefitsGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -202,7 +200,6 @@
 
 /* Desktop - 4 columnas como pidió el usuario */
 @mixin mediaMin1024 {
-
   .title {
     font-size: pxToRem(48);
   }
@@ -231,8 +228,7 @@
     font-size: pxToRem(16);
   }
 
-
   .imagesContainer {
     gap: pxToRem(40);
   }
-} 
+}

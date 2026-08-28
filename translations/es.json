@@ -10,7 +10,7 @@
     },
     "cta": {
       "title": "¿Tienes un <span class='font-extra-bold'>proyecto</span> en mente?",
-      "buttonLabel": "¿Hablamos?"
+      "buttonLabel": "¿Hablemos?"
     },
     "portfolioGrid": [
       {
@@ -126,15 +126,15 @@
   "homePage": {
     "hero": {
       "subtitle": "AGENCIA DE PUBLICIDAD",
-      "title": "Agencia de producción audiovisual que transforma marcas",
-      "paragraph": "Somos una agencia de producción audiovisual que convierte ideas en experiencias estratégicas, acompañando a cada marca a crecer con creatividad y visión sólida.",
-      "highlightWords": ["transforma"],
+      "title": "Somos una agencia especializada en producción audiovisual",
+      "paragraph": "Impulsamos a personas con ideas a convertirlas en grandes historias que hacen crecer sus marcas.",
+      "highlightWords": ["producción", "audiovisual"],
       "reelLabel": "Ver reel"
     },
     "about": {
-      "title": "somos/",
-      "paragraph1": "Narradores de conceptos en la era digital.",
-      "paragraph2": "Nos especializamos en <span class='font-extra-bold font-color'>producción audiovisual</span>. Ayudamos a empresas a potenciar su comunicación digital a través de <span class='font-extra-bold font-color'>vídeos corporativos</span>, <span class='font-extra-bold font-color'>spots publicitarios</span> y <span class='font-extra-bold font-color'>fotografias comerciales</span> que dejan huella.",
+      "title": "Manifiesto/",
+      "paragraph1": "MENOS RUIDO, MÁS INTENCIÓN",
+      "paragraph2": "Creamos <span class='font-extra-bold font-color'>contenido audiovisual con identidad</span>. Acompañamos a marcas a contar quiénes son a través de <span class='font-extra-bold font-color'>vídeo y fotografía comercial,</span> cuidando cada detalle para conectar con su público de forma honesta.",
       "buttonLabel": "Conocenos"
     },
     "portfolio": {
@@ -153,8 +153,8 @@
       "imgAlt": "Realidad aumentada"
     },
     "faq": {
-      "titleLight": "Lo que debes saber de nuestra",
-      "titleBold": "agencia creativa",
+      "titleLight": "Lo que debes saber sobre",
+      "titleBold": "agencia tinta",
       "subtitle": "",
       "items": [
         {
