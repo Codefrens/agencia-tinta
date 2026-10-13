@@ -16,7 +16,10 @@
       {
         "title": "AC Hotel Marriott",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["hosteleria", "redes-sociales"], "video": ["hosteleria", "institucional", "promocionales"] },
+        "subcategories": {
+          "fotografia": ["hosteleria", "redes-sociales"],
+          "video": ["hosteleria", "institucional", "promocionales"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
         "imageAlt": "AC Hotel Marriott food image",
         "slug": "ac-hotel"
@@ -24,7 +27,10 @@
       {
         "title": "Delegación del Gobierno en Madrid",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["corporativa", "eventos"], "video": ["entrevistas", "eventos"] },
+        "subcategories": {
+          "fotografia": ["corporativa", "eventos"],
+          "video": ["entrevistas", "eventos"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
         "imageAlt": "Government Delegation in Madrid",
         "slug": "gobierno-madrid"
@@ -33,7 +39,10 @@
       {
         "title": "Bacardi",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["corporativa", "producto"], "video": ["producto", "promocionales"] },
+        "subcategories": {
+          "fotografia": ["corporativa", "producto"],
+          "video": ["producto", "promocionales"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
         "imageAlt": "Bacardi",
         "slug": "bacardi"
@@ -41,7 +50,10 @@
       {
         "title": "Schmidt Cocinas",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["corporativa", "eventos", "redes-sociales"], "video": ["eventos", "institucional"] },
+        "subcategories": {
+          "fotografia": ["corporativa", "eventos", "redes-sociales"],
+          "video": ["eventos", "institucional"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
         "imageAlt": "Schmidt Cocinas",
         "slug": "schmidt-cocinas"
@@ -50,7 +62,10 @@
       {
         "title": "Cantina Canalla",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["hosteleria", "redes-sociales"], "video": ["hosteleria", "promocionales"] },
+        "subcategories": {
+          "fotografia": ["hosteleria", "redes-sociales"],
+          "video": ["hosteleria", "promocionales"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
         "imageAlt": "Cantina Canalla food image",
         "slug": "cantina-canalla"
@@ -58,7 +73,10 @@
       {
         "title": "Black Label",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["hosteleria", "producto", "redes-sociales"], "video": ["hosteleria", "producto"] },
+        "subcategories": {
+          "fotografia": ["hosteleria", "producto", "redes-sociales"],
+          "video": ["hosteleria", "producto"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
         "imageAlt": "Black Label",
         "slug": "black-label"
@@ -66,7 +84,10 @@
       {
         "title": "Remax Coast",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["inmobiliaria"], "video": ["entrevistas", "institucional"] },
+        "subcategories": {
+          "fotografia": ["inmobiliaria"],
+          "video": ["entrevistas", "institucional"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
         "imageAlt": "",
         "slug": "remax-coast"
@@ -74,7 +95,10 @@
       {
         "title": "Smash",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["hosteleria", "producto", "redes-sociales"], "video": ["hosteleria", "producto"] },
+        "subcategories": {
+          "fotografia": ["hosteleria", "producto", "redes-sociales"],
+          "video": ["hosteleria", "producto"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
         "imageAlt": "",
         "slug": "smash-burger"
@@ -82,7 +106,10 @@
       {
         "title": "Festival de Málaga",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["eventos"], "video": ["entrevistas", "eventos"] },
+        "subcategories": {
+          "fotografia": ["eventos"],
+          "video": ["entrevistas", "eventos"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
         "imageAlt": "",
         "slug": "festival-malaga"
@@ -123,7 +150,10 @@
       {
         "title": "Malavida",
         "categories": ["Photography", "Video"],
-        "subcategories": { "fotografia": ["hosteleria", "redes-sociales"], "video": ["hosteleria"] },
+        "subcategories": {
+          "fotografia": ["hosteleria", "redes-sociales"],
+          "video": ["hosteleria"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
         "imageAlt": "",
         "slug": "malavida"
@@ -131,23 +161,35 @@
     ],
     "portfolioFilters": {
       "categories": [
-        { "slug": "identidad-visual", "label": "Visual Identity", "subcategories": [] },
-        { "slug": "fotografia", "label": "Photography", "subcategories": [
-          { "slug": "corporativa", "label": "Corporate" },
-          { "slug": "eventos", "label": "Events" },
-          { "slug": "redes-sociales", "label": "Social Media" },
-          { "slug": "producto", "label": "Product" },
-          { "slug": "hosteleria", "label": "Hospitality" },
-          { "slug": "inmobiliaria", "label": "Real Estate" }
-        ]},
-        { "slug": "video", "label": "Video", "subcategories": [
-          { "slug": "institucional", "label": "Institutional" },
-          { "slug": "promocionales", "label": "Promotional" },
-          { "slug": "hosteleria", "label": "Hospitality" },
-          { "slug": "eventos", "label": "Events" },
-          { "slug": "entrevistas", "label": "Interviews" },
-          { "slug": "producto", "label": "Product" }
-        ]}
+        {
+          "slug": "identidad-visual",
+          "label": "Visual Identity",
+          "subcategories": []
+        },
+        {
+          "slug": "fotografia",
+          "label": "Photography",
+          "subcategories": [
+            { "slug": "corporativa", "label": "Corporate" },
+            { "slug": "eventos", "label": "Events" },
+            { "slug": "redes-sociales", "label": "Social Media" },
+            { "slug": "producto", "label": "Product" },
+            { "slug": "hosteleria", "label": "Hospitality" },
+            { "slug": "inmobiliaria", "label": "Real Estate" }
+          ]
+        },
+        {
+          "slug": "video",
+          "label": "Video",
+          "subcategories": [
+            { "slug": "institucional", "label": "Institutional" },
+            { "slug": "promocionales", "label": "Promotional" },
+            { "slug": "hosteleria", "label": "Hospitality" },
+            { "slug": "eventos", "label": "Events" },
+            { "slug": "entrevistas", "label": "Interviews" },
+            { "slug": "producto", "label": "Product" }
+          ]
+        }
       ]
     },
     "whatsappMessage": "Hi! I'd like to make an inquiry.",
@@ -221,17 +263,7 @@
   "portfolioPage": {
     "hero": {
       "title": "Explore our portfolio of audiovisual projects",
-      "lead": "Our portfolio of audiovisual projects reflects the way we turn ideas into strategic visual experiences, designed to strengthen each brand's identity. Every proposal integrates creativity, aesthetic coherence, and commercial vision, projecting a solid, attractive, and memorable image before its target audience.",
-      "sections": [
-        {
-          "title": "Creative projects that strengthen branding",
-          "paragraph": "We develop creative projects and audiovisual production work that connect strategy and emotion, ensuring that every audiovisual project adds real value to brand positioning, reinforcing its visual identity and building a coherent narrative that impacts authentically."
-        },
-        {
-          "title": "Audiovisual production and strategic positioning",
-          "paragraph": "Our audiovisual production drives branding through comprehensive strategies that combine creative direction, visual narrative, and professional photography for businesses, while video marketing strengthens emotional connection with specific audiences and consolidates coherent and memorable brands."
-        }
-      ]
+      "lead": "Our portfolio of audiovisual projects reflects the way we turn ideas into strategic visual experiences, designed to strengthen each brand's identity. Every proposal integrates creativity, aesthetic coherence, and commercial vision, projecting a solid, attractive, and memorable image before its target audience."
     }
   },
   "agencyPage": {
