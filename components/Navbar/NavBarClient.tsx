@@ -38,7 +38,11 @@ const NavbarClient = ({
             delay: 0.4,
           }}
         >
-          <Link href={`/${lang}`} aria-label="go to home page" className={styles.logo}>
+          <Link
+            href={`/${lang}`}
+            aria-label="go to home page"
+            className={styles.logo}
+          >
             <Image
               src="https://res.cloudinary.com/nicojoystin/image/upload/v1740221032/agencia-tinta/logo-tinta_utcrxj.svg"
               alt="Tinta logo"
@@ -50,8 +54,8 @@ const NavbarClient = ({
           <div className={styles.links}>
             <ul>
               <li>
-                <Link href={`/${lang}/agency`}>
-                  {translations.navigationLinks.agency}
+                <Link href={`/${lang}/services`}>
+                  {translations.navigationLinks.services}
                 </Link>
               </li>
               <li>
@@ -69,7 +73,7 @@ const NavbarClient = ({
                   {translations.navigationLinks.portfolio}
                 </Link>
               </li>
-{/*               <li>
+              {/*               <li>
                 <Link href={`/${lang}/foodar`}>
                   {translations.navigationLinks.foodar}
                 </Link>

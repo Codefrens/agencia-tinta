@@ -12,7 +12,7 @@ export const generateMetadata = async ({
   params: Promise<{ lang: "es" | "en" }>;
 }): Promise<Metadata> => {
   const lang = (await params).lang;
-  return SEO_METADATA["agencyPage"][lang];
+  return SEO_METADATA["servicesPage"][lang];
 };
 
 export default async function AgencyPage({
@@ -21,13 +21,13 @@ export default async function AgencyPage({
   params: Promise<{ lang: "es" | "en" }>;
 }) {
   const lang = (await params).lang;
-  const { common, agencyPage } = await getTranslations(lang);
+  const { common, servicesPage } = await getTranslations(lang);
   const { cta } = common;
 
   return (
     <main>
       <ImageCarrousel />
-      <AgencyInformation translations={agencyPage} />
+      <AgencyInformation translations={servicesPage} />
       <Clients />
       <Cta lang={lang} translations={cta} />
     </main>

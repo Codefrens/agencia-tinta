@@ -6,8 +6,8 @@
     "ctaText": "Schedule a call"
   },
   "heroVideo": {
-    "title": "Video production for brands in Spain.",
-    "description": "We create corporate videos, event coverage, reels and social content with strong storytelling, pace and a consistent look to strengthen your brand.",
+    "title": "Video production",
+    "description": "We work with institutions and companies looking for a faithful representation of who they are and what they build. We produce pieces with a cinematic aesthetic, designed to reflect their essence and strengthen their positioning.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
@@ -16,6 +16,36 @@
     "description": "We shoot product, food, corporate and interior photography to project a polished, attractive image aligned with your brand identity.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
+  },
+  "servicesVideo": {
+    "title": "Focus",
+    "subtitle": "Every project requires its own audiovisual language. We define the scope of the production by analyzing its specific details: the location, the technical deployment required, and the complexity of the edit.",
+    "servicesList": [
+      {
+        "title": "Institutional videos",
+        "description": "We convey your company's culture and value proposition to reinforce its institutional positioning. We create pieces for branding, corporate websites, commercial presentations, and internal communication."
+      },
+      {
+        "title": "Promotional videos",
+        "description": "Dynamic pieces focused on campaigns or specific launches to drive conversion. The perfect tool for advertising spots, Paid Ads campaigns, and client acquisition."
+      },
+      {
+        "title": "Hospitality videos",
+        "description": "Highly aesthetic visual content designed to highlight the texture, process, and culinary atmosphere of your brand. Pieces for restaurants, gourmet brands, digital menus, and Reels."
+      },
+      {
+        "title": "Event videos",
+        "description": "Coverage and production of launches, conferences, or activations, turning every experience into reusable content. We develop aftermovies, press material, and networking recaps."
+      },
+      {
+        "title": "Real estate videos",
+        "description": "Cinematic pieces that capture the light, materials, and lifestyle of each project to elevate its perceived value."
+      },
+      {
+        "title": "Product videos",
+        "description": "Precise visual demonstrations that highlight the features and finishes of what you offer to speed up the sale. Designed to power e-commerce catalogs, product pages, and visual advertising campaigns."
+      }
+    ]
   },
   "services": {
     "title": "Audiovisual and Photography Services",
@@ -139,24 +169,25 @@
     ]
   },
   "benefitsVideo": {
-    "titleLight": "Why choose",
-    "titleBold": "our videos?",
+    "titleLight": "Why choose Agencia Tinta",
+    "titleBold": "to produce your videos?",
+    "subtitle": "We master visual storytelling and editing pace to build audiovisual pieces with intention. We bring a cinematic eye and rigorous technical execution that elevates your brand's impact.",
     "benefitsList": [
       {
-        "title": "Over 8 years of experience",
-        "description": "Professional audiovisual production and photography with proven results."
+        "title": "Years of experience",
+        "description": "Technical mastery in cinematic lighting, camera direction, color grading, and storytelling."
       },
       {
         "title": "Strategic approach",
-        "description": "Videos designed to communicate, position and convert: scripting, production and post aligned to your goals."
+        "description": "Projects structured from the script breakdown, tailored to corporate video, reels, or product spots."
       },
       {
         "title": "Complete service",
-        "description": "Pre-production, filming, editing and delivery. Everything in one place."
+        "description": "End-to-end workflow management: pre-production, scripting, filming, and post-production."
       },
       {
         "title": "Wide coverage",
-        "description": "Presence throughout Spain."
+        "description": "Travel and technical crew available for productions throughout Spain."
       }
     ]
   },
@@ -245,7 +276,7 @@
     "items": [
       {
         "question": "What’s included in a corporate video production service?",
-        "answer": "Typically: planning and scripting (if needed), pre-production, filming, editing, music and basic motion graphics, color, and exports optimized for web and social. The exact scope depends on your goals."
+        "answer": "Delivery time depends on the type of project and its complexity. Covering an event or a quick session requires a very fast turnaround, while advertising spots or productions with a script, creative development, and advanced post-production involve a longer process."
       },
       {
         "question": "How long does delivery take?",
@@ -293,8 +324,8 @@
     ]
   },
   "videosVideo": {
-    "title": "Corporate videos",
-    "subtitle": "Audiovisual pieces designed to communicate your value proposition, strengthen positioning, and turn visits into customers.",
+    "title": "SPOTS AND COMMERCIAL PRODUCTION",
+    "subtitle": "Projects designed from contemporary filmmaking and the advertising standard. Audiovisual pieces built to make an impact with visual narrative, intention, and rhythm.",
     "videosList": []
   },
   "videosPhotography": {

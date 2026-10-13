@@ -42,7 +42,7 @@ type PricingPlan = {
 export type Translations = {
   common: {
     navigationLinks: {
-      agency: string;
+      services: string;
       video: string;
       fotografia: string;
       portfolio: string;
@@ -105,7 +105,7 @@ export type Translations = {
       sections: { title: string; paragraph: string }[];
     };
   };
-  agencyPage: {
+  servicesPage: {
     title: string;
     paragraph1: string;
     paragraph2: string;

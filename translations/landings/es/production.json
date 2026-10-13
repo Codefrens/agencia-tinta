@@ -6,8 +6,8 @@
     "ctaText": "Agenda tu llamada"
   },
   "heroVideo": {
-    "title": "Producción de video profesional para empresas",
-    "description": "En Agencia Tinta desarrollamos proyectos de producción de video pensados para empresas que buscan comunicar con claridad su propuesta de valor, fortalecer su posicionamiento y generar contenido audiovisual alineado con sus objetivos de marketing, comunicación corporativa y crecimiento digital.",
+    "title": "Producción de video",
+    "description": "Trabajamos con instituciones y empresas que buscan una representación fiel de lo que son y lo que construyen. Producimos piezas de estética cinematográfica orientadas a reflejar su esencia y fortalecer su posicionamiento.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
@@ -18,36 +18,32 @@
     "ctaText": "Agenda tu llamada"
   },
   "servicesVideo": {
-    "title": "Servicios de Servicios de producción de video para empresas",
-    "subtitle": "Cada proyecto audiovisual responde a una necesidad concreta: reforzar la identidad de marca, captar nuevos clientes, mejorar la comunicación interna o potenciar campañas digitales. Por eso diseñamos formatos de video adaptados a cada estrategia, cuidando tanto el mensaje como la ejecución técnica.",
+    "title": "Enfoque",
+    "subtitle": "Cada proyecto requiere un lenguaje audiovisual propio. Definimos el alcance de la producción analizando sus detalles concretos: la locación, el despliegue técnico necesario y la complejidad del montaje.",
     "servicesList": [
       {
-        "title": "Videos corporativos",
-        "description": "Los videos corporativos permiten presentar la identidad de una empresa, explicar su propuesta de valor y fortalecer su comunicación institucional. Son ideales para páginas web, presentaciones comerciales, redes sociales y estrategias de posicionamiento de marca."
+        "title": "Videos institucionales",
+        "description": "Transmitimos la cultura y propuesta de valor de tu empresa para reforzar su posicionamiento institucional. Creamos piezas para branding, webs corporativas, presentaciones comerciales y comunicación interna."
       },
       {
         "title": "Videos promocionales",
-        "description": "Los videos promocionales ayudan a comunicar productos, servicios o campañas de forma clara y atractiva. Son una herramienta clave para anuncios digitales, campañas publicitarias y contenido orientado a la conversión."
+        "description": "Piezas dinámicas enfocadas en campañas o lanzamientos concretos para impulsar la conversión. La herramienta perfecta para anuncios publicitarios, campañas de Paid Ads y captación de clientes."
       },
       {
-        "title": "Videos para redes sociales",
-        "description": "Creamos contenido audiovisual específico para plataformas como Instagram, TikTok, YouTube o LinkedIn. Estos formatos están pensados para captar la atención en segundos, reforzar la identidad visual de la marca, aumentar el alcance, mejorar el engagement y reforzar las estrategias de marketing digital."
+        "title": "Videos de hostelería",
+        "description": "Contenido visual de alta estética pensado para resaltar la textura, el proceso y la atmósfera culinaria de tu marca. Piezas para restaurantes, marcas gourmet, cartas digitales y Reels."
       },
       {
         "title": "Videos de eventos",
-        "description": "La producción de videos de eventos permite documentar lanzamientos, activaciones, conferencias o encuentros corporativos, transformando cada experiencia en contenido reutilizable para comunicación digital y promoción de marca."
+        "description": "Cobertura y producción de lanzamientos, conferencias o activaciones, transformando cada experiencia en contenido reutilizable. Desarrollamos aftermovies, material para notas de prensa y recapitulaciones de networking."
       },
       {
-        "title": "Videos de entrevistas",
-        "description": "Las entrevistas en video ayudan a mostrar liderazgo, compartir conocimiento y fortalecer la marca personal dentro de una organización. Este formato aporta cercanía, credibilidad y profundidad al mensaje corporativo."
+        "title": "Videos de inmuebles",
+        "description": "Piezas cinematográficas que capturan la luz, la materia y el estilo de vida de cada proyecto para elevar su valor percibido."
       },
       {
         "title": "Videos de producto",
-        "description": "Los videos de producto muestran características, aplicaciones y beneficios de forma clara y visual, apoyando la comunicación comercial y facilitando la toma de decisiones en procesos de compra."
-      },
-      {
-        "title": "Videos podcast",
-        "description": "La producción de video podcast permite generar contenido conversacional de alto valor para empresas, profesionales y marcas que desean compartir conocimiento, reforzar su posicionamiento y construir comunidad en entornos digitales.."
+        "description": "Demostraciones visuales precisas que resaltan las características y acabados de lo que ofreces para acelerar la venta. Diseñados para potenciar catálogos de e-commerce, fichas de producto y campañas de publicidad visual."
       }
     ]
   },
@@ -205,23 +201,23 @@
   "benefitsVideo": {
     "titleLight": "¿Por qué elegir Agencia Tinta",
     "titleBold": "para producir tus videos?",
-    "subtitle": "Trabajamos con empresas que buscan algo más que una grabación puntual. Nuestro enfoque integra dirección creativa, planificación estratégica de contenido y producción técnica para desarrollar piezas audiovisuales coherentes con los objetivos reales de cada marca, aportando valor real en la comunicación.",
+    "subtitle": "Dominamos la narrativa visual y el ritmo de montaje para construir piezas audiovisuales con intención. Aportamos mirada cinematográfica y una ejecución técnica rigurosa que eleva el impacto de tu marca.",
     "benefitsList": [
       {
-        "title": "Más de 8 años de experiencia",
-        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+        "title": "Años de experiencia",
+        "description": "Dominio técnico en iluminación cinematográfica, dirección de cámara, etalonaje y storytelling."
       },
       {
         "title": "Enfoque estratégico",
-        "description": "Videos pensados para comunicar, posicionar y convertir: guion, rodaje y postproducción alineados a objetivos."
+        "description": "Proyectos estructurados desde la escaleta, adaptados a vídeo corporativo, reels o spots de producto."
       },
       {
         "title": "Servicio completo",
-        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+        "description": "Gestión integral del flujo de trabajo: preproducción, guionaje, rodaje y postproducción."
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en toda España."
+        "description": "Desplazamiento y equipo técnico disponible para producciones fotográficas en toda España."
       }
     ]
   },
@@ -311,7 +307,7 @@
     "items": [
       {
         "question": "¿Cuánto tarda una producción de video para empresas?",
-        "answer": "El tiempo depende del tipo de proyecto, número de locaciones y complejidad del rodaje. En general, una producción completa suele desarrollarse entre dos y cuatro semanas incluyendo planificación, grabación y edición."
+        "answer": "El tiempo de entrega depende del tipo de proyecto y su complejidad. La cobertura de un evento o una sesión ágil requiere tiempos de respuesta muy rápidos, mientras que spots publicitarios o producciones con guion, desarrollo creativo y postproducción avanzada conllevan un proceso más extenso."
       },
       {
         "question": "¿Cuánto cuesta producir un video corporativo?",
@@ -351,8 +347,8 @@
     ]
   },
   "videosVideo": {
-    "title": "Nuestro trabajo en producción audiovisual",
-    "subtitle": "En esta sección puedes ver algunos de los proyectos de producción de video que hemos desarrollado para empresas y marcas de distintos sectores. Cada trabajo refleja nuestro enfoque: combinar creatividad, estrategia y calidad técnica para crear contenido que realmente aporten valor y funcionen en entornos digitales."
+    "title": "SPOTS Y PRODUCCIÓN COMERCIAL",
+    "subtitle": "Proyectos diseñados desde la realización contemporánea y el estándar publicitario. Piezas audiovisuales construidas para impactar con narrativa visual, intención y ritmo."
   },
   "videosPhotography": {
     "title": "Nuestro trabajo en fotografía profesional",

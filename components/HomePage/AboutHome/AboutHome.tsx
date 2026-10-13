@@ -44,7 +44,7 @@ const AboutHome = ({
             initial={{ y: 40, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
-            className={classNames(styles.title, 'font-color font-bold')}
+            className={classNames(styles.title, "font-color font-bold")}
           >
             {translations.paragraph1}
           </motion.p>
@@ -60,7 +60,7 @@ const AboutHome = ({
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: [0.26, 0.01, 0.06, 0.94] }}
           >
-            <Link href={`/${lang}/agency`}>
+            <Link href={`/${lang}/services`}>
               <Button className={styles.button}>
                 {translations.buttonLabel}
               </Button>

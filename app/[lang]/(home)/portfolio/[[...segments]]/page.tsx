@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Hero from "@/components/PortfolioPage/Hero";
 import PortfolioGrid from "@/components/PortfolioPage/PortfolioGrid";
-import Blob from "@/components/ui/Blob";
 import DetailHero from "@/components/PortfolioDetailPage/Hero";
 import ContentText from "@/components/PortfolioDetailPage/ContentText";
 import OneImage from "@/components/ui/OneImage";
@@ -15,7 +14,10 @@ import Cta from "@/components/Cta";
 import ImagesInRow from "@/components/ui/ImagesInRow";
 import UniqueReel from "@/components/ui/UniqueReel";
 import { getTranslations } from "../../../translations";
-import { SEO_METADATA, generateSEOMetadataPortfolioDetailPage } from "@/utils/SEOmetadata";
+import {
+  SEO_METADATA,
+  generateSEOMetadataPortfolioDetailPage,
+} from "@/utils/SEOmetadata";
 import { loadLocalContent } from "@/content/fetch";
 import { PortfolioFilters, Translations } from "@/translations/types";
 
@@ -46,19 +48,20 @@ function buildFiltersIndex(filters: PortfolioFilters) {
     filters.categories.map((c) => [
       c.slug,
       new Set(c.subcategories.map((s) => s.slug)),
-    ])
+    ]),
   );
   return { labelToSlug, slugToCat, categorySlugs, subcatsByCat };
 }
 
 async function resolveSegments(
   lang: "es" | "en",
-  segments: string[] | undefined
+  segments: string[] | undefined,
 ): Promise<Resolved> {
   const { common } = await getTranslations(lang);
   const projects = common.portfolioGrid;
   const filters = common.portfolioFilters;
-  const { labelToSlug, categorySlugs, subcatsByCat } = buildFiltersIndex(filters);
+  const { labelToSlug, categorySlugs, subcatsByCat } =
+    buildFiltersIndex(filters);
   const projectSlugs = new Set(projects.map((p) => p.slug));
 
   const segs = segments ?? [];
@@ -77,7 +80,7 @@ async function resolveSegments(
     const [x] = segs;
     if (categorySlugs.has(x)) {
       const filtered = projects.filter((p) =>
-        p.categories.some((c) => labelToSlug.get(c) === x)
+        p.categories.some((c) => labelToSlug.get(c) === x),
       );
       return {
         type: "grid",
@@ -99,7 +102,7 @@ async function resolveSegments(
       const filtered = projects.filter(
         (p) =>
           p.categories.some((c) => labelToSlug.get(c) === cat) &&
-          (p.subcategories?.[cat]?.includes(sub) ?? false)
+          (p.subcategories?.[cat]?.includes(sub) ?? false),
       );
       return {
         type: "grid",
@@ -273,12 +276,6 @@ export default async function PortfolioRoute({
     <main>
       <Hero translations={portfolioPage.hero} />
       <div style={{ position: "relative", overflow: "hidden" }}>
-        <Blob
-          width="100vw"
-          height="80vh"
-          path={"polygon(0 53%, 53% 33%, 100% 58%, 100% 100%, 0 100%)"}
-          bottom="-30%"
-        />
         <PortfolioGrid
           lang={lang}
           projects={projects}

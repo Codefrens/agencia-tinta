@@ -1,7 +1,7 @@
 {
   "common": {
     "navigationLinks": {
-      "agency": "Agency",
+      "services": "Services",
       "video": "Video",
       "fotografia": "Photography",
       "portfolio": "Portfolio",
@@ -266,66 +266,56 @@
       "lead": "Our portfolio of audiovisual projects reflects the way we turn ideas into strategic visual experiences, designed to strengthen each brand's identity. Every proposal integrates creativity, aesthetic coherence, and commercial vision, projecting a solid, attractive, and memorable image before its target audience."
     }
   },
-  "agencyPage": {
-    "title": "We are a strategic creative agency /",
-    "paragraph1": "In a world saturated with information, differentiation is key. A brand is not only built with words, but with images that convey emotions and videos that tell stories; that's why, as a creative agency, we combine creativity and data to develop creative production and audiovisual solutions that strengthen the brand experience.",
-    "paragraph2": "At Agencia Tinta, we integrate a specialized audiovisual production team focused on professional audiovisual production and professional video and photography to design productions that not only capture attention but generate impact and turn messages into memorable visual experiences.",
-    "paragraph3": "We create dynamic content that strengthens digital presence, builds community, and turns audiences into brand ambassadors. From strategic planning to audiovisual and photographic production, we enhance every story with innovation and precision.",
-    "quote": "Here's how we do it.",
+  "servicesPage": {
+    "title": "About us/",
+    "paragraph1": "Communication strategy and visual direction.",
+    "paragraph2": "At Tinta we collaborate with brands to define their approach and develop solid, coherent communication that truly represents their essence.",
+    "paragraph3": "We unify strategic analysis with the audiovisual language. This comprehensive vision lets us approach every project with judgment at all of its stages: from shaping the concept to composing and producing the final pieces.",
+    "quote": "We step into a specific milestone or lead the process end to end.",
     "serviceTitle": "Services /",
     "services": [
       {
-        "title": "Analysis & Strategy",
-        "description": "Defining a solid content strategy is key to building a brand with identity, relevance, and genuine connection with its audience, ensuring lasting impact over time.",
+        "title": "Communication Strategy",
+        "description": "We define what to produce, for whom, and with what goal. Planning that turns each shoot day into a bank of assets for months of communication.",
         "tags": [
-          "Market and competitor analysis",
-          "Audience and trend studies",
-          "Brand and communication strategy",
-          "Content development and digital planning"
+          "Market research and competitor analysis",
+          "Positioning, tone of voice, and core message",
+          "Launch strategy for products, openings, and projects",
+          "Editorial planning and production calendar",
+          "Scripts and recurring content systems"
         ]
       },
       {
-        "title": "Social Media",
-        "description": "We create digital communities that connect. We manage your online presence with innovative strategies.",
+        "title": "Visual Direction & Design",
+        "description": "We design your brand's graphic system: from the logo and colors to the exact aesthetic of every photo, video, and digital piece.",
         "tags": [
-          "Social media management",
-          "Community Management",
-          "Digital reputation strategies",
-          "Influencer collaborations",
-          "High-value content creation"
-        ]
-      },
-      {
-        "title": "Visual Identity & Design",
-        "description": "We turn ideas into impactful visual content, combining design, creativity, and narrative to create pieces that connect with audiences in any format, whether digital or physical.",
-        "tags": [
-          "Branding & Naming",
-          "Visual and verbal identity design",
-          "Brand manifestos and storytelling",
-          "Digital and physical experience design",
-          "Graphic and multimedia material creation"
-        ]
-      },
-      {
-        "title": "Web & Performance Marketing",
-        "description": "We optimize your digital presence to generate impact and conversions. From web design to high-performance campaigns.",
-        "tags": [
-          "Web design and development, microsites and landing pages",
-          "User Experience (UX) and interface optimization",
-          "SEO & Search engine positioning",
-          "Online advertising and SEM campaigns",
-          "Digital performance optimization"
+          "Visual identity design",
+          "Art direction guidelines for photo and video",
+          "Packaging, labels, and stationery",
+          "Offline signage",
+          "Templates and graphic assets for digital channels"
         ]
       },
       {
         "title": "Audiovisual Production",
-        "description": "We shape your brand through visual content that captivates and connects. We handle creative direction, production, and editing to create audiovisual pieces that leave a mark.",
+        "description": "Your brand's image is built shot by shot. We create it, with composition and rhythm.",
         "tags": [
-          "Audiovisual Production & Photography",
-          "Brand Films and creative campaigns",
-          "Advertising and product photography",
-          "Packaging & Editorial",
-          "AI applied to video production and digital content"
+          "Pre-production: concept, technical script, locations, and shooting plan.",
+          "Crew, vendor, and shoot logistics coordination",
+          "Cinematography direction",
+          "Lighting in studio or on location",
+          "Post-production: editing, color correction, and sound editing"
+        ]
+      },
+      {
+        "title": "Distribution & Performance",
+        "description": "We amplify the reach of your message through strategic paid media.",
+        "tags": [
+          "Pixel, Conversions API, and analytics implementation",
+          "Conversion-focused funnels and landing pages",
+          "Traffic, lead, and conversion campaigns",
+          "Segmentation, remarketing, and A/B testing",
+          "Continuous optimization and reporting on CPL, CAC, and ROAS"
         ]
       }
     ]
