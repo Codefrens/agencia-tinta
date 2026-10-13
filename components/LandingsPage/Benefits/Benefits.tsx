@@ -2,14 +2,14 @@
 import Container from "@/components/ui/Container";
 import Image from "next/image";
 import styles from "./Benefits.module.css";
-import { 
-  Medal, 
-  Lightbulb, 
-  HandHeart, 
-  Package, 
+import {
+  Medal,
+  Lightbulb,
+  HandHeart,
+  Package,
   Palette,
   CheckCircle,
-  MapPin
+  MapPin,
 } from "@phosphor-icons/react";
 import { Trophy } from "@phosphor-icons/react/dist/ssr/Trophy";
 
@@ -30,34 +30,39 @@ const aestheticBenefitIcons = [
   <Medal key="experience" size={40} weight="duotone" />,
   <Lightbulb key="creativity" size={40} weight="duotone" />,
   <HandHeart key="personal-attention" size={40} weight="duotone" />,
-  <Package key="complete-service" size={40} weight="duotone" />
+  <Package key="complete-service" size={40} weight="duotone" />,
 ];
 
 const productionBenefitIcons = [
   <Trophy key="trophy" size={40} weight="duotone" />,
   <Palette key="palette" size={40} weight="duotone" />,
   <CheckCircle key="check" size={40} weight="duotone" />,
-  <MapPin key="map" size={40} weight="duotone" />
+  <MapPin key="map" size={40} weight="duotone" />,
 ];
 
 const dentalBenefitIcons = [
   <Trophy key="trophy" size={40} weight="duotone" />,
   <Palette key="palette" size={40} weight="duotone" />,
   <CheckCircle key="check" size={40} weight="duotone" />,
-  <MapPin key="map" size={40} weight="duotone" />
+  <MapPin key="map" size={40} weight="duotone" />,
 ];
-  
 
-const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: BenefitsProps) => {
-
+const Benefits = ({
+  titleLight,
+  titleBold,
+  subtitle,
+  benefitsList,
+  source,
+}: BenefitsProps) => {
   const benefitIcons = {
     "landing-aesthetic": aestheticBenefitIcons,
     "landing-production": productionBenefitIcons,
     "landing-photography": productionBenefitIcons,
-    "landing-dental": dentalBenefitIcons
-  }
+    "landing-dental": dentalBenefitIcons,
+  };
 
-  const currentIcons = benefitIcons[source] || benefitIcons["landing-production"] || [];  
+  const currentIcons =
+    benefitIcons[source] || benefitIcons["landing-production"] || [];
 
   const images = {
     "landing-aesthetic": [
@@ -86,7 +91,7 @@ const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: Bene
       {
         imageUrl:
           "https://res.cloudinary.com/nicojoystin/image/upload/v1741969636/agencia-tinta/agencia/Agencia_3_yfv04z.png",
-          imageAlt: "Persona filmando",
+        imageAlt: "Persona filmando",
       },
       {
         imageUrl:
@@ -110,7 +115,7 @@ const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: Bene
           "https://res.cloudinary.com/nicojoystin/image/upload/v1757616308/agencia-tinta/landings/dental/CLINICA_DENTAL_TRABAJANDO_edqamd.webp",
         imageAlt: "Persona trabajando en escritorio con ordenador",
       },
-    ]
+    ],
   };
 
   const currentImages = images[source] || images["landing-production"] || [];
@@ -125,7 +130,7 @@ const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: Bene
           </h2>
           <p className={styles.subtitle}>{subtitle}</p>
         </div>
-        
+
         <div className={styles.benefitsGrid}>
           {benefitsList.map((benefit, index) => (
             <div key={index} className={styles.benefitItem}>
@@ -134,7 +139,9 @@ const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: Bene
               </div>
               <div className={styles.benefitContent}>
                 <h3 className={styles.benefitTitle}>{benefit.title}</h3>
-                <p className={styles.benefitDescription}>{benefit.description}</p>
+                <p className={styles.benefitDescription}>
+                  {benefit.description}
+                </p>
               </div>
             </div>
           ))}
@@ -163,4 +170,4 @@ const Benefits = ({ titleLight, titleBold, subtitle, benefitsList, source}: Bene
   );
 };
 
-export default Benefits; 
+export default Benefits;

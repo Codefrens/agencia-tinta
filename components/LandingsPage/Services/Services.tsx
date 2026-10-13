@@ -12,8 +12,7 @@ import {
   Buildings,
   House,
   TrendUp,
-  PencilSimple,
-  Microphone
+  PencilSimple
 } from "@phosphor-icons/react";
 
 interface Service {
@@ -40,11 +39,10 @@ const aestheticServiceIcons = [
 const productionServiceIcons = [
   <Buildings key="corporate" size={32} weight="duotone" />,
   <Megaphone key="promotional" size={32} weight="duotone" />,
-  <ShareNetwork key="social" size={32} weight="duotone" />,
+  <ForkKnife key="hospitality" size={32} weight="duotone" />,
   <Calendar key="events" size={32} weight="duotone" />,
   <VideoCamera key="interviews" size={32} weight="duotone" />,
   <Package key="product" size={32} weight="duotone" />,
-  <Microphone key="podcast" size={32} weight="duotone" />,
 ];
 
 const photographyServiceIcons = [

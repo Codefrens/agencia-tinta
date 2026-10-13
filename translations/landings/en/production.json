@@ -12,8 +12,8 @@
     "ctaText": "Schedule a call"
   },
   "heroPhotography": {
-    "title": "Professional photography for businesses in Spain.",
-    "description": "We shoot product, food, corporate and interior photography to project a polished, attractive image aligned with your brand identity.",
+    "title": "Specialized photography for companies and brands",
+    "description": "We develop photography projects for institutions and individuals who want to strengthen their image and communication. We create content for digital marketing with strategies adapted to different channels and commercial objectives.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
@@ -77,13 +77,13 @@
     ]
   },
   "worksVideo": {
-    "title": "Video projects",
-    "subtitle": "A selection of audiovisual pieces we’ve produced for brands and businesses: storytelling, pace, and a look aligned with your goals.",
+    "title": "",
+    "subtitle": "",
     "worksList": []
   },
   "worksPhotography": {
-    "title": "Photography projects",
-    "subtitle": "A selection of shoots and photos for brands and businesses: products, spaces, food, and social content.",
+    "title": "",
+    "subtitle": "",
     "worksList": []
   },
   "works": {
@@ -192,24 +192,25 @@
     ]
   },
   "benefitsPhotography": {
-    "titleLight": "Why choose",
-    "titleBold": "our photography?",
+    "titleLight": "Why choose Agencia Tinta",
+    "titleBold": "to produce your photographs?",
+    "subtitle": "We master light, composition and retouching to create photographs with visual intention. We bring an author's eye and rigorous technical execution that elevates your brand's perceived level.",
     "benefitsList": [
       {
-        "title": "Quality that sells",
-        "description": "Carefully crafted photography to elevate brand perception on web, e-commerce and social media."
+        "title": "Years of experience",
+        "description": "Technical mastery in studio lighting, flash, advanced digital retouching and art direction."
       },
       {
-        "title": "Art direction & styling",
-        "description": "Composition, lighting and styling so every image is consistent with your brand’s visual identity."
+        "title": "Strategic approach",
+        "description": "Projects adapted to corporate photography, food styling, product still life or dark food aesthetics."
       },
       {
-        "title": "Professional editing",
-        "description": "Retouching and color grading for a premium finish without losing a natural look."
+        "title": "Complete service",
+        "description": "Integral management from pre-production and styling to shooting and final editing."
       },
       {
         "title": "Wide coverage",
-        "description": "Presence throughout Spain."
+        "description": "Travel and technical equipment available for photographic productions throughout Spain."
       }
     ]
   },
@@ -329,8 +330,8 @@
     "videosList": []
   },
   "videosPhotography": {
-    "title": "Videos & social content",
-    "subtitle": "Video content to support your photo shoots and campaigns: behind-the-scenes, reels, and short-form content for social media.",
+    "title": "Our work in professional photography",
+    "subtitle": "Here you can see some of the photography projects we have developed for companies, brands and professionals. Each work reflects our approach and commitment, where we combine creative direction, photographic techniques and visual strategy to create content with real impact.",
     "videosList": []
   },
   "videos": {

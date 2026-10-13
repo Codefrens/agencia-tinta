@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  gap: pxToRem(32);
+  gap: pxToRem(24);
   margin: 80px auto;
   max-width: 1024px;
   padding: 0 20px;
@@ -36,9 +36,9 @@
   display: flex;
   flex-direction: column;
   gap: pxToRem(16);
-  align-items: center;
+  align-items: flex-start;
   text-wrap-style: balance;
-  text-align: center;
+  text-align: left;
 }
 
 .iconContainer {
@@ -73,10 +73,10 @@
 @mixin mediaMin768 {
   .wrapper {
     grid-template-columns: 1fr;
-    gap: pxToRem(48);
+    gap: pxToRem(32);
     padding: 0 20px;
   }
-  
+
   .title {
     font-size: pxToRem(26);
   }
@@ -87,7 +87,7 @@
   }
 
   .serviceItem {
-    flex-direction: row;
+    flex-direction: column;
     gap: pxToRem(20);
     align-items: flex-start;
   }
@@ -114,10 +114,10 @@
   .wrapper {
     grid-template-columns: 1fr;
     margin: 100px auto;
-    gap: pxToRem(64);
+    gap: pxToRem(32);
     padding: 0;
   }
-  
+
   .title {
     font-size: pxToRem(32);
   }
@@ -136,7 +136,7 @@
   .serviceItem {
     flex-direction: column;
     gap: pxToRem(20);
-    align-items: center;
+    align-items: flex-start;
   }
 
   .iconContainer {
@@ -148,11 +148,11 @@
   .serviceText h3 {
     font-size: pxToRem(18);
     margin-bottom: pxToRem(16);
-    text-align: center;
+    text-align: left;
   }
 
   .serviceText p {
     font-size: pxToRem(16);
-    text-align: center;
+    text-align: left;
   }
-} 
+}

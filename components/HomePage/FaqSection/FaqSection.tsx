@@ -25,7 +25,10 @@ const FaqSection = ({
       <Container>
         <div className={styles.header}>
           <h2 className={styles.title}>
-            <span className={styles.titleLight}>{translations.titleLight} </span>
+            <span className={styles.titleLight}>
+              {translations.titleLight}{" "}
+            </span>
+            <br />
             <span className={styles.titleBold}>{translations.titleBold}</span>
           </h2>
           <p className={styles.subtitle}>{translations.subtitle}</p>

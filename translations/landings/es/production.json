@@ -12,8 +12,8 @@
     "ctaText": "Agenda tu llamada"
   },
   "heroPhotography": {
-    "title": "Fotografía profesional para empresas y marcas",
-    "description": "En Agencia Tinta desarrollamos proyectos de fotografía profesional para empresas que desean fortalecer su imagen de marca, generar contenido visual para marketing y mejorar su presencia digital con imágenes estratégicas adaptadas a distintos canales y objetivos comerciales.",
+    "title": "Fotografia especializada para empresas y marcas",
+    "description": "Desarrollamos proyectos de fotografía para instituciones y personas que desean fortalecer su imagen y comunicación. Generamos contenido para marketing digital con estrategias adaptadas a distintos canales y objetivos comerciales.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
@@ -48,32 +48,32 @@
     ]
   },
   "servicesPhotography": {
-    "title": "Servicios de fotografía profesional para empresas",
-    "subtitle": "Cada empresa necesita comunicar visualmente de forma diferente. Por eso ofrecemos distintos servicios de fotografía profesional adaptados a cada sector, teniendo presentes los objetivos comerciales y las estrategias de marketing digital.",
+    "title": "Sesiones fotográficas y construcción de marca",
+    "subtitle": "Lo que quieres transmitir con tu imagen es tu manera de diferenciarte. Por eso ofrecemos distintos servicios de fotografía adaptados a cada sector, potenciando tu identidad visual con un enfoque creativo.",
     "servicesList": [
       {
         "title": "Fotografía corporativa",
-        "description": "La fotografía corporativa permite mostrar el equipo humano, los espacios de trabajo y la identidad visual de una empresa. Estas imágenes refuerzan la credibilidad de la marca, proyectan profesionalismo y mejoran la presentación de la empresa en webs, redes sociales y materiales corporativos."
+        "description": "Permite mostrar el equipo humano, el espacio de trabajo, las oficinas y la identidad visual de una empresa. Estas fotografias refuerzan la credibilidad, proyectan profesionalismo y mejoran la presentación de la empresa en webs, redes sociales y materiales corporativos."
       },
       {
         "title": "Fotografía de eventos",
-        "description": "La fotografía de eventos documenta lanzamientos, conferencias, activaciones o encuentros empresariales, generando contenido visual que puede utilizarse posteriormente en comunicación corporativa, prensa, redes sociales y campañas de marketing."
+        "description": "Reportaje y cobertura de lanzamientos, conferencias, eventos sociales, activaciones y encuentros empresariales. Contenido curado para notas de prensa, comunicación interna y campañas de marketing."
       },
       {
         "title": "Fotografía para redes sociales",
-        "description": "Creamos fotografía profesional adaptada a redes sociales como Instagram, LinkedIn o TikTok. Estas imágenes ayudan a mantener una estética coherente de marca y generan contenido visual atractivo que mejora el engagement y la visibilidad digital."
+        "description": "Contenido profesional optimizado para la estética de Instagram y LinkedIn. Desarrollamos imágenes pensadas para elevar el engagement, la visibilidad digital y la coherencia de marca."
       },
       {
-        "title": "Fotografía de producto ",
-        "description": "La fotografía de producto permite mostrar características, detalles y beneficios de forma clara y estratégica. Es fundamental para ecommerce, catálogos digitales y campañas publicitarias donde la imagen tiene un impacto directo en la decisión de compra."
+        "title": "Fotografía de producto",
+        "description": "Permite mostrar características, detalles y beneficios de forma clara y estratégica. Es fundamental para ecommerce, catálogos digitales y campañas publicitarias donde la imagen tiene un impacto directo en la decisión de compra."
       },
       {
-        "title": "Fotografía gastronómica",
-        "description": "La fotografía gastronómica ayuda a restaurantes y marcas alimentarias a presentar sus productos de forma atractiva y estratégica, transmitiendo calidad, detalles y texturas de cada alimento, generando una experiencia y presentación culinaria para desarrollar campañas publicitarias, cartas digitales y contenido para redes sociales."
+        "title": "Fotografía de hostelería",
+        "description": "Capturamos la experiencia gastronómica de restaurantes y hoteles mediante técnicas de food styling y composición de bodegón. Diseñada para destacar en cartas digitales, campañas de publicidad y redes sociales."
       },
       {
         "title": "Fotografía inmobiliaria",
-        "description": "La fotografía inmobiliaria permite presentar propiedades, hoteles e interiores comerciales con imágenes profesionales que destacan la amplitud, la iluminación y los elementos arquitectónicos, facilitando la captación de clientes potenciales."
+        "description": "Producción visual de arquitectura e interiorismo para propiedades, hoteles y espacios comerciales. Dominamos la luz y la amplitud espacial para facilitar la captación de clientes e inversores."
       }
     ]
   },
@@ -107,13 +107,13 @@
     ]
   },
   "worksVideo": {
-    "title": "Producción audiovisual aplicada al marketing digital",
-    "subtitle": "Hoy el video es uno de los formatos con mayor capacidad de impacto en internet. Las empresas utilizan contenido audiovisual para redes sociales, campañas publicitarias y estrategias de video marketing que aumentan la visibilidad, mejoran la interacción y fortalecen el reconocimiento de marca.",
+    "title": "",
+    "subtitle": "",
     "worksList": []
   },
   "worksPhotography": {
-    "title": "Fotografía profesional aplicada al marketing digital",
-    "subtitle": "Hoy en día la imagen es un elemento clave dentro de cualquier estrategia de marketing. Muchas empresas utilizan fotografía profesional para alimentar sus redes sociales, mejorar su presencia online y crear contenido visual coherente que refuerce su posicionamiento de marca y su identidad visual.",
+    "title": "",
+    "subtitle": "",
     "worksList": []
   },
   "works": {
@@ -222,25 +222,25 @@
     ]
   },
   "benefitsPhotography": {
-    "titleLight": "¿Por qué elegir Agencia Tinta ",
-    "titleBold": "para tus proyectos de fotografía?",
-    "subtitle": "Nuestro equipo combina experiencia técnica, dirección creativa y visión estratégica para desarrollar imágenes que aporten valor a cada marca. Trabajamos con empresas que buscan mejorar su comunicación visual y diferenciarse mediante contenido profesional.",
+    "titleLight": "¿Por qué elegir Agencia Tinta",
+    "titleBold": "para producir tus fototografías?",
+    "subtitle": "Dominamos la luz, la composición y el retoque para crear fotografías con intención visual. Aportamos mirada de autor y una ejecución técnica rigurosa que eleva el nivel percibido de tu marca.",
     "benefitsList": [
       {
-        "title": "Más de 8 años de experiencia",
-        "description": "Producción audiovisual y fotografía profesional con resultados comprobados."
+        "title": "Años de experiencia",
+        "description": "Dominio técnico en iluminación de plató, flash de estudio, retoque digital avanzado y dirección de arte."
       },
       {
         "title": "Enfoque estratégico",
-        "description": "Videos pensados para comunicar, posicionar y convertir: guion, rodaje y postproducción alineados a objetivos."
+        "description": "Proyectos adaptados a fotografía corporativa, food styling, bodegón de producto o estética dark food."
       },
       {
         "title": "Servicio completo",
-        "description": "Preproducción, rodaje, montaje y entrega. Todo en un solo lugar."
+        "description": "Gestión integral desde la preproducción y estilismo hasta el rodaje y la edición final."
       },
       {
         "title": "Cobertura amplia",
-        "description": "Presencia en toda España."
+        "description": "Desplazamiento y equipo técnico disponible para producciones fotográficas en toda España."
       }
     ]
   },
@@ -352,7 +352,8 @@
   },
   "videosPhotography": {
     "title": "Nuestro trabajo en fotografía profesional",
-    "subtitle": "En esta sección puedes ver algunos de los proyectos de fotografía que hemos desarrollado para empresas, marcas y profesionales. Cada trabajo refleja nuestro enfoque y compromiso, donde combinamos dirección creativa, técnicas fotográficas y estrategia visual para crear contenido con impacto real."
+    "subtitle": "En esta sección puedes ver algunos de los proyectos de fotografía que hemos desarrollado para empresas, marcas y profesionales. Cada trabajo refleja nuestro enfoque y compromiso, donde combinamos dirección creativa, técnicas fotográficas y estrategia visual para crear contenido con impacto real.",
+    "videosList": []
   },
   "videos": {
     "title": "Videos corporativos",
