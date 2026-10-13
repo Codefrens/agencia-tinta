@@ -16,10 +16,16 @@ const BurgerMenu = ({
 }) => {
   const links = [
     { href: `/${lang}`, label: "Home" },
-    { href: `/${lang}/agency`, label: translations.navigationLinks.agency },
+    { href: `/${lang}/services`, label: translations.navigationLinks.services },
     { href: `/${lang}/video`, label: translations.navigationLinks.video },
-    { href: `/${lang}/fotografia`, label: translations.navigationLinks.fotografia },
-    { href: `/${lang}/portfolio`, label: translations.navigationLinks.portfolio },
+    {
+      href: `/${lang}/fotografia`,
+      label: translations.navigationLinks.fotografia,
+    },
+    {
+      href: `/${lang}/portfolio`,
+      label: translations.navigationLinks.portfolio,
+    },
     { href: `/${lang}/contact`, label: translations.navigationLinks.contact },
     {
       href: `https://wa.me/+34611149862?text=${translations.whatsappMessage}`,

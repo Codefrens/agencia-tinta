@@ -75,7 +75,7 @@ const homePage = {
   },
 };
 
-const agencyPage = {
+const servicesPage = {
   es: {
     title:
       "Contenido, estrategia y vídeo profesional en nuestra agencia creativa",
@@ -88,7 +88,7 @@ const agencyPage = {
       title: "Tinta | Nuestra agencia",
       description:
         "Estrategia, creatividad y producción audiovisual para marcas que buscan diferenciarse.",
-      url: `${process.env.BASE_URL}/es/agency`,
+      url: `${process.env.BASE_URL}/es/services`,
       siteName: "Agencia Tinta",
       images: [
         {
@@ -113,7 +113,7 @@ const agencyPage = {
       ],
     },
     alternates: {
-      canonical: `${process.env.BASE_URL}/es/agency`,
+      canonical: `${process.env.BASE_URL}/es/services`,
     },
   },
   en: {
@@ -127,7 +127,7 @@ const agencyPage = {
       title: "Tinta | About the agency",
       description:
         "Strategy, creativity and audiovisual production for brands that want to stand out.",
-      url: `${process.env.BASE_URL}/en/agency`,
+      url: `${process.env.BASE_URL}/en/services`,
       siteName: "Tinta Agency",
       images: [
         {
@@ -152,7 +152,7 @@ const agencyPage = {
       ],
     },
     alternates: {
-      canonical: `${process.env.BASE_URL}/en/agency`,
+      canonical: `${process.env.BASE_URL}/en/services`,
     },
   },
 };
@@ -610,7 +610,7 @@ const thankYouPage = {
 
 export const SEO_METADATA = {
   homePage,
-  agencyPage,
+  servicesPage,
   portfolioPage,
   foodarPage,
   productionPage,

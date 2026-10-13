@@ -1,7 +1,7 @@
 {
   "common": {
     "navigationLinks": {
-      "agency": "Agencia",
+      "services": "Servicios",
       "video": "Video",
       "fotografia": "Fotografía",
       "portfolio": "Portfolio",
@@ -16,6 +16,10 @@
       {
         "title": "AC Hotel Marriott",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["hosteleria", "redes-sociales"],
+          "video": ["hosteleria", "institucional", "promocionales"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616411/agencia-tinta/portfolio/ac-hoteles/PORTADA_HOME_AC_HOTEL._m1tetv.webp",
         "imageAlt": "Imagen de comida de AC Hotel Marriott",
         "slug": "ac-hotel"
@@ -23,6 +27,10 @@
       {
         "title": "Delegación del Gobierno en Madrid",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["corporativa", "eventos"],
+          "video": ["entrevistas", "eventos"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780861584/agencia-tinta/portfolio/gobierno-madrid/portada_illfxv.webp",
         "imageAlt": "Delegación del Gobierno en Madrid",
         "slug": "gobierno-madrid"
@@ -31,6 +39,10 @@
       {
         "title": "Bacardi",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["corporativa", "producto"],
+          "video": ["producto", "promocionales"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1757616386/agencia-tinta/portfolio/bacardi/PORTADA_HOME_BACARDI_ckxzub.webp",
         "imageAlt": "Bacardi",
         "slug": "bacardi"
@@ -38,6 +50,10 @@
       {
         "title": "Schmidt Cocinas",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["corporativa", "eventos", "redes-sociales"],
+          "video": ["eventos", "institucional"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839017/agencia-tinta/portfolio/schmit/fotografia-arquitectura_rfsd1u.webp",
         "imageAlt": "Schmidt Cocinas",
         "slug": "schmidt-cocinas"
@@ -45,14 +61,22 @@
 
       {
         "title": "Cantina Canalla",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["hosteleria", "redes-sociales"],
+          "video": ["hosteleria", "promocionales"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742223804/agencia-tinta/portfolio/cantina-canalla/fotos/portada_lfuu1p.jpg",
         "imageAlt": "Imagen de comida de Cantina Canalla",
         "slug": "cantina-canalla"
       },
       {
         "title": "Black Label",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["hosteleria", "producto", "redes-sociales"],
+          "video": ["hosteleria", "producto"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742224045/agencia-tinta/portfolio/black-label/fotos/portada_1_ygsizl.jpg",
         "imageAlt": "Black Label",
         "slug": "black-label"
@@ -60,13 +84,21 @@
       {
         "title": "Remax Coast",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["inmobiliaria"],
+          "video": ["entrevistas", "institucional"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741465701/agencia-tinta/portfolio/remax/fotos/12_e3dyyt.jpg",
         "imageAlt": "",
         "slug": "remax-coast"
       },
       {
         "title": "Smash",
-        "categories": ["Identidad Visual", "Fotografía", "Video"],
+        "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["hosteleria", "producto", "redes-sociales"],
+          "video": ["hosteleria", "producto"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1741710136/agencia-tinta/portfolio/smash/fotos/portada_wpgxls.jpg",
         "imageAlt": "",
         "slug": "smash-burger"
@@ -74,6 +106,10 @@
       {
         "title": "Festival de Málaga",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["eventos"],
+          "video": ["entrevistas", "eventos"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780835301/agencia-tinta/portfolio/festival-malaga/cobertura-evento_karzzb.webp",
         "imageAlt": "",
         "slug": "festival-malaga"
@@ -82,13 +118,15 @@
       {
         "title": "Grupo Amigos",
         "categories": ["Video"],
+        "subcategories": { "video": ["promocionales"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742036453/agencia-tinta/portfolio/grupo-amigos/portada_z2th7v.jpg",
         "imageAlt": "Grupo amigos",
         "slug": "grupo-amigos"
       },
       {
         "title": "Nordic Guarantee",
-        "categories": ["Video"],
+        "categories": ["Fotografía"],
+        "subcategories": { "fotografia": ["corporativa"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780838961/agencia-tinta/portfolio/nordic/cobertura-evento_n7zvqj.webp",
         "imageAlt": "Nordic Guarantee",
         "slug": "nordic"
@@ -96,6 +134,7 @@
       {
         "title": "Ibima",
         "categories": ["Video"],
+        "subcategories": { "video": ["institucional"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1780839089/agencia-tinta/portfolio/ibima/video-institucional_xfftto.webp",
         "imageAlt": "Ibima",
         "slug": "ibima"
@@ -103,6 +142,7 @@
       {
         "title": "Agape",
         "categories": ["Video"],
+        "subcategories": { "video": ["producto"] },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742035848/agencia-tinta/portfolio/agape/portada_agape%CC%81e_mbbgo9.jpg",
         "imageAlt": "Agape",
         "slug": "agape"
@@ -110,12 +150,48 @@
       {
         "title": "Malavida",
         "categories": ["Fotografía", "Video"],
+        "subcategories": {
+          "fotografia": ["hosteleria", "redes-sociales"],
+          "video": ["hosteleria"]
+        },
         "imageUrl": "https://res.cloudinary.com/nicojoystin/image/upload/v1742033888/agencia-tinta/portfolio/malavida/fotos/portada_ameg6i.jpg",
         "imageAlt": "",
         "slug": "malavida"
       }
     ],
-    "filters": ["Todos", "Identidad Visual", "Fotografía", "Video"],
+    "portfolioFilters": {
+      "categories": [
+        {
+          "slug": "identidad-visual",
+          "label": "Identidad Visual",
+          "subcategories": []
+        },
+        {
+          "slug": "fotografia",
+          "label": "Fotografía",
+          "subcategories": [
+            { "slug": "corporativa", "label": "Corporativa" },
+            { "slug": "eventos", "label": "Eventos" },
+            { "slug": "redes-sociales", "label": "Redes Sociales" },
+            { "slug": "producto", "label": "Producto" },
+            { "slug": "hosteleria", "label": "Hostelería" },
+            { "slug": "inmobiliaria", "label": "Inmobiliaria" }
+          ]
+        },
+        {
+          "slug": "video",
+          "label": "Video",
+          "subcategories": [
+            { "slug": "institucional", "label": "Institucional" },
+            { "slug": "promocionales", "label": "Promocionales" },
+            { "slug": "hosteleria", "label": "Hostelería" },
+            { "slug": "eventos", "label": "Eventos" },
+            { "slug": "entrevistas", "label": "Entrevistas" },
+            { "slug": "producto", "label": "Producto" }
+          ]
+        }
+      ]
+    },
     "whatsappMessage": "Hola! Quiero hacer una consulta.",
     "notFoundTitle": "404",
     "notFoundSubtitle": "La página que buscas no existe",
@@ -187,79 +263,59 @@
   "portfolioPage": {
     "hero": {
       "title": "Explora nuestro portfolio de proyectos audiovisuales",
-      "lead": "Nuestro portafolio de proyectos audiovisuales refleja la manera en que convertimos ideas en experiencias visuales estratégicas, diseñadas para fortalecer la identidad de cada marca. Cada propuesta integra creatividad, coherencia estética y visión comercial, lo que permite proyectar una imagen sólida, atractiva y memorable ante su público objetivo.",
-      "sections": [
-        {
-          "title": "Proyectos creativos que fortalecen el branding",
-          "paragraph": "Desarrollamos proyectos creativos y trabajos de producción audiovisual que conectan estrategia y emoción, asegurando que cada proyecto audiovisual aporte valor real al posicionamiento de marca, reforzando su identidad visual y construyendo una narrativa coherente que impacta de manera auténtica."
-        },
-        {
-          "title": "Producción audiovisual y posicionamiento estratégico",
-          "paragraph": "Nuestra producción audiovisual impulsa el branding a través de estrategias integrales que combinan dirección creativa, narrativa visual y fotografía profesional para empresas, mientras el video marketing fortalece la conexión emocional con audiencias específicas y consolida marcas coherentes y memorables."
-        }
-      ]
+      "lead": "Nuestro portafolio de proyectos audiovisuales refleja la manera en que convertimos ideas en experiencias visuales estratégicas, diseñadas para fortalecer la identidad de cada marca. Cada propuesta integra creatividad, coherencia estética y visión comercial, lo que permite proyectar una imagen sólida, atractiva y memorable ante su público objetivo."
     }
   },
-  "agencyPage": {
-    "title": "Somos una agencia creativa estratégica /",
-    "paragraph1": "En un mundo saturado de información, la diferenciación es clave. Una marca no solo se construye con palabras, sino con imágenes que transmiten emociones y videos que cuentan historias; por eso, como agencia creativa, combinamos creatividad y datos para desarrollar producción creativa y soluciones audiovisuales que fortalecen la experiencia de marca. ",
-    "paragraph2": "En Agencia Tinta, integramos un equipo de producción audiovisual especializado en producción audiovisual profesional y video y fotografía profesional para diseñar producciones que no solo captan la atención, sino que generan impacto y convierten mensajes en experiencias visuales memorables.",
-    "paragraph3": "Creamos contenido dinámico que fortalece la presencia digital, genera comunidad y convierte audiencias en embajadores de marca. Desde la planificación estratégica hasta la producción audiovisual y fotográfica, potenciamos cada historia con innovación y precisión.",
-    "quote": "Aquí te presentamos de qué manera lo hacemos.",
+  "servicesPage": {
+    "title": "Nosotros/",
+    "paragraph1": "Estrategia de comunicación y dirección visual.",
+    "paragraph2": "En Tinta colaboramos con marcas en la definición de su enfoque y en el desarrollo de una comunicación sólida, coherente y representativa de su esencia.",
+    "paragraph3": "Unificamos el análisis estratégico con el lenguaje audiovisual. Esta visión integral nos permite abordar cada proyecto con criterio en todas sus etapas: desde la articulación del concepto hasta la composición y la producción de las piezas finales.",
+    "quote": "Entramos en un hito específico o lideramos el proceso de punta a punta.",
     "serviceTitle": "Servicios /",
     "services": [
       {
-        "title": "Análisis y estrategia",
-        "description": "Definir una estrategia de contenido sólida es clave para construir una marca con identidad, relevancia y conexión genuina con su audiencia, asegurando un impacto duradero en el tiempo.",
+        "title": "Estrategia de comunicación",
+        "description": "Definimos qué producir, para quién y con qué objetivo. Una planificación que convierte cada jornada de rodaje en un banco de piezas para meses de comunicación.",
         "tags": [
-          "Análisis de mercado y competencia",
-          "Estudios de audiencia y tendencias",
-          "Estrategia de marca y comunicación",
-          "Desarrollo de contenido y planificación digital"
+          "Investigación de mercado y análisis de competencia",
+          "Posicionamiento, tono de voz y mensaje principal",
+          "Estrategia de lanzamiento de productos, aperturas y proyectos",
+          "Planificación editorial y calendario de producción",
+          "Guiones y sistemas de contenido recurrente"
         ]
       },
       {
-        "title": "Redes Sociales",
-        "description": "Creamos comunidades digitales que conectan. Gestionamos tu presencia online con estrategias innovadoras.",
+        "title": "Dirección Visual & Diseño",
+        "description": "Diseñamos el sistema gráfico de tu marca: desde el logo y los colores hasta la estética exacta que va a tener cada foto, video y pieza digital.",
         "tags": [
-          "Gestión de redes sociales",
-          "Community Management",
-          "Estrategias de reputación digital",
-          "Colaboraciones con influencers",
-          "Creación de contenido de alto valor"
+          "Diseño de identidad visual",
+          "Manuales de dirección de arte para foto y video",
+          "Packaging, etiquetas y papelería",
+          "Cartelería off-line",
+          "Plantillas y piezas gráficas para canales digitales"
         ]
       },
       {
-        "title": "Identidad visual y diseño",
-        "description": "Convertimos ideas en contenido visual que impacta, combinando diseño, creatividad y narrativa para crear piezas que conectan con las audiencias en cualquier formato, ya sea en entornos digitales o físicos.",
+        "title": "Producción Audiovisual",
+        "description": "La imagen de tu marca se construye plano a plano. Nosotros la creamos, con composición y ritmo.",
         "tags": [
-          "Branding & Naming",
-          "Diseño de identidad visual y verbal",
-          "Manifiestos y storytelling de marca",
-          "Diseño de experiencias digitales y físicas",
-          "Creación de materiales gráficos y multimedia"
+          "Preproducción: concepto, guion técnico, localizaciones y plan de rodaje.",
+          "Coordinación de equipo, proveedores y logística de rodaje",
+          "Dirección de fotografía",
+          "Iluminación en estudio o localización",
+          "Postproducción: montaje, corrección de color y edición de sonido"
         ]
       },
       {
-        "title": "Web y performance marketing",
-        "description": "Optimizamos tu presencia digital para generar impacto y conversiones. Desde el diseño web hasta campañas de alto rendimiento.",
+        "title": "Distribución & Performance",
+        "description": "Amplificamos el alcance de tu mensaje mediante pauta estratégica.",
         "tags": [
-          "Diseño y desarrollo web, microsites y landing pages",
-          "User Experience (UX) y optimización de interfaces",
-          "SEO & Posicionamiento en buscadores",
-          "Publicidad online y campañas SEM",
-          "Optimización de rendimiento digital"
-        ]
-      },
-      {
-        "title": "Producción audiovisual",
-        "description": "Damos forma a tu marca a través de contenido visual que cautiva y conecta. Nos encargamos de la dirección creativa, producción y edición para crear piezas audiovisuales que dejan huella.",
-        "tags": [
-          "Producción audiovisual & Fotografía",
-          "Brand Films y campañas creativas",
-          "Fotografía publicitaria y de producto",
-          "Packaging & Editorial",
-          "IA aplicada a producción de video y contenido digital"
+          "Implementación de píxel, API de conversiones y analítica",
+          "Embudos y landing pages orientadas a conversión",
+          "Campañas de tráfico, leads y conversión",
+          "Segmentación, remarketing y testing A/B",
+          "Optimización continua y reporting de CPL, CAC y ROAS"
         ]
       }
     ]

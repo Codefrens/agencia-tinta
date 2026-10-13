@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 const AgencyInformation = ({
   translations,
 }: {
-  translations: Translations["agencyPage"];
+  translations: Translations["servicesPage"];
 }) => {
   return (
     <Container>
@@ -15,7 +15,10 @@ const AgencyInformation = ({
         <h1 className={styles.title}>{translations.title}</h1>
         <div className={styles.content}>
           <p className="font-color font-medium">{translations.paragraph1}</p>
-          <p className="font-color font-medium" dangerouslySetInnerHTML={{ __html: translations.paragraph2 }} />
+          <p
+            className="font-color font-medium"
+            dangerouslySetInnerHTML={{ __html: translations.paragraph2 }}
+          />
           <p className="font-color-gray">{translations.paragraph3}</p>
           <p className={styles.quote}>{translations.quote}</p>
         </div>

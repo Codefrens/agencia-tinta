@@ -7,7 +7,7 @@
   },
   "heroVideo": {
     "title": "Producción de video",
-    "description": "Transformamos la visión de empresas, instituciones y personas en contenido audiovisual de alto impacto. Desarrollamos piezas cinematográficas pensadas para fortalecer su posicionamiento, conectar con su público y darles el peso visual que merecen.",
+    "description": "Trabajamos con instituciones y empresas que buscan una representación fiel de lo que son y lo que construyen. Producimos piezas de estética cinematográfica orientadas a reflejar su esencia y fortalecer su posicionamiento.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Agenda tu llamada"
   },
@@ -18,28 +18,28 @@
     "ctaText": "Agenda tu llamada"
   },
   "servicesVideo": {
-    "title": "Soluciones y narrativas para producción de vídeo",
-    "subtitle": "Cada proyecto audiovisual responde a una necesidad concreta: construir identidad, captar la atención de tu público o potenciar tu estrategia digital. Por eso creamos formatos de vídeo específicos para cada objetivo, cuidando tanto el mensaje de fondo como la ejecución técnica.",
+    "title": "Enfoque",
+    "subtitle": "Cada proyecto requiere un lenguaje audiovisual propio. Definimos el alcance de la producción analizando sus detalles concretos: la locación, el despliegue técnico necesario y la complejidad del montaje.",
     "servicesList": [
       {
         "title": "Videos institucionales",
-        "description": "Transmitimos la esencia, cultura y propuesta de valor de tu empresa para reforzar su posicionamiento institucional. Creamos piezas clave para branding, webs corporativas, presentaciones comerciales y comunicación interna."
+        "description": "Transmitimos la cultura y propuesta de valor de tu empresa para reforzar su posicionamiento institucional. Creamos piezas para branding, webs corporativas, presentaciones comerciales y comunicación interna."
       },
       {
         "title": "Videos promocionales",
-        "description": "Piezas dinámicas enfocadas en campañas, lanzamientos o servicios concretos para impulsar la conversión. La herramienta perfecta para anuncios publicitarios, campañas de Paid Ads y captación de clientes."
+        "description": "Piezas dinámicas enfocadas en campañas o lanzamientos concretos para impulsar la conversión. La herramienta perfecta para anuncios publicitarios, campañas de Paid Ads y captación de clientes."
       },
       {
         "title": "Videos de hostelería",
-        "description": "Contenido visual de alta estética pensado para resaltar la textura, el proceso y la experiencia culinaria de tu marca. Producimos piezas de alto impacto visual para restaurantes, marcas gourmet, cartas digitales y Reels."
+        "description": "Contenido visual de alta estética pensado para resaltar la textura, el proceso y la atmósfera culinaria de tu marca. Piezas para restaurantes, marcas gourmet, cartas digitales y Reels."
       },
       {
         "title": "Videos de eventos",
         "description": "Cobertura y producción de lanzamientos, conferencias o activaciones, transformando cada experiencia en contenido reutilizable. Desarrollamos aftermovies, material para notas de prensa y recapitulaciones de networking."
       },
       {
-        "title": "Videos de entrevistas",
-        "description": "Conversaciones y testimonios que aportan humanidad, autoridad y credibilidad al mensaje de tu organización. Ideales para mostrar casos de éxito, testimonios de clientes, marca personal y liderazgo del sector."
+        "title": "Videos de inmuebles",
+        "description": "Piezas cinematográficas que capturan la luz, la materia y el estilo de vida de cada proyecto para elevar su valor percibido."
       },
       {
         "title": "Videos de producto",
@@ -307,7 +307,7 @@
     "items": [
       {
         "question": "¿Cuánto tarda una producción de video para empresas?",
-        "answer": "El tiempo depende del tipo de proyecto, número de locaciones y complejidad del rodaje. En general, una producción completa suele desarrollarse entre dos y cuatro semanas incluyendo planificación, grabación y edición."
+        "answer": "El tiempo de entrega depende del tipo de proyecto y su complejidad. La cobertura de un evento o una sesión ágil requiere tiempos de respuesta muy rápidos, mientras que spots publicitarios o producciones con guion, desarrollo creativo y postproducción avanzada conllevan un proceso más extenso."
       },
       {
         "question": "¿Cuánto cuesta producir un video corporativo?",
@@ -348,27 +348,7 @@
   },
   "videosVideo": {
     "title": "SPOTS Y PRODUCCIÓN COMERCIAL",
-    "subtitle": "Proyectos diseñados desde la realización contemporánea y el estándar publicitario. Piezas audiovisuales construidas para impactar con narrativa visual, intención y ritmo.",
-    "videosList": [
-      {
-        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Bacardi_video_Landing_s69tss.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347638/agencia-tinta/landings/production/Portada_-_Bacardi_se9xnc.webp",
-        "videoAlt": "Video corporativo Bacardi",
-        "videoLabelButton": "Ver video"
-      },
-      {
-        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347220/agencia-tinta/landings/production/Cantina_Canalla_Landing_lskf8s.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347414/agencia-tinta/landings/production/Portada_-_Cantina_Canalla_e49l3y.webp",
-        "videoAlt": "Video corporativo Cantina Cannalla",
-        "videoLabelButton": "Ver video"
-      },
-      {
-        "videoSrc": "https://res.cloudinary.com/nicojoystin/video/upload/v1755347213/agencia-tinta/landings/production/Grupo_Amigos_Landing_oc3jqo.mp4",
-        "posterSrc": "https://res.cloudinary.com/nicojoystin/image/upload/v1755347415/agencia-tinta/landings/production/Portada_video_-_Grupo_amigos_tkwqzt.webp",
-        "videoAlt": "Video corporativo Grupo Amigos",
-        "videoLabelButton": "Ver video"
-      }
-    ]
+    "subtitle": "Proyectos diseñados desde la realización contemporánea y el estándar publicitario. Piezas audiovisuales construidas para impactar con narrativa visual, intención y ritmo."
   },
   "videosPhotography": {
     "title": "Nuestro trabajo en fotografía profesional",

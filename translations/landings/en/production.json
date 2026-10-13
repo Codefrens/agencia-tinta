@@ -7,7 +7,7 @@
   },
   "heroVideo": {
     "title": "Video production",
-    "description": "We transform the vision of companies, institutions and individuals into high-impact audiovisual content. We develop cinematic pieces designed to strengthen positioning, connect with audiences and give them the visual weight they deserve.",
+    "description": "We work with institutions and companies looking for a faithful representation of who they are and what they build. We produce pieces with a cinematic aesthetic, designed to reflect their essence and strengthen their positioning.",
     "backgroundImage": "https://res.cloudinary.com/nicojoystin/image/upload/v1755346909/agencia-tinta/landings/production/produccio%CC%81n-audiovisual-hero_keu6d5.jpg",
     "ctaText": "Schedule a call"
   },
@@ -18,62 +18,32 @@
     "ctaText": "Schedule a call"
   },
   "servicesVideo": {
-    "title": "Solutions and narratives for video production",
-    "subtitle": "Every audiovisual project responds to a specific need: building identity, capturing your audience's attention or enhancing your digital strategy. That's why we create video formats tailored to each objective, taking care of both the message and the technical execution.",
+    "title": "Focus",
+    "subtitle": "Every project requires its own audiovisual language. We define the scope of the production by analyzing its specific details: the location, the technical deployment required, and the complexity of the edit.",
     "servicesList": [
       {
         "title": "Institutional videos",
-        "description": "We convey the essence, culture and value proposition of your company to reinforce its institutional positioning. We create key pieces for branding, corporate websites, commercial presentations and internal communication."
+        "description": "We convey your company's culture and value proposition to reinforce its institutional positioning. We create pieces for branding, corporate websites, commercial presentations, and internal communication."
       },
       {
         "title": "Promotional videos",
-        "description": "Dynamic pieces focused on campaigns, launches or specific services to drive conversion. The perfect tool for advertising, Paid Ads campaigns and client acquisition."
+        "description": "Dynamic pieces focused on campaigns or specific launches to drive conversion. The perfect tool for advertising spots, Paid Ads campaigns, and client acquisition."
       },
       {
         "title": "Hospitality videos",
-        "description": "High-aesthetic visual content designed to highlight the texture, process and culinary experience of your brand. We produce high-impact visual pieces for restaurants, gourmet brands, digital menus and Reels."
+        "description": "Highly aesthetic visual content designed to highlight the texture, process, and culinary atmosphere of your brand. Pieces for restaurants, gourmet brands, digital menus, and Reels."
       },
       {
         "title": "Event videos",
-        "description": "Coverage and production of launches, conferences or activations, transforming each experience into reusable content. We develop aftermovies, press release material and networking recaps."
+        "description": "Coverage and production of launches, conferences, or activations, turning every experience into reusable content. We develop aftermovies, press material, and networking recaps."
       },
       {
-        "title": "Interview videos",
-        "description": "Conversations and testimonials that bring humanity, authority and credibility to your organization's message. Ideal for showcasing success stories, client testimonials, personal branding and industry leadership."
+        "title": "Real estate videos",
+        "description": "Cinematic pieces that capture the light, materials, and lifestyle of each project to elevate its perceived value."
       },
       {
         "title": "Product videos",
-        "description": "Precise visual demonstrations that highlight the features and finishes of what you offer to accelerate sales. Designed to boost e-commerce catalogs, product sheets and visual advertising campaigns."
-      }
-    ]
-  },
-  "servicesPhotography": {
-    "title": "Photo sessions and brand building",
-    "subtitle": "What you want to convey with your image is your way of differentiating. That's why we offer different photography services adapted to each sector, enhancing your visual identity with a creative approach.",
-    "servicesList": [
-      {
-        "title": "Corporate photography",
-        "description": "It allows you to showcase the human team, the workspace, the offices and the visual identity of a company. These photographs reinforce credibility, project professionalism and improve the company's presentation on websites, social media and corporate materials."
-      },
-      {
-        "title": "Event photography",
-        "description": "Reportage and coverage of launches, conferences, social events, activations and business gatherings. Curated content for press releases, internal communication and marketing campaigns."
-      },
-      {
-        "title": "Social media photography",
-        "description": "Professional content optimized for the aesthetics of Instagram and LinkedIn. We develop images designed to elevate engagement, digital visibility and brand coherence."
-      },
-      {
-        "title": "Product photography",
-        "description": "It allows you to showcase features, details and benefits clearly and strategically. It is essential for e-commerce, digital catalogs and advertising campaigns where the image has a direct impact on the purchase decision."
-      },
-      {
-        "title": "Hospitality photography",
-        "description": "We capture the gastronomic experience of restaurants and hotels through food styling and still life composition techniques. Designed to stand out on digital menus, advertising campaigns and social media."
-      },
-      {
-        "title": "Real estate photography",
-        "description": "Visual production of architecture and interior design for properties, hotels and commercial spaces. We master light and spatial amplitude to facilitate the acquisition of clients and investors."
+        "description": "Precise visual demonstrations that highlight the features and finishes of what you offer to speed up the sale. Designed to power e-commerce catalogs, product pages, and visual advertising campaigns."
       }
     ]
   },
@@ -201,23 +171,23 @@
   "benefitsVideo": {
     "titleLight": "Why choose Agencia Tinta",
     "titleBold": "to produce your videos?",
-    "subtitle": "We master visual narrative and editing rhythm to build audiovisual pieces with intention. We bring a cinematic eye and rigorous technical execution that elevates your brand's impact.",
+    "subtitle": "We master visual storytelling and editing pace to build audiovisual pieces with intention. We bring a cinematic eye and rigorous technical execution that elevates your brand's impact.",
     "benefitsList": [
       {
         "title": "Years of experience",
-        "description": "Technical mastery in cinematic lighting, camera direction, color grading and storytelling."
+        "description": "Technical mastery in cinematic lighting, camera direction, color grading, and storytelling."
       },
       {
         "title": "Strategic approach",
-        "description": "Projects structured from the script, adapted to corporate video, reels or product spots."
+        "description": "Projects structured from the script breakdown, tailored to corporate video, reels, or product spots."
       },
       {
         "title": "Complete service",
-        "description": "Integral workflow management: pre-production, scripting, filming and post-production."
+        "description": "End-to-end workflow management: pre-production, scripting, filming, and post-production."
       },
       {
         "title": "Wide coverage",
-        "description": "Travel and technical equipment available for photographic productions throughout Spain."
+        "description": "Travel and technical crew available for productions throughout Spain."
       }
     ]
   },
@@ -306,8 +276,8 @@
     "subtitle": "Common questions about business video production: process, timelines, deliverables and usage.",
     "items": [
       {
-        "question": "What's included in a corporate video production service?",
-        "answer": "Typically: planning and scripting (if needed), pre-production, filming, editing, music and basic motion graphics, color, and exports optimized for web and social. The exact scope depends on your goals."
+        "question": "What’s included in a corporate video production service?",
+        "answer": "Delivery time depends on the type of project and its complexity. Covering an event or a quick session requires a very fast turnaround, while advertising spots or productions with a script, creative development, and advanced post-production involve a longer process."
       },
       {
         "question": "How long does delivery take?",
@@ -355,8 +325,8 @@
     ]
   },
   "videosVideo": {
-    "title": "COMMERCIAL SPOTS AND PRODUCTION",
-    "subtitle": "Projects designed from contemporary filmmaking and advertising standards. Audiovisual pieces built to impact with visual narrative, intention and rhythm.",
+    "title": "SPOTS AND COMMERCIAL PRODUCTION",
+    "subtitle": "Projects designed from contemporary filmmaking and the advertising standard. Audiovisual pieces built to make an impact with visual narrative, intention, and rhythm.",
     "videosList": []
   },
   "videosPhotography": {

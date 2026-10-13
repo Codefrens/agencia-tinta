@@ -1,8 +1,24 @@
 export type Categories = string[];
 
+export type Subcategory = {
+  slug: string;
+  label: string;
+};
+
+export type PortfolioCategory = {
+  slug: string;
+  label: string;
+  subcategories: Subcategory[];
+};
+
+export type PortfolioFilters = {
+  categories: PortfolioCategory[];
+};
+
 type Porfolio = {
   title: string;
   categories: Categories;
+  subcategories?: Record<string, string[]>;
   imageUrl: string;
   imageAlt: string;
   slug: string;
@@ -26,7 +42,7 @@ type PricingPlan = {
 export type Translations = {
   common: {
     navigationLinks: {
-      agency: string;
+      services: string;
       video: string;
       fotografia: string;
       portfolio: string;
@@ -38,7 +54,7 @@ export type Translations = {
       buttonLabel: string;
     };
     portfolioGrid: Porfolio[];
-    filters: Categories;
+    portfolioFilters: PortfolioFilters;
     whatsappMessage: string;
     client: string;
     sector: string;
@@ -89,7 +105,7 @@ export type Translations = {
       sections: { title: string; paragraph: string }[];
     };
   };
-  agencyPage: {
+  servicesPage: {
     title: string;
     paragraph1: string;
     paragraph2: string;

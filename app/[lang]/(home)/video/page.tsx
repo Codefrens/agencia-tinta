@@ -93,7 +93,7 @@ export default async function ProductionPage({
         title={services.title}
         subtitle={services.subtitle}
         servicesList={services.servicesList}
-        source="landing-production"
+        source="landing-video"
       />
 
       <Works

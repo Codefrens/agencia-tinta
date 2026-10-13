@@ -10,6 +10,7 @@ import {
   Package, 
   ForkKnife, 
   Buildings,
+  House,
   TrendUp,
   PencilSimple
 } from "@phosphor-icons/react";
@@ -53,6 +54,15 @@ const photographyServiceIcons = [
   <Buildings key="real-estate-photo" size={32} weight="duotone" />,
 ];
 
+const videoServiceIcons = [
+  <Buildings key="institutional" size={32} weight="duotone" />,
+  <Megaphone key="promotional" size={32} weight="duotone" />,
+  <ForkKnife key="hospitality" size={32} weight="duotone" />,
+  <Calendar key="events" size={32} weight="duotone" />,
+  <House key="real-estate" size={32} weight="duotone" />,
+  <Package key="product" size={32} weight="duotone" />,
+];
+
 const dentalServiceIcons = [
   <VideoCamera key="video" size={32} weight="duotone" />,
   <Calendar key="calendar" size={32} weight="duotone" />,
@@ -68,6 +78,7 @@ const Services = ({ title, subtitle, servicesList, source }: ServicesProps) => {
     "landing-aesthetic": aestheticServiceIcons,
     "landing-production": productionServiceIcons,
     "landing-photography": photographyServiceIcons,
+    "landing-video": videoServiceIcons,
     "landing-dental": dentalServiceIcons
   }
 
